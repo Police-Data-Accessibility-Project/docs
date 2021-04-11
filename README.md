@@ -19,5 +19,5 @@ You may find our main website [here](https://pdap.io/).
 
 ### Resources:[¶]()
 
-[Documentation](https://pdap-docs.readthedocs.io/) \| [Overall PDAP scope](product-vision-pdap-docs-1.0.0-documentation.md) \| [Github org](https://github.com/Police-Data-Accessibility-Project) \| [Slack org](https://join.slack.com/t/policeaccessibility/shared_invite/zt-ial0bvnm-D_T7R6za4aKh1f9jGUM0pg) \| [DoltHub org](https://www.dolthub.com/organizations/pdap)
+[Documentation](https://pdap.gitbook.io/pdap/) \| [Overall PDAP scope](product-vision-pdap-docs-1.0.0-documentation.md) \| [Github org](https://github.com/Police-Data-Accessibility-Project) \| [Slack org](https://join.slack.com/t/policeaccessibility/shared_invite/zt-ial0bvnm-D_T7R6za4aKh1f9jGUM0pg) \| [DoltHub org](https://www.dolthub.com/organizations/pdap)
 
