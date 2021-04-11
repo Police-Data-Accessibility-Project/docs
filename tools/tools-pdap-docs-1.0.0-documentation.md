@@ -2,17 +2,17 @@
 
 > _This is how we keep our data stream safe and accurate._
 
-### Getting Started with Dolthub
+## Getting Started with Dolthub
 
 The instructions [here](https://docs.dolthub.com/dolthub/getting-started). are excellent. Here’s our [dolt org](https://www.dolthub.com/organizations/pdap).
 
 Generally, Dolt is used to make changes to PDAP. Anyone can create a Pull Request to be merged into the database via the SQL UI at DoltHub, [SQL editor integration](https://github.com/dolthub/docs/blob/gitbook-dev/content/integrations/sql-editors.md), command line, or Python.
 
-#### Supported statements
+### Supported statements
 
 [https://docs.dolthub.com/interfaces/sql/sql-support/supported-statements](https://docs.dolthub.com/interfaces/sql/sql-support/supported-statements) These are limited, so dolt is not great for managing a bunch of schemas.
 
-#### Useful statements
+### Useful statements
 
 **Spreadsheets**
 
@@ -32,9 +32,9 @@ dolt table import -c --pk name format_types format_types.csv
 
 Use dolt add . to start tracking all new files in the directory.
 
-### Submit a new dataset
+## Submit a new dataset
 
-#### DoltHub CLI
+### DoltHub CLI
 
 1. [Install Dolt](https://docs.dolthub.com/getting-started/installation).
 2. Run these commands to init the project locally
