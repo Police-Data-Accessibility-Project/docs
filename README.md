@@ -8,7 +8,7 @@ You may find our main website [here](https://pdap.io/).
 
 ### How to get involved:
 
-1. **Find a task!**
+1. Find a task!
    * [Write a data scraper](data_collection/write-a-data-scraper.md)
    * [Work an open Volunteer Task](https://pdap.atlassian.net/issues/?filter=10016)
    * [Work an open Infrastructure issue](https://pdap.atlassian.net/issues/?filter=10014)
@@ -18,5 +18,15 @@ You may find our main website [here](https://pdap.io/).
 
 ### Resources:
 
-[Documentation](https://pdap.gitbook.io/pdap/) \| [Overall PDAP scope](product-vision-pdap-docs-1.0.0-documentation.md) \| [Github org](https://github.com/Police-Data-Accessibility-Project) \| [Slack org](https://join.slack.com/t/policeaccessibility/shared_invite/zt-ial0bvnm-D_T7R6za4aKh1f9jGUM0pg) \| [DoltHub org](https://www.dolthub.com/organizations/pdap)
+[Overall PDAP scope](product-vision-pdap-docs-1.0.0-documentation.md)
+
+[Github org](https://github.com/Police-Data-Accessibility-Project)
+
+[Slack org](https://join.slack.com/t/policeaccessibility/shared_invite/zt-ial0bvnm-D_T7R6za4aKh1f9jGUM0pg)
+
+[DoltHub org](https://www.dolthub.com/organizations/pdap)
+
+### Closing Issues with Smart Commits
+
+Reference Jira issues with tags like `PDAP-101` to reference issue 101 in Jira in a discussion. You can also use [Smart Commits](https://support.atlassian.com/jira-cloud-administration/docs/integrate-with-github/) to affect Jira issue status.
 
