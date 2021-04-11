@@ -2,7 +2,10 @@
 
 * [PDAP Community Onboarding](README.md)
 * [Product Vision](product-vision-pdap-docs-1.0.0-documentation.md)
-* [Data Access](data_access.md)
+* [Front End](data_access/README.md)
+  * [PDAP front page](data_access/pdap-front-page/README.md)
+    * [Project Status view](data_access/pdap-front-page/project-status-view.md)
+* [Data Access](data-access.md)
 * [Data Collection](data_collection/README.md)
   * [Write a data scraper](data_collection/write-a-data-scraper.md)
   * [Dataset Catalog](data_collection/dataset-catalog.md)

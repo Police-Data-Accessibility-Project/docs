@@ -1,8 +1,6 @@
 # Product Vision
 
-## Product Vision
-
-### PDAP aims to be a **Source of Truth** for police data.
+## PDAP aims to be a **Source of Truth** for police data.
 
 There are about 18,000 police organizations, and each has a unique way to make data public. This means that, effectively, **the data is not public**. We can make it public by consolidating it. We speculate that the key audience is **data scientists and journalists**. They do the analysis, and are the critical channel for information to flow from police organizations to policymakers and the general public.
 

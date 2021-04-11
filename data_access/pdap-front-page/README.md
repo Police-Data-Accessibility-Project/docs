@@ -1,14 +1,14 @@
 ---
-description: 'Powering http://pdap.io.'
+description: Powering pdap.io
 ---
 
-# Data Access
+# PDAP front page
 
 ## Project Overview
 
 #### We're here to build a front-end foundation that can scale.
 
-[Here's the GitHub repo](https://github.com/Police-Data-Accessibility-Project/gatsby-pdap-frontpage).
+[Here's the GitHub repo](https://github.com/Police-Data-Accessibility-Project/gatsby-pdap-frontpage) for the front end.
 
 We're currently using Gatsby, and pages are written in MDAST Syntax Tree format. Down the road, we may migrate to a headless CMS like Strapi—we're also interested in more accessible languages like JSX.
 
