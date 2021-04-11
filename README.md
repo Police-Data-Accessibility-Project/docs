@@ -1,6 +1,10 @@
-# PDAP Community Onboarding
+---
+description: >-
+  The Police Data Accessibility Project (PDAP) aims to be a source of truth for
+  police data.
+---
 
-## The Police Data Accessibility Project \(PDAP\) aims to be a source of truth for police data.
+# PDAP Community Onboarding
 
 There are two major places to contribute: **data collection & processing** and **coding to automate those two things**.
 
