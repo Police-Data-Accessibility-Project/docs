@@ -4,6 +4,7 @@
 * [Product Vision](product-vision-pdap-docs-1.0.0-documentation.md)
 * [Data Access](data_access.md)
 * [Data Collection](data_collection/README.md)
+  * [Write a data scraper](data_collection/write-a-data-scraper.md)
   * [Dataset Catalog](data_collection/dataset-catalog.md)
   * [FOIA Requests](data_collection/data-collection-pdap-docs-1.0.0-documentation.md)
   * [Submit Police Data](data_collection/submit-police-data.md)
@@ -21,8 +22,4 @@
 * [Volunteers](volunteers/README.md)
   * [Manage the Volunteer Community](volunteers/manage-the-volunteer-community.md)
   * [Legal Restrictions for Data Volunteers](volunteers/legal-restrictions-for-data-volunteers.md)
-  * [Resources](volunteers/resources/README.md)
-    * [Always Open Tasks](volunteers/resources/always_open_tasks/README.md)
-      * [PDAP A-1: Collect public police data](volunteers/resources/always_open_tasks/collect-public-police-data-pdap-docs-1.0.0-documentation.md)
-      * [Write a data scraper](volunteers/resources/always_open_tasks/write-a-data-scraper.md)
 

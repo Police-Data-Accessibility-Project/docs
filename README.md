@@ -9,8 +9,8 @@ You may find our main website [here](https://pdap.io/).
 ### How to get involved:
 
 1. **Find a task!**
-   * [Write a data scraper](volunteers/resources/always_open_tasks/write-a-data-scraper.md)
-   * [Collect police data directly](volunteers/resources/always_open_tasks/collect-public-police-data-pdap-docs-1.0.0-documentation.md)
+   * [Write a data scraper](data_collection/write-a-data-scraper.md)
+   * [Collect police data directly]()
    * [Work an open Volunteer Task](https://pdap.atlassian.net/issues/?filter=10016)
    * [Work an open Infrastructure issue](https://pdap.atlassian.net/issues/?filter=10014)
    * [Work an open SQL database issue](https://www.dolthub.com/repositories/pdap/datasets/issues)

@@ -6,7 +6,7 @@
 
 ### Can I help by making requests?
 
-Yes, but not exactly. Skills developed while making FOIA requests \(curiosity, persistence, etc\), are very helpful in collecting data and building a dataset catalogue. Start here: [Collect public police data](../volunteers/resources/always_open_tasks/collect-public-police-data-pdap-docs-1.0.0-documentation.md).
+Yes, but not exactly. Skills developed while making FOIA requests \(curiosity, persistence, etc\), are very helpful in collecting data and building a dataset catalogue. Start here: [Collect public police data]().
 
 We aren’t currently prioritizing FOIA requests because of the data that’s already publicly accessible.
 
