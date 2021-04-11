@@ -24,5 +24,5 @@
   * [Resources](volunteers/resources/README.md)
     * [Always Open Tasks](volunteers/resources/always_open_tasks/README.md)
       * [PDAP A-1: Collect public police data](volunteers/resources/always_open_tasks/collect-public-police-data-pdap-docs-1.0.0-documentation.md)
-      * [PDAP A-2: Write an automated data scraper](volunteers/resources/always_open_tasks/write-an-automated-data-scraper-pdap-docs-1.0.0-documentation.md)
+      * [Write a data scraper](volunteers/resources/always_open_tasks/write-an-automated-data-scraper-pdap-docs-1.0.0-documentation.md)
 

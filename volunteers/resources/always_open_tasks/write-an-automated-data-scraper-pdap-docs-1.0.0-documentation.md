@@ -1,32 +1,66 @@
-# PDAP A-2: Write an automated data scraper
+---
+description: >-
+  Data can be found from a vast array of sources. Turn a manual human effort
+  into an automated task.
+---
 
-## Data can be found from a vast array of sources. Turn a manual human effort into an automated task.[¶](write-an-automated-data-scraper-pdap-docs-1.0.0-documentation.md#data-can-be-found-from-a-vast-array-of-sources-turn-a-manual-human-effort-into-an-automated-task)
+# Write a data scraper
 
-### Overview[¶](write-an-automated-data-scraper-pdap-docs-1.0.0-documentation.md#overview)
+## Overview
 
-You’re going to program a [legal data scraper](https://pdap-docs.readthedocs.io/en/latest/volunteers/resources/legal_restrictions.html) and process a sample data file. For example, you could be using Python to turn a PDF of police activities into JSON, or making recurring API calls to pull down files.
+You’re going to program a [legal data scraper](../../legal-restrictions-for-data-volunteers.md) and process a sample data file. For example, you could be using Python to turn a PDF of police activities into JSON, or making recurring API calls to pull down files.
 
-#### Step 1. Claim a source[¶](write-an-automated-data-scraper-pdap-docs-1.0.0-documentation.md#step-1-claim-a-source)
+### Find a dataset to scrape.
 
-Navigate to our [Dataset Catalog](https://pdap-docs.readthedocs.io/en/latest/data_collection/data_sources/catalog.html) and claim one that’s unfinished. You can also find a source that matters to you on your own.
+Navigate to our [Dataset Catalog](https://www.dolthub.com/repositories/pdap/datasets) and find a source to scrape, or add your own. If this is your first time using Dolt, you can [reference our primer](../../../tools/tools-pdap-docs-1.0.0-documentation.md).
 
-#### Step 2. Rules of the road.[¶](write-an-automated-data-scraper-pdap-docs-1.0.0-documentation.md#step-2-rules-of-the-road)
+### Get set up locally.
 
-Head to the Github [Scrapers readme](https://github.com/Police-Data-Accessibility-Project/Police-Data-Accessibility-Project/blob/master/SCRAPERS.md) to make sure you’re following the submission guidelines.
+Clone the [Scrapers repo](https://github.com/Police-Data-Accessibility-Project/Scrapers). Make a copy of the `template` folder in the appropriate jurisdiction folder.
 
-#### Step 3. Submit your work.[¶](write-an-automated-data-scraper-pdap-docs-1.0.0-documentation.md#step-3-submit-your-work)
+### Code your scraper.
 
-Due to the [Scrapers repo](https://github.com/Police-Data-Accessibility-Project/Scrapers/tree/master/USA) is a pull request containing the following in the appropriate file path based on the location of your source data. e.g. **Pennsylvania &gt; City of Pittsburgh or Michigan &gt; Washtenaw County** - Your scraper code, with inline links to and description of the source - An example, both in its original and scraped .csv format
+The most important thing here is that your scraper is grabbing public police data, and is [legal](../../legal-restrictions-for-data-volunteers.md).
 
-**Process the data.¶**
+#### Scraper requirements
 
-Do as much as you can to turn the data from the starting format \(often PDF\) to something closer to Excel, CSV or JSON format. If you can’t do any of that—no sweat! We have other experts for processing the data you collect.
+1. It's [legal](../../../legal.md).
+2. The config file appropriately references a dataset.
+3. Include a truncated version of some sample data so we understand what is generated.
 
-**Compile the data.¶**
+Your submission doesn't need to be set up to recur. We can handle that when we run it periodically!
 
-Convert it into a .zip file. If you have processed the data, include both the original data, anything you used to do conversion, and the cleaned up submission material.
+#### Scalability
 
-**Send it to us!¶**
+Check the `common` folder for helpful assets, and be sure to add your own as you work to keep things scalable. Try not to repeat yourself—but keep in mind that we can always refactor your work later if necessary.
 
-Create a Keybase account and submit it to the Keybase Intake form. This should take 5 minutes, and helps us keep track of who’s submitting data! Use the data upload form here to send your data. If you have any questions, refer to \#volunteer-data in Slack.
+#### Readme
+
+The best way to be a good PDAP citizen is to populate the readme for your scraper with as much helpful information as you can!
+
+#### Structure
+
+Stick to the format of `USA/$STATE/$COUNTY/$RECORD_TYPE`. If there are state-level records being scraped, use `USA/$STATE/_State/$RECORD_TYPE`. Use underscores rather than spaces or dashes.
+
+### Submit your work.
+
+Make a PR and request approval from the \#scrapers Slack channel!
+
+## Approving Scrapers
+
+Anyone is welcome to approve scrapers. Your approval means you think the scraper is legal. Style suggestions are welcome, but the reality is that we're aiming at a moving target: a working scraper can be broken at any moment by changes made in a jurisdiction. **Approve legal scrapers.**
+
+1. Review the scraper for [legal risk](https://pdap-docs.readthedocs.io/en/latest/volunteers/resources/legal_restrictions.html). This is the most important approval criteria.
+2. Does the sample data look sane and accurate? Is it legal? If so, approve it!
+3. Make a comment if you have style or scale suggestions. Better, share your skills by making a PR to improve the work of someone else!
+
+## Scraper FAQ
+
+> What kind of data are we scraping?
+
+Police data that's already made public by a government jurisdiction.
+
+> What languages are allowed?
+
+Python is preferred. If you use another language, we may not be able to easily fold it into our infrastructure.
 
