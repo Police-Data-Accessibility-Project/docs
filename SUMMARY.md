@@ -20,15 +20,15 @@
   * [Slack - Communication](tools/slack-communication.md)
 * [Volunteers](volunteers.md)
 
-## Meta <a id="meta-1"></a>
+## Meta
 
-* [Policy](meta-1/meta/README.md)
-  * [Code of Conduct](meta-1/meta/code-of-conduct.md)
-  * [Password Management Policy](meta-1/meta/meta-pdap-docs-1.0.0-documentation.md)
-  * [Data Code and Submission Requirements](meta-1/meta/data-code-and-submission-requirements.md)
-* [Legal](meta-1/legal-1/README.md)
-  * [Legal Data Scraping](meta-1/legal-1/legal-restrictions-for-data-volunteers.md)
-  * [State Computer Crimes laws](meta-1/legal-1/legal.md)
+* [Policy](meta/policy/README.md)
+  * [Code of Conduct](meta/policy/code-of-conduct.md)
+  * [Password Management Policy](meta/policy/meta-pdap-docs-1.0.0-documentation.md)
+  * [Data Code and Submission Requirements](meta/policy/data-code-and-submission-requirements.md)
+* [Legal](meta/legal-1/README.md)
+  * [Legal Data Scraping](meta/legal-1/legal-restrictions-for-data-volunteers.md)
+  * [State Computer Crimes laws](meta/legal-1/legal.md)
 * [GitHub org](https://github.com/Police-Data-Accessibility-Project)
 * [DoltHub org](https://www.dolthub.com/organizations/pdap)
 * [Slack](https://join.slack.com/t/policeaccessibility/shared_invite/zt-ial0bvnm-D_T7R6za4aKh1f9jGUM0pg)
