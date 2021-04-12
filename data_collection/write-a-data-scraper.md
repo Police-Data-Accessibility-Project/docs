@@ -12,7 +12,7 @@ You’re going to program a [legal data scraper](../meta/legal-1/legal-restricti
 
 ### Find a dataset to scrape.
 
-Navigate to our [Dataset Catalog](https://www.dolthub.com/repositories/pdap/datasets) and find a source to scrape, or add your own. If this is your first time using Dolt, you can [reference our primer](../tools/tools-pdap-docs-1.0.0-documentation.md).
+Navigate to our [Dataset Catalog](https://www.dolthub.com/repositories/pdap/datasets) and find a source to scrape, or add your own. If this is your first time using Dolt, you can [reference our primer](../data_storage/tools-pdap-docs-1.0.0-documentation.md).
 
 ### Get set up locally.
 

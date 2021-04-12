@@ -1,14 +1,6 @@
----
-description: >-
-  The Police Data Accessibility Project (PDAP) aims to be a source of truth for
-  police data.
----
-
 # PDAP Community Onboarding
 
 There are two major places to contribute: **data collection & processing** and **coding to automate those two things**.
-
-You may find our main website [here](https://pdap.io/).
 
 ### How to get involved:
 
@@ -19,8 +11,4 @@ You may find our main website [here](https://pdap.io/).
    * [Work an open SQL database issue](https://www.dolthub.com/repositories/pdap/datasets/issues)
 2. Optionally but encouraged, complete the [Intake Form](https://docs.google.com/forms/d/13HiD4CNTq8DOlwQtbIw2CfSjjDlveBpwxr7LRtcKeIo/edit?usp=sharing) so we know what you plan to work on.
 3. Head to **\#volunteer-start** in [Slack](https://join.slack.com/t/policeaccessibility/shared_invite/zt-ial0bvnm-D_T7R6za4aKh1f9jGUM0pg) to say hello. Slack is where you can ask questions related to what you’re working on, make suggestions, and join the PDAP community.
-
-### Closing Issues with Smart Commits
-
-Reference Jira issues with tags like `PDAP-101` to reference issue 101 in Jira in a discussion. You can also use [Smart Commits](https://support.atlassian.com/jira-cloud-administration/docs/integrate-with-github/) to affect Jira issue status.
 

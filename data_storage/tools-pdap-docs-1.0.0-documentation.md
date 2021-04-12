@@ -1,6 +1,8 @@
-# DoltHub - Database
+---
+description: This is how we keep our data stream safe and accurate.
+---
 
-> _This is how we keep our data stream safe and accurate._
+# DoltHub
 
 ## Getting Started with Dolthub
 

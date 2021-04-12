@@ -12,13 +12,9 @@
   * [FOIA Requests](data_collection/data-collection-pdap-docs-1.0.0-documentation.md)
   * [Submit Police Data](data_collection/submit-police-data.md)
 * [Data Standardization](data_standardization/README.md)
-  * [Data Standardization](data_standardization/data-standardization-pdap-docs-1.0.0-documentation.md)
   * [Splunk](data_standardization/splunk.md)
-* [Data Storage](data_storage.md)
-* [Tools](tools/README.md)
-  * [DoltHub - Database](tools/tools-pdap-docs-1.0.0-documentation.md)
-  * [Slack - Communication](tools/slack-communication.md)
-* [Volunteers](volunteers.md)
+* [Data Storage](data_storage/README.md)
+  * [DoltHub](data_storage/tools-pdap-docs-1.0.0-documentation.md)
 
 ## Meta
 
@@ -29,7 +25,9 @@
 * [Legal](meta/legal-1/README.md)
   * [Legal Data Scraping](meta/legal-1/legal-restrictions-for-data-volunteers.md)
   * [State Computer Crimes laws](meta/legal-1/legal.md)
+* [Volunteers](meta/volunteers.md)
 * [GitHub org](https://github.com/Police-Data-Accessibility-Project)
 * [DoltHub org](https://www.dolthub.com/organizations/pdap)
 * [Slack](https://join.slack.com/t/policeaccessibility/shared_invite/zt-ial0bvnm-D_T7R6za4aKh1f9jGUM0pg)
+* [pdap.io](https://pdap.io)
 
