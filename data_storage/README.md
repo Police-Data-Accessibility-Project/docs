@@ -2,7 +2,7 @@
 
 ## Where is the data kept?
 
-We don't yet have much data in permanent storage, so it all fits in [Dolt](tools-pdap-docs-1.0.0-documentation.md).
+We don't yet have much data in permanent storage, so it all fits in [Dolt](dolthub.md).
 
 ## Future backend architecture
 

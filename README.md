@@ -1,4 +1,8 @@
-# PDAP Community Onboarding
+---
+description: These are the docs for the Police Data Accessibility Project.
+---
+
+# Welcome to PDAP!
 
 There are two major places to contribute: **data collection & processing** and **coding to automate those two things**.
 

@@ -1,7 +1,6 @@
 # Table of contents
 
-* [PDAP Community Onboarding](README.md)
-* [Product Vision](product-vision-pdap-docs-1.0.0-documentation.md)
+* [Welcome to PDAP!](README.md)
 * [Front End](data_access/README.md)
   * [PDAP front page](data_access/pdap-front-page/README.md)
     * [Project Status view](data_access/pdap-front-page/project-status-view.md)
@@ -14,10 +13,11 @@
 * [Data Standardization](data_standardization/README.md)
   * [Splunk](data_standardization/splunk.md)
 * [Data Storage](data_storage/README.md)
-  * [DoltHub](data_storage/tools-pdap-docs-1.0.0-documentation.md)
+  * [DoltHub](data_storage/dolthub.md)
 
 ## Meta
 
+* [Product Vision](meta/product-vision-pdap-docs-1.0.0-documentation.md)
 * [Policy](meta/policy/README.md)
   * [Code of Conduct](meta/policy/code-of-conduct.md)
   * [Password Management Policy](meta/policy/meta-pdap-docs-1.0.0-documentation.md)
