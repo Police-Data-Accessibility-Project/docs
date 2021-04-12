@@ -1,9 +1,4 @@
-# Data Code and Submission Requirements
+# Data Chain of Custody
 
-### This is about knowing who we’re working with.
-
-#### What is required?
-
-1. Submission of [the Keybase form](https://drive.google.com/open?id=1wVxuP7n-yqDQ-LKiQWj0uABh7exlLNOl1r7WYz-CiXY).
-2. Submission of [the Intake form](https://drive.google.com/open?id=13HiD4CNTq8DOlwQtbIw2CfSjjDlveBpwxr7LRtcKeIo), with agreement to the legal terms.
+This is currently managed by the [Dolt flow](https://www.dolthub.com/) itself. Dolt is built for large-scale data collaboration, and our first line of defense against corrupted data is robust version history and branch protection.
 
