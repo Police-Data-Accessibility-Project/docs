@@ -16,6 +16,7 @@
   * [DoltHub](data-storage/dolthub.md)
 * [Scraper Docs](scrapers_documentation/README.md)
   * [Information](scrapers_documentation/information.md)
+  * [Docs Home](scrapers_documentation/docs/README.md)
 
 ## Meta
 
