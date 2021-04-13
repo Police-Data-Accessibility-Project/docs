@@ -8,11 +8,11 @@ description: >-
 
 ## Overview
 
-You’re going to program a [legal data scraper](../../meta/legal-1/legal-data-scraping.md) and process a sample data file. For example, you could be using Python to turn a PDF of police activities into JSON, or making recurring API calls to pull down files.
+You’re going to program a [legal data scraper](../meta/legal-1/legal-data-scraping.md) and process a sample data file. For example, you could be using Python to turn a PDF of police activities into JSON, or making recurring API calls to pull down files.
 
 ### Find a dataset to scrape.
 
-Navigate to our [Dataset Catalog](https://www.dolthub.com/repositories/pdap/datasets) and find a source to scrape, or add your own. If this is your first time using Dolt, you can [reference our primer](../../data-storage/dolthub.md).
+Navigate to our [Dataset Catalog](https://www.dolthub.com/repositories/pdap/datasets) and find a source to scrape, or add your own. If this is your first time using Dolt, you can [reference our primer](../data-storage/dolthub.md).
 
 ### Get set up locally.
 
@@ -20,11 +20,11 @@ Clone the [Scrapers repo](https://github.com/Police-Data-Accessibility-Project/S
 
 ### Code your scraper.
 
-The most important thing here is that your scraper is grabbing public police data, and is [legal](../../meta/legal-1/legal-data-scraping.md).
+The most important thing here is that your scraper is grabbing public police data, and is [legal](../meta/legal-1/legal-data-scraping.md).
 
 #### Scraper requirements
 
-1. It's [legal](../../meta/legal-1/state-computer-crimes-laws.md).
+1. It's [legal](../meta/legal-1/state-computer-crimes-laws.md).
 2. The config file appropriately references a dataset.
 3. Include a truncated version of some sample data so we understand what is generated.
 

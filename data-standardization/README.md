@@ -1,6 +1,6 @@
 # Data Standardization
 
-We're currently translating data from our [Scrapers](../data-collection/write-a-data-scraper/) to a unified format in [Dolt](../data-storage/dolthub.md). We're translating the data at the point of collection.
+We're currently translating data from our [Scrapers](../data-collection/write-a-data-scraper.md) to a unified format in [Dolt](../data-storage/dolthub.md). We're translating the data at the point of collection.
 
 ## Requirements
 
