@@ -1,5 +1,5 @@
 ---
-description: These are the fields your scraper should attempt to collect.
+description: These are the fields scrapers should attempt to collect.
 ---
 
 # Fields to Collect
