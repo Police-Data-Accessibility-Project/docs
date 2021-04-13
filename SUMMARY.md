@@ -14,6 +14,8 @@
   * [Splunk](data-standardization/splunk.md)
 * [Data Storage](data-storage/README.md)
   * [DoltHub](data-storage/dolthub.md)
+* [Scraper Docs](scrapers_documentation/README.md)
+  * [Information](scrapers_documentation/information.md)
 
 ## Meta
 
