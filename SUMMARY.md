@@ -21,7 +21,7 @@
 * [Policy](meta/policy/README.md)
   * [Code of Conduct](meta/policy/code-of-conduct.md)
   * [Password Management](meta/policy/password-management.md)
-  * [Data Chain of Custody](meta/policy/data-code-and-submission-requirements.md)
+  * [Data Chain of Custody](meta/policy/data-chain-of-custody.md)
 * [Legal](meta/legal-1/README.md)
   * [Legal Data Scraping](meta/legal-1/legal-data-scraping.md)
   * [State Computer Crimes laws](meta/legal-1/state-computer-crimes-laws.md)
