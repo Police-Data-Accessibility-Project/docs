@@ -8,5 +8,5 @@
 
 ### Editing
 
-Start with [DoltHub doc](../data-storage/dolthub.md)
+Start with [DoltHub doc](../../data-storage/dolthub.md)
 
