@@ -46,14 +46,6 @@ Stick to the format of `USA/$STATE/$COUNTY/$RECORD_TYPE`. If there are state-lev
 
 Make a PR and request approval from the \#scrapers Slack channel!
 
-## Approving Scrapers
-
-Anyone is welcome to approve scrapers. Your approval means you think the scraper is legal. Style suggestions are welcome, but the reality is that we're aiming at a moving target: a working scraper can be broken at any moment by changes made in a jurisdiction. **Approve legal scrapers.**
-
-1. Review the scraper for [legal risk](https://pdap-docs.readthedocs.io/en/latest/volunteers/resources/legal_restrictions.html). This is the most important approval criteria.
-2. Does the sample data look sane and accurate? Is it legal? If so, approve it!
-3. Make a comment if you have style or scale suggestions. Better, share your skills by making a PR to improve the work of someone else!
-
 ## Scraper FAQ
 
 > What kind of data are we scraping?
