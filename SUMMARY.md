@@ -13,6 +13,7 @@
   * [FOIA Requests](data-collection/foia.md)
   * [Submit Police Data](data-collection/submit-police-data.md)
 * [Data Standardization](data-standardization/README.md)
+  * [Proposed Database Schema](data-standardization/proposed-database-schema.md)
   * [Splunk](data-standardization/splunk.md)
 * [Data Storage](data-storage/README.md)
   * [DoltHub](data-storage/dolthub.md)
