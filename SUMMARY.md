@@ -13,6 +13,7 @@
     * [Common Abbreviations](http://amerusa.net/resource_documents/CriminalRecordAbbreviations.pdf)
   * [FOIA Requests](data-collection/foia.md)
 * [Data Standardization](data-standardization/README.md)
+  * [Database Design](data-standardization/database-design.md)
   * [Schema Design](data-standardization/schema_json.md)
   * [Splunk](data-standardization/splunk.md)
 * [Data Storage](data-storage/README.md)
