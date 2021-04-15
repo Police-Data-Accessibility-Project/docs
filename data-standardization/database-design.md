@@ -6,7 +6,7 @@ description: Work in Progress Database Schema
 
 ![Database Schema](../.gitbook/assets/image%20%281%29.png)
 
-The proposed database schema entails some major changes to achieve the goal of normalization in the database. Here are the changes:
+The [proposed database schema](https://dbdiagram.io/d/607762c7b6aeb3052d90271b) entails some major changes to achieve the goal of normalization in the database. Here are the changes:
 
 * creation of a new `agencies` table to prevent redundancy of several columns in `datasets` and establish a true one-to-many relationship \(one agency may have many associated datasets\)
   * migrate `state_iso`, `county_fips`, `city_id` columns to `agencies` table
@@ -21,5 +21,5 @@ The proposed database schema entails some major changes to achieve the goal of n
 I created two new 'reference tables' they will be \(at least initially\) seeded with the following values:
 
 * `update_frequency`: annual, semi-annual, quarterly, monthly, weekly, daily
-* `agency_types`: federal, state, municipal, university
+* `agency_types`: federal, state, county, municipal, university
 
