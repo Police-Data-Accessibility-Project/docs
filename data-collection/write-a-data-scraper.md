@@ -56,3 +56,7 @@ Police data that's already made public by a government jurisdiction.
 
 Python is preferred. If you use another language, we may not be able to easily fold it into our infrastructure.
 
+> Are there any specific formatting guidelines I should adhere to?
+
+For now, if you use Python: Try to stick with PEP8 formatting. A good formatter for this is [Black](https://github.com/psf/black).
+
