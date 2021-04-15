@@ -1,12 +1,14 @@
+---
+description: Schema.json Design Spec
+---
+
 # Schema Design
 
-## Schema.json Design Spec
+## Overview
 
-### Overview
+With thousands of different agencies across the United States, the information to be loaded into our central database comes in wildly different formats. A requirement for handling and presentation is to standardize it across federal, state, and municipal and university levels into one cohesive, easy-to-understand package. One problem for the scrapers is each agency delivers different amounts of data back to us to be digested.
 
-With thousands of different agencies across the United States, the information that we pull to be loaded into our central database comes in wildly different formats. One of our main goals needs to be not only accumlating all of this data, but standardizing it across federal, state, municpal and university levels into one cohesive, easy-to-understand package. One problem for the scrapers is each agency delivers different amounts of data back to us to be digested.
-
-### Problem
+## Problem
 
 For City Protect Incident Reports, we get a beautiful JSON response of everything that we need to know about the agency:
 
@@ -63,7 +65,7 @@ In this case, we know everything we need to ensure we have a record in the `data
 
 Another example would be in the scrapers repo, /USA/CA/COL\_LosRiosComm found [here](https://github.com/Police-Data-Accessibility-Project/Scrapers/tree/master/USA/CA/COL_LosRiosComm). We know from the prefix, it is a college. But the data downloaded from this website is in PDF format which may not be easy to discern the rest of the details without reliance on OCR, and at most would just give us the name of the agency.
 
-### Solution
+## Solution
 
 The solution to the issue of agenices delivering wildly different amounts of information would be to create a standard `schema.json` file in the root of each scraper that provides all of the information required to understand what we are dealing with in both a machine-readable and human-readable format.
 
@@ -113,7 +115,7 @@ This is a breakdown of the fields:
   * **full\_data\_location**: the location of all the data from the scraper. It will most likely just be in the `/data` directory in the same folder after the scraper has ran
   * **mapping**: based off of your `data_type`, the data will be stored in a different table with different columns. This section is how your data maps to the columns in the database such as for `"table_col": "data_col"`
 
-### Usage
+## Usage
 
 With the `schema.json` file populated, we will have a library stored in `/common/etl` that will be able to use all of this information to translate the data with ease and add/locate/update the main dataset or agency to keep it in sync if anything changes. The schema file also points exactly where the output files are located, and tells the ETL library exactly how to map the files in terms of columns and the appropriate agency + dataset.
 
