@@ -27,6 +27,7 @@ The most important thing here is that your scraper is grabbing public police dat
 1. It's [legal](../meta/legal-1/state-computer-crimes-laws.md).
 2. The config file appropriately references a dataset.
 3. Include a truncated version of some sample data so we understand what is generated.
+4. Ensure you have a `schema.json` file & a blank `etl.py` file in your scraper directory, and call `import etl` at the end of your scraper! This will hook into our ETL process once we get further along.
 
 Your submission doesn't need to be set up to recur. We can handle that when we run it periodically!
 
