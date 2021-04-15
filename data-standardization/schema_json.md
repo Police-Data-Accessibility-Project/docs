@@ -67,7 +67,7 @@ Another example would be in the scrapers repo, /USA/CA/COL\_LosRiosComm found [h
 
 ## Solution
 
-The solution to the issue of agenices delivering wildly different amounts of information would be to create a standard `schema.json` file in the root of each scraper that provides all of the information required to understand what we are dealing with in both a machine-readable and human-readable format.
+The solution to the issue of agencies delivering wildly different amounts of information would be to create a standard `schema.json` file in the root of each scraper that provides all of the information required to understand what we are dealing with in both a machine-readable and human-readable format.
 
 ```text
 {
