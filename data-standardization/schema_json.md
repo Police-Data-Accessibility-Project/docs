@@ -100,7 +100,7 @@ This is the proposed data solution. It can either be populated automatically by 
 This is a breakdown of the fields:
 
 * **agency\_id**: id of the agency in the agencies table
-* **agency\_info**: This provides more information about the dataset. If the ID is listed above and you change any information here, it will be automatically updated in the database if the script is ran again.
+* **agency\_info**: This provides more information about the dataset. If the ID is listed above and you change any information here, it will be automatically updated in the database if the script is run again.
   * **`agency_name`**: name of the agency such as 'Gaston County Sheriff'
   * **`agency_coords`**: this will probably require you to search up on Google Maps. This is actually very important to ensure we pull the correct FIPS and municipal codes. Search the agency on google maps, and right click on the pin to grab the lat and long coordinates. It is okay if there are multiple districts, just grab the main district if so.
   * **`state`**: two-letter state code \('IN', 'CA'\)
