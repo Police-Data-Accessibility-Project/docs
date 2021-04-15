@@ -1,6 +1,10 @@
-# Datasets schema
+---
+description: Specification Sheet on our DoltHub database
+---
 
-![Overview of the Proposed Schema in DoltHub](../../.gitbook/assets/image.png)
+# Database Schema
+
+![Overview of the Upcoming Schema in DoltHub](../../.gitbook/assets/image.png)
 
 The `agencies` table prevents redundancy in `datasets` and establishes a true one-to-many relationship \(one agency may have many associated datasets\). Agencies are described primarily by their location. 
 
