@@ -26,6 +26,7 @@
   * [Password Management](meta/policy/password-management.md)
   * [Data Chain of Custody](meta/policy/data-chain-of-custody.md)
 * [Legal](meta/legal-1/README.md)
+  * [Personally Identifiable Information](meta/legal-1/personally-identifiable-information.md)
   * [Legal Data Scraping](meta/legal-1/legal-data-scraping.md)
   * [State Computer Crimes laws](meta/legal-1/state-computer-crimes-laws.md)
 * [Volunteers](meta/volunteers.md)
