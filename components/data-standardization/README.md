@@ -18,5 +18,5 @@ DESCRIBE `incident_reports`
 
 ## Future state
 
-OCR, broader data type support.
+OCR, broader data type support. Pull columns together in a unified table.
 

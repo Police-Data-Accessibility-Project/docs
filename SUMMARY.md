@@ -20,6 +20,8 @@
 
 ## Meta
 
+* [Working sessions](meta/working-sessions/README.md)
+  * [April 24, 2021](meta/working-sessions/april-24-2021.md)
 * [Public site](meta/public-site.md)
 * [Status](meta/status-updates/README.md)
   * [Project Status view](meta/status-updates/project-status-view.md)

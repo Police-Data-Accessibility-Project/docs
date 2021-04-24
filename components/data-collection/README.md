@@ -12,5 +12,5 @@ We use Python to scrape data into a Hadoop server, long enough that it can be tr
 
 ## Future state
 
-Scrapers in [the PDAP-Scrapers repo](https://github.com/Police-Data-Accessibility-Project/PDAP-Scrapers) are run on a schedule dictated by how often they're refreshed.
+Scrapers in [the PDAP-Scrapers repo](https://github.com/Police-Data-Accessibility-Project/PDAP-Scrapers) are run on a schedule dictated by how often they're refreshed. People could also donate time and computing power to run them locally.
 
