@@ -9,7 +9,7 @@ There are two major places to contribute: **data collection & processing** and *
 ### How to get involved:
 
 1. Find a task!
-   * [Write a data scraper](data-collection/write-a-data-scraper.md)
+   * [Write a data scraper](https://github.com/Police-Data-Accessibility-Project/Scrapers/blob/master/CONTRIBUTING.md)
    * [Work an open Volunteer Task](https://pdap.atlassian.net/issues/?filter=10016)
    * [Work an open Infrastructure issue](https://pdap.atlassian.net/issues/?filter=10014)
    * [Work an open SQL database issue](https://www.dolthub.com/repositories/pdap/datasets/issues)

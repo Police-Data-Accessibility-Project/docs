@@ -6,7 +6,7 @@
     * [Project Status view](front-end/pdap-front-page/project-status-view.md)
 * [Data Access](data-access.md)
 * [Data Collection](data-collection/README.md)
-  * [Write a data scraper](data-collection/write-a-data-scraper.md)
+  * [Write a Data Scraper](https://github.com/Police-Data-Accessibility-Project/Scrapers/blob/master/CONTRIBUTING.md)
   * [Datasets](data-collection/dataset-catalog/README.md)
     * [Database Schema](data-collection/dataset-catalog/proposed-database-schema.md)
   * [Resources for Scrapers](data-collection/resources-for-scrapers/README.md)
