@@ -22,7 +22,7 @@
 
 * [Product Vision](meta/product-vision.md)
 * [Policy](meta/policy/README.md)
-  * [Code of Conduct](meta/policy/code-of-conduct.md)
+  * [Code of Conduct](https://github.com/Police-Data-Accessibility-Project/PDAP-Scrapers/blob/master/CODE_OF_CONDUCT.md)
   * [Password Management](meta/policy/password-management.md)
   * [Data Chain of Custody](meta/policy/data-chain-of-custody.md)
 * [Legal](meta/legal/README.md)
