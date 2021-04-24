@@ -14,5 +14,5 @@ Volunteers join the Slack, where they are welcomed by a GreetBot message. It poi
 > 2. To contribute in any way, [head here for a quick onboarding](http://docs.pdap.io) and identify how you can help.
 > 3. Introduce yourself and ask questions!
 >
-> Note: Please abide by the [Code of Conduct]().
+> Note: Please abide by the [Code of Conduct](https://github.com/Police-Data-Accessibility-Project/PDAP-Scrapers/blob/master/CODE_OF_CONDUCT.md).
 
