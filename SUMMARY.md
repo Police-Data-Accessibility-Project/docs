@@ -8,15 +8,20 @@
 * [Data Collection](components/data-collection/README.md)
   * [Write a Data Scraper](https://github.com/Police-Data-Accessibility-Project/Scrapers/blob/master/CONTRIBUTING.md)
   * [Datasets](components/data-collection/dataset-catalog/README.md)
-    * [Database Schema](components/data-collection/dataset-catalog/proposed-database-schema.md)
+    * [Find a Dataset ID](components/data-collection/dataset-catalog/find-a-dataset-id.md)
+    * [Submit or update Datasets](components/data-collection/dataset-catalog/submit-or-update-datasets.md)
+    * [Datasets schema](components/data-collection/dataset-catalog/proposed-database-schema.md)
   * [Resources for Scrapers](components/data-collection/resources-for-scrapers/README.md)
     * [Common Abbreviations](http://amerusa.net/resource_documents/CriminalRecordAbbreviations.pdf)
   * [FOIA Requests](components/data-collection/foia.md)
 * [Data Standardization](components/data-standardization/README.md)
   * [Schema Design](components/data-standardization/schema_json.md)
   * [Splunk](components/data-standardization/splunk.md)
-* [Data Storage](components/data-storage/README.md)
-  * [DoltHub](components/data-storage/dolthub.md)
+* [Data Storage](components/data-storage.md)
+
+## Tools
+
+* [DoltHub](tools/dolthub.md)
 
 ## Meta
 

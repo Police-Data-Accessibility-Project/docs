@@ -6,7 +6,7 @@ description: I want to download Police Data!
 
 ## Current state
 
-Aggregated public police data is [collected here](https://www.dolthub.com/repositories/pdap/data-intake). Read more about [how we use DoltHub here](data-storage/dolthub.md).
+Aggregated public police data is [collected here](https://www.dolthub.com/repositories/pdap/data-intake). Read more about [how we use DoltHub here](../tools/dolthub.md).
 
 ## Future state
 

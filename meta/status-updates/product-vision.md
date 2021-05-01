@@ -32,7 +32,7 @@ _We become more effective as we scale each of these services:_ **Collection** â†
 2. Humans operate semi-automated processes to gather public information.
 3. Facilitate data sharing by good-faith police organizations.
 
-\*\*\*\*[**Storage**](../../components/data-storage/) must be archival, verifiable, and secure. There are three distinct types.
+\*\*\*\*[**Storage**](../../components/data-storage.md) must be archival, verifiable, and secure. There are three distinct types.
 
 1. A Holding Ground where data can be dropped, where it is checked for integrity and security.
 2. A Gold Standard, the unified archive that we manage.
