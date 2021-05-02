@@ -7,6 +7,7 @@
 * [Data Access](components/data-access.md)
 * [Data Collection](components/data-collection/README.md)
   * [Write a Data Scraper](https://github.com/Police-Data-Accessibility-Project/Scrapers/blob/master/CONTRIBUTING.md)
+  * [Create a new data\_type](components/data-collection/create-a-new-data_type.md)
   * [Datasets](components/data-collection/dataset-catalog/README.md)
     * [Submit or update Datasets](components/data-collection/dataset-catalog/submit-or-update-datasets.md)
     * [Dataset Properties](components/data-collection/dataset-catalog/find-a-dataset-id.md)
