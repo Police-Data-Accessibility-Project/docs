@@ -53,7 +53,9 @@ Enter `0` if this dataset cannot legally be scraped.
 
 ### Dolt SQL Editor
 
-You can use SQL `INSERT` to add new datasets right in Dolt. It's possible to generate these Insert statements from spreadsheets or write them manually.
+You can use SQL statements to add new datasets right in Dolt. It's possible to generate these Insert statements from spreadsheets or write them manually.
+
+#### Using spreadsheets
 
 1. Make a copy of the [Dataset Submission Template](https://docs.google.com/spreadsheets/d/1qh-6pb6KoIFSQ9qyyzd_bZIOosD74Sg21VPjbOQ5j3g/edit#gid=494854000) and populate information about new datasets as you work.
 2. Navigate to the Query table and note that each row generates a new SQL query.
@@ -63,6 +65,8 @@ You can use SQL `INSERT` to add new datasets right in Dolt. It's possible to gen
 ![](../../../.gitbook/assets/screen-shot-2021-05-02-at-12.10.13-am.png)
 
 ### CLI
+
+> This process is currently tricky due to column defaults. If you can improve these docs, click the link in the upper right to Edit on GitHub.
 
 1. [Install Dolt](https://docs.dolthub.com/getting-started/installation).
 2. Initialize the project locally.
