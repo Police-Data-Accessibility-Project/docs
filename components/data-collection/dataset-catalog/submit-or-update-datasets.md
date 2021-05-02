@@ -6,65 +6,21 @@ description: >-
 
 # Submit or update Datasets
 
-## 1. Define the supporting info for your Dataset.
-
-> Tip: Make each of these queries in a new tab so you can keep them handy. You can use the DoltHub SQL editor, or run it locally.
-
-### Agency ID
-
-![](../../../.gitbook/assets/screen-shot-2021-05-01-at-12.39.30-pm.png)
-
-```sql
---find agencies by city name
-SELECT * FROM `agencies` WHERE `city` like "%Juneau%"
-
---find agencies by state
-SELECT * FROM `agencies` WHERE `state_iso` = "NJ"
-
---find agencies by county
-SELECT * FROM `agencies`
-JOIN counties ON agencies.county_fips=counties.fips
-WHERE `counties.name` LIKE "%Bibb%"
-```
-
-### Source Type
-
-```sql
-SELECT * from `source_types`
-```
-
-### Data Type
-
-```sql
-SELECT * FROM `data_types`
-```
-
-### Format Type
-
-```sql
-SELECT * FROM `format_types`
-```
-
-### Can Scrape
-
-Enter `0` if this dataset cannot legally be scraped.
-
-## 2. Submit the Dataset
-
-### Dolt SQL Editor
+## Dolt SQL Editor
 
 You can use SQL statements to add new datasets right in Dolt. It's possible to generate these Insert statements from spreadsheets or write them manually.
 
-#### Using spreadsheets
+### Using spreadsheets
 
 1. Make a copy of the [Dataset Submission Template](https://docs.google.com/spreadsheets/d/1qh-6pb6KoIFSQ9qyyzd_bZIOosD74Sg21VPjbOQ5j3g/edit#gid=494854000) and populate information about new datasets as you work.
-2. Navigate to the Query table and note that each row generates a new SQL query.
-3. Paste the queries individually into the [DoltHub Datasets repo](https://www.dolthub.com/repositories/pdap/datasets) and run them.
-4. When you're done, make a Pull Request and ask in \#datasets for someone to approve it.
+2. Use the Dataset Properties guide to find the appropriate IDs
+3. Navigate to the Query table and note that each row generates a new SQL query.
+4. Paste the queries individually into the [DoltHub Datasets repo](https://www.dolthub.com/repositories/pdap/datasets) and run them.
+5. When you're done, make a Pull Request and ask in \#datasets for someone to approve it.
 
 ![](../../../.gitbook/assets/screen-shot-2021-05-02-at-12.10.13-am.png)
 
-### CLI
+## CLI
 
 > This process is currently tricky due to column defaults. If you can improve these docs, click the link in the upper right to Edit on GitHub.
 
