@@ -55,7 +55,12 @@ Enter `0` if this dataset cannot legally be scraped.
 
 You can use SQL `INSERT` to add new datasets right in Dolt. It's possible to generate these Insert statements from spreadsheets or write them manually.
 
-### Dolt CSV Upload
+1. Make a copy of the [Dataset Submission Template](https://docs.google.com/spreadsheets/d/1qh-6pb6KoIFSQ9qyyzd_bZIOosD74Sg21VPjbOQ5j3g/edit#gid=494854000) and populate information about new datasets as you work.
+2. Navigate to the Query table and note that each row generates a new SQL query.
+3. Paste the queries individually into the [DoltHub Datasets repo](https://www.dolthub.com/repositories/pdap/datasets) and run them.
+4. When you're done, make a Pull Request and ask in \#datasets for someone to approve it.
+
+![](../../../.gitbook/assets/screen-shot-2021-05-02-at-12.10.13-am.png)
 
 ### CLI
 
@@ -91,6 +96,4 @@ You can use SQL `INSERT` to add new datasets right in Dolt. It's possible to gen
 
 6. Head to [https://www.dolthub.com/repositories/pdap/datasets/](https://www.dolthub.com/repositories/pdap/datasets/)
 7. Create a [Pull Request](https://docs.dolthub.com/dolthub/getting-started#pull-requests) to merge your dataset into master. Your branch should appear as an option.
-
-
 
