@@ -4,7 +4,7 @@ description: Specification Sheet on our DoltHub database
 
 # Datasets schema
 
-![](../../../.gitbook/assets/image%20%285%29.png)
+![](../../../../.gitbook/assets/image%20%285%29.png)
 
   
 The `agencies` table prevents redundancy in `datasets` and establishes a true one-to-many relationship \(one agency may have many associated datasets\). Agencies are described primarily by their location. 

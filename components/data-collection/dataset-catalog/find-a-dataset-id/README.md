@@ -38,7 +38,7 @@ WHERE `agency_id` = "b27ae147ba004dec875eeaa5259ebb57"
 
 ## Agency ID
 
-![](../../../.gitbook/assets/screen-shot-2021-05-01-at-12.39.30-pm.png)
+![](../../../../.gitbook/assets/screen-shot-2021-05-01-at-12.39.30-pm.png)
 
 ```sql
 --find agencies by city name

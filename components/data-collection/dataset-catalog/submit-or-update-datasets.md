@@ -13,7 +13,7 @@ You can use SQL statements to add new datasets right in Dolt. It's possible to g
 ### Using spreadsheets
 
 1. Make a copy of the [Dataset Submission Template](https://docs.google.com/spreadsheets/d/1qh-6pb6KoIFSQ9qyyzd_bZIOosD74Sg21VPjbOQ5j3g/edit#gid=494854000) and populate information about new datasets as you work.
-2. Use the [Dataset Properties](find-a-dataset-id.md) guide to find the appropriate IDs
+2. Use the [Dataset Properties](find-a-dataset-id/) guide to find the appropriate IDs
 3. Navigate to the Query table and note that each row generates a new SQL query.
 4. Paste the queries individually into the [DoltHub Datasets repo](https://www.dolthub.com/repositories/pdap/datasets) and run them.
 5. When you're done, make a Pull Request and ask in \#datasets for someone to approve it.
