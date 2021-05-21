@@ -121,7 +121,7 @@ VALUES
 We just need to do the 4th accordion, and then we can push our data in a PR or we can start back over and pick another agency!  
   
 You can also verify the records you added in your sql instance where you're working:  
-`select * from datasets where date_insert >= '2021-05-21'` replace the date with the current date you are working on the import and it will show all new records added recently.
+`select * from datasets where agency_id='5c2d0726d183487ba746402872573f42' and date_insert >= '2021-05-21'` it will grab all of the records for the current agency, and the `date_insert` will help in case the agency you are working with already had a previous record added but you found more!
 
 
 
