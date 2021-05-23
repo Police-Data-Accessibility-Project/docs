@@ -8,7 +8,7 @@
 * [Data Collection](components/data-collection/README.md)
   * [Write a Data Scraper](https://github.com/Police-Data-Accessibility-Project/Scrapers/blob/master/CONTRIBUTING.md)
   * [Datasets](components/data-collection/dataset-catalog/README.md)
-    * [Dataset Examples & Best Practices](components/data-collection/dataset-catalog/dataset-examples-and-best-practices.md)
+    * [Examples & Best Practices](components/data-collection/dataset-catalog/dataset-examples-and-best-practices.md)
     * [Submit or update Datasets](components/data-collection/dataset-catalog/submit-or-update-datasets.md)
     * [Dataset Properties](components/data-collection/dataset-catalog/find-a-dataset-id/README.md)
       * [Create a new data\_type](components/data-collection/dataset-catalog/find-a-dataset-id/create-a-new-data_type.md)

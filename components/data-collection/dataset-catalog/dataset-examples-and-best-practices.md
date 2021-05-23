@@ -1,14 +1,14 @@
 ---
-description: What exactly constitutes a 'dataset' ?
+description: What constitutes a "dataset"?
 ---
 
-# Dataset Examples & Best Practices
+# Examples & Best Practices
 
 ## Introduction
 
-You may be wanting to [submit a new dataset](submit-or-update-datasets.md) to scrape, but are unsure of some of the fields needed. Or perhaps what URL do you use? This guide is for you!
+Datasets are source URLs to scrape.
 
-
+You may want to [submit a new dataset](submit-or-update-datasets.md) to scrape. This guide is for you!
 
 ## Useful Links & SQL
 
