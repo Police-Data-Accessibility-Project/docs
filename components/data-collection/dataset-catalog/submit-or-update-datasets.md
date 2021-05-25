@@ -27,7 +27,7 @@ You can use SQL statements to add new datasets right in Dolt. It's possible to g
 > This process is currently tricky due to column defaults. If you can improve these docs, click the link in the upper right to Edit on GitHub.
 
 1. [Install Dolt](https://docs.dolthub.com/getting-started/installation).
-2. Fork the project to your DoltHub account (you will need to [create an account](https://www.dolthub.com/signin) if you don't have one).
+2. Fork the project to your DoltHub account \(you will need to [create an account](https://www.dolthub.com/signin) if you don't have one\).
 3. Clone down your copy of the repository.
 
    ```text
@@ -58,3 +58,4 @@ You can use SQL statements to add new datasets right in Dolt. It's possible to g
 
 7. Head to [https://www.dolthub.com/repositories/pdap/datasets/](https://www.dolthub.com/repositories/pdap/datasets/).
 8. Create a [new Pull Request](https://www.dolthub.com/repositories/pdap/datasets/pulls/new) to merge your dataset into `master`. Select your fork as the from repository, and then your branch will appear as an option. Read more about DoltHub Pull Requests [here](https://docs.dolthub.com/dolthub/getting-started#pull-requests).
+

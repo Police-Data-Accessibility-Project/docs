@@ -18,7 +18,8 @@ This tutorial will refer to several tables or dolthub links. Here are the common
 * statuses: [Online](https://www.dolthub.com/repositories/pdap/datasets/data/master/dataset_status) or `select * from dataset_status`
 * source\_types: [Online](https://www.dolthub.com/repositories/pdap/datasets/data/master/source_types) or `select * from source_types`
 * id generator: [Online](https://www.dolthub.com/repositories/pdap/datasets/query/master?q=SELECT+REPLACE%28uuid%28%29%2C+%27-%27%2C+%27%27%29%3B%0A%0A&active=Tables) or `SELECT REPLACE(uuid(), '-', '');`
-  * Note, you can also generate one from python shell, using the uuid v4 generator \(which is better than SQLs default gen\):
+  * Note, you can also generate one from python shell, using the uuid v4 generator \(which is better than SQLs default gen\).
+  * As of 25 May 2021, the `id` columns have been set up to automatically generate the uuid for you if you do not specify the column in the insert.
 
 ```text
 ~/ > python3
@@ -40,14 +41,20 @@ First we need to pick an agency from the `agencies` table.
 Let's see Alameda, California.  First we need to grab the agency id \(either from the [web](https://www.dolthub.com/repositories/pdap/datasets/query/master?q=SELECT+*%0AFROM+%60agencies%60%0Awhere+name+like+%27Alameda+Police%25%27+and+state_iso+%3D+%27CA%27%0A%0A&active=Tables) or sql\) for later use  
 
 
-![We want the Police Department in this case](../../../.gitbook/assets/image%20%287%29.png)
+![We will use the Police Department.](../../../.gitbook/assets/image%20%282%29.png)
 
-So `5c2d0726d183487ba746402872573f42` is our agency id! Now we perform a google search for Alameda Police Department CA, and we find their [homepage](https://www.alamedaca.gov/Departments/Police-Department).  
+So `5c2d0726d183487ba746402872573f42` is our agency id! Now we perform a google search for Alameda Police Department CA, and we find their [homepage](https://www.alamedaca.gov/Departments/Police-Department). We can also see in the above table that `homepage_url` is blank, so we can run a quick update to store this homepage!
+
+```sql
+UPDATE agencies SET homepage_url = 'https://www.alamedaca.gov/Departments/Police-Department' where id = '5c2d0726d183487ba746402872573f42';
+```
+
+  
 
 
 ![](../../../.gitbook/assets/image%20%289%29.png)
 
-We see on the sidebar they have a button to **Review Crime Activity**! Perfect! Let's click on that!
+On the sidebar they have a button to **Review Crime Activity**! Perfect! Let's click on that!
 
 ![5 different types of data!](../../../.gitbook/assets/image%20%2810%29.png)
 
@@ -66,14 +73,14 @@ The first accordion of this page has a link for crime graphics. When we click th
   
 We have many other columns we can fill out for a dataset, but most of which will be used by [data scrapers](../resources-for-scrapers/) in their task, so it's not completely necessary to do now, unless you really want to!
 
-One final step is to generate ourselves a new `id` to use. We can use the sql function `REPLACE(uuid(), '-', '')` \(which can be found via this [link](https://www.dolthub.com/repositories/pdap/datasets/query/master?q=SELECT+REPLACE%28uuid%28%29%2C+%27-%27%2C+%27%27%29%3B%0A%0A&active=Tables)\). This will always be a random string of letters and numbers, so for me I received `c813aab6ba3d11ebb082927cb9e1207c`. Now we are ready to insert!
+  
+The `datasets` table will automatically generate the `id` for you if you do not specify it. However, if you really wish to specify it yourself: you can use the sql function `REPLACE(uuid(), '-', '')` \(which can be found via this [link](https://www.dolthub.com/repositories/pdap/datasets/query/master?q=SELECT+REPLACE%28uuid%28%29%2C+%27-%27%2C+%27%27%29%3B%0A%0A&active=Tables)\). This will always be a random string of letters and numbers, so for me I received `c813aab6ba3d11ebb082927cb9e1207c`. You also would need to specify it in the statement below such as `INSERT INTO  datasets (id, url ...)`.
 
 ```text
 INSERT INTO datasets 
-(id, url, status_id, data_types_id, source_type_id, agency_id, notes)
+(url, status_id, data_types_id, source_type_id, agency_id, notes)
 VALUES
 (
-    'c813aab6ba3d11ebb082927cb9e1207c',
     'https://alameda.crimegraphics.com/2013/default.aspx',
     1,
     27,
@@ -89,14 +96,13 @@ Just like above, let's go to the next accordion menu of Crime Statistics:
 
 ![](../../../.gitbook/assets/image%20%288%29.png)
 
-This provides us with another link, but this time the link is still on the official agency webpage. Looking back at our source types page: we would now use `2` for a `direct` source type. Now we look again at the data types and we find `24` which is `annual_reports`. Finally, we generate a new id again: `adaf2c5b17404300a5fb5a6501567f61`. And we are ready to insert!
+This provides us with another link, but this time the link is still on the official agency webpage. Looking back at our source types page: we would now use `2` for a `direct` source type. Now we look again at the data types and we find `24` which is `annual_reports`. And we are ready to insert!
 
 ```text
 INSERT INTO datasets 
-(id, url, status_id, data_types_id, source_type_id, agency_id)
+(url, status_id, data_types_id, source_type_id, agency_id)
 VALUES
 (
-    'adaf2c5b17404300a5fb5a6501567f61',
     'https://www.alamedaca.gov/Departments/Police-Department/Annual-Crime-Stats',
     1,
     24,
@@ -111,10 +117,9 @@ The final example I wanted to touch is a `multi` data type for PDFs. We can see 
 
 ```text
 INSERT INTO datasets 
-(id, url, status_id, data_types_id, source_type_id, agency_id, notes)
+(url, status_id, data_types_id, source_type_id, agency_id, notes)
 VALUES
 (
-    'af6e5cb9929347719867b0559f6e56cb',
     'https://www.alamedaca.gov/Departments/Police-Department/Crime-Activity',
     1,
     27,
