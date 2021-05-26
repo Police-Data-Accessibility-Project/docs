@@ -6,9 +6,14 @@ description: What constitutes a "dataset"?
 
 ## Introduction
 
-Datasets are source URLs to scrape.
+Every agency has one homepage and one or many datasets. Datasets are URLs to scrape for data. You may want to [submit a new dataset](submit-or-update-datasets.md) to scrape. This guide is for you! 
 
-You may want to [submit a new dataset](submit-or-update-datasets.md) to scrape. This guide is for you!
+### A quick example
+
+For Alameda, California:
+
+* The `agencies.homepage_url` is [https://www.alamedaca.gov/Departments/Police-Department](https://www.alamedaca.gov/Departments/Police-Department)
+* One possible `datasets.url` is [https://www.alamedaca.gov/Departments/Police-Department/Annual-Arrest-Traffic-Statistics](https://www.alamedaca.gov/Departments/Police-Department/Annual-Arrest-Traffic-Statistics)
 
 ## Useful Links & SQL
 
