@@ -12,7 +12,7 @@
     * [Submit or update Datasets](components/data-collection/dataset-catalog/submit-or-update-datasets.md)
     * [Dataset Properties](components/data-collection/dataset-catalog/find-a-dataset-id/README.md)
       * [Create a new data\_type](components/data-collection/dataset-catalog/find-a-dataset-id/create-a-new-data_type.md)
-      * [Datasets schema](components/data-collection/dataset-catalog/find-a-dataset-id/proposed-database-schema.md)
+      * [Datasets Schema & Field Explanation](components/data-collection/dataset-catalog/find-a-dataset-id/proposed-database-schema.md)
   * [Resources for Scrapers](components/data-collection/resources-for-scrapers/README.md)
     * [Common Abbreviations](http://amerusa.net/resource_documents/CriminalRecordAbbreviations.pdf)
   * [FOIA Requests](components/data-collection/foia.md)
