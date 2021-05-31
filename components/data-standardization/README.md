@@ -1,8 +1,12 @@
 # Data Standardization
 
-We're currently translating data from our [Scrapers](https://github.com/Police-Data-Accessibility-Project/PDAP-Scrapers/) to a unified format in [Dolt](../../tools/dolthub.md). We're translating the data at the point of collection.
+## Purpose
+
+Normalize raw data into a unified format. This is part of what makes data useful at a large scale.
 
 ## Current state
+
+We're currently translating data from our [Scrapers](https://github.com/Police-Data-Accessibility-Project/PDAP-Scrapers/) to a unified format in [Dolt](../../tools/dolthub.md). We're translating the data at the point of collection.
 
 ### Do I need to know how to write an ETL to help?
 

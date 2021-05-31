@@ -4,6 +4,14 @@ description: Scrapers and ETLs
 
 # Data Collection
 
+## Purpose
+
+Code automated scrapers or follow processes to manually collect data.
+
+* Automated data scrapers regularly consolidate public police information. 
+* Humans operate semi-automated processes to gather public information
+* Facilitate data sharing by good-faith police organizations.
+
 ## Current state
 
 The first batch of data into Dolt was uploaded manually. [Dolt does have an API](https://github.com/dolthub/doltpy).

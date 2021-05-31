@@ -2,7 +2,7 @@
 description: 'Where we''re headed, where we are now.'
 ---
 
-# Product Vision
+# Current Progress
 
 ## PDAP aims to be a **Source of Truth** for police data.
 
@@ -24,23 +24,15 @@ Right now our focus is on lowering barriers for volunteers to get involved at sc
 
 ## How are we planning to grow?
 
-_We become more effective as we scale each of these services:_ **Collection** → **Storage** → **Standardization** → **Access** \(→ **Analysis**\)
+> We become more effective as we scale each of these services.
 
-\*\*\*\*[**Collection**](../../components/data-collection/) is the group of automated and manual processes that legally gather police data.
+[**Collection**](../components/data-collection/) is the group of automated and manual processes that legally gather police data.
 
-1. Automated data scrapers regularly consolidate public police information.
-2. Humans operate semi-automated processes to gather public information.
-3. Facilitate data sharing by good-faith police organizations.
+\*\*\*\*[**Storage**](../components/data-storage.md) must be archival, verifiable, and secure.
 
-\*\*\*\*[**Storage**](../../components/data-storage.md) must be archival, verifiable, and secure. There are three distinct types.
+\*\*\*\*[**Standardization**](../components/data-standardization/) normalizes information into a unified format for access at scale.
 
-1. A Holding Ground where data can be dropped, where it is checked for integrity and security.
-2. A Gold Standard, the unified archive that we manage.
-3. A public-facing portal that’s as accessible and standardized as possible.
-
-\*\*\*\*[**Standardization**](../../components/data-standardization/) normalizes information into a unified format. This facilitates analysis and access at a larger scale.
-
-\*\*\*\*[**Access**](../../components/data-access.md) means hosting data for citizens and data scientists. This is anything between a direct download and API web hooks.
+\*\*\*\*[**Access**](../components/data-access.md) is anything between a direct download and API web hooks.
 
 ## 
 

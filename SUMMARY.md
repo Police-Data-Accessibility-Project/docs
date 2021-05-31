@@ -4,7 +4,6 @@
 
 ## Components
 
-* [Data Access](components/data-access.md)
 * [Data Collection](components/data-collection/README.md)
   * [Write a Data Scraper](https://github.com/Police-Data-Accessibility-Project/Scrapers/blob/master/CONTRIBUTING.md)
   * [Datasets](components/data-collection/dataset-catalog/README.md)
@@ -16,25 +15,27 @@
   * [Resources for Scrapers](components/data-collection/resources-for-scrapers/README.md)
     * [Common Abbreviations](http://amerusa.net/resource_documents/CriminalRecordAbbreviations.pdf)
   * [FOIA Requests](components/data-collection/foia.md)
+* [Data Storage](components/data-storage.md)
 * [Data Standardization](components/data-standardization/README.md)
   * [Schema Design](components/data-standardization/schema_json.md)
   * [Splunk](components/data-standardization/splunk.md)
-* [Data Storage](components/data-storage.md)
+* [Data Access](components/data-access.md)
 
 ## Tools
 
 * [DoltHub](tools/dolthub.md)
 
+## Updates
+
+* [Current Progress](updates/product-vision.md)
+* [Blog](updates/blog/README.md)
+  * [April 24 update](https://docs.google.com/presentation/d/1chFR2AZPf8T3-jxl_w00oaYNZJF0yFD8ibDhh28NQJo/preview?slide=id.gd47ebc9285_0_0)
+* [Working sessions](updates/working-sessions/README.md)
+  * [May 1, 2021](updates/working-sessions/may-1-2021.md)
+  * [April 24, 2021](updates/working-sessions/april-24-2021.md)
+
 ## Meta
 
-* [Working sessions](meta/working-sessions/README.md)
-  * [May 1, 2021](meta/working-sessions/may-1-2021.md)
-  * [April 24, 2021](meta/working-sessions/april-24-2021.md)
-* [Public site](meta/public-site.md)
-* [Status](meta/status-updates/README.md)
-  * [Project Status view](meta/status-updates/project-status-view.md)
-  * [April 24 update](https://docs.google.com/presentation/d/1chFR2AZPf8T3-jxl_w00oaYNZJF0yFD8ibDhh28NQJo/preview?slide=id.gd47ebc9285_0_0)
-  * [Product Vision](meta/status-updates/product-vision.md)
 * [Policy](meta/policy/README.md)
   * [Code of Conduct](https://github.com/Police-Data-Accessibility-Project/PDAP-Scrapers/blob/master/CODE_OF_CONDUCT.md)
   * [Password Management](meta/policy/password-management.md)
