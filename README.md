@@ -12,6 +12,6 @@ There are two major places to contribute: **data collection & processing** and *
    * [Participate in a paid Data Bounty](https://www.dolthub.com/repositories/pdap/datasets/bounties/3c259649-762e-438b-a538-b14be4d0507a)
    * [Write a data scraper](https://github.com/Police-Data-Accessibility-Project/Scrapers/blob/master/CONTRIBUTING.md)
    * [Work an open Volunteer Task](https://pdap.atlassian.net/issues/?filter=10016)
-   * [Work an open Infrastructure issue](https://pdap.atlassian.net/issues/?filter=10014)
+   * [Work on a GitHub Project](https://github.com/orgs/Police-Data-Accessibility-Project/projects)
 2. Head to **\#introduce-yourself** in [Slack](https://join.slack.com/t/policeaccessibility/shared_invite/zt-ial0bvnm-D_T7R6za4aKh1f9jGUM0pg) to say hello. Slack is where you can ask questions related to what you’re working on, make suggestions, and join the PDAP community.
 
