@@ -10,21 +10,23 @@ description: >-
 
 You can use SQL statements to add new datasets right in Dolt. It's possible to generate these Insert statements from spreadsheets or write them manually.
 
-### Using spreadsheets
+> Note: CSV uploads via the DoltHub UI are not working well for this process. Use at your own risk.
+
+### INSERT statement generator table
 
 1. Make a copy of the [Dataset Submission Template](https://docs.google.com/spreadsheets/d/1qh-6pb6KoIFSQ9qyyzd_bZIOosD74Sg21VPjbOQ5j3g/edit#gid=494854000) and populate information about new datasets as you work.
-2. Use the [Dataset Properties](find-a-dataset-id/) guide to find the appropriate IDs.
+2. Use the [Dataset Properties](../find-a-dataset-id/) guide to find the appropriate IDs.
 3. Navigate to the Query table and note that each row generates a new SQL query.
 4. Fork the [DoltHub Datasets repo](https://www.dolthub.com/repositories/pdap/datasets). If you don't yet have an account, sign up [here](https://www.dolthub.com/signin).
 5. Paste the queries individually into your fork's SQL console and run them.
 6. When you're done, [create a new Pull Request](https://www.dolthub.com/repositories/pdap/datasets/pulls/new) against our repository by selecting your fork as the from repository.
 7. Join [Dolt's Discord](https://discord.gg/Zpu8x4JA) and ask in the \#data-bounties channel for someone to approve it.
 
-![](../../../.gitbook/assets/screen-shot-2021-05-02-at-12.10.13-am.png)
+![](../../../../.gitbook/assets/screen-shot-2021-05-02-at-12.10.13-am.png)
 
 ## CLI
 
-> This process is currently tricky due to column defaults. If you can improve these docs, click the link in the upper right to Edit on GitHub.
+> If you can improve these docs, click the link in the upper right to Edit on GitHub.
 
 1. [Install Dolt](https://docs.dolthub.com/getting-started/installation).
 2. Fork the project to your DoltHub account \(you will need to [create an account](https://www.dolthub.com/signin) if you don't have one\).
