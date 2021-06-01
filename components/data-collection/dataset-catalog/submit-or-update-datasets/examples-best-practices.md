@@ -27,12 +27,17 @@ This tutorial will refer to several tables or dolthub links. Here are the common
   * As of 25 May 2021, the `id` columns have been set up to automatically generate the uuid for you if you do not specify the column in the insert.
 
 ```text
+# launch into a shell, or use this in a python program
 ~/ > python3
 
 Python 3.9.4 (default, Apr  5 2021, 01:50:46)
 >>> from uuid import uuid4
 >>> str(uuid4()).replace('-', '')
 'adaf2c5b17404300a5fb5a6501567f61'
+
+# Alternatively, here is a one-liner
+python -c "import uuid; print(str(uuid.uuid4()).replace('-',''))"
+f1ecbb3c45834da3ba2a79e86b61a398
 ```
 
 
