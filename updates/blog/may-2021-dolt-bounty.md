@@ -1,5 +1,5 @@
 ---
-description: 'May 26, 2021 @ 1:31 pm PST — Jul 07, 2021 @ 3:00 pm PST'
+description: Building a Dataset Catalogue
 ---
 
 # May 2021 Dolt Bounty
