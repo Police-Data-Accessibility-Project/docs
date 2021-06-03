@@ -13,5 +13,5 @@ There are two major places to contribute: **data collection & processing** and *
    * [Write a data scraper](https://github.com/Police-Data-Accessibility-Project/Scrapers/blob/master/CONTRIBUTING.md)
    * [Work an open Volunteer Task](https://pdap.atlassian.net/issues/?filter=10016)
    * [Work on a GitHub Project](https://github.com/orgs/Police-Data-Accessibility-Project/projects)
-2. Head to **\#introduce-yourself** in [Slack](https://join.slack.com/t/policeaccessibility/shared_invite/zt-ial0bvnm-D_T7R6za4aKh1f9jGUM0pg) to say hello. Slack is where you can ask questions related to what you’re working on, make suggestions, and join the PDAP community.
+2. Head to **\#new-members** in [our Discord server](https://discord.gg/cn2ZpVTdw7) to say hello. Discord is where you can ask questions related to what you’re working on, make suggestions, and join the PDAP community.
 

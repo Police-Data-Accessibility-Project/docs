@@ -50,7 +50,7 @@
 ## Elsewhere
 
 * [pdap.io](https://pdap.io)
-* [Slack](https://join.slack.com/t/policeaccessibility/shared_invite/zt-ial0bvnm-D_T7R6za4aKh1f9jGUM0pg)
+* [Discord](https://discord.gg/cn2ZpVTdw7)
 * [GitHub org](https://github.com/Police-Data-Accessibility-Project)
 * [DoltHub org](https://www.dolthub.com/organizations/pdap)
 
