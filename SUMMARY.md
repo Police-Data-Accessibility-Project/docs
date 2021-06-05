@@ -27,7 +27,8 @@
 
 ## Updates
 
-* [Current Progress](updates/product-vision.md)
+* [Current Progress](updates/product-vision/README.md)
+  * [Similar Projects](updates/product-vision/similar-projects.md)
 * [Blog](updates/blog/README.md)
   * [May 2021 Dolt Bounty](updates/blog/may-2021-dolt-bounty.md)
   * [April 24 update](https://docs.google.com/presentation/d/1chFR2AZPf8T3-jxl_w00oaYNZJF0yFD8ibDhh28NQJo/preview?slide=id.gd47ebc9285_0_0)

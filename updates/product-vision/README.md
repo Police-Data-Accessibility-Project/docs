@@ -26,13 +26,13 @@ Right now our focus is on lowering barriers for volunteers to get involved at sc
 
 > We become more effective as we scale each of these services.
 
-[**Collection**](../components/data-collection/) is the group of automated and manual processes that legally gather police data.
+[**Collection**](../../components/data-collection/) is the group of automated and manual processes that legally gather police data.
 
-\*\*\*\*[**Storage**](../components/data-storage.md) must be archival, verifiable, and secure.
+\*\*\*\*[**Storage**](../../components/data-storage.md) must be archival, verifiable, and secure.
 
-\*\*\*\*[**Standardization**](../components/data-standardization/) normalizes information into a unified format for access at scale.
+\*\*\*\*[**Standardization**](../../components/data-standardization/) normalizes information into a unified format for access at scale.
 
-\*\*\*\*[**Access**](../components/data-access.md) is anything between a direct download and API web hooks.
+\*\*\*\*[**Access**](../../components/data-access.md) is anything between a direct download and API web hooks.
 
 ## 
 
