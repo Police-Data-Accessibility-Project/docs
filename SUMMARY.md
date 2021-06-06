@@ -40,10 +40,21 @@
 
 ## Meta
 
+* [Board](meta/board/README.md)
+  * [Unanimous Resolutions](meta/board/unanimous-resolutions/README.md)
+    * [Appoint Directors of Technology and Security](meta/board/unanimous-resolutions/appoint-directors-of-technology-and-security.md)
+    * [Appoint Executive Director](meta/board/unanimous-resolutions/appoint-executive-director.md)
+    * [Appoint Director of Operations](meta/board/unanimous-resolutions/appoint-director-of-operations.md)
+  * [Minutes](meta/board/minutes/README.md)
+    * [2021-03-14](meta/board/minutes/2021-03-14.md)
+    * [2021-01-23](meta/board/minutes/2021-01-23.md)
+    * [2020-12-1](meta/board/minutes/2020-12-1.md)
 * [Policy](meta/policy/README.md)
+  * [Cultural Principles](meta/policy/cultural-principles.md)
+  * [Roles & Community](meta/policy/roles-and-community.md)
   * [Code of Conduct](https://github.com/Police-Data-Accessibility-Project/PDAP-Scrapers/blob/master/CODE_OF_CONDUCT.md)
-  * [Password Management](meta/policy/password-management.md)
   * [Data Chain of Custody](meta/policy/data-chain-of-custody.md)
+  * [Password Management](meta/policy/password-management.md)
 * [Volunteers](meta/volunteers.md)
 * [Legal](meta/legal/README.md)
   * [Personally Identifiable Information](meta/legal/personally-identifiable-information.md)
