@@ -17,7 +17,9 @@ Discord is our primary active community, and where all current roles are delinea
 
 As an open source nonprofit, our leadership is there to make sure the lights are on and that blockers to forward progress are lifted. [Read more here](board/).
 
-## Officers
+## Team
 
-Appointed by the board to serve in consistent, active roles to facilitate the work of the volunteer community and access to data by everyone.
+Directors are appointed by the board to serve in consistent, active roles to facilitate the work of the volunteer community and access to data by everyone. 
+
+A handful of leading contributors are nominated to the `PDAP team` role in Discord, making them sources of information & decisions if needed.
 
