@@ -67,4 +67,5 @@
 * [Discord](https://discord.gg/cn2ZpVTdw7)
 * [GitHub org](https://github.com/Police-Data-Accessibility-Project)
 * [DoltHub org](https://www.dolthub.com/organizations/pdap)
+* [Patreon](https://www.patreon.com/pdap)
 
