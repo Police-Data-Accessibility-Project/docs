@@ -28,6 +28,7 @@
 
 ## Updates
 
+* [Blog](https://blog.pdap.io)
 * [Current Progress](updates/product-vision/README.md)
   * [Similar Projects](updates/product-vision/similar-projects.md)
 * [Working sessions](updates/working-sessions/README.md)
@@ -58,6 +59,7 @@
   * [Personally Identifiable Information](meta/legal/personally-identifiable-information.md)
   * [Legal Data Scraping](meta/legal/legal-data-scraping.md)
   * [State Computer Crimes laws](meta/legal/state-computer-crimes-laws.md)
+* [Brand assets](meta/brand-assets.md)
 
 ## Elsewhere
 
