@@ -38,6 +38,7 @@
 ## Meta
 
 * [Policy](meta/policy/README.md)
+  * [PDAP Privacy Policy](meta/policy/pdap-privacy-policy.md)
   * [Cultural Principles](meta/policy/cultural-principles.md)
   * [Roles & Community](meta/policy/roles-and-community/README.md)
     * [Board](meta/policy/roles-and-community/board/README.md)
