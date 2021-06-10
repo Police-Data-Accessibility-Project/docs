@@ -2,12 +2,12 @@
 
 ![](../.gitbook/assets/screen-shot-2021-06-09-at-10.36.55-pm.png)
 
-```text
---off-white: #fffbfaff;
---light-gray: #bfc0c0ff;
---medium-gray: #515052ff;
---gold: #d5a23cff;
---byzantium: #512a4fff;
+```css
+--off-white: #fffbfa;
+--light-gray: #bfc0c0;
+--medium-gray: #515052;
+--gold: #d5a23c;
+--byzantium: #512a4f;
 ```
 
 ## Images
