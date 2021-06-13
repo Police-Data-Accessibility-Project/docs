@@ -1,10 +1,14 @@
 ---
-description: Schema.json Design Spec
+description: 'https://www.dolthub.com/repositories/pdap/datasets'
 ---
 
-# Schema Design
+# Datasets schema & ETL
 
 ## Overview
+
+This describes our current [database of datasets in DoltHub](https://www.dolthub.com/repositories/pdap/datasets).
+
+
 
 With thousands of different agencies across the United States, the information to be loaded into our central database comes in wildly different formats. A requirement for handling and presentation is to standardize it across federal, state, and municipal and university levels into one cohesive, easy-to-understand package. One problem for the scrapers is each agency delivers different amounts of data back to us to be digested.
 
@@ -67,7 +71,7 @@ Another example would be in the scrapers repo, /USA/CA/COL\_LosRiosComm found [h
 
 ## Solution
 
-The solution to the issue of agencies delivering wildly different amounts of information would be to create a standard `schema.json` file in the root of each scraper that provides all of the information required to understand what we are dealing with in both a machine-readable and human-readable format.
+A `schema.json` file in the root of each scraper that provides all of the information required to understand what we are dealing with. JSON is both machine-readable and human-readable format.
 
 ```text
 {
@@ -95,9 +99,7 @@ The solution to the issue of agencies delivering wildly different amounts of inf
 }
 ```
 
-This is the proposed data solution. It can either be populated automatically by the scraper's main python file, or manually filled in if the data is not easily accessible via scraping.
-
-This is a breakdown of the fields:
+### Fields
 
 * **agency\_id**: id of the agency in the agencies table
 * **agency\_info**: This provides more information about the agency. If the ID is listed above and you change any information here, it will be automatically updated in the database if the script is run again.

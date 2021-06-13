@@ -18,7 +18,7 @@
   * [FOIA Requests](components/data-collection/foia.md)
 * [Data Storage](components/data-storage.md)
 * [Data Standardization](components/data-standardization/README.md)
-  * [Schema Design](components/data-standardization/schema_json.md)
+  * [Datasets schema & ETL](components/data-standardization/schema_json.md)
   * [Splunk](components/data-standardization/splunk.md)
 * [Data Access](components/data-access.md)
 
