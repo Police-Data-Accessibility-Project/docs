@@ -10,15 +10,19 @@ If you don't know what this is, start at [https://pdap.io/](https://pdap.io/).
 
 ### Collect Data
 
-Get paid to collect data as [part of a Data Bounty](https://www.dolthub.com/repositories/pdap/datasets/bounties/3c259649-762e-438b-a538-b14be4d0507a). Help build a database of police agencies for a community of data collectors!
-
-Know python? [Contribute to our Scrapers repo](https://github.com/Police-Data-Accessibility-Project/PDAP-Scrapers/blob/master/CONTRIBUTING.md).
+**Get paid to collect data** as [part of a Data Bounty](https://www.dolthub.com/repositories/pdap/datasets/bounties/3c259649-762e-438b-a538-b14be4d0507a). Help build a database of police agencies for a community of data collectors!
 
 New to python? [Run utilities to check incoming data](https://github.com/Police-Data-Accessibility-Project/PDAP-app/blob/main/utilities/Datasets%20Submission%20Checker/README.md). Accelerate the data intake process!
 
+### Contribute Code
+
+Know python? [Contribute to our **Data Scrapers repo**](https://github.com/Police-Data-Accessibility-Project/PDAP-Scrapers/blob/master/CONTRIBUTING.md).
+
+[Head to GitHub](https://github.com/orgs/Police-Data-Accessibility-Project/projects/15) to work on infrastructure issues.
+
 ### Donate to PDAP
 
-[Become a Patron](https://www.patreon.com/pdap). [Donate once](http://pdap.io/). Power our infrastructure and growth.
+**Donate on** [**PayPal**](https://www.paypal.com/biz/fund?id=SLS5DB8SMDC3G) **or** [**Patreon**](https://patreon.com/pdap)**,** and we'll spend it on [Data Bounties](https://docs.pdap.io/updates/blog/may-2021-dolt-bounty) and infrastructure improvements. Small recurring donations are most helpful. Stability helps us chart a path.
 
 ### Use our Data
 
@@ -26,5 +30,5 @@ New to python? [Run utilities to check incoming data](https://github.com/Police-
 
 ### Join the Community
 
-Head to **\#introduce-yourself** in [our Discord server](https://discord.gg/cn2ZpVTdw7) to say hello. Discord is where you can ask questions related to what you’re working on, make suggestions, and join the PDAP community.
+Head to **\#introduce-yourself** in [our Discord server](https://discord.gg/cn2ZpVTdw7) to say hello, ask questions, and meet fellow data nerds.
 
