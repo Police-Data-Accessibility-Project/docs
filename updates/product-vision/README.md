@@ -38,5 +38,7 @@ Right now our focus is on lowering barriers for volunteers to get involved at sc
 
 \*\*\*\*[**Access**](../../components/data-access.md) is anything between a direct download and API web hooks.
 
-## 
+## PDAP Roadmap
+
+Focused efforts for improving the PDAP code ecosystem are [found on the roadmap](https://github.com/orgs/Police-Data-Accessibility-Project/projects/17).
 
