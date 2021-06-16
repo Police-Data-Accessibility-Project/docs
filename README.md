@@ -18,7 +18,7 @@ New to python? [Run utilities to check incoming data](https://github.com/Police-
 
 Know python? [Contribute to our **Data Scrapers repo**](https://github.com/Police-Data-Accessibility-Project/PDAP-Scrapers/blob/master/CONTRIBUTING.md).
 
-[Head to GitHub](https://github.com/orgs/Police-Data-Accessibility-Project/projects/15) to work on infrastructure issues.
+[Head to the GitHub Roadmap](https://github.com/orgs/Police-Data-Accessibility-Project/projects/17) to work on infrastructure issues.
 
 ### Donate to PDAP
 
