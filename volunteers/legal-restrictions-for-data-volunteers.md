@@ -25,6 +25,20 @@ Scraping should be strictly limited to information that is presumptively accessi
 
 While information available in public records is public by its nature, be aware if the information being scraped reveals personal data that is generally understood to be private, such as social security numbers and bank or credit card information. This may also include personal data that can identify an individual person, such as name, email, phone number, and address. If in doubt, omit such personal data from the scope of the scrape.
 
+Information that has been made public by a government source may be collected, or "scraped", directly from that source. Information that is scraped from another source, even a trusted "third party", must be stripped of PII before it can be accepted by PDAP.
+
+Current list of PII:
+
+* CaseNum
+* FirstName
+* MiddleName
+* LastName
+* DOB
+* DefenseAttorney PublicDefender
+* Judge
+* ArrestingOfficer
+* ArrestingOfficerBadgeNumber
+
 **Will scraping reduce the value of the original data?**
 
 Again, scraping should be strictly limited to information that is presumptively accessible to the general public. This limitation is important to ensure that original data being scraped is not diminished in value as a result of it being scraped.
