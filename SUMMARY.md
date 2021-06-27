@@ -5,6 +5,7 @@
 ## Components
 
 * [Data Collection](components/data-collection/README.md)
+  * [Data Bounties](components/data-collection/data-bounties.md)
   * [Write a Data Scraper](https://github.com/Police-Data-Accessibility-Project/Scrapers/blob/master/CONTRIBUTING.md)
   * [Datasets](components/data-collection/datasets/README.md)
     * [Submit or update Datasets](components/data-collection/datasets/submit-or-update-datasets/README.md)
