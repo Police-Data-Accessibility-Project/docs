@@ -34,6 +34,7 @@
 * [Current Progress](updates/product-vision/README.md)
   * [Similar Projects](updates/product-vision/similar-projects.md)
 * [Working sessions](updates/working-sessions/README.md)
+  * [July 10, 2021](updates/working-sessions/july-10-2021.md)
   * [June 26, 2021](updates/working-sessions/june-26-2021.md)
   * [June 19, 2021](updates/working-sessions/june-19-2021.md)
   * [June 12, 2021](updates/working-sessions/june-12-2021.md)
