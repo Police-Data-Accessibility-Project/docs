@@ -48,6 +48,7 @@
   * [Brand assets](meta/about/brand-assets.md)
   * [PDAP Staff](meta/about/staff/README.md)
     * [Meeting Minutes](meta/about/staff/meeting-minutes/README.md)
+      * [2021-07-14](meta/about/staff/meeting-minutes/2021-07-14.md)
       * [2021-06-16](meta/about/staff/meeting-minutes/2021-06-16.md)
       * [2021-03-14](meta/about/staff/meeting-minutes/2021-03-14.md)
       * [2020 11-21 Tech Stack discussion](meta/about/staff/meeting-minutes/project-home-2020-11-21-tech-stack-discussion-josh-cs-notes.md)
