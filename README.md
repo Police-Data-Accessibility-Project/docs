@@ -1,26 +1,34 @@
 ---
-description: >-
-  The Police Data Accessibility Project (PDAP) aims to be a source of truth for
-  police data.
+description: We're making a source of truth for police data.
 ---
 
-# PDAP Community Onboarding
+# Welcome to PDAP!
 
-There are two major places to contribute: **data collection & processing** and **coding to automate those two things**.
+If you don't know what this is, start at [https://pdap.io/](https://pdap.io/).
 
-You may find our main website [here](https://pdap.io/).
+## How to get involved
 
-### How to get involved:
+### Collect Data
 
-1. Find a task!
-   * [Write a data scraper](data_collection/write-a-data-scraper.md)
-   * [Work an open Volunteer Task](https://pdap.atlassian.net/issues/?filter=10016)
-   * [Work an open Infrastructure issue](https://pdap.atlassian.net/issues/?filter=10014)
-   * [Work an open SQL database issue](https://www.dolthub.com/repositories/pdap/datasets/issues)
-2. Optionally but encouraged, complete the [Intake Form](https://docs.google.com/forms/d/13HiD4CNTq8DOlwQtbIw2CfSjjDlveBpwxr7LRtcKeIo/edit?usp=sharing) so we know what you plan to work on.
-3. Head to **\#volunteer-start** in [Slack](https://join.slack.com/t/policeaccessibility/shared_invite/zt-ial0bvnm-D_T7R6za4aKh1f9jGUM0pg) to say hello. Slack is where you can ask questions related to what you’re working on, make suggestions, and join the PDAP community.
+**Get paid to collect data** as [part of a Data Bounty](components/data-collection/data-bounties.md). None are currently active, but we need [contributions to datasets](https://www.dolthub.com/repositories/pdap/datasets/doc/master). You can help build a database of police agencies for a community of data collectors!
 
-### Closing Issues with Smart Commits
+New to python? You can help check any submissions to our datasets pending approval. If there are data submissions pending, you can [run these utilities to check incoming data](https://github.com/Police-Data-Accessibility-Project/PDAP-app/blob/main/utilities/Datasets%20Submission%20Checker/README.md). Accelerate the data intake process! If you have questions, reach out in [Discord](https://discord.com/invite/cn2ZpVTdw7)!
 
-Reference Jira issues with tags like `PDAP-101` to reference issue 101 in Jira in a discussion. You can also use [Smart Commits](https://support.atlassian.com/jira-cloud-administration/docs/integrate-with-github/) to affect Jira issue status.
+### Contribute Code
+
+Know python? [Contribute to our **Data Scrapers repo**](https://github.com/Police-Data-Accessibility-Project/PDAP-Scrapers/blob/master/CONTRIBUTING.md).
+
+[Head to the GitHub Roadmap](https://github.com/orgs/Police-Data-Accessibility-Project/projects/17) to work on infrastructure issues.
+
+### Donate to PDAP
+
+**Donate on** [**PayPal**](https://www.paypal.com/biz/fund?id=SLS5DB8SMDC3G) **or** [**Patreon**](https://patreon.com/pdap)**,** and we'll spend it on [Data Bounties](https://docs.pdap.io/updates/blog/may-2021-dolt-bounty) and infrastructure improvements. Small recurring donations are most helpful. Stability helps us chart a path.
+
+### Use our Data
+
+[Our data lives in DoltHub](https://www.dolthub.com/organizations/pdap). What can you learn from it? How can it be better?
+
+### Join the Community
+
+Head to **\#introduce-yourself** in [our Discord server](https://discord.gg/cn2ZpVTdw7) to say hello, ask questions, and meet fellow data nerds.
 
