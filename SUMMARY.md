@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Welcome to PDAP!](README.md)
+* [pdap.io](https://pdap.io)
 
 ## Components
 
@@ -110,7 +111,6 @@
 
 ## Elsewhere
 
-* [pdap.io](https://pdap.io)
 * [Discord](https://discord.gg/cn2ZpVTdw7)
 * [GitHub org](https://github.com/Police-Data-Accessibility-Project)
 * [DoltHub org](https://www.dolthub.com/organizations/pdap)

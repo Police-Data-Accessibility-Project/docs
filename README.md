@@ -4,15 +4,26 @@ description: We're making a source of truth for police data.
 
 # Welcome to PDAP!
 
-If you don't know what this is, start at [https://pdap.io/](https://pdap.io/).
+## How do we work?
+
+We're a rotating cast of volunteers with a flat organizational structure. Our goal is to collect public police data, and there's a lot of it. If you're reading this, there is still work to do.
+
+We're a learning organization, and **we want to hear from you.** If you have questions, concerns, suggestions, or expertise, reach out in [Discord](https://discord.com/invite/cn2ZpVTdw7).
+
+## Crash Course on our process
+
+1. Known police agencies are added to our `agencies` table [in Dolt](https://www.dolthub.com/repositories/pdap/datasets/data/master/agencies). _For example, "St. Louis County Police Department" or "University of Cincinnati Department of Public Safety"._
+2. Datasets associated with an agency are added to our `datasets` table [in Dolt](https://www.dolthub.com/repositories/pdap/datasets/data/master/datasets). _For example, an agency might have both "Crime Statistics" and "Use of Force reports". Each of these is a Dataset._
+3. Volunteers write [Scrapers ](https://github.com/Police-Data-Accessibility-Project/PDAP-Scrapers)for each Dataset. Often they're similar enough that Scrapers can be reused with slight modification.
+4. Scraped data in table format is submitted to the `data-intake` database [in Dolt](https://www.dolthub.com/repositories/pdap/data-intake). _We're still working on support for non-tabular data._
 
 ## How to get involved
 
 ### Collect Data
 
-**Get paid to collect data** as [part of a Data Bounty](components/data-collection/data-bounties.md). None are currently active, but we need [contributions to datasets](https://www.dolthub.com/repositories/pdap/datasets/doc/master). You can help build a database of police agencies for a community of data collectors!
+We need [contributions to our library of known datasets](https://www.dolthub.com/repositories/pdap/datasets/doc/master). You can help build a database of police agencies for a community of data collectors!
 
-New to python? You can help check any submissions to our datasets pending approval. If there are data submissions pending, you can [run these utilities to check incoming data](https://github.com/Police-Data-Accessibility-Project/PDAP-app/blob/main/utilities/Datasets%20Submission%20Checker/README.md). Accelerate the data intake process! If you have questions, reach out in [Discord](https://discord.com/invite/cn2ZpVTdw7)!
+If there are DoltHub Pull Requests pending, you can [run these utilities to check incoming data](https://github.com/Police-Data-Accessibility-Project/PDAP-app/blob/main/utilities/Datasets%20Submission%20Checker/README.md). Accelerate the data intake process!
 
 ### Contribute Code
 
@@ -26,7 +37,7 @@ Know python? [Contribute to our **Data Scrapers repo**](https://github.com/Polic
 
 ### Use our Data
 
-[Our data lives in DoltHub](https://www.dolthub.com/organizations/pdap). What can you learn from it? How can it be better?
+[Our data lives in DoltHub](https://www.dolthub.com/organizations/pdap). What can you learn from it? How could it be better?
 
 ### Join the Community
 
