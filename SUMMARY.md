@@ -35,6 +35,7 @@
 * [Current Progress](updates/product-vision/README.md)
   * [Similar Projects](updates/product-vision/similar-projects.md)
 * [Working sessions](updates/working-sessions/README.md)
+  * [August 7, 2021](updates/working-sessions/august-7-2021.md)
   * [July 27 Dolt Bounty retro](updates/working-sessions/july-27-dolt-bounty-retro.md)
   * [July 17, 2021](updates/working-sessions/july-17-2021.md)
   * [July 10, 2021](updates/working-sessions/july-10-2021.md)
