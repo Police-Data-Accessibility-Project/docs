@@ -26,7 +26,9 @@ Don't add drop shadows or outlines. Use in either black or white.
 
 ![lockup.svg](../../.gitbook/assets/lockup%20%282%29.svg)
 
-![Webclip](../../.gitbook/assets/webclip.gif)
+![webclip.gif](../../.gitbook/assets/webclip.gif)
 
-![Favicon](../../.gitbook/assets/favicon%20%281%29.gif)
+![favicon.png](../../.gitbook/assets/favicon.png)
+
+
 
