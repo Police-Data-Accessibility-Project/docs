@@ -49,6 +49,8 @@
 ## Meta
 
 * [About](meta/about/README.md)
+  * [Roles & Community](meta/about/roles-and-community.md)
+  * [Cultural Principles](meta/about/cultural-principles.md)
   * [Brand assets](meta/about/brand-assets.md)
   * [PDAP Staff](meta/about/staff/README.md)
     * [Meeting Minutes](meta/about/staff/meeting-minutes/README.md)
@@ -98,8 +100,6 @@
       * [Appoint Directors of Technology and Security](meta/about/staff/board-resolutions/appoint-directors-of-technology-and-security.md)
       * [Appoint Executive Director](meta/about/staff/board-resolutions/appoint-executive-director.md)
       * [Appoint Director of Operations](meta/about/staff/board-resolutions/appoint-director-of-operations.md)
-  * [Roles & Community](meta/about/roles-and-community.md)
-  * [Cultural Principles](meta/about/cultural-principles.md)
 * [Policy](meta/policy/README.md)
   * [PDAP Privacy Policy](meta/policy/pdap-privacy-policy.md)
   * [Code of Conduct](https://github.com/Police-Data-Accessibility-Project/PDAP-Scrapers/blob/master/CODE_OF_CONDUCT.md)
