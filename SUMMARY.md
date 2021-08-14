@@ -101,6 +101,7 @@
       * [Appoint Executive Director](meta/about/staff/board-resolutions/appoint-executive-director.md)
       * [Appoint Director of Operations](meta/about/staff/board-resolutions/appoint-director-of-operations.md)
 * [Policy](meta/policy/README.md)
+  * [PII \(WIP / Discussion\)](meta/policy/pii-wip-discussion.md)
   * [PDAP Privacy Policy](meta/policy/pdap-privacy-policy.md)
   * [Code of Conduct](https://github.com/Police-Data-Accessibility-Project/PDAP-Scrapers/blob/master/CODE_OF_CONDUCT.md)
   * [Data Chain of Custody](meta/policy/data-chain-of-custody.md)
