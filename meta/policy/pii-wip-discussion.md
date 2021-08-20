@@ -10,6 +10,36 @@ We want people to feel sound ethically and legally when they contribute to PDAP.
 
 Our existing policy about _accepting_ PII is legally the right one but we do need to discuss how we _aggregate_ and _omit_. Discuss in the thread for the next 3 days, then we'll do a survey or something. 
 
+### How sure are we that omitting PII is against the rules?
+
+We have a policy that allows PII, **do we need to require it? Do we need to allow censorship?**
+
+**Is PDAP the one doing the scraping, or the scraper community?**
+
+We can always get a second opinion. Maybe we need to define what PII is?
+
+**How can we prevent PDAP from being mugshots.com?**
+
+**Can we choose which data we aggregate?** Sounds reasonable to Eddie.
+
+Richard says there could be a security/`know-your-user` layer—make it more difficult than a search bar. Require people to register, know your user.
+
+PDAP could be considered a wikipedia-like source of good sources.
+
+## Actions
+
+We could make PII unavailable via the API.
+
+We could keep PII out of any queryable database.
+
+We could only show it when referencing unedited source material.
+
+We could restrict data usage to non-commercial.
+
+We could still aggregate data on whether a field is included.
+
+~~We could restrict data access to verified users.~~ Not considered possible.
+
 ## References
 
 \[a\] [https://docs.pdap.io/meta/legal/legal-data-scraping](https://docs.pdap.io/meta/legal/legal-data-scraping)

@@ -4,6 +4,18 @@ description: We're making a source of truth for police data.
 
 # Welcome to PDAP!
 
+## Early history
+
+### Eddie
+
+> Let the data speak
+
+The variance in the information available is an important part of the story.
+
+PII has gone through several discussions and legally advised processes to develop the current PII policy.
+
+If we're posting 
+
 ## How do we work?
 
 We're a rotating cast of volunteers with a flat organizational structure. Our goal is to collect public police data, and there's a lot of it. If you're reading this, there is still work to do.
