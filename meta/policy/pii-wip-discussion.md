@@ -26,19 +26,13 @@ Richard says there could be a security/`know-your-user` layer—make it more dif
 
 PDAP could be considered a wikipedia-like source of good sources.
 
-## Actions
+## Actions \(polled in discord\)
 
-We could make PII unavailable via the API.
-
-We could keep PII out of any queryable database.
-
-We could only show it when referencing unedited source material.
-
-We could restrict data usage to non-commercial.
-
-We could still aggregate data on whether a field is included.
-
-~~We could restrict data access to verified users.~~ Not considered possible.
+* Should we define "PII that we must not make more public" as "Name"? **3 yes**  0 no  1 yes + address
+* Should we show PII in the mirrored source material? **2 yes** 1 no
+* Should we aggregate data on whether a field is included in the source data? **3 yes** 0 no
+* Should we restrict data usage to non-commercial in our published policy? **4 yes** 0 no
+* Should we redact PII when we provide data at scale \(i.e. via API or queryable database\)? **4 yes** 0 no
 
 ## References
 
@@ -50,11 +44,4 @@ We could still aggregate data on whether a field is included.
 \[c\] [https://pdap.io/](https://pdap.io/)   
 \[d\] [https://docs.pdap.io/meta/legal/personally-identifiable-information](https://docs.pdap.io/meta/legal/personally-identifiable-information)  
 \[e\] [https://www.whitepages.com/terms-of-service](https://www.whitepages.com/terms-of-service)
-
-## Ideas
-
-* No commercial use
-* Don't make PII searchable
-  * Don't put it in DoltHub
-  * Don't extract it from the source at all, leave it in the PDF
 
