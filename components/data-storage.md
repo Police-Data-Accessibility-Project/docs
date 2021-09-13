@@ -16,9 +16,27 @@ Archival, verifiable, and secure data storage is the core of our mission.
 
 ## Current state
 
-| Intake Database | Gold Standard | Data Access point |
-| :--- | :--- | :--- |
-| Hadoop public IP `165.227.222.194` | WIP / See [Data Standardization](data-standardization/) | [DoltHub](../tools/dolthub.md) for tabular data |
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Intake Database</th>
+      <th style="text-align:left">Gold Standard</th>
+      <th style="text-align:left">Data Access point</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">
+        <p>Hadoop public IP <code>165.227.222.194</code>
+        </p>
+        <p>&lt;code&gt;&lt;/code&gt;</p>
+      </td>
+      <td style="text-align:left">WIP / See <a href="data-standardization/">Data Standardization</a>
+      </td>
+      <td style="text-align:left"><a href="../tools/dolthub.md">DoltHub</a> for tabular data</td>
+    </tr>
+  </tbody>
+</table>
 
 ### Why Dolt?
 

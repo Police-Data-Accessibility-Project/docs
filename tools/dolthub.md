@@ -6,17 +6,17 @@ description: This is how we keep our data stream safe and accurate.
 
 ## Getting Started with Dolthub
 
-The instructions [here](https://docs.dolthub.com/dolthub/getting-started) are excellent as an intro to Dolt's general usage. Here’s our [dolt org](https://www.dolthub.com/organizations/pdap).
+{% embed url="https://docs.dolthub.com/dolthub/getting-started" %}
+
+Here’s our [dolt org](https://www.dolthub.com/organizations/pdap).
 
 There's some great [video tutorial content](https://www.youtube.com/playlist?list=PL0F4rChlR1GiXabNeh6H0kwIStyPFSZLS) for using DoltHub if you learn best that way.
 
 Anyone can create a Pull Request to be merged into the database via the SQL UI at DoltHub, [SQL editor integration](https://github.com/dolthub/docs/blob/gitbook-dev/content/integrations/sql-editors.md), command line, or Python.
 
-### Supported statements
-
-[https://docs.dolthub.com/interfaces/sql/sql-support/supported-statements](https://docs.dolthub.com/interfaces/sql/sql-support/supported-statements) These are limited, so dolt is not great for managing a bunch of schemas.
-
 ### Useful statements
+
+[Supported statements](https://docs.dolthub.com/interfaces/sql/sql-support/supported-statements) are limited, so dolt is not great for managing a bunch of schemas.
 
 **Spreadsheets**
 

@@ -1,4 +1,4 @@
-# Hadoop Datasets mirror
+# PostgreSQL Datasets mirror
 
 ## Why would I use this?
 
@@ -8,7 +8,12 @@ A data scraper may not want to install DoltHub just to use the [Datasets repo](h
 
 hadoop-worker-1 is configured on a Digital Ocean droplet. It makes a mirror of the [Datasets db in Dolthub](https://www.dolthub.com/repositories/pdap/datasets/data/master/datasets) every time a merge is made.
 
-The public IP is: `167.71.249.20`
+### Read-only PostgreSQL credentials
 
 > Use the [Hadoop docs found in Resources](../../tools/resources/)!
+
+Host: `167.71.249.20`  
+Port: `5432`  
+User: `pdap_public`  
+Password: `SL$Eb+DuuZ2qv`
 

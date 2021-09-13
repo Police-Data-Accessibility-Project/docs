@@ -6,7 +6,7 @@
 ## Components
 
 * [Datasets](components/datasets/README.md)
-  * [Hadoop Datasets mirror](components/datasets/hadoop-datasets-mirror.md)
+  * [PostgreSQL Datasets mirror](components/datasets/hadoop-datasets-mirror.md)
   * [Submit or update Datasets](components/datasets/submit-or-update-datasets/README.md)
     * [Validate Datasets PRs](components/datasets/submit-or-update-datasets/validate-datasets-prs.md)
     * [Examples & Best Practices](components/datasets/submit-or-update-datasets/examples-best-practices.md)
