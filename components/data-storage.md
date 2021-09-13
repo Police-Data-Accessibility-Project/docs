@@ -18,23 +18,21 @@ Archival, verifiable, and secure data storage is the core of our mission.
 
 | Intake Database | Gold Standard | Data Access point |
 | :--- | :--- | :--- |
-| Hadoop public IP `165.227.222.194` |  |  |
+| Hadoop public IP `165.227.222.194` | WIP / See [Data Standardization](data-standardization/) | [DoltHub](../tools/dolthub.md) for tabular data |
+
+### Why Dolt?
 
 We don't yet have much data in permanent storage, so [Dolt](../tools/dolthub.md) fulfills our requirements until we outgrow it or need more than it offers in some critical area.
 
-### Hadoop
+### Why Hadoop?
 
 Dolt can't store unprocessed data, so we are going to scale by using Hadoop servers.
 
-Servers are configured as Digital Ocean droplets. There's no user-level authentication, so we don't have an edit history yet.
+Servers are configured as Digital Ocean droplets. There's no user-level authentication, so we don't have an edit history yet. Only DoltHub's data should be considered auditable.
 
-We can let people run scrapers from one of our Digital Ocean boxes → that accesses hadoop directly.
+Scrapers can be run from one of our Digital Ocean boxes. We haven't solved authentication here yet.
 
-{% embed url="https://hadoop.apache.org/docs/stable/" %}
-
-{% embed url="https://www.oreilly.com/content/hadoop-with-python/" %}
-
-## Potential future state
+## Future state
 
 ![](../.gitbook/assets/pdap_architecture.jpeg)
 
