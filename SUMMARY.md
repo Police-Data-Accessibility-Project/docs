@@ -5,19 +5,19 @@
 
 ## Components
 
+* [Datasets](components/datasets/README.md)
+  * [Hadoop Datasets mirror](components/datasets/hadoop-datasets-mirror.md)
+  * [Submit or update Datasets](components/datasets/submit-or-update-datasets/README.md)
+    * [Validate Datasets PRs](components/datasets/submit-or-update-datasets/validate-datasets-prs.md)
+    * [Examples & Best Practices](components/datasets/submit-or-update-datasets/examples-best-practices.md)
+  * [Dataset Properties](components/datasets/find-a-dataset-id/README.md)
+    * [Create a new data\_type](components/datasets/find-a-dataset-id/create-a-new-data_type.md)
+    * [Datasets Schema & Field Explanation](components/datasets/find-a-dataset-id/proposed-database-schema.md)
 * [Data Collection](components/data-collection/README.md)
   * [Data Bounties](components/data-collection/data-bounties.md)
   * [Write a Data Scraper](https://github.com/Police-Data-Accessibility-Project/Scrapers/blob/master/CONTRIBUTING.md)
-  * [Datasets](components/data-collection/datasets/README.md)
-    * [Submit or update Datasets](components/data-collection/datasets/submit-or-update-datasets/README.md)
-      * [Validate Datasets PRs](components/data-collection/datasets/submit-or-update-datasets/validate-datasets-prs.md)
-      * [Examples & Best Practices](components/data-collection/datasets/submit-or-update-datasets/examples-best-practices.md)
-    * [Dataset Properties](components/data-collection/datasets/find-a-dataset-id/README.md)
-      * [Create a new data\_type](components/data-collection/datasets/find-a-dataset-id/create-a-new-data_type.md)
-      * [Datasets Schema & Field Explanation](components/data-collection/datasets/find-a-dataset-id/proposed-database-schema.md)
-  * [Resources for Scrapers](components/data-collection/resources-for-scrapers/README.md)
-    * [Common Abbreviations](http://amerusa.net/resource_documents/CriminalRecordAbbreviations.pdf)
   * [FOIA Requests](components/data-collection/foia.md)
+  * [Common Abbreviations](http://amerusa.net/resource_documents/CriminalRecordAbbreviations.pdf)
 * [Data Storage](components/data-storage.md)
 * [Data Standardization](components/data-standardization/README.md)
   * [Datasets schema & ETL](components/data-standardization/schema_json.md)
@@ -26,7 +26,10 @@
 
 ## Tools
 
-* [DigitalOcean](https://docs.digitalocean.com/products/)
+* [Resources](tools/resources/README.md)
+  * [DigitalOcean Docs](https://docs.digitalocean.com/products/)
+  * [Hadoop with Python](https://www.oreilly.com/content/hadoop-with-python/)
+  * [Hadoop Docs](https://hadoop.apache.org/docs/stable/)
 * [DoltHub](tools/dolthub.md)
 
 ## Updates

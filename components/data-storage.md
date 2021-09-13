@@ -8,15 +8,33 @@ description: 'Archival, verifiable, secure.'
 
 Archival, verifiable, and secure data storage is the core of our mission.
 
-* A Holding Ground where data can be dropped by the public, and is then checked for integrity and security.
-* A "Gold Standard", the unified archive we manage and the primary source for data consumers.
-* A public-facing data access point that's as accessible and uniform as possible.
+### Three pillars
+
+1. An **Intake Database** where data can be dropped by the public. The public may also find unprocessed data. This raw archive is the cornerstone of our ability to audit any data we publish.
+2. A **Gold Standard Database**, the unified archive managed by the PDAP community. Volunteers can contribute with machine learning, ETL, and manual processing to make the source material more useful. _This is where_ [_PII is removed_](../meta/policy/pii-wip-discussion.md)_._
+3. A public-facing **Data Access Point**. This is where the data collection community meets the needs of the data consumer community.
 
 ## Current state
 
+| Intake Database | Gold Standard | Data Access point |
+| :--- | :--- | :--- |
+| Hadoop public IP `165.227.222.194` |  |  |
+
 We don't yet have much data in permanent storage, so [Dolt](../tools/dolthub.md) fulfills our requirements until we outgrow it or need more than it offers in some critical area.
 
-## Future state
+### Hadoop
+
+Dolt can't store unprocessed data, so we are going to scale by using Hadoop servers.
+
+Servers are configured as Digital Ocean droplets. There's no user-level authentication, so we don't have an edit history yet.
+
+We can let people run scrapers from one of our Digital Ocean boxes → that accesses hadoop directly.
+
+{% embed url="https://hadoop.apache.org/docs/stable/" %}
+
+{% embed url="https://www.oreilly.com/content/hadoop-with-python/" %}
+
+## Potential future state
 
 ![](../.gitbook/assets/pdap_architecture.jpeg)
 
