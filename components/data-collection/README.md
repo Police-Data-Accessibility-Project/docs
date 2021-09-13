@@ -12,9 +12,15 @@ Code automated scrapers or follow processes to manually collect data.
 * Humans operate semi-automated processes to gather public information
 * Facilitate data sharing by good-faith police organizations.
 
+## Requirements
+
+* We always need to know **when** data was submitted.
+* For Datasets, we need to know **who** submitted the data.
+* For Collected Data, we need to know **which code** was used to scrape the data.
+
 ## Current state
 
-The first batch of data into Dolt was uploaded manually. [Dolt does have an API](https://github.com/dolthub/doltpy).
+We're using [DoltHub](../../tools/dolthub.md) to easily accept tabular data with the ability to audit it later. [Dolt does have an API](https://github.com/dolthub/doltpy).
 
 We use Python to scrape data into a Hadoop server, long enough that it can be translated to the [submission format](https://www.dolthub.com/repositories/pdap/data-intake).
 
