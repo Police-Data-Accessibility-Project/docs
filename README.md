@@ -1,5 +1,5 @@
 ---
-description: We're making a source of truth for police data.
+description: We're making a unified archive—a source of truth—for police data.
 ---
 
 # Welcome to PDAP!
