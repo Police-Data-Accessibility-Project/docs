@@ -34,7 +34,16 @@
 
 ## Updates
 
-* [Blog](https://blog.pdap.io)
+* [Blog](updates/blog/README.md)
+  * [7/14/21: Bounty Retro](updates/blog/7-14-21-bounty-retro.md)
+  * [6/7/21: Slack → Discord](updates/blog/6-7-21-slack-discord.md)
+  * [6/2/21: Bounty Update 3](updates/blog/6-2-21-bounty-update-3.md)
+  * [6/1/21: Bounty Update 3](updates/blog/6-1-21-bounty-update-3.md)
+  * [5/28/21: Dolt → PostgreSQL](updates/blog/5-28-21-dolt-postgresql.md)
+  * [5/28/21: Bounty Update 2](updates/blog/5-28-21-bounty-update-2.md)
+  * [5/26/21: Dolt Bounty Start](updates/blog/5-26-21-dolt-bounty-start.md)
+  * [5/26/21: ETL Prototype](updates/blog/5-26-21-etl-prototype.md)
+  * [5/7/21: Alpha App Launched](updates/blog/5-7-21-alpha-app-launched.md)
 * [Current Progress](updates/product-vision/README.md)
   * [Similar Projects](updates/product-vision/similar-projects.md)
 * [Working sessions](updates/working-sessions/README.md)
