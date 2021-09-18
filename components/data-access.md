@@ -16,5 +16,5 @@ Aggregated public police data is [collected here](https://www.dolthub.com/reposi
 
 A front end data portal and export tool hosted on our website.   
   
-We are looking to use a [Gatsby.js + React](https://www.gatsbyjs.com/) front-end with a [Strapi ](https://strapi.io/)back-end across all of our applications for accessing or downloading data.
+We are looking to use Django for the front-end because we're so python-dense.
 
