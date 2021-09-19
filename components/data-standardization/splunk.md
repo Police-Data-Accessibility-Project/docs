@@ -1,5 +1,9 @@
 # Splunk
 
+{% hint style="info" %}
+New to Splunk? [Find their Getting Started guide here](https://www.splunk.com/en_us/get-started.html).
+{% endhint %}
+
 ## Overview & Setup
 
 Splunk is an intelligence analysis tool to make sense of vast amounts of data.

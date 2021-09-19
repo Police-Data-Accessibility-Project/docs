@@ -35,6 +35,7 @@
 ## Updates
 
 * [Blog](updates/blog/README.md)
+  * [9/18/21: 501c3 Approval](updates/blog/9-18-21-501c3-approval.md)
   * [7/14/21: Bounty Retro](updates/blog/7-14-21-bounty-retro.md)
   * [6/7/21: Slack → Discord](updates/blog/6-7-21-slack-discord.md)
   * [6/2/21: Bounty Update 3](updates/blog/6-2-21-bounty-update-3.md)
