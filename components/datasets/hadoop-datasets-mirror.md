@@ -1,4 +1,4 @@
-# PostgreSQL Datasets mirror
+# PostgreSQL Datasets mirror for scrapers
 
 ## Why would I use this?
 

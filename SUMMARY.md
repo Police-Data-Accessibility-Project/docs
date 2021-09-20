@@ -6,10 +6,10 @@
 ## Components
 
 * [Datasets](components/datasets/README.md)
-  * [PostgreSQL Datasets mirror](components/datasets/hadoop-datasets-mirror.md)
   * [Submit or update Datasets](components/datasets/submit-or-update-datasets/README.md)
+    * [Finding Datasets](components/datasets/submit-or-update-datasets/examples-best-practices.md)
     * [Validate Datasets PRs](components/datasets/submit-or-update-datasets/validate-datasets-prs.md)
-    * [Examples & Best Practices](components/datasets/submit-or-update-datasets/examples-best-practices.md)
+  * [PostgreSQL Datasets mirror for scrapers](components/datasets/hadoop-datasets-mirror.md)
   * [Dataset Properties](components/datasets/find-a-dataset-id/README.md)
     * [Create a new data\_type](components/datasets/find-a-dataset-id/create-a-new-data_type.md)
     * [Datasets Schema & Field Explanation](components/datasets/find-a-dataset-id/proposed-database-schema.md)

@@ -10,7 +10,7 @@ We're a rotating cast of volunteers with a flat organizational structure. Our go
 
 We're a learning organization, and **we want to hear from you.** If you have questions, concerns, suggestions, or expertise, reach out in [Discord](https://discord.com/invite/cn2ZpVTdw7).
 
-## Crash Course on our process
+## Our process
 
 1. Known police agencies are added to our `agencies` table [in Dolt](https://www.dolthub.com/repositories/pdap/datasets/data/master/agencies). _For example, "St. Louis County Police Department" or "University of Cincinnati Department of Public Safety"._
 2. Datasets associated with an agency are added to our `datasets` table [in Dolt](https://www.dolthub.com/repositories/pdap/datasets/data/master/datasets). _For example, an agency might have both "Crime Statistics" and "Use of Force reports". Each of these is a Dataset._

@@ -2,7 +2,7 @@
 description: What constitutes a "dataset"?
 ---
 
-# Examples & Best Practices
+# Finding Datasets
 
 ## Introduction
 
