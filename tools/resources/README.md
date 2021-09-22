@@ -1,2 +1,2 @@
-# Resources
+# Third-Party Resources
 

@@ -26,11 +26,11 @@
 
 ## Tools
 
-* [Resources](tools/resources/README.md)
+* [DoltHub](tools/dolthub.md)
+* [Third-Party Resources](tools/resources/README.md)
   * [DigitalOcean Docs](https://docs.digitalocean.com/products/)
   * [Hadoop with Python](https://www.oreilly.com/content/hadoop-with-python/)
   * [Hadoop Docs](https://hadoop.apache.org/docs/stable/)
-* [DoltHub](tools/dolthub.md)
 
 ## Updates
 
