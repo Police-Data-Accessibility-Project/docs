@@ -6,7 +6,6 @@
 
 * [Collect Police Data](activities/data-collection/README.md)
   * [Write a Data Scraper](https://github.com/Police-Data-Accessibility-Project/Scrapers/blob/master/CONTRIBUTING.md)
-  * [PostgreSQL Datasets mirror for scrapers](activities/data-collection/hadoop-datasets-mirror.md)
   * [Data Bounties](activities/data-collection/data-bounties.md)
   * [FOIA Requests](activities/data-collection/foia.md)
 * [Submit or update Datasets](activities/submit-or-update-datasets/README.md)
@@ -19,7 +18,9 @@
 * [Datasets](components/datasets/README.md)
   * [Dataset Properties](components/datasets/find-a-dataset-id/README.md)
     * [Datasets Schema & Field Explanation](components/datasets/find-a-dataset-id/proposed-database-schema.md)
-* [Data Storage](components/data-storage.md)
+  * [PostgreSQL Datasets mirror](components/datasets/hadoop-datasets-mirror.md)
+* [Data Storage](components/data-storage/README.md)
+  * [Data Intake](components/data-storage/data-intake.md)
 * [Data Standardization](components/data-standardization/README.md)
   * [Datasets schema & ETL](components/data-standardization/schema_json.md)
   * [Splunk](components/data-standardization/splunk.md)
