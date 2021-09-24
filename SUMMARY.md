@@ -3,21 +3,23 @@
 * [Welcome to PDAP!](README.md)
 * [pdap.io](https://pdap.io)
 
+## Volunteer Activities <a id="activities"></a>
+
+* [Collect Police Data](activities/data-collection/README.md)
+  * [Write a Data Scraper](https://github.com/Police-Data-Accessibility-Project/Scrapers/blob/master/CONTRIBUTING.md)
+  * [PostgreSQL Datasets mirror for scrapers](activities/data-collection/hadoop-datasets-mirror.md)
+  * [Data Bounties](activities/data-collection/data-bounties.md)
+  * [FOIA Requests](activities/data-collection/foia.md)
+* [Submit or update Datasets](activities/submit-or-update-datasets/README.md)
+  * [Find Datasets](activities/submit-or-update-datasets/examples-best-practices.md)
+  * [Create a new data\_type](activities/submit-or-update-datasets/create-a-new-data_type.md)
+  * [Validate Datasets PRs](activities/submit-or-update-datasets/validate-datasets-prs.md)
+
 ## Components
 
 * [Datasets](components/datasets/README.md)
-  * [Submit or update Datasets](components/datasets/submit-or-update-datasets/README.md)
-    * [Finding Datasets](components/datasets/submit-or-update-datasets/examples-best-practices.md)
-    * [Validate Datasets PRs](components/datasets/submit-or-update-datasets/validate-datasets-prs.md)
-  * [PostgreSQL Datasets mirror for scrapers](components/datasets/hadoop-datasets-mirror.md)
   * [Dataset Properties](components/datasets/find-a-dataset-id/README.md)
-    * [Create a new data\_type](components/datasets/find-a-dataset-id/create-a-new-data_type.md)
     * [Datasets Schema & Field Explanation](components/datasets/find-a-dataset-id/proposed-database-schema.md)
-* [Data Collection](components/data-collection/README.md)
-  * [Data Bounties](components/data-collection/data-bounties.md)
-  * [Write a Data Scraper](https://github.com/Police-Data-Accessibility-Project/Scrapers/blob/master/CONTRIBUTING.md)
-  * [FOIA Requests](components/data-collection/foia.md)
-  * [Common Abbreviations](http://amerusa.net/resource_documents/CriminalRecordAbbreviations.pdf)
 * [Data Storage](components/data-storage.md)
 * [Data Standardization](components/data-standardization/README.md)
   * [Datasets schema & ETL](components/data-standardization/schema_json.md)
@@ -31,6 +33,7 @@
   * [DigitalOcean Docs](https://docs.digitalocean.com/products/)
   * [Hadoop with Python](https://www.oreilly.com/content/hadoop-with-python/)
   * [Hadoop Docs](https://hadoop.apache.org/docs/stable/)
+  * [Common Abbreviations](http://amerusa.net/resource_documents/CriminalRecordAbbreviations.pdf)
 
 ## Updates
 

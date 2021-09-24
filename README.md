@@ -10,13 +10,6 @@ We're a rotating cast of volunteers with a flat organizational structure. Our go
 
 We're a learning organization, and **we want to hear from you.** If you have questions, concerns, suggestions, or expertise, reach out in [Discord](https://discord.com/invite/cn2ZpVTdw7).
 
-## Our process
-
-1. Known police agencies are added to our `agencies` table [in Dolt](https://www.dolthub.com/repositories/pdap/datasets/data/master/agencies). _For example, "St. Louis County Police Department" or "University of Cincinnati Department of Public Safety"._
-2. Datasets associated with an agency are added to our `datasets` table [in Dolt](https://www.dolthub.com/repositories/pdap/datasets/data/master/datasets). _For example, an agency might have both "Crime Statistics" and "Use of Force reports". Each of these is a Dataset._
-3. Volunteers write [Scrapers ](https://github.com/Police-Data-Accessibility-Project/PDAP-Scrapers)for each Dataset. Often they're similar enough that Scrapers can be reused with slight modification.
-4. Scraped data in table format is submitted to the `data-intake` database [in Dolt](https://www.dolthub.com/repositories/pdap/data-intake). _We're still working on support for non-tabular data._
-
 ## How to get involved
 
 ### Collect Data

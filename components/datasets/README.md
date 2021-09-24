@@ -6,11 +6,11 @@ description: 'https://www.dolthub.com/repositories/pdap/datasets'
 
 ## Purpose
 
-The datasets repo is a utility we're always maintaining. It contains **known police datasets.** Each dataset has a status, and can potentially be scraped.
+The datasets database is a utility we're always maintaining. It contains **known police datasets.** Each dataset has a status, and can potentially be scraped.
 
 ## Structure
 
-Datasets are maintained and can be easily viewed [in DoltHub](https://www.dolthub.com/repositories/pdap/datasets). The same tables are in a Hadoop [PostgreSQL mirror](hadoop-datasets-mirror.md), which is a better back end for Scrapers. 
+Datasets are maintained and can be easily viewed [in DoltHub](https://www.dolthub.com/repositories/pdap/datasets). The same tables are in a Hadoop [PostgreSQL mirror](../../activities/data-collection/hadoop-datasets-mirror.md), which is a better back end for Scrapers. 
 
 ### Terms & Hierarchy
 

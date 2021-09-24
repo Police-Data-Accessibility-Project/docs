@@ -15,14 +15,14 @@ You can use SQL statements to add new datasets right in Dolt. It's possible to g
 ### INSERT statement generator table
 
 1. Make a copy of the [Dataset Submission Template](https://docs.google.com/spreadsheets/d/1qh-6pb6KoIFSQ9qyyzd_bZIOosD74Sg21VPjbOQ5j3g/edit#gid=494854000) and populate information about new datasets as you work.
-2. Use the [Dataset Properties](../find-a-dataset-id/) guide to find the appropriate IDs.
+2. Use the [Dataset Properties](../../components/datasets/find-a-dataset-id/) guide to find the appropriate IDs.
 3. Navigate to the Query table and note that each row generates a new SQL query.
 4. Fork the [DoltHub Datasets repo](https://www.dolthub.com/repositories/pdap/datasets). If you don't yet have an account, sign up [here](https://www.dolthub.com/signin).
 5. Paste the queries individually into your fork's SQL console and run them.
 6. When you're done, [create a new Pull Request](https://www.dolthub.com/repositories/pdap/datasets/pulls/new) against our repository by selecting your fork as the from repository.
 7. Join [Dolt's Discord](https://discord.gg/Zpu8x4JA) and ask in the \#data-bounties channel for someone to approve it.
 
-![](../../../.gitbook/assets/screen-shot-2021-05-02-at-12.10.13-am.png)
+![](../../.gitbook/assets/screen-shot-2021-05-02-at-12.10.13-am.png)
 
 ## CLI
 

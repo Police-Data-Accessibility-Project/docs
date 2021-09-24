@@ -1,8 +1,8 @@
 ---
-description: Scrapers and ETLs
+description: 'https://github.com/Police-Data-Accessibility-Project/PDAP-Scrapers'
 ---
 
-# Data Collection
+# Collect Police Data
 
 ## Purpose
 

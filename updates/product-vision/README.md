@@ -4,13 +4,9 @@ description: 'Where we''re headed, where we are now.'
 
 # Current Progress
 
-## Mission
+## We're making a unified archive of public police data.
 
-### We aim to be a source of truth for police data.
-
-There are about 18,000 police organizations, and each has a unique way to make data public. This means that, effectively, **the data is not public**. We can make it public by consolidating it. We speculate that the key audience is **data scientists and journalists**. They do the analysis, and are the critical channel for information to flow from police organizations to policymakers and the general public.
-
-Each of us has a different vision for the future of law enforcement, but the first step is always the same: understanding the current state of policing.
+You can read more about our mission at [pdap.io](https://pdap.io/).
 
 ## Where are we now?
 
@@ -32,7 +28,7 @@ Since [late May 2020](https://www.reddit.com/r/privacy/comments/gr11aw/i_think_i
 
 > We become more effective as we scale each of these services.
 
-[**Collection**](../../components/data-collection/) is the group of automated and manual processes that legally gather police data.
+[**Collection**](../../activities/data-collection/) is the group of automated and manual processes that legally gather police data.
 
 \*\*\*\*[**Storage**](../../components/data-storage.md) must be archival, verifiable, and secure.
 
