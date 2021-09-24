@@ -12,21 +12,23 @@ We're a rotating cast of volunteers with a flat organizational structure. Our go
 
 We're a learning organization, and **we want to hear from you.** If you have questions, concerns, suggestions, or expertise, reach out in [Discord](https://discord.com/invite/cn2ZpVTdw7).
 
-## How to get involved
+## Get involved
 
-### Collect Data
+{% hint style="info" %}
+If you can help in one of these areas, reach out in [Discord](https://discord.gg/wMqex8nKZJ) or send an email to operations@pdap.io.
+{% endhint %}
 
-We need [contributions to our library of known datasets](https://www.dolthub.com/repositories/pdap/datasets/doc/master). You can help build a database of police agencies for a community of data collectors!
+### Code volunteering
 
-If there are DoltHub Pull Requests pending, you can [run these utilities to check incoming data](https://github.com/Police-Data-Accessibility-Project/PDAP-app/blob/main/utilities/Datasets%20Submission%20Checker/README.md). Accelerate the data intake process!
+* Python, Django, and data architecture experts to [work on the roadmap](https://github.com/orgs/Police-Data-Accessibility-Project/projects/17).
+* Python coders of any experience level to [write data scrapers](https://github.com/Police-Data-Accessibility-Project/PDAP-Scrapers/blob/main/CONTRIBUTING.md).
 
-### Contribute Code
+### Non-code volunteering
 
-Know python? [Contribute to our **Data Scrapers repo**](https://github.com/Police-Data-Accessibility-Project/PDAP-Scrapers/blob/master/CONTRIBUTING.md).
+* Grant writing and non-profit operations experts to help us secure funding.
+* People with basic computer skills to [submit and update datasets](activities/submit-or-update-datasets/).
 
-[Head to the GitHub Roadmap](https://github.com/orgs/Police-Data-Accessibility-Project/projects/17) to work on infrastructure issues.
-
-### Donate to PDAP
+### Donate
 
 **Donate on** [**PayPal**](https://www.paypal.com/biz/fund?id=SLS5DB8SMDC3G) **or** [**Patreon**](https://patreon.com/pdap)**,** and we'll spend it on [Data Bounties](https://docs.pdap.io/updates/blog/may-2021-dolt-bounty) and infrastructure improvements. Small recurring donations are most helpful. Stability helps us chart a path.
 
