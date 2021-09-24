@@ -15,7 +15,7 @@ Discord is our primary active community, and where all current roles are delinea
 
 ## Board
 
-As an open source nonprofit, our leadership is there to make sure the lights are on and that blockers to forward progress are lifted. [Read more here](staff/).
+As an open source nonprofit, our leadership is there to make sure the lights are on and that blockers to forward progress are lifted. [Read more here](../staff/).
 
 ## Team
 
