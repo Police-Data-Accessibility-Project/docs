@@ -68,8 +68,7 @@
 ## Meta
 
 * [About](meta/about/README.md)
-  * [Roles & Community](meta/about/roles-and-community/README.md)
-    * [Help Wanted](meta/about/roles-and-community/help-wanted.md)
+  * [Roles & Community](meta/about/roles-and-community.md)
   * [Cultural Principles](meta/about/cultural-principles.md)
   * [Brand assets](meta/about/brand-assets.md)
   * [PDAP Staff](meta/about/staff/README.md)
