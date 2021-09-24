@@ -1,5 +1,11 @@
 # Help Wanted
 
+{% hint style="info" %}
+If you can help in one of these areas, reach out in [Discord](https://discord.gg/wMqex8nKZJ) or send an email to operations@pdap.io.
+{% endhint %}
+
+We're a volunteer organization, but get questions about what kinds of people we're looking for.
+
 ## Code
 
 * Data architecture + scraper farm infrastructure experts to build a platform for a decentralized collective of data activists.
