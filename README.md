@@ -1,8 +1,10 @@
 ---
-description: We're making a unified archive—a source of truth—for police data.
+description: We're making a unified archive for police data.
 ---
 
 # Welcome to PDAP!
+
+Read more about our mission at [https://pdap.io/](https://pdap.io/).
 
 ## How do we work?
 

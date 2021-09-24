@@ -1,7 +1,6 @@
 # Table of contents
 
 * [Welcome to PDAP!](README.md)
-* [pdap.io](https://pdap.io)
 
 ## Volunteer Activities <a id="activities"></a>
 
