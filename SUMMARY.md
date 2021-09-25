@@ -50,8 +50,6 @@
   * [5/26/21: ETL Prototype](updates/blog/5-26-21-etl-prototype.md)
   * [5/20/21: DoltHub Bounty](updates/blog/5-20-21-dolthub-bounty.md)
   * [5/7/21: Alpha App Launched](updates/blog/5-7-21-alpha-app-launched.md)
-* [Current Progress](updates/product-vision/README.md)
-  * [Similar Projects](updates/product-vision/similar-projects.md)
 * [Working sessions](updates/working-sessions/README.md)
   * [September 25, 2021](updates/working-sessions/september-25-2021.md)
   * [September 11, 2021](updates/working-sessions/september-11-2021.md)
@@ -66,6 +64,8 @@
   * [June 5, 2021](updates/working-sessions/june-5-2021.md)
   * [May 1, 2021](updates/working-sessions/may-1-2021.md)
   * [April 24, 2021](updates/working-sessions/april-24-2021.md)
+* [Current Progress](updates/product-vision/README.md)
+  * [Similar Projects](updates/product-vision/similar-projects.md)
 
 ## Meta
 
