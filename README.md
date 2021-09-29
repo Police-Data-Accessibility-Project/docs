@@ -10,7 +10,7 @@ Read more about our mission at [https://pdap.io/](https://pdap.io/).
 
 We're a rotating cast of volunteers with a flat organizational structure. Our goal is to collect public police data, and there's a lot of it. If you're reading this, there is still work to do.
 
-We're a learning organization, and **we want to hear from you.** If you have questions, concerns, suggestions, or expertise, reach out in [Discord](https://discord.com/invite/cn2ZpVTdw7).
+We're a learning organization, and **we want to hear from you.** If you have questions, concerns, suggestions, or expertise, reach out in [Discord](https://discord.com/invite/cn2ZpVTdw7) or to [operations@pdap.io](mailto:operations@pdap.io).
 
 ## Get involved
 
@@ -34,7 +34,7 @@ If you can help in one of these areas, reach out in [Discord](https://discord.gg
 
 ### Use our Data
 
-[Our data lives in DoltHub](https://www.dolthub.com/organizations/pdap). What can you learn from it? How could it be better?
+[Our data lives in DoltHub](https://www.dolthub.com/organizations/pdap). Do you need something specific? Reach out in **\#request-data**.
 
 ### Join the Community
 
