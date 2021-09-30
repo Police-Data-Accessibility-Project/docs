@@ -16,7 +16,7 @@ Don't add drop shadows or outlines. Use in either black or white.
 
 
 
-![logo-space.png \(extra space is for circle crops\)](../../.gitbook/assets/logo-space%20%281%29.png)
+![logo.png \(extra space is for circle crops\)](../../.gitbook/assets/logo-space%20%281%29.png)
 
 ![logo.svg](../../.gitbook/assets/logo%20%281%29.svg)
 
@@ -24,9 +24,5 @@ Don't add drop shadows or outlines. Use in either black or white.
 
 ![lockup.svg](../../.gitbook/assets/lockup%20%282%29.svg)
 
-![webclip.gif](../../.gitbook/assets/webclip%20%281%29.gif)
-
-![favicon.png](../../.gitbook/assets/favicon.png)
-
-
+![lockup.png](../../.gitbook/assets/lockup.png)
 
