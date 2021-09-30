@@ -22,6 +22,8 @@ Don't add drop shadows or outlines. Use in either black or white.
 
 ![acronym.svg](../../.gitbook/assets/acronym.svg)
 
+![acronym.png](../../.gitbook/assets/acronym.png)
+
 ![lockup.svg](../../.gitbook/assets/lockup%20%282%29.svg)
 
 ![lockup.png](../../.gitbook/assets/lockup.png)
