@@ -51,6 +51,7 @@
   * [5/20/21: DoltHub Bounty](updates/blog/5-20-21-dolthub-bounty.md)
   * [5/7/21: Alpha App Launched](updates/blog/5-7-21-alpha-app-launched.md)
 * [Working sessions](updates/working-sessions/README.md)
+  * [October 2, 2021](updates/working-sessions/october-2-2021.md)
   * [September 25, 2021](updates/working-sessions/september-25-2021.md)
   * [September 11, 2021](updates/working-sessions/september-11-2021.md)
   * [September 4, 2021](updates/working-sessions/september-4-2021.md)
