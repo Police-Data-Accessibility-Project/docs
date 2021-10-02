@@ -6,7 +6,7 @@ A data scraper may not want to install DoltHub just to use the [Datasets repo](h
 
 ## How does it work?
 
-hadoop-worker-1 is configured on a Digital Ocean droplet. It makes a mirror of the [Datasets db in Dolthub](https://www.dolthub.com/repositories/pdap/datasets/data/master/datasets) every time a merge is made.
+`hadoop-worker-1` is configured on a Digital Ocean droplet. It makes a mirror of the [Datasets db in Dolthub](https://www.dolthub.com/repositories/pdap/datasets/data/master/datasets) every time a merge is made.
 
 ### Read-only PostgreSQL credentials
 
