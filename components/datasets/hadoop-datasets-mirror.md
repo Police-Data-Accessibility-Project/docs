@@ -10,10 +10,9 @@ hadoop-worker-1 is configured on a Digital Ocean droplet. It makes a mirror of t
 
 ### Read-only PostgreSQL credentials
 
-> Use the [Hadoop docs found in Resources](../../tools/resources/)!
-
 Host: `167.71.249.20`  
 Port: `5432`  
+Database: `pdap_devdb`  
 User: `pdap_public`  
 Password: `SL$Eb+DuuZ2qv`
 
