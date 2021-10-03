@@ -66,7 +66,7 @@
   * [May 1, 2021](updates/working-sessions/may-1-2021.md)
   * [April 24, 2021](updates/working-sessions/april-24-2021.md)
 * [Current Progress](updates/product-vision/README.md)
-  * [Similar Projects](updates/product-vision/similar-projects.md)
+  * [Related Projects](updates/product-vision/similar-projects.md)
 
 ## Meta
 
