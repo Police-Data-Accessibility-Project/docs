@@ -1,5 +1,11 @@
 # Brand assets
 
+## Fonts
+
+The free font [Libre Franklin](https://fonts.google.com/specimen/Libre+Franklin) is our official font.
+
+We don't have a font for the logotype.
+
 ![](../../../.gitbook/assets/screen-shot-2021-06-09-at-10.36.55-pm.png)
 
 ```css

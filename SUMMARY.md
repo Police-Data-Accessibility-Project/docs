@@ -73,6 +73,7 @@
 
 * [About](meta/about/README.md)
   * [Outreach](meta/about/outreach/README.md)
+    * [Social media](meta/about/outreach/social-media.md)
     * [Brand assets](meta/about/outreach/brand-assets.md)
     * [Writing about PDAP](meta/about/outreach/writing-about-pdap.md)
   * [Roles & Community](meta/about/roles-and-community.md)

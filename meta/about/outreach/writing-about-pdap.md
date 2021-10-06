@@ -2,9 +2,11 @@
 
 ## Goals
 
-### Be a source of truth.
+### Be a respected source of truth.
 
-Our reputation for accuracy and integrity must be unimpeachable. If you can't say something with certainty—say less!
+We should be serious—
+
+Our reputation for accuracy and integrity must be unimpeachable. If you can't say things with certainty, don't say them!
 
 ### Have maintainable, future-proof messaging.
 
