@@ -41,6 +41,14 @@ When describing PDAP activity, these are capitalized proper nouns.
     </tr>
     <tr>
       <td style="text-align:left">Data Integrity</td>
+      <td style="text-align:left">By observing the requirements for <a href="../../../components/data-intake.md">Data Intake</a>,
+        we can be sure that every record has an auditable history and passes the
+        &quot;bright-line&quot; test for tracing data back to its origin. This
+        is how we prove we aren&apos;t inventing data&#x2014;we&apos;re surfacing
+        what&apos;s already public, and we can prove it.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Extraction</td>
       <td style="text-align:left"></td>
     </tr>
   </tbody>
