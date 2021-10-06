@@ -26,7 +26,7 @@ Since [late May 2020](https://www.reddit.com/r/privacy/comments/gr11aw/i_think_i
 
 [**Collection**](../../activities/data-collection/) is the group of automated and manual processes that legally gather police data.
 
-\*\*\*\*[**Storage**](../../components/data-storage/) must be archival, verifiable, and secure.
+\*\*\*\*[**Storage**](../../components/data-storage.md) must be archival, verifiable, and secure.
 
 \*\*\*\*[**Standardization**](../../components/data-standardization/) normalizes information into a unified format for access at scale.
 

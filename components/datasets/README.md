@@ -2,11 +2,13 @@
 description: 'https://www.dolthub.com/repositories/pdap/datasets'
 ---
 
-# Datasets
+# Datasets & Scrapers
 
 ## Purpose
 
 The datasets database is a utility we're always maintaining. It contains **known police datasets.** Each dataset has a status, and can potentially be scraped.
+
+Scrapers are bits of Python code designed to collect information from a Dataset. Scrapers are best understood and defined by the Dataset they are scraping.
 
 ## Structure
 

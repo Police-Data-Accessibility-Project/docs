@@ -4,6 +4,7 @@
 
 ## Volunteer Activities <a id="activities"></a>
 
+* [Process overview](activities/process-overview.md)
 * [Collect Police Data](activities/data-collection/README.md)
   * [Write a Data Scraper](https://github.com/Police-Data-Accessibility-Project/Scrapers/blob/master/CONTRIBUTING.md)
   * [Data Bounties](activities/data-collection/data-bounties.md)
@@ -15,14 +16,14 @@
 
 ## Components
 
-* [Datasets](components/datasets/README.md)
+* [Datasets & Scrapers](components/datasets/README.md)
   * [Dataset Properties](components/datasets/find-a-dataset-id/README.md)
     * [Datasets Schema & Field Explanation](components/datasets/find-a-dataset-id/proposed-database-schema.md)
+  * [Scraper Schemas](components/datasets/schema_json.md)
   * [PostgreSQL Datasets mirror](components/datasets/hadoop-datasets-mirror.md)
-* [Data Storage](components/data-storage/README.md)
-  * [Data Intake](components/data-storage/data-intake.md)
+* [Data Intake](components/data-intake.md)
+* [Data Storage](components/data-storage.md)
 * [Data Standardization](components/data-standardization/README.md)
-  * [Datasets schema & ETL](components/data-standardization/schema_json.md)
   * [Splunk](components/data-standardization/splunk.md)
 * [Data Access](components/data-access.md)
 
