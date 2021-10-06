@@ -18,7 +18,7 @@ We're at gold, and to get platinum will need an independent evaluation, likely b
 
 ## Social media / outreach
 
-Josh working on additional "language guidelines" for talking about PDAP, in addition to the [brand assets](../../meta/about/brand-assets.md).
+Josh working on additional "language guidelines" for talking about PDAP, in addition to the [brand assets](../../meta/about/outreach/brand-assets.md).
 
 Alec secured new Instagram and Twitter accounts that we can get verified and start using.
 

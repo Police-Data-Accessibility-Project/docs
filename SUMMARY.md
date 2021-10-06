@@ -72,9 +72,11 @@
 ## Meta
 
 * [About](meta/about/README.md)
+  * [Outreach](meta/about/outreach/README.md)
+    * [Brand assets](meta/about/outreach/brand-assets.md)
+    * [Writing about PDAP](meta/about/outreach/writing-about-pdap.md)
   * [Roles & Community](meta/about/roles-and-community.md)
   * [Cultural Principles](meta/about/cultural-principles.md)
-  * [Brand assets](meta/about/brand-assets.md)
   * [PDAP Staff](meta/about/staff/README.md)
     * [Meeting Minutes](meta/about/staff/meeting-minutes/README.md)
       * [2021-07-14](meta/about/staff/meeting-minutes/2021-07-14.md)
