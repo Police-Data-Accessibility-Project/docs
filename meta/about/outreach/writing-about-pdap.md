@@ -8,7 +8,7 @@ Our reputation for accuracy and integrity must be unimpeachable. If you can't sa
 
 ### Have maintainable, future-proof messaging.
 
-When something changes, it can be a pain—or impossible—to update links all over the place. If you're **filling out a profile,** link to language on [https://pdap.io](http://pdap.io/). If you'd like to tell people **where to contribute,** link to [https://pdap.io/contribute.html](https://pdap.io/contribute.html). Those links will always take people to the right place.
+When something changes, it can be a pain—or impossible—to update links all over the place. If you're **filling out a profile,** link to language on [https://pdap.io](http://pdap.io/) rather than repeating it. If you'd like to tell people **where to contribute,** link to [https://pdap.io/contribute.html](https://pdap.io/contribute.html) rather than sharing PayPal or GitHub links.
 
 ## Terms & Definitions
 
