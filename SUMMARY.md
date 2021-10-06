@@ -19,7 +19,7 @@
 * [Datasets & Scrapers](components/datasets/README.md)
   * [Dataset Properties](components/datasets/find-a-dataset-id/README.md)
     * [Datasets Schema & Field Explanation](components/datasets/find-a-dataset-id/proposed-database-schema.md)
-  * [Scraper Schemas](components/datasets/schema_json.md)
+  * [Scraper Schemas](components/datasets/scraper_schemas.md)
   * [PostgreSQL Datasets mirror](components/datasets/hadoop-datasets-mirror.md)
 * [Data Intake](components/data-intake.md)
 * [Data Storage](components/data-storage.md)
