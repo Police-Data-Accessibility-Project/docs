@@ -23,7 +23,13 @@ When describing PDAP activity, these are capitalized proper nouns.
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">Scraper</td>
+      <td style="text-align:left"><a href="../../../components/datasets/">Dataset</a>
+      </td>
+      <td style="text-align:left">A URL pointing to a place on a police website where public records may
+        be scraped. Each Dataset needs a Scraper.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Scraper / Data Scraper</td>
       <td style="text-align:left">
         <p>A bit of Python code responsible for collecting public records from an
           agency website within our <a href="../../legal/legal-data-scraping.md">legal requirements</a>.
@@ -35,9 +41,9 @@ When describing PDAP activity, these are capitalized proper nouns.
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">Dataset</td>
-      <td style="text-align:left">A URL pointing to a place on a police website where public records may
-        be scraped.</td>
+      <td style="text-align:left">Extraction</td>
+      <td style="text-align:left">The result of running a Scraper is an Extraction, which represents all
+        the records found at a given Dataset at the time the Scraper was run.</td>
     </tr>
     <tr>
       <td style="text-align:left">Data Integrity</td>
@@ -46,10 +52,6 @@ When describing PDAP activity, these are capitalized proper nouns.
         &quot;bright-line&quot; test for tracing data back to its origin. This
         is how we prove we aren&apos;t inventing data&#x2014;we&apos;re surfacing
         what&apos;s already public, and we can prove it.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Extraction</td>
-      <td style="text-align:left"></td>
     </tr>
   </tbody>
 </table>
