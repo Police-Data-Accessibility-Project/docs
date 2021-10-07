@@ -2,13 +2,21 @@
 
 ## Goals
 
-### Be a respected, lasting source of truth.
+### Be humans.
 
-Our reputation for accuracy and integrity must be unimpeachable. If you can't say things with certainty, don't say them!
+Be friendly, and talk like a human.
+
+### Be a respected, lasting **institution**.
+
+**Ask internal experts for help on our language in the \#outreach Discord channel.** It's important that we message and answer questions with authority.
+
+### Be trustworthy.
+
+**If you can't say things with certainty, don't say them!** Our reputation for accuracy and integrity must be unimpeachable. 
 
 ### Have maintainable, future-proof messaging.
 
-When something changes, it can be a pain—or impossible—to update links all over the place. If you're **filling out a profile,** link to language on [https://pdap.io](http://pdap.io/) rather than repeating it. If you'd like to tell people **where to contribute,** link to [https://pdap.io/contribute.html](https://pdap.io/contribute.html) rather than sharing PayPal or GitHub links.
+When something changes, it can be a pain—or impossible—to update links all over the place. If you're **filling out a profile, link to language on** [**https://pdap.io**](http://pdap.io/) rather than repeating it. If you'd like to tell people **where to contribute, link to** [**https://pdap.io/contribute.html**](https://pdap.io/contribute.html) rather than sharing PayPal or GitHub links.
 
 ## Terms & Definitions
 
@@ -55,4 +63,12 @@ When describing PDAP activity, these are capitalized proper nouns.
     </tr>
   </tbody>
 </table>
+
+## Short catchphrases
+
+> We can't fix what we can't measure.
+
+> PDAP is a platform for building a unified archive of police data.
+
+> Volunteer profiles.
 
