@@ -4,17 +4,21 @@
 
 ### Be humans.
 
-Be friendly, and talk like a human. Be a little nerdy.
-
-### Be a respected, lasting **institution**.
-
-**Ask internal experts for help on our language in the \#outreach Discord channel.** It's important that we message and answer questions with authority.
+**Talk like a human, and talk about "us".** We're in this together! Keep our [cultural principles](../../cultural-principles.md) in mind.
 
 ### Be trustworthy.
 
-**If you can't say things with certainty, don't say them!** Our reputation for accuracy and integrity must be unimpeachable. 
+**Only state as fact things we can know for sure.** Our reputation for accuracy and integrity must be unimpeachable. Send people to the website if you can't answer a question.
 
-### Have maintainable, future-proof messaging.
+### Be a respected, lasting **institution**.
+
+**Focus on police data accessibility.** Police data accessibility is our mission, and the only issue we have an opinion on. ****Do not support a particular political party.
+
+### Be police data experts.
+
+**Ask internal experts for help on our language in the \#outreach Discord channel.** It's important that we message and answer questions with authority. Be a nerd!
+
+## CTAs
 
 When something changes, it can be a pain—or impossible—to update links all over the place. If you're **filling out a profile, link to language on** [**https://pdap.io**](http://pdap.io/) rather than repeating it. If you'd like to tell people **where to contribute, link to** [**https://pdap.io/contribute.html**](https://pdap.io/contribute.html) rather than sharing PayPal or GitHub links.
 
@@ -69,4 +73,8 @@ When describing PDAP activity, these are capitalized proper nouns.
 > We can't fix what we can't measure.
 
 > PDAP is a platform for building a unified archive of police data.
+
+## Public profiles
+
+When something changes, it can be a pain—or impossible—to update links all over the place. If you're **filling out a profile, link to language on** [**https://pdap.io**](http://pdap.io/) rather than repeating it. If you'd like to tell people **where to contribute, link to** [**https://pdap.io/contribute.html**](https://pdap.io/contribute.html) rather than sharing PayPal or GitHub links.
 
