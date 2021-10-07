@@ -2,9 +2,7 @@
 
 ## Goals
 
-### Be a respected source of truth.
-
-We should be serious—
+### Be a respected, lasting source of truth.
 
 Our reputation for accuracy and integrity must be unimpeachable. If you can't say things with certainty, don't say them!
 
