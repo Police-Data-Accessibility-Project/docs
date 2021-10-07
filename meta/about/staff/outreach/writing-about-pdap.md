@@ -4,7 +4,7 @@
 
 ### Be humans.
 
-Be friendly, and talk like a human.
+Be friendly, and talk like a human. Be a little nerdy.
 
 ### Be a respected, lasting **institution**.
 
@@ -31,7 +31,7 @@ When describing PDAP activity, these are capitalized proper nouns.
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left"><a href="../../../components/datasets/">Dataset</a>
+      <td style="text-align:left"><a href="../../../../components/datasets/">Dataset</a>
       </td>
       <td style="text-align:left">A URL pointing to a place on a police website where public records may
         be scraped. Each Dataset needs a Scraper.</td>
@@ -40,7 +40,7 @@ When describing PDAP activity, these are capitalized proper nouns.
       <td style="text-align:left">Scraper / Data Scraper</td>
       <td style="text-align:left">
         <p>A bit of Python code responsible for collecting public records from an
-          agency website within our <a href="../../legal/legal-data-scraping.md">legal requirements</a>.
+          agency website within our <a href="../../../legal/legal-data-scraping.md">legal requirements</a>.
           Some of the code is &quot;common,&quot; shared between Scrapers. The starting
           point for information about Scrapers is <a href="https://github.com/Police-Data-Accessibility-Project/PDAP-Scrapers/">the GitHub repo</a>.</p>
         <p></p>
@@ -55,7 +55,7 @@ When describing PDAP activity, these are capitalized proper nouns.
     </tr>
     <tr>
       <td style="text-align:left">Data Integrity</td>
-      <td style="text-align:left">By observing the requirements for <a href="../../../components/data-intake.md">Data Intake</a>,
+      <td style="text-align:left">By observing the requirements for <a href="../../../../components/data-intake.md">Data Intake</a>,
         we can be sure that every record has an auditable history and passes the
         &quot;bright-line&quot; test for tracing data back to its origin. This
         is how we prove we aren&apos;t inventing data&#x2014;we&apos;re surfacing

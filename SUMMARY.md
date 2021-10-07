@@ -72,14 +72,13 @@
 ## Meta
 
 * [About](meta/about/README.md)
-  * [Outreach](meta/about/outreach/README.md)
-    * [Social media strategy](meta/about/outreach/social-media.md)
-    * [Brand assets](meta/about/outreach/brand-assets.md)
-    * [Writing about PDAP](meta/about/outreach/writing-about-pdap.md)
   * [Roles & Community](meta/about/roles-and-community.md)
   * [Cultural Principles](meta/about/cultural-principles.md)
   * [PDAP Staff](meta/about/staff/README.md)
-    * [Ownership](meta/about/staff/ownership.md)
+    * [Outreach](meta/about/staff/outreach/README.md)
+      * [Social media strategy](meta/about/staff/outreach/social-media.md)
+      * [Brand assets](meta/about/staff/outreach/brand-assets.md)
+      * [Writing about PDAP](meta/about/staff/outreach/writing-about-pdap.md)
     * [Meeting Minutes](meta/about/staff/meeting-minutes/README.md)
       * [2021-07-14](meta/about/staff/meeting-minutes/2021-07-14.md)
       * [2021-06-16](meta/about/staff/meeting-minutes/2021-06-16.md)
