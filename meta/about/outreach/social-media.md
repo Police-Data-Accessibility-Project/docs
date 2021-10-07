@@ -1,4 +1,4 @@
-# Social media
+# Social media strategy
 
 ## Guidelines
 

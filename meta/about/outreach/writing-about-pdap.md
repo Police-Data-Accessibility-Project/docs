@@ -70,5 +70,3 @@ When describing PDAP activity, these are capitalized proper nouns.
 
 > PDAP is a platform for building a unified archive of police data.
 
-> Volunteer profiles.
-
