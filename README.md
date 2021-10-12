@@ -4,7 +4,7 @@ description: We're making a unified archive for police data.
 
 # Welcome to PDAP!
 
-Read more about our mission at [https://pdap.io/](https://pdap.io/).
+Read more about our mission at [https://pdap.io/](https://pdap.io).
 
 ## How do we work?
 
@@ -30,13 +30,12 @@ If you can help in one of these areas, reach out in [Discord](https://discord.gg
 
 ### Donate
 
-**Donate on** [**PayPal**](https://www.paypal.com/biz/fund?id=SLS5DB8SMDC3G) **or** [**Patreon**](https://patreon.com/pdap)**,** and we'll spend it on [Data Bounties](https://docs.pdap.io/updates/blog/may-2021-dolt-bounty) and infrastructure improvements. Small recurring donations are most helpful. Stability helps us chart a path.
+**Donate on **[**PayPal**](https://www.paypal.com/biz/fund?id=SLS5DB8SMDC3G)** or **[**Patreon**](https://patreon.com/pdap)**,** and we'll spend it on [Data Bounties](https://docs.pdap.io/updates/blog/may-2021-dolt-bounty) and infrastructure improvements. Small recurring donations are most helpful. Stability helps us chart a path.
 
 ### Use our Data
 
-[Our data lives in DoltHub](https://www.dolthub.com/organizations/pdap). Do you need something specific? Reach out in **\#request-data**.
+[Our data lives in DoltHub](https://www.dolthub.com/organizations/pdap). Do you need something specific? Reach out in **#request-data**.
 
 ### Join the Community
 
-Head to **\#introduce-yourself** in [our Discord server](https://discord.gg/cn2ZpVTdw7) to say hello, ask questions, and meet fellow data nerds.
-
+Head to **#introduce-yourself** in [our Discord server](https://discord.gg/cn2ZpVTdw7) to say hello, ask questions, and meet fellow data nerds.

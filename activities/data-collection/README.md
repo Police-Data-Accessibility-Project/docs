@@ -1,5 +1,5 @@
 ---
-description: 'https://github.com/Police-Data-Accessibility-Project/PDAP-Scrapers'
+description: https://github.com/Police-Data-Accessibility-Project/PDAP-Scrapers
 ---
 
 # Collect Police Data
@@ -14,9 +14,9 @@ Code automated scrapers or follow processes to manually collect data.
 
 ## Requirements
 
-* We always need to know **when** data was submitted.
-* For Datasets, we need to know **who** submitted the data.
-* For Collected Data, we need to know **which code** was used to scrape the data.
+* We always need to know **when **data was submitted.
+* For Datasets, we need to know **who **submitted the data.
+* For Collected Data, we need to know **which code **was used to scrape the data.
 
 ## Current state
 
@@ -27,4 +27,3 @@ We use Python to scrape data into a Hadoop server, long enough that it can be tr
 ## Future state
 
 Scrapers in [the PDAP-Scrapers repo](https://github.com/Police-Data-Accessibility-Project/PDAP-Scrapers) are run on a schedule dictated by how often they're refreshed. People could also donate time and computing power to run them locally.
-

@@ -2,7 +2,7 @@
 
 * [Welcome to PDAP!](README.md)
 
-## Volunteer Activities <a id="activities"></a>
+## Volunteer Activities <a href="activities" id="activities"></a>
 
 * [Process overview](activities/process-overview.md)
 * [Collect Police Data](activities/data-collection/README.md)
@@ -11,7 +11,7 @@
   * [FOIA Requests](activities/data-collection/foia.md)
 * [Submit or update Datasets](activities/submit-or-update-datasets/README.md)
   * [Find Datasets](activities/submit-or-update-datasets/examples-best-practices.md)
-  * [Create a new data\_type](activities/submit-or-update-datasets/create-a-new-data_type.md)
+  * [Create a new data_type](activities/submit-or-update-datasets/create-a-new-data_type.md)
   * [Validate Datasets PRs](activities/submit-or-update-datasets/validate-datasets-prs.md)
 
 ## Components
@@ -26,6 +26,7 @@
 * [Data Standardization](components/data-standardization/README.md)
   * [Splunk](components/data-standardization/splunk.md)
 * [Data Access](components/data-access.md)
+* [Terms & Definitions](components/writing-about-pdap.md)
 
 ## Tools
 
@@ -122,16 +123,14 @@
       * [Appoint Directors of Technology and Security](meta/about/staff/board-resolutions/appoint-directors-of-technology-and-security.md)
       * [Appoint Executive Director](meta/about/staff/board-resolutions/appoint-executive-director.md)
       * [Appoint Director of Operations](meta/about/staff/board-resolutions/appoint-director-of-operations.md)
-    * [Outreach](meta/about/staff/outreach/README.md)
-      * [Social media strategy](meta/about/staff/outreach/social-media.md)
-      * [Brand assets](meta/about/staff/outreach/brand-assets.md)
-      * [Writing about PDAP](meta/about/staff/outreach/writing-about-pdap.md)
+    * [Brand assets](meta/about/staff/brand-assets.md)
+    * [Outreach](meta/about/staff/outreach.md)
 * [Policy](meta/policy/README.md)
   * [PDAP Privacy Policy](meta/policy/pdap-privacy-policy.md)
   * [Code of Conduct](https://github.com/Police-Data-Accessibility-Project/PDAP-Scrapers/blob/master/CODE_OF_CONDUCT.md)
   * [Data Chain of Custody](meta/policy/data-chain-of-custody.md)
   * [Password Management](meta/policy/password-management.md)
-  * [PII \(WIP / Discussion\)](meta/policy/pii-wip-discussion.md)
+  * [PII (WIP / Discussion)](meta/policy/pii-wip-discussion.md)
 * [Legal](meta/legal/README.md)
   * [Personally Identifiable Information](meta/legal/personally-identifiable-information.md)
   * [Legal Data Scraping](meta/legal/legal-data-scraping.md)
@@ -143,4 +142,3 @@
 * [GitHub org](https://github.com/Police-Data-Accessibility-Project)
 * [DoltHub org](https://www.dolthub.com/organizations/pdap)
 * [Patreon](https://www.patreon.com/pdap)
-

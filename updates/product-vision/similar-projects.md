@@ -19,17 +19,17 @@ PDAP only publishes data collected directly from agencies, not other data collec
 * [https://projects.scpr.org/california-reporting-project/](https://projects.scpr.org/california-reporting-project/)
 * [https://www.policefoundation.org/projects/](https://www.policefoundation.org/projects/)
 * [https://www.themarshallproject.org/records/462-police-accountability?ref=c-hp](https://www.themarshallproject.org/records/462-police-accountability?ref=c-hp)
-* [https://www.policingproject.org/](https://www.policingproject.org/)
+* [https://www.policingproject.org/](https://www.policingproject.org)
 * [https://www.joincampaignzero.org/reports](https://www.joincampaignzero.org/reports)
 * [https://legalaidnyc.org/programs-projects-units/the-cop-accountability-project/](https://legalaidnyc.org/programs-projects-units/the-cop-accountability-project/)
 * [https://www.accountablenow.com/data-explorer/](https://www.accountablenow.com/data-explorer/)
 * [https://projects.propublica.org/nypd-ccrb/](https://projects.propublica.org/nypd-ccrb/)
-* [https://cpdp.co/](https://cpdp.co/)
+* [https://cpdp.co/](https://cpdp.co)
 
 ### Facilitating records storage for police
 
 * [https://policerecordsmanagement.com/case-studies/](https://policerecordsmanagement.com/case-studies/)
-* [https://www.projectcomport.org/](https://www.projectcomport.org/)
+* [https://www.projectcomport.org/](https://www.projectcomport.org)
 
 ### Lists of datasets
 
@@ -43,11 +43,11 @@ PDAP only publishes data collected directly from agencies, not other data collec
 ## Police data users
 
 * News agencies, researchers, and lawyers.
-* [https://hrdag.org/](https://hrdag.org/)
-* [https://forensic-architecture.org/](https://forensic-architecture.org/)
-* [https://www.nlg-npap.org/](https://www.nlg-npap.org/)
-* [https://policescorecard.org/](https://policescorecard.org/)
-* [https://mappingpoliceviolence.org/](https://mappingpoliceviolence.org/)
+* [https://hrdag.org/](https://hrdag.org)
+* [https://forensic-architecture.org/](https://forensic-architecture.org)
+* [https://www.nlg-npap.org/](https://www.nlg-npap.org)
+* [https://policescorecard.org/](https://policescorecard.org)
+* [https://mappingpoliceviolence.org/](https://mappingpoliceviolence.org)
 
 ### Projects using data
 
@@ -56,5 +56,5 @@ PDAP only publishes data collected directly from agencies, not other data collec
 
 ## Collecting different types of data
 
-* [https://openstates.org/](https://openstates.org/)
-
+* [https://openstates.org/](https://openstates.org)
+* [http://openelections.net/](http://openelections.net)

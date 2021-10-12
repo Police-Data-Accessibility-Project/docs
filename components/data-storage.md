@@ -1,5 +1,5 @@
 ---
-description: 'Archival, verifiable, secure.'
+description: Archival, verifiable, secure.
 ---
 
 # Data Storage
@@ -11,14 +11,14 @@ Archival, verifiable, and secure data storage is the core of our mission.
 ### Three pillars
 
 1. An **Intake Database** where data can be dropped by the public. The public may also find unprocessed data. This raw archive is the cornerstone of our ability to audit any data we publish.
-2. A **Gold Standard Database**, the unified archive managed by the PDAP community. Volunteers can contribute with machine learning, ETL, and manual processing to make the source material more useful. _This is where_ [_PII is removed_](../meta/policy/pii-wip-discussion.md)_._
+2. A **Gold Standard Database**, the unified archive managed by the PDAP community. Volunteers can contribute with machine learning, ETL, and manual processing to make the source material more useful. _This is where _[_PII is removed_](../meta/policy/pii-wip-discussion.md)_._
 3. A public-facing **Data Access Point**. This is where the data collection community meets the needs of the data consumer community.
 
 ## Current state
 
-| Intake Database | Gold Standard | Data Access point |
-| :--- | :--- | :--- |
-| Hadoop | WIP / See [Data Standardization](data-standardization/) | [DoltHub](../tools/dolthub.md) for tabular data |
+| Intake Database | Gold Standard                                           | Data Access point                               |
+| --------------- | ------------------------------------------------------- | ----------------------------------------------- |
+| Hadoop          | WIP / See [Data Standardization](data-standardization/) | [DoltHub](../tools/dolthub.md) for tabular data |
 
 ### Why Dolt?
 
@@ -35,6 +35,4 @@ Scrapers can be run from one of our Digital Ocean boxes. We haven't solved authe
 ## Future state
 
 ![](../.gitbook/assets/pdap_architecture.jpeg)
-
-
 
