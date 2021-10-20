@@ -11,7 +11,7 @@
   * [FOIA Requests](activities/data-collection/foia.md)
 * [Submit or update Datasets](activities/submit-or-update-datasets/README.md)
   * [Find Datasets](activities/submit-or-update-datasets/examples-best-practices.md)
-  * [Create a new data_type](activities/submit-or-update-datasets/create-a-new-data_type.md)
+  * [Create a new data\_type](activities/submit-or-update-datasets/create-a-new-data\_type.md)
   * [Validate Datasets PRs](activities/submit-or-update-datasets/validate-datasets-prs.md)
 
 ## Components
@@ -19,7 +19,7 @@
 * [Datasets & Scrapers](components/datasets/README.md)
   * [Dataset Properties](components/datasets/find-a-dataset-id/README.md)
     * [Datasets Schema & Field Explanation](components/datasets/find-a-dataset-id/proposed-database-schema.md)
-  * [Scraper Schemas](components/datasets/scraper_schemas.md)
+  * [Scraper Schemas](components/datasets/scraper\_schemas.md)
   * [PostgreSQL Datasets mirror](components/datasets/hadoop-datasets-mirror.md)
 * [Data Intake](components/data-intake.md)
 * [Data Storage](components/data-storage.md)
@@ -35,7 +35,7 @@
   * [DigitalOcean Docs](https://docs.digitalocean.com/products/)
   * [Hadoop with Python](https://www.oreilly.com/content/hadoop-with-python/)
   * [Hadoop Docs](https://hadoop.apache.org/docs/stable/)
-  * [Common Abbreviations](http://amerusa.net/resource_documents/CriminalRecordAbbreviations.pdf)
+  * [Common Abbreviations](http://amerusa.net/resource\_documents/CriminalRecordAbbreviations.pdf)
 
 ## Updates
 
@@ -53,6 +53,7 @@
   * [5/20/21: DoltHub Bounty](updates/blog/5-20-21-dolthub-bounty.md)
   * [5/7/21: Alpha App Launched](updates/blog/5-7-21-alpha-app-launched.md)
 * [Working sessions](updates/working-sessions/README.md)
+  * [Working Sessions Calendar](https://calendar.google.com/calendar/embed?src=c\_o5o3g3096t6qkhcn5nfqj6kmt8%40group.calendar.google.com\&ctz=America%2FNew\_York)
   * [October 2, 2021](updates/working-sessions/october-2-2021.md)
   * [September 25, 2021](updates/working-sessions/september-25-2021.md)
   * [September 11, 2021](updates/working-sessions/september-11-2021.md)
@@ -127,7 +128,7 @@
     * [Outreach](meta/about/staff/outreach.md)
 * [Policy](meta/policy/README.md)
   * [PDAP Privacy Policy](meta/policy/pdap-privacy-policy.md)
-  * [Code of Conduct](https://github.com/Police-Data-Accessibility-Project/PDAP-Scrapers/blob/master/CODE_OF_CONDUCT.md)
+  * [Code of Conduct](https://github.com/Police-Data-Accessibility-Project/PDAP-Scrapers/blob/master/CODE\_OF\_CONDUCT.md)
   * [Data Chain of Custody](meta/policy/data-chain-of-custody.md)
   * [Password Management](meta/policy/password-management.md)
   * [PII (WIP / Discussion)](meta/policy/pii-wip-discussion.md)
