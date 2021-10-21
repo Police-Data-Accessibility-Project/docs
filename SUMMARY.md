@@ -17,6 +17,7 @@
 ## Components
 
 * [Datasets & Scrapers](components/datasets/README.md)
+  * [Scrapers repo](https://github.com/Police-Data-Accessibility-Project/Scrapers/)
   * [Dataset Properties](components/datasets/find-a-dataset-id/README.md)
     * [Datasets Schema & Field Explanation](components/datasets/find-a-dataset-id/proposed-database-schema.md)
   * [Scraper Schemas](components/datasets/scraper\_schemas.md)

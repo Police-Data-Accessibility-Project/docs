@@ -1,7 +1,11 @@
 # Process overview
 
-## Data scraping
+We're constantly iterating on each of these components, and there's always work to do. If you have ideas, reach out in Discord!
 
-There's [a flowchart here](https://pdap.invisionapp.com/freehand/Data-intake-flow-Q01qjpCvN) which covers the basic end-to-end data submission process.&#x20;
+## Data lifecycle
 
-We're constantly iterating on each of the components, and there's always work to do.
+There's [a flowchart here](https://pdap.invisionapp.com/freehand/Data-intake-flow-Q01qjpCvN) which covers the end-to-end data submission process.
+
+### Scraping
+
+The [process for writing Data Scrapers is here](https://github.com/Police-Data-Accessibility-Project/PDAP-Scrapers/blob/main/CONTRIBUTING.md). Writing a data scraper typically takes a handful of hours, but can be accelerated to just a few minutes by using common code to gather similar records.
