@@ -6,9 +6,11 @@ description: Specification Sheet on our DoltHub database
 
 ![Current datasets schema (28 May 2021)](<../../../.gitbook/assets/image (12).png>)
 
-##  Schema Overview
+\
+Schema Overview
+---------------
 
-The `agencies` table prevents redundancy in `datasets` and establishes a true one-to-many relationship (one agency may have many associated datasets). Agencies are described primarily by their location. 
+The `agencies` table prevents redundancy in `datasets` and establishes a true one-to-many relationship (one agency may have many associated datasets). Agencies are described primarily by their location.&#x20;
 
 `datasets` are described primarily by an agency and the URL of the data. This is the actual data itself that we will want to acquire and ingest.\
 \
@@ -32,7 +34,7 @@ str(uuid4()).replace('-', '')
 `status_id` is the current status of the dataset
 
 1. **not started** - we just received this dataset and have not started ingesting data for it
-2. **invalid URL** - this dataset has had its URL change or is no longer working. We need to find 
+2. **invalid URL** - this dataset has had its URL change or is no longer working. We need to find&#x20;
 3. **scraping in progress** - someone is actively figuring out how to download / retrieve / scrape the data for us to store
 4. **initial data scraped** - someone has successfully retrieved the data from the agency
 5. **initial data loaded** - someone has taken the initially scraped data and formatted it in a way we can ingest it in our database (and / or provide a link to the original harvested data to be viewed)
@@ -46,35 +48,35 @@ str(uuid4()).replace('-', '')
 
 `data_types_id` is what kind of data this dataset is. Most of these are self explanatory
 
-1. **accident_reports **
-2. **arrest_records**
-3. **booking_reports**
-4. **calls_for_service**
-5. **car_GPS**
-6. **court_cases**
-7. **daily_activity_logs**
-8. **dispatch_logs**
-9. **dispatch_recordings**
-10. **incident_reports**
-11. **officer_complaint_records**
-12. **officer_records**
-13. **personnel_files**
-14. **policy_manuals**
-15. **post_certifications**
-16. **time_sheets**
-17. **traffic_citations**
-18. **traffic_stops**
-19. **training_logs**
-20. **use_of_force_reports**
-21. **video_metadata **- metadata on a specific video (location, timestamps)
+1. **accident\_reports **
+2. **arrest\_records**
+3. **booking\_reports**
+4. **calls\_for\_service**
+5. **car\_GPS**
+6. **court\_cases**
+7. **daily\_activity\_logs**
+8. **dispatch\_logs**
+9. **dispatch\_recordings**
+10. **incident\_reports**
+11. **officer\_complaint\_records**
+12. **officer\_records**
+13. **personnel\_files**
+14. **policy\_manuals**
+15. **post\_certifications**
+16. **time\_sheets**
+17. **traffic\_citations**
+18. **traffic\_stops**
+19. **training\_logs**
+20. **use\_of\_force\_reports**
+21. **video\_metadata **- metadata on a specific video (location, timestamps)
 22. **videos** - this table in `data-intake` will store a link to view the actual video
-23. **crime_statistics **- aggregated crime statistics (like the federal UCR or department specific aggregation)
-24. **annual_reports ** - some agencies provide annual reports over a plethora of information from the past year. Usually these are in the form of PDF documents
-25. **daily_crime_bulletin**
-26. **media_bulletin**
+23. **crime\_statistics **- aggregated crime statistics (like the federal UCR or department specific aggregation)
+24. **annual\_reports ** - some agencies provide annual reports over a plethora of information from the past year. Usually these are in the form of PDF documents
+25. **daily\_crime\_bulletin**
+26. **media\_bulletin**
 27. **multi** - while we prefer to have a specific data type for each url, our current schema requiring a unique URL may not allow that. Sometimes agencies store multiple types of data on the same URL (like Crimegraphics). Try to use this type sparingly and fill in the notes field on what all data can be found
 
-`format_types_id` is how the data is structured. As of writing, we do not have format types fully fledged out. There is not quite a standard to how agencies present data unless it comes from an aggregator such as CityProtect or ArcGIS. Usually scrapers will have a better idea of the format_type. Here are our current format_types:
+`format_types_id` is how the data is structured. As of writing, we do not have format types fully fledged out. There is not quite a standard to how agencies present data unless it comes from an aggregator such as CityProtect or ArcGIS. Usually scrapers will have a better idea of the format\_type. Here are our current format\_types:
 
 1. **NIBRS** - Data from the National Incident-Based Reporting System
 2. **cityprotect** - Incident Report data from CityProtect.com
@@ -128,11 +130,11 @@ str(uuid4()).replace('-', '')
 
 `agency_type` is pretty self explanatory:
 
-1. **federal** - the big leagues, like FBI, CIA level 
+1. **federal** - the big leagues, like FBI, CIA level&#x20;
 2. **state** - agencies for an entire state
 3. **county** - agencies for a specific county
 4. **city** - agencies for a specific city
-5. **university** - agencies that only serve a campus 
+5. **university** - agencies that only serve a campus&#x20;
 6. **defunct** - this agency no longer exists, it could have been merged with another local agency or completely disbanded for one reason or another
 
 `state_iso` a link to our [states](https://www.dolthub.com/repositories/pdap/datasets/data/master/states) table. A two-digit code representing the state / province the agency is a part of
@@ -141,7 +143,7 @@ str(uuid4()).replace('-', '')
 
 `zip` is the postal code of the agency, may not always apply
 
-`county_fips` is the Federal Information Processing System code for US counties. The full FIPS is 13 characters long and unique to each geographic area. The first 2 digits are state, and the following 3 digits are county specific. You can use the [FCC API](https://geo.fcc.gov/api/census/#!/area/get_area) with the `lat` and `lng` to find the FIPS code.
+`county_fips` is the Federal Information Processing System code for US counties. The full FIPS is 13 characters long and unique to each geographic area. The first 2 digits are state, and the following 3 digits are county specific. You can use the [FCC API](https://geo.fcc.gov/api/census/#!/area/get\_area) with the `lat` and `lng` to find the FIPS code.
 
 `lat` is the latitude of the main HQ of this particular agency (provided some agencies have multiple districts)
 
@@ -163,7 +165,7 @@ str(uuid4()).replace('-', '')
 
 We will also have a separate DoltHub repository ([pdap/data-intake](https://www.dolthub.com/repositories/pdap/data-intake)) for the following data:
 
-* Actual scraped data from the agencies 
+* Actual scraped data from the agencies&#x20;
   * will be linked back to DoltHub via the `datasets`.`id` field.
 * Every `data_type` will have it's own table of data that is ingested.
 
