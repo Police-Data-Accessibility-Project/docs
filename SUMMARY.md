@@ -10,7 +10,10 @@
   * [Data Bounties](activities/data-collection/data-bounties.md)
   * [FOIA Requests](activities/data-collection/foia.md)
 * [Submit or update Datasets](activities/submit-or-update-datasets/README.md)
-  * [Find Datasets](activities/submit-or-update-datasets/examples-best-practices.md)
+  * [Find Datasets to submit](activities/submit-or-update-datasets/examples-best-practices.md)
+  * [Search the PDAP Datasets repository](activities/submit-or-update-datasets/search-the-pdap-datasets-repository.md)
+  * [Submit Datasets with web tools](activities/submit-or-update-datasets/submit-datasets-with-web-tools.md)
+  * [Submit Datasets with CLI](activities/submit-or-update-datasets/submit-datasets-with-cli.md)
   * [Create a new data\_type](activities/submit-or-update-datasets/create-a-new-data\_type.md)
   * [Validate Datasets PRs](activities/submit-or-update-datasets/validate-datasets-prs.md)
 
@@ -18,8 +21,7 @@
 
 * [Datasets & Scrapers](components/datasets/README.md)
   * [Scrapers repo](https://github.com/Police-Data-Accessibility-Project/Scrapers/)
-  * [Dataset Properties](components/datasets/find-a-dataset-id/README.md)
-    * [Datasets Schema & Field Explanation](components/datasets/find-a-dataset-id/proposed-database-schema.md)
+  * [Datasets Properties](components/datasets/find-a-dataset-id.md)
   * [Scraper Schemas](components/datasets/scraper\_schemas.md)
   * [PostgreSQL Datasets mirror](components/datasets/hadoop-datasets-mirror.md)
 * [Data Intake](components/data-intake.md)

@@ -1,14 +1,10 @@
----
-description: Scraper configuration requires entry of a dataset ID.
----
+# Search the PDAP Datasets repository
 
-# Dataset Properties
-
-## ID
-
-A UUID, generated automatically.
+Navigate to the [Datasets repo in DoltHub](https://www.dolthub.com/repositories/pdap/datasets).
 
 Using any SQL editor, including the DoltHub UI, enter one of these queries to find a Dataset.
+
+## Find Agencies
 
 ```sql
 --find dataset id by city
@@ -38,8 +34,6 @@ WHERE `agency_id` = "b27ae147ba004dec875eeaa5259ebb57"
 
 ## Agency ID
 
-![](../../../.gitbook/assets/screen-shot-2021-05-01-at-12.39.30-pm.png)
-
 ```sql
 --find agencies by city name
 SELECT * FROM `agencies` WHERE `city` like "%Juneau%"
@@ -52,26 +46,3 @@ SELECT * FROM `agencies`
 JOIN counties ON agencies.county_fips=counties.fips
 WHERE `counties.name` LIKE "%Bibb%"
 ```
-
-## Source Type
-
-```sql
-SELECT * from `source_types`
-```
-
-## Data Type
-
-```sql
-SELECT * FROM `data_types`
-```
-
-## Format Type
-
-```sql
-SELECT * FROM `format_types`
-```
-
-## Can Scrape
-
-Enter `0` if this dataset cannot legally be scraped.
-

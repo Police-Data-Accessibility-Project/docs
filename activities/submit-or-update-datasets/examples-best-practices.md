@@ -1,27 +1,27 @@
----
-description: What constitutes a "dataset"?
----
-
-# Find Datasets
+# Find Datasets to submit
 
 ## Introduction
 
-Every agency has one homepage and one or many datasets. Datasets are URLs to scrape for data. You may want to [submit a new dataset](./) to scrape. This guide is for you! 
+Every agency has one homepage and one or many datasets. Datasets are URLs to scrape for data. You may want to [submit a new dataset](./) to scrape. This guide is for you!&#x20;
 
-### A quick example
+### Quick start
 
-For Alameda, California:
+1. Head to the [Datasets repo](https://www.dolthub.com/repositories/pdap/datasets) to see which datasets we already have.&#x20;
+2. Find a web page on the agency site with potentially useful data.
+3. Use this as a starting point this to submit with [web tools](submit-datasets-with-web-tools.md) or the [CLI](submit-datasets-with-cli.md).
+
+&#x20;For example, take Alameda, California:
 
 * The `agencies.homepage_url` is [https://www.alamedaca.gov/Departments/Police-Department](https://www.alamedaca.gov/Departments/Police-Department)
 * One possible `datasets.url` is [https://www.alamedaca.gov/Departments/Police-Department/Annual-Arrest-Traffic-Statistics](https://www.alamedaca.gov/Departments/Police-Department/Annual-Arrest-Traffic-Statistics)
 
-## Useful Links & SQL
+## Deeper Dive
 
 This tutorial will refer to several tables or dolthub links. Here are the common tables you will be either querying in SQL or referencing on the website in one place:
 
-* data_types: [Online](https://www.dolthub.com/repositories/pdap/datasets/data/master/data_types) or `select * from data_types` 
-* statuses: [Online](https://www.dolthub.com/repositories/pdap/datasets/data/master/dataset_status) or `select * from dataset_status`
-* source_types: [Online](https://www.dolthub.com/repositories/pdap/datasets/data/master/source_types) or `select * from source_types`
+* data\_types: [Online](https://www.dolthub.com/repositories/pdap/datasets/data/master/data\_types) or `select * from data_types`&#x20;
+* statuses: [Online](https://www.dolthub.com/repositories/pdap/datasets/data/master/dataset\_status) or `select * from dataset_status`
+* source\_types: [Online](https://www.dolthub.com/repositories/pdap/datasets/data/master/source\_types) or `select * from source_types`
 * id generator: [Online](https://www.dolthub.com/repositories/pdap/datasets/query/master?q=SELECT+REPLACE%28uuid%28%29%2C+%27-%27%2C+%27%27%29%3B%0A%0A\&active=Tables) or `SELECT REPLACE(uuid(), '-', '');`
   * Note, you can also generate one from python shell, using the uuid v4 generator (which is better than SQLs default gen).
   * As of 25 May 2021, the `id` columns have been set up to automatically generate the uuid for you if you do not specify the column in the insert.
@@ -42,13 +42,13 @@ f1ecbb3c45834da3ba2a79e86b61a398
 
 
 
-## Tutorial - Agency with Multiple Different Data Types
+### Agency with Multiple Different Data Types
 
 The best case is when we get a link that is usually a directory or listing of files, a map with data on it, or a HTML table with data on it.\
 \
 First we need to pick an agency from the `agencies` table.
 
-Let's see Alameda, California.  First we need to grab the agency id (either from the [web](https://www.dolthub.com/repositories/pdap/datasets/query/master?q=SELECT+\*%0AFROM+%60agencies%60%0Awhere+name+like+%27Alameda+Police%25%27+and+state_iso+%3D+%27CA%27%0A%0A\&active=Tables) or sql) for later use\
+Let's see Alameda, California.  First we need to grab the agency id (either from the [web](https://www.dolthub.com/repositories/pdap/datasets/query/master?q=SELECT+\*%0AFROM+%60agencies%60%0Awhere+name+like+%27Alameda+Police%25%27+and+state\_iso+%3D+%27CA%27%0A%0A\&active=Tables) or sql) for later use\
 
 
 ![We will use the Police Department.](<../../.gitbook/assets/image (2).png>)
@@ -68,7 +68,7 @@ On the sidebar they have a button to **Review Crime Activity**! Perfect! Let's c
 
 ![5 different types of data!](<../../.gitbook/assets/image (10).png>)
 
-Awesome! This particular link gives us 5 different types of data! We will want to capture each different [data type](https://www.dolthub.com/repositories/pdap/datasets/data/master/data_types) in its own `dataset` record, as the scraper for each data type will most likely be a bit different and the table the data goes into will also be different. So let's start cross-referencing the data-types with what we see on the page to build to our datasets!\
+Awesome! This particular link gives us 5 different types of data! We will want to capture each different [data type](https://www.dolthub.com/repositories/pdap/datasets/data/master/data\_types) in its own `dataset` record, as the scraper for each data type will most likely be a bit different and the table the data goes into will also be different. So let's start cross-referencing the data-types with what we see on the page to build to our datasets!\
 
 
 ### Dataset Enumeration
@@ -79,7 +79,7 @@ Let's just go down the list of the 5 types we have for this agency.
 
 ![Crime Graphics](<../../.gitbook/assets/image (11).png>)
 
-The first accordion of this page has a link for crime graphics. When we click the button here, it takes us to a brand new link with incident reports, arrest logs, missing persons, daily bulletins and more! Unfortunately, this website does not change the URL when you click any of the links on the sidebar. So that means this data_type is a `multi`, which we can find on our [data types reference list](https://www.dolthub.com/repositories/pdap/datasets/data/master/data_types) as id `27` . This data being housed on an external source, makes it a `third party` source type, which [looking that up](https://www.dolthub.com/repositories/pdap/datasets/data/master/source_types) is `3`. It's also a good idea to leave a note for a `multi` data type. The `status_id` for our purposes will always be `1` because you are just adding the dataset but not scraping it. Scrapers will update this column to show the status of each dataset later!\
+The first accordion of this page has a link for crime graphics. When we click the button here, it takes us to a brand new link with incident reports, arrest logs, missing persons, daily bulletins and more! Unfortunately, this website does not change the URL when you click any of the links on the sidebar. So that means this data\_type is a `multi`, which we can find on our [data types reference list](https://www.dolthub.com/repositories/pdap/datasets/data/master/data\_types) as id `27` . This data being housed on an external source, makes it a `third party` source type, which [looking that up](https://www.dolthub.com/repositories/pdap/datasets/data/master/source\_types) is `3`. It's also a good idea to leave a note for a `multi` data type. The `status_id` for our purposes will always be `1` because you are just adding the dataset but not scraping it. Scrapers will update this column to show the status of each dataset later!\
 \
 We have many other columns we can fill out for a dataset, but most of which will be used by [data scrapers](broken-reference) in their task, so it's not completely necessary to do now, unless you really want to!
 

@@ -1,8 +1,8 @@
-# Submit or update Datasets
+# Submit Datasets with CLI
 
 ## CLI
 
-> If you can improve these docs, click the link in the upper right to Edit on GitHub.
+> If you can improve this process, click the link in the upper right to Edit on GitHub and make a PR!
 
 1. [Install Dolt](https://docs.dolthub.com/getting-started/installation).
 2. Fork the project to your DoltHub account (you will need to [create an account](https://www.dolthub.com/signin) if you don't have one).

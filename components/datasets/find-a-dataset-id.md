@@ -1,35 +1,22 @@
----
-description: Specification Sheet on our DoltHub database
----
+# Datasets Properties
 
-# Datasets Schema & Field Explanation
+![https://dbdiagram.io/d/607762c7b6aeb3052d90271b](<../../.gitbook/assets/image (13).png>)
 
-![Current datasets schema (28 May 2021)](<../../../.gitbook/assets/image (12).png>)
+## Schema Overview
 
-\
-Schema Overview
----------------
+{% hint style="info" %}
+_Quick tips:_
 
-The `agencies` table prevents redundancy in `datasets` and establishes a true one-to-many relationship (one agency may have many associated datasets). Agencies are described primarily by their location.&#x20;
+* One Agency can have many Datasets.&#x20;
+* Agencies are described primarily by their `location`.&#x20;
+* Datasets are primarily described by their `url`.
+{% endhint %}
 
-`datasets` are described primarily by an agency and the URL of the data. This is the actual data itself that we will want to acquire and ingest.\
-\
-You can also view an interactive database diagram [here](https://dbdiagram.io/d/607762c7b6aeb3052d90271b), it is the same one visible as an image at the top of this page.
+## Datasets table
 
-## Datasets Table Explanation
+`id` is a UUID without hyphens. If you leave this field blank, it will automatically generate.
 
-`id`  is a UUID without hyphens. MySQL – which Dolt is built on – does not have a specific field for unique identifiers, so we use a `varchar(32)` and remove hyphens to save some space. If you leave this field blank, it will automatically generate. If you wish to generate it manually:
-
-* In SQL: `SELECT REPLACE(uuid(), '-', '');`
-* Online on DoltHub Web: [Link](https://www.dolthub.com/repositories/pdap/datasets/query/master?q=SELECT+REPLACE%28uuid%28%29%2C+%27-%27%2C+%27%27%29%3B%0A%0A\&active=Tables)
-* Using Python3 :
-
-```
-import uuid
-str(uuid4()).replace('-', '')
-```
-
-`url` is the web location of the data for us to obtain. It could be a directory of files, a link to an aggregator, a map of incident reports. Our [Examples & Best Practices guide](../../../activities/submit-or-update-datasets/examples-best-practices.md) will help you determine what to use for the `url` as well as determining the other fields for this table
+`url` is the web location of the data for us to obtain. It could be a directory of files, a link to an aggregator, a map of incident reports. Our [Examples & Best Practices guide](../../activities/submit-or-update-datasets/examples-best-practices.md) will help you determine what to use for the `url` as well as determining the other fields for this table
 
 `status_id` is the current status of the dataset
 
@@ -113,18 +100,9 @@ str(uuid4()).replace('-', '')
 
 
 
-## Agencies Table Explanation
+## Agencies Table
 
-`id`  is identical to the `datasets`.`id`:  a UUID without hyphens. MySQL – which Dolt is built on – does not have a specific field for unique identifiers, so we use a `varchar(32)` and remove hyphens to save some space. If you leave this field blank, it will automatically generate. If you wish to generate it manually:
-
-* In SQL: `SELECT REPLACE(uuid(), '-', '');`
-* Online on DoltHub Web: [Link](https://www.dolthub.com/repositories/pdap/datasets/query/master?q=SELECT+REPLACE%28uuid%28%29%2C+%27-%27%2C+%27%27%29%3B%0A%0A\&active=Tables)
-* Using Python3 :
-
-```
-import uuid
-str(uuid4()).replace('-', '')
-```
+`id`  is identical to the `datasets`.`id`
 
 `name` is the name of the agency such as "California Highway Patrol" or "Greenwood County Sheriff's" Office
 
@@ -157,17 +135,3 @@ str(uuid4()).replace('-', '')
 
 `homepage_url` this is the agencies homepage that may be of interest if the dataset URLs break, we may be able to search their homepage again to see if we can find updated information
 
-
-
-
-
-
-
-We will also have a separate DoltHub repository ([pdap/data-intake](https://www.dolthub.com/repositories/pdap/data-intake)) for the following data:
-
-* Actual scraped data from the agencies&#x20;
-  * will be linked back to DoltHub via the `datasets`.`id` field.
-* Every `data_type` will have it's own table of data that is ingested.
-
-\
-In the distant future, we are looking into having a sync with our Dolt instance to PostgreSQL to maintain our own copy of our data. The schema will be identical to the current Dolt implementation. The other benefit is it will directly serve as the back-end for our web application, [https://app.pdap.io](https://app.pdap.io).
