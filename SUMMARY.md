@@ -6,6 +6,7 @@
 
 * [Process overview](activities/process-overview.md)
 * [Collect Police Data](activities/data-collection/README.md)
+  * [Data collection basics](activities/data-collection/data-collection-basics.md)
   * [Write a Data Scraper](https://github.com/Police-Data-Accessibility-Project/Scrapers/blob/master/CONTRIBUTING.md)
   * [Data Bounties](activities/data-collection/data-bounties.md)
   * [FOIA Requests](activities/data-collection/foia.md)
@@ -20,13 +21,15 @@
 ## Components
 
 * [Datasets & Scrapers](components/datasets/README.md)
+  * [What are Datasets?](components/datasets/what-are-datasets.md)
   * [Scrapers repo](https://github.com/Police-Data-Accessibility-Project/Scrapers/)
-  * [Datasets Properties](components/datasets/find-a-dataset-id.md)
   * [Scraper Schemas](components/datasets/scraper\_schemas.md)
   * [PostgreSQL Datasets mirror](components/datasets/hadoop-datasets-mirror.md)
+  * [Datasets Properties](components/datasets/find-a-dataset-id.md)
 * [Data Intake](components/data-intake.md)
 * [Data Storage](components/data-storage.md)
 * [Data Standardization](components/data-standardization/README.md)
+  * [Data standardization basics](components/data-standardization/data-standardization-basics.md)
   * [Splunk](components/data-standardization/splunk.md)
 * [Data Access](components/data-access.md)
 * [Terms & Definitions](components/writing-about-pdap.md)
@@ -72,6 +75,7 @@
   * [May 1, 2021](updates/working-sessions/may-1-2021.md)
   * [April 24, 2021](updates/working-sessions/april-24-2021.md)
 * [Current Progress](updates/product-vision/README.md)
+  * [Where are we now?](updates/product-vision/where-are-we-now.md)
   * [Related Projects](updates/product-vision/similar-projects.md)
 
 ## Meta
@@ -128,7 +132,6 @@
       * [Appoint Executive Director](meta/about/staff/board-resolutions/appoint-executive-director.md)
       * [Appoint Director of Operations](meta/about/staff/board-resolutions/appoint-director-of-operations.md)
     * [Brand assets](meta/about/staff/brand-assets.md)
-    * [Outreach](meta/about/staff/outreach.md)
 * [Policy](meta/policy/README.md)
   * [PDAP Privacy Policy](meta/policy/pdap-privacy-policy.md)
   * [Code of Conduct](https://github.com/Police-Data-Accessibility-Project/PDAP-Scrapers/blob/master/CODE\_OF\_CONDUCT.md)
