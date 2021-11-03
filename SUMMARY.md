@@ -82,6 +82,7 @@
     * [PDAP development staff](updates/product-vision/grants-sought/pdap-development-staff.md)
     * [Data Intake app](updates/product-vision/grants-sought/data-intake-app.md)
     * [Datasets Management app](updates/product-vision/grants-sought/datasets-management-app.md)
+    * [Ongoing data bounties](updates/product-vision/grants-sought/ongoing-data-bounties.md)
 
 ## Meta
 

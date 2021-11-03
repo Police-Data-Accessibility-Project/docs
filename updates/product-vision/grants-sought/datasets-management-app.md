@@ -8,7 +8,9 @@ description: A front-end and back-end overhaul to make our experimental web app 
 
 ## Why we need this
 
-Our database of police Datasets functions as a community to-do list of police websites to scrape for data. Its status is directly related to the health of the PDAP data ecosystem. Updating this database is a primary focus of the community. This app is designed to make that work as efficient as possible, allowing us to do more with less.
+Our database of police Datasets functions as a community to-do list of police websites to scrape for data. Its status is directly related to the health of the PDAP data ecosystem. Updating this database is a primary focus of the community.&#x20;
+
+This app is designed to make that work as efficient as possible, allowing us to do more with less.
 
 ## What we need
 
