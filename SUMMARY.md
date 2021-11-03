@@ -78,6 +78,9 @@
 * [Current Progress](updates/product-vision/README.md)
   * [Where are we now?](updates/product-vision/where-are-we-now.md)
   * [Related Projects](updates/product-vision/similar-projects.md)
+  * [Grants sought](updates/product-vision/grants-sought/README.md)
+    * [PDAP development staff](updates/product-vision/grants-sought/pdap-development-staff.md)
+    * [Page 1](updates/product-vision/grants-sought/page-1.md)
 
 ## Meta
 
