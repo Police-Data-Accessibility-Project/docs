@@ -18,6 +18,4 @@ Allowing data collection activists to submit scrapers is a critical piece of the
 
 ### App requirements
 
-* [https://github.com/Police-Data-Accessibility-Project/PDAP-Scrapers/issues/80](https://github.com/Police-Data-Accessibility-Project/PDAP-Scrapers/issues/80)
-* Scraper developers have the ability to configure their Scrapers to work with the PDAP Data Intake app.
-* When properly configured Scrapers are run, they generate [Extractions and Metadata](https://docs.pdap.io/components/writing-about-pdap) which are sent to a PDAP intake server.
+* Scraper developers have the ability to configure their Scrapers to work with the PDAP Data Intake app. When properly configured Scrapers are run, they generate [Extractions and Metadata](https://docs.pdap.io/components/writing-about-pdap) which are sent to a PDAP intake server. [GitHub Issue here](https://github.com/Police-Data-Accessibility-Project/PDAP-Scrapers/issues/80).
