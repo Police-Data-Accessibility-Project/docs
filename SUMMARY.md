@@ -36,6 +36,7 @@
 
 ## Tools
 
+* [PDAP tools](tools/pdap-tools.md)
 * [DoltHub](tools/dolthub.md)
 * [Third-Party Resources](tools/resources/README.md)
   * [DigitalOcean Docs](https://docs.digitalocean.com/products/)
