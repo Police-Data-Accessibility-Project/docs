@@ -4,7 +4,7 @@ description: A year of stable progress powered by paid staff.
 
 # PDAP development staff
 
-`$340k`
+`$408k`
 
 ## Why we need this
 
@@ -24,7 +24,7 @@ _Two people combined to create a self-sufficient powerhouse of iteration on our 
 
 #### Salary
 
-$120k x 2
+$120k x 2 + 20% overhead
 
 ### Director of Operations
 
@@ -39,4 +39,4 @@ _A generalist to keep the lights on and help us understand what work is most imp
 
 #### Salary
 
-$100k
+$100k + 20% overhead
