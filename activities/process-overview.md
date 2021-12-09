@@ -4,12 +4,16 @@ We're constantly iterating on each of these components, and there's always work 
 
 ## Structure
 
+These terms are [defined here](../components/writing-about-pdap.md).
+
 ```
 agencies
   datasets
     scrapers
       extractions      
 ```
+
+**Agencies** can contain many **datasets**; each dataset has one **scraper**; each time a scraper is run, it generates an **extraction**.
 
 ## Data lifecycle
 
