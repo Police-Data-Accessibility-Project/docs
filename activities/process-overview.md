@@ -2,6 +2,15 @@
 
 We're constantly iterating on each of these components, and there's always work to do. If you have ideas, reach out in Discord!
 
+## Structure
+
+```
+agencies
+  datasets
+    scrapers
+      extractions      
+```
+
 ## Data lifecycle
 
 There's [a flowchart here](https://pdap.invisionapp.com/freehand/Data-intake-flow-Q01qjpCvN) which covers the end-to-end data submission process.

@@ -2,7 +2,7 @@
 
 * [Welcome to PDAP!](README.md)
 
-## Volunteer Activities <a href="activities" id="activities"></a>
+## Volunteer Activities <a href="#activities" id="activities"></a>
 
 * [Process overview](activities/process-overview.md)
 * [Collect Police Data](activities/data-collection/README.md)
@@ -32,7 +32,7 @@
   * [Data standardization basics](components/data-standardization/data-standardization-basics.md)
   * [Splunk](components/data-standardization/splunk.md)
 * [Data Access](components/data-access.md)
-* [Terms & Definitions](components/writing-about-pdap.md)
+* [Terms & Definitions](components/terms-definitions.md)
 
 ## Tools
 

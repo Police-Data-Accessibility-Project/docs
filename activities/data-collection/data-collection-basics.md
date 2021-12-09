@@ -14,9 +14,9 @@ Code automated scrapers or follow processes to manually collect data.
 
 ## Requirements
 
-* We always need to know **when **data was submitted.
-* For Datasets, we need to know **who **submitted the data.
-* For Collected Data, we need to know **which code **was used to scrape the data.
+* We always need to know **when** data was submitted.
+* For Datasets, we need to know **who** submitted the data.
+* For Collected Data, we need to know **which code** was used to scrape the data.
 
 ## Current state
 

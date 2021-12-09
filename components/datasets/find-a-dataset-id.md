@@ -30,12 +30,12 @@ _Quick tips:_
 `source_type_id` is where the data is sourced from
 
 1. **court**- records coming out of an official court system
-2. **direct **- records hosted by the agency themselves for consumption
-3. **third-party **- records hosted by another provider (ArcGIS) or aggregator (CityProtect / Crimegraphics)
+2. **direct** - records hosted by the agency themselves for consumption
+3. **third-party** - records hosted by another provider (ArcGIS) or aggregator (CityProtect / Crimegraphics)
 
 `data_types_id` is what kind of data this dataset is. Most of these are self explanatory
 
-1. **accident\_reports **
+1. **accident\_reports**&#x20;
 2. **arrest\_records**
 3. **booking\_reports**
 4. **calls\_for\_service**
@@ -55,10 +55,10 @@ _Quick tips:_
 18. **traffic\_stops**
 19. **training\_logs**
 20. **use\_of\_force\_reports**
-21. **video\_metadata **- metadata on a specific video (location, timestamps)
+21. **video\_metadata** - metadata on a specific video (location, timestamps)
 22. **videos** - this table in `data-intake` will store a link to view the actual video
-23. **crime\_statistics **- aggregated crime statistics (like the federal UCR or department specific aggregation)
-24. **annual\_reports ** - some agencies provide annual reports over a plethora of information from the past year. Usually these are in the form of PDF documents
+23. **crime\_statistics** - aggregated crime statistics (like the federal UCR or department specific aggregation)
+24. **annual\_reports** - some agencies provide annual reports over a plethora of information from the past year. Usually these are in the form of PDF documents
 25. **daily\_crime\_bulletin**
 26. **media\_bulletin**
 27. **multi** - while we prefer to have a specific data type for each url, our current schema requiring a unique URL may not allow that. Sometimes agencies store multiple types of data on the same URL (like Crimegraphics). Try to use this type sparingly and fill in the notes field on what all data can be found
