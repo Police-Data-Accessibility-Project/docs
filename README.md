@@ -1,14 +1,26 @@
 ---
-description: We're making a unified archive for police data.
+description: We're making a unified archive of police data.
 ---
 
-# Welcome to PDAP!
+# 👋 Welcome to PDAP!
 
 Read more about our mission at [https://pdap.io/](https://pdap.io).
 
+## What is PDAP?
+
+PDAP is a non-profit making open-source code to achieve our mission: consolidating data from every U.S. agency into a **single public resource.**
+
+### Our core work
+
+We're building a small suite of tools to help contributors do these things:
+
+1. Track [police datasets](components/datasets/what-are-datasets.md), our "to do list" of websites with data to collect.
+2. Submit [data scrapers to our repo](https://github.com/Police-Data-Accessibility-Project/PDAP-Scrapers).
+3. Run scrapers and [submit the extractions](components/data-intake.md) to our database.
+
 ## How do we work?
 
-We're a rotating cast of volunteers with a flat organizational structure. Our goal is to collect public police data, and there's a lot of it. If you're reading this, there is still work to do.
+We're a rotating cast of volunteers with a flat organizational structure. The core PDAP staff keep the lights on and allow our community to move the mission forward, step by step.
 
 We're a learning organization, and **we want to hear from you.** If you have questions, concerns, suggestions, or expertise, reach out in [Discord](https://discord.com/invite/cn2ZpVTdw7) or to [operations@pdap.io](mailto:operations@pdap.io).
 
@@ -30,7 +42,7 @@ If you can help in one of these areas, reach out in [Discord](https://discord.gg
 
 ### Donate
 
-**Donate on **[**PayPal**](https://www.paypal.com/biz/fund?id=SLS5DB8SMDC3G)** or **[**Patreon**](https://patreon.com/pdap)**,** and we'll spend it on [Data Bounties](https://docs.pdap.io/updates/blog/may-2021-dolt-bounty) and infrastructure improvements. Small recurring donations are most helpful. Stability helps us chart a path.
+**Donate on** [**PayPal**](https://www.paypal.com/biz/fund?id=SLS5DB8SMDC3G) **or** [**Patreon**](https://patreon.com/pdap)**,** and we'll spend it on [Data Bounties](https://docs.pdap.io/updates/blog/may-2021-dolt-bounty) and infrastructure improvements. Small recurring donations are most helpful. Stability helps us chart a path.
 
 ### Use our Data
 

@@ -1,4 +1,8 @@
-# Data standardization basics
+# Data Standardization
+
+{% hint style="info" %}
+Standardation and translation to a unified format is not mission-critical: we believe the simple act of collecting raw data extractions in one place will be an unprecedented resource for public good.
+{% endhint %}
 
 ## Purpose
 
@@ -6,11 +10,7 @@ Normalize raw data into a unified format. This is part of what makes data useful
 
 ## Current state
 
-We're currently translating data from our [Scrapers](https://github.com/Police-Data-Accessibility-Project/PDAP-Scrapers/) to a unified format in [Dolt](../../tools/dolthub.md). We're translating the data at the point of collection.
-
-### Do I need to know how to write an ETL to help?
-
-No, but someone will need to add one for us to use your data. If you need help, reach out in the #scrapers slack channel.
+We're currently translating data from some [Scrapers](https://github.com/Police-Data-Accessibility-Project/PDAP-Scrapers/) to a unified format in [Dolt](../../tools/dolthub.md). We're translating the data at the point of collection, in addition to saving the raw extractions.
 
 ### What are we translating to?
 

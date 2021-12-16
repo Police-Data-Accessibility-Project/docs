@@ -1,8 +1,8 @@
 # Table of contents
 
-* [Welcome to PDAP!](README.md)
+* [👋 Welcome to PDAP!](README.md)
 
-## Volunteer Activities <a href="#activities" id="activities"></a>
+## ⚡ Volunteer Activities <a href="#activities" id="activities"></a>
 
 * [Process overview](activities/process-overview.md)
 * [Collect Police Data](activities/data-collection/README.md)
@@ -18,7 +18,7 @@
   * [Create a new data\_type](activities/submit-or-update-datasets/create-a-new-data\_type.md)
   * [Validate Datasets PRs](activities/submit-or-update-datasets/validate-datasets-prs.md)
 
-## Components
+## 🤖 Mission components <a href="#components" id="components"></a>
 
 * [Datasets & Scrapers](components/datasets/README.md)
   * [What are Datasets?](components/datasets/what-are-datasets.md)
@@ -27,24 +27,23 @@
   * [PostgreSQL Datasets mirror](components/datasets/hadoop-datasets-mirror.md)
   * [Datasets Properties](components/datasets/find-a-dataset-id.md)
 * [Data Intake](components/data-intake.md)
-* [Data Storage](components/data-storage.md)
-* [Data Standardization](components/data-standardization/README.md)
-  * [Data standardization basics](components/data-standardization/data-standardization-basics.md)
-  * [Splunk](components/data-standardization/splunk.md)
+* [Data Storage](components/data-storage/README.md)
+  * [Data Standardization](components/data-storage/data-standardization.md)
 * [Data Access](components/data-access.md)
-* [Terms & Definitions](components/writing-about-pdap.md)
 
-## Tools
+## 🛠 Tools & Resources <a href="#tools" id="tools"></a>
 
-* [PDAP tools](tools/pdap-tools.md)
+* [Terms & Definitions](tools/terms-definitions.md)
+* [Internal tools](tools/internal-tools.md)
 * [DoltHub](tools/dolthub.md)
+* [Splunk](tools/splunk.md)
 * [Third-Party Resources](tools/resources/README.md)
   * [DigitalOcean Docs](https://docs.digitalocean.com/products/)
   * [Hadoop with Python](https://www.oreilly.com/content/hadoop-with-python/)
   * [Hadoop Docs](https://hadoop.apache.org/docs/stable/)
   * [Common Abbreviations](http://amerusa.net/resource\_documents/CriminalRecordAbbreviations.pdf)
 
-## Updates
+## 🗣 Updates
 
 * [Blog](updates/blog/README.md)
   * [RSS Feed](http://fetchrss.com/rss/6146cab9ead6fc081b5938226146ca903553905be00a4212.xml)
@@ -79,7 +78,7 @@
   * [Where are we now?](updates/product-vision/where-are-we-now.md)
   * [Related Projects](updates/product-vision/similar-projects.md)
 
-## Meta
+## 🔁 Meta
 
 * [About](meta/about/README.md)
   * [Roles & Community](meta/about/roles-and-community.md)
@@ -144,7 +143,7 @@
   * [Legal Data Scraping](meta/legal/legal-data-scraping.md)
   * [State Computer Crimes laws](meta/legal/state-computer-crimes-laws.md)
 
-## Elsewhere
+## ↗ Elsewhere
 
 * [Discord](https://discord.gg/cn2ZpVTdw7)
 * [GitHub org](https://github.com/Police-Data-Accessibility-Project)
