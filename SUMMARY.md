@@ -133,6 +133,7 @@
       * [Appoint Director of Operations](meta/about/staff/board-resolutions/appoint-director-of-operations.md)
     * [Brand assets](meta/about/staff/brand-assets.md)
 * [Policy](meta/policy/README.md)
+  * [PDAP Access Tiers](meta/policy/pdap-access-tiers.md)
   * [PDAP Privacy Policy](meta/policy/pdap-privacy-policy.md)
   * [Code of Conduct](https://github.com/Police-Data-Accessibility-Project/PDAP-Scrapers/blob/master/CODE\_OF\_CONDUCT.md)
   * [Data Chain of Custody](meta/policy/data-chain-of-custody.md)
