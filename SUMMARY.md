@@ -47,6 +47,7 @@
 
 * [Blog](updates/blog/README.md)
   * [RSS Feed](http://fetchrss.com/rss/6146cab9ead6fc081b5938226146ca903553905be00a4212.xml)
+  * [1/2/22: New Year Recap](updates/blog/1-2-22-new-year-recap.md)
   * [9/18/21: 501c3 Approval](updates/blog/9-18-21-501c3-approval.md)
   * [7/14/21: Bounty Retro](updates/blog/7-14-21-bounty-retro.md)
   * [6/7/21: Slack → Discord](updates/blog/6-7-21-slack-discord.md)
@@ -59,7 +60,7 @@
   * [5/20/21: DoltHub Bounty](updates/blog/5-20-21-dolthub-bounty.md)
   * [5/7/21: Alpha App Launched](updates/blog/5-7-21-alpha-app-launched.md)
 * [Working sessions](updates/working-sessions/README.md)
-  * [Working Sessions Calendar](https://calendar.google.com/calendar/embed?src=c\_o5o3g3096t6qkhcn5nfqj6kmt8%40group.calendar.google.com\&ctz=America%2FNew\_York)
+  * [Join an Open Working Session](updates/working-sessions/join-an-open-working-session.md)
   * [October 2, 2021](updates/working-sessions/october-2-2021.md)
   * [September 25, 2021](updates/working-sessions/september-25-2021.md)
   * [September 11, 2021](updates/working-sessions/september-11-2021.md)
