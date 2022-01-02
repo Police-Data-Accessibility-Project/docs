@@ -44,3 +44,7 @@ We can use [web3 technology](https://github.com/Police-Data-Accessibility-Projec
 Join our [Discord community](https://discord.gg/wMqex8nKZJ)! Ask questions, share your knowledge, join open sessions. Everything you see is built by volunteers, and this could include you.
 
 Money always helps. [Join our Patreon or donate directly](https://pdap.io/contribute.html).
+
+Tell your friends and trusted network. Your word carries weight with people who trust you.
+
+Stay tuned—we're picking up momentum, and expect big progress this year!
