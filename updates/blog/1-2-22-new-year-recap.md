@@ -25,6 +25,8 @@ The more Scrapers we have, the more we have learned about the landscape of polic
 
 [Here are our current Scrapers](https://github.com/Police-Data-Accessibility-Project/PDAP-Scrapers). Each one has the potential to shed light on an individual department; together, they can transform our understanding of police at the county, state, and federal level.
 
+Our current project is making a [reusable template for standalone scrapers.](https://github.com/Police-Data-Accessibility-Project/PDAP-Scrapers/issues/167)&#x20;
+
 ### Move the roadmap forward.
 
 Our next step is a repeatable template for standalone scrapers that are useful by themselves. These are useful right away as instant bulk downloads of departmental data.
