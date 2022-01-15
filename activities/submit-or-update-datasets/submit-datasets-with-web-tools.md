@@ -16,7 +16,7 @@ You can use SQL statements to add new datasets right in Dolt. It's possible to g
 ### SQL INSERT statement generator
 
 1. Make a copy of [this google spreadsheet](https://docs.google.com/spreadsheets/d/1qh-6pb6KoIFSQ9qyyzd\_bZIOosD74Sg21VPjbOQ5j3g/edit?usp=sharing). **Your goal is to fill in the grey columns for each row!**
-2. Use the [Dataset Properties](../../components/datasets/find-a-dataset-id.md) guide to find the appropriate IDs. You can also keep another DoltHub tab open for reference.
+2. Use the [Dataset Properties](find-a-dataset-id.md) guide to find the appropriate IDs. You can also keep another DoltHub tab open for reference.
 3. **Navigate to the Query tab.** Each row generates a new SQL query!
 4. Head to the [DoltHub Datasets repo](https://www.dolthub.com/repositories/pdap/datasets). If you don't yet have an account, sign up [here](https://www.dolthub.com/signin).
 5. Paste the queries individually into the SQL console and run them.

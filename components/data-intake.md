@@ -4,11 +4,14 @@ description: Running Scrapers and submitting the generated Extractions.
 
 # Data Intake
 
-## Current process
+## Current status
 
-Instructions for running scrapers can be found [in the Scrapers repo](https://github.com/Police-Data-Accessibility-Project/PDAP-Scrapers/blob/main/README.md).
+We're still in the iteration and case study phase. To submit data:&#x20;
 
-Submission is a work in progress. [Here's the GitHub issue](https://github.com/police-data-accessibility-project/pdap-scrapers/issues/80). For now, reach out in Discord.
+1. Run an approved Scraper from the [Scrapers Repo](https://github.com/Police-Data-Accessibility-Project/PDAP-Scrapers) to get an Extraction.
+2. Share your Extraction in Discord. We'll work with you to write and publish a case study.
+3. We'll work with data consumers to understand how we're doing.
+4. When we have learned from case studies, we'll solidify the process.
 
 ## Requirements
 

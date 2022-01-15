@@ -14,7 +14,7 @@ PDAP is a non-profit making open-source code to achieve our mission: consolidati
 
 We're building a small suite of tools to help contributors do these things:
 
-1. Track [police datasets](components/datasets/what-are-datasets.md), our "to do list" of websites with data to collect.
+1. Track [police datasets](activities/submit-or-update-datasets/what-are-datasets.md), our "to do list" of websites with data to collect.
 2. Submit [data scrapers to our repo](https://github.com/Police-Data-Accessibility-Project/PDAP-Scrapers).
 3. Run scrapers and [submit the extractions](components/data-intake.md) to our database.
 
