@@ -26,6 +26,7 @@ PDAP only publishes data collected directly from agencies, not other data collec
 * [https://projects.propublica.org/nypd-ccrb/](https://projects.propublica.org/nypd-ccrb/)
 * [https://cpdp.co/](https://cpdp.co)
 * [https://sunlightfoundation.com/](https://sunlightfoundation.com)
+* [https://lucyparsonslabs.com/](https://lucyparsonslabs.com)
 
 ### Facilitating records storage for police
 
