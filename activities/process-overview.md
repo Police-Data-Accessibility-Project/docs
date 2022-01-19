@@ -7,13 +7,13 @@ We're constantly iterating on each of these components, and there's always work 
 These terms are [defined here](../tools/terms-definitions.md).
 
 ```
-agencies
-  datasets
-    scrapers
-      extractions      
+Agencies
+  Datasets
+    Scrapers
+      Extractions      
 ```
 
-**Agencies** can contain many **datasets**; each dataset has one **scraper**; each time a scraper is run, it generates an **extraction**.
+**Agencies** can contain many **Datasets**; each dataset has one **Scraper**; each time a scraper is run, it generates an **Extraction**.
 
 ## Data lifecycle
 
