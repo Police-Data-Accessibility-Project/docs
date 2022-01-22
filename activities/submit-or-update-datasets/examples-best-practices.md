@@ -15,6 +15,22 @@ Every agency has one homepage and one or many datasets. Datasets are URLs to scr
 * The `agencies.homepage_url` is [https://www.alamedaca.gov/Departments/Police-Department](https://www.alamedaca.gov/Departments/Police-Department)
 * One possible `datasets.url` is [https://www.alamedaca.gov/Departments/Police-Department/Annual-Arrest-Traffic-Statistics](https://www.alamedaca.gov/Departments/Police-Department/Annual-Arrest-Traffic-Statistics)
 
+### Lists of Datasets
+
+This is about to get a little meta.
+
+Some Datasets are lists of other Datasets. They often look like this:&#x20;
+
+![](<../../.gitbook/assets/Screen Shot 2022-01-22 at 2.57.53 PM.png>)
+
+These have a [Data Type](https://www.dolthub.com/repositories/pdap/datasets/data/master/data\_types) of "list\_of_\__datasets". [Here they are in the database](https://www.dolthub.com/repositories/pdap/datasets/query/master?name=Lists+of+Datasets\&active=Queries). This may be a good place to start when looking to add every dataset to a particular city.&#x20;
+
+#### Scraping Lists of Datasets
+
+Since Datasets are a resource, and not directly useful data, we don't need to prove chain of custody on them or save scrapers.
+
+Code-free tools like Parsehub can be used when you encounter a "List of Datasets".
+
 ## Deeper Dive
 
 This tutorial will refer to several tables or dolthub links. Here are the common tables you will be either querying in SQL or referencing on the website in one place:

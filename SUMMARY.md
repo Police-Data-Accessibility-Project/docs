@@ -18,12 +18,12 @@
   * [Datasets Properties](activities/submit-or-update-datasets/find-a-dataset-id.md)
 * [Write Scrapers](activities/data-collection/README.md)
   * [Scrapers repo](https://github.com/Police-Data-Accessibility-Project/Scrapers/)
-  * [Data collection basics](activities/data-collection/data-collection-basics.md)
   * [Scraper Schemas](activities/data-collection/scraper\_schemas.md)
   * [FOIA Requests](activities/data-collection/foia.md)
 
 ## 🤖 Mission components <a href="#components" id="components"></a>
 
+* [Key Scraping Principles](components/key-scraping-principles.md)
 * [Data Intake](components/data-intake.md)
 * [Data Storage](components/data-storage/README.md)
   * [Data Standardization](components/data-storage/data-standardization.md)
@@ -36,6 +36,7 @@
 * [DoltHub](tools/dolthub.md)
 * [Splunk](tools/splunk.md)
 * [Third-Party Resources](tools/resources/README.md)
+  * [Parsehub](tools/resources/parsehub.md)
   * [DigitalOcean Docs](https://docs.digitalocean.com/products/)
   * [Hadoop with Python](https://www.oreilly.com/content/hadoop-with-python/)
   * [Hadoop Docs](https://hadoop.apache.org/docs/stable/)
