@@ -23,7 +23,7 @@
 
 ## 🤖 Mission components <a href="#components" id="components"></a>
 
-* [Key Scraping Principles](components/key-scraping-principles.md)
+* [Key Principles](components/key-principles.md)
 * [Data Intake](components/data-intake.md)
 * [Data Storage](components/data-storage/README.md)
   * [Data Standardization](components/data-storage/data-standardization.md)

@@ -19,7 +19,7 @@ Every agency has one homepage and one or many datasets. Datasets are URLs to scr
 
 This is about to get a little meta.
 
-Some Datasets are lists of other Datasets. They often look like this:&#x20;
+Some Datasets are lists of other Datasets. They often [look like this](https://data.wprdc.org/organization/9ecaff80-fb4a-457b-8141-e53f7c991890?q=police\&organization=city-of-pittsburgh\&sort=score+desc%2C+metadata\_modified+desc).&#x20;
 
 ![](<../../.gitbook/assets/Screen Shot 2022-01-22 at 2.57.53 PM.png>)
 
@@ -29,7 +29,7 @@ These have a [Data Type](https://www.dolthub.com/repositories/pdap/datasets/data
 
 Since Datasets are a resource, and not directly useful data, we don't need to prove chain of custody on them or save scrapers.
 
-Code-free tools like Parsehub can be used when you encounter a "List of Datasets".
+Code-free tools like [Parsehub](../../tools/resources/parsehub.md) can be used when you encounter a "List of Datasets", and may be quicker for some people than writing code.
 
 ## Deeper Dive
 
