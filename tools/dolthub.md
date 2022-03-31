@@ -6,7 +6,7 @@ description: This is how we keep our data stream safe and accurate.
 
 ## Getting Started with Dolthub
 
-{% embed url="https://docs.dolthub.com/dolthub/getting-started" %}
+{% embed url="https://github.com/dolthub/dolt/blob/main/docs/quickstart.md" %}
 
 Here’s our [dolt org](https://www.dolthub.com/organizations/pdap).
 
@@ -22,14 +22,14 @@ Anyone can create a Pull Request to be merged into the database via the SQL UI a
 
 Dolt has a [guide here](https://docs.dolthub.com/integrations/spreadsheets) for spreadsheets generally, including ODBC setup. Using the CLI, first ensure you’ve initialized the repo you’d like to pull from. Export a table like this:
 
-```text
+```
 dolt table export source_types > source_types.csv
 dolt table export <table_name> > <file_name>
 ```
 
 Add new files
 
-```text
+```
 dolt table import -c --pk <primary_key> <table_name> <file_name>
 dolt table import -c --pk name format_types format_types.csv
 ```
@@ -44,7 +44,7 @@ There are two ways to run the dolt server with multiple databases served in one 
 
 ### Method 1
 
-```text
+```
 dolt sql-server -H 0.0.0.0 -P 3306 -u root -p root123 --multi-db-dir /path_to_dir_that_hosts_multi_repos/
 ```
 
@@ -52,7 +52,7 @@ dolt sql-server -H 0.0.0.0 -P 3306 -u root -p root123 --multi-db-dir /path_to_di
 
 Create a config file, example.cnf:
 
-```text
+```
 log_level: info
 
 behavior:
@@ -82,7 +82,6 @@ performance:
 
 Then run it with:
 
-```text
+```
 dolt sql-server --config my2.cnf
 ```
-
