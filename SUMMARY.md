@@ -19,7 +19,7 @@
   * [Datasets Properties](activities/submit-or-update-datasets/find-a-dataset-id.md)
 * [Write Scrapers](activities/data-collection/README.md)
   * [Scrapers repo](https://github.com/Police-Data-Accessibility-Project/Scrapers/)
-  * [Scraper Schemas](activities/data-collection/scraper\_schemas.md)
+  * [Scraper Anatomy](activities/data-collection/scraper\_schemas.md)
   * [FOIA Requests](activities/data-collection/foia.md)
 
 ## 🤖 Mission components <a href="#components" id="components"></a>

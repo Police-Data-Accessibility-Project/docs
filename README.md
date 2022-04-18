@@ -8,15 +8,15 @@ Read more about our mission at [https://pdap.io/](https://pdap.io).
 
 ## What is PDAP?
 
-PDAP is a non-profit making open-source code to achieve our mission: consolidating data from every U.S. agency into a **single public resource.**
+The Police Data Accessibility Project is a community working to collect data from every U.S. police agency into a **single public resource.**
 
 ### Our core work
 
-We're building a small suite of tools to help contributors do these things:
+We're building a small suite of tools to help our community:
 
-1. Track [police datasets](activities/submit-or-update-datasets/what-are-datasets.md), our "to do list" of websites with data to collect.
-2. Submit [data scrapers to our repo](https://github.com/Police-Data-Accessibility-Project/PDAP-Scrapers).
-3. Run scrapers and [submit the extractions](components/data-intake.md) to our database.
+1. maintain a list of [Police Datasets](activities/submit-or-update-datasets/what-are-datasets.md), helping people quickly locate any public information about their local police department's activities, budget, and data.
+2. code[ open-source Scrapers](https://github.com/Police-Data-Accessibility-Project/Scrapers/) which help us create archives of publicly available data.&#x20;
+3. make data extractions as easily accessible as possible.
 
 ## How do we work?
 

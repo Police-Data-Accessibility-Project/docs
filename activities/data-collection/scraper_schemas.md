@@ -2,59 +2,11 @@
 description: Connecting Scrapers and Datasets.
 ---
 
-# Scraper Schemas
+# Scraper Anatomy
 
 ## Overview
 
 Scrapers are best understood by the Dataset they are scraping. The Datasets database is normalized, so it's not easy to tell at a glance what properties a dataset has (unless you have memorized what `agency_id = 73e93439e6bf4ffc8b3f931a86fa3ad0` or `data_type = 4` means.
-
-The `schema.json` file in the root of each Scraper folder gives us two things:
-
-1. Human- and machine-readable information about each Scraper.
-2. The ability for data collectors to quickly update the [Datasets database](broken-reference) while submitting or updating Scraper code.
-
-## Usage
-
-With the `schema.json` file populated, we can keep Dataset and Agency information in sync without forcing volunteers to use DoltHub. The schema file also points exactly where the output files are located, and tells the ETL library how to map tabular data.
-
-We currently have one working example for the[ /USA/CA/butte\_county/college/chico](https://github.com/Police-Data-Accessibility-Project/PDAP-Scrapers/tree/main/USA/CA/butte\_county/college/chico) scrapers. Running the `etl.py` script will clone the DoltHub repos, read from the `schema.json`, make the changes in a new branch, sync the database with the `schema.json` and prepare for a commit.
-
-## Schema example & definitions
-
-```
-{
-    "agency_id": "73e93439e6bf4ffc8b3f931a86fa3ad0",
-    "agency_info":{
-        "agency_name":"Clanton Police Department",
-        "agency_coords":{"lat": "32.83853", "lng":"-86.62936"},
-        "agency_type" : 4,
-        "city":"Clanton",
-        "state": "AL",
-        "zip":"35045",
-        "county_fips":"01021"
-    },
-    "data": [
-        {
-            "dataset_id": "5740697099a311ebab258c8590d4a7fc",
-            "url":"https://cityprotect.com/agency/540048e6ee664a6f88ae0ceb93717e50",
-            "full_data_location":"data/cityprotect",
-            "source_type": 3,
-            "data_type": 10,
-            "format_type": 2,
-            "update_freq": 3,
-            "last_modified": "2021-05-25 21:07:03.793049 +0000 UTC",
-            "mapping":{
-                "id": "__uuid__",
-                "ccn":"ccn",
-                "incidentDate": "date",
-                ...
-                "datasets_id": "__dataset_id__",
-                "date_insert": "__date__"
-            }
-        }
-    ]
-}
-```
 
 | Field                | Description                                                                                                                                                                                                                                                                   |
 | -------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
