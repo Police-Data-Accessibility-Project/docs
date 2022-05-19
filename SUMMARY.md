@@ -47,6 +47,7 @@
 
 * [Blog](updates/blog/README.md)
   * [RSS Feed](http://fetchrss.com/rss/6146cab9ead6fc081b5938226146ca903553905be00a4212.xml)
+  * [5/17/22: First Grant Awarded](updates/blog/5-17-22-first-grant-awarded.md)
   * [1/2/22: New Year Recap](updates/blog/1-2-22-new-year-recap.md)
   * [9/18/21: 501c3 Approval](updates/blog/9-18-21-501c3-approval.md)
   * [7/14/21: Bounty Retro](updates/blog/7-14-21-bounty-retro.md)
