@@ -4,7 +4,7 @@
 
 On May 12, we received some excellent news: we've been awarded a grant of $250,000 by [The Heinz Endowments](https://www.heinz.org/) to make progress on our app. Until now, most work on PDAP (except for [Data Bounties](7-14-21-bounty-retro.md)) has been done pro bono by a small cast of folks. We've been lucky to receive help from talented, generous volunteers, and we're proud of our steady progress.
 
-The short version: we get to hire two full-time staff to work on PDAP.
+The short version: we get to hire staff to work on PDAP.
 
 ## Grant details
 
@@ -50,6 +50,6 @@ This grant builds our capacity by supporting **two full-time roles:** a full sta
 
 ## Get involved
 
-* Can you build things in Python as part of a tiny team? [Apply to our LinkedIn job](https://www.linkedin.com/hiring/jobs/3072166865/detail/) or reach out to [contact@pdap.io](mailto:contact@pdap.io) with your resume and cover letter. It's a mostly-remote hybrid position with healthcare.
+* Can you build things in Python as part of a tiny team? Reach out to [contact@pdap.io](mailto:contact@pdap.io) with your resume and cover letter.
 * Can you help us pay for other essential things, like legal help and hosting? [Contribute here](https://pdap.io/contribute.html). We're a 501c3, so your donation may be tax deductible.
 * To keep in the loop about upcoming [Data Bounties](../../activities/submit-or-update-datasets/data-bounties.md) (get paid to scrape data), subscribe to our email newsletter [on our website](https://pdap.io) or [join our Discord](https://discord.gg/wMqex8nKZJ).
