@@ -14,6 +14,6 @@ Aggregated public police data is [collected here](https://www.dolthub.com/reposi
 
 ## Future State
 
-A front end data portal and export tool hosted on our website. \
+[A front end data portal](https://github.com/Police-Data-Accessibility-Project/planning/issues/144) and export tool hosted on our website. \
 \
 We are looking to use Django for the front-end because we're so python-dense.
