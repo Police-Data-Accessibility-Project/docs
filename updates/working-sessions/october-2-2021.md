@@ -8,7 +8,7 @@ We need to firm up support for unprocessed data, this issue needs some work to s
 
 Risk: abuse that eats through our credit or destroys our data.
 
-[https://www.openmined.org/](https://www.openmined.org) is a way to facilitate data analysis with an encrypted / private middle layer. Could be used for address/name removal/hiding.
+[https://www.openmined.org/](https://www.openmined.org/) is a way to facilitate data analysis with an encrypted / private middle layer. Could be used for address/name removal/hiding.
 
 ## Guidestar
 

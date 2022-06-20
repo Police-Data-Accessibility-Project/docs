@@ -4,7 +4,7 @@ description: We're making a unified archive of police data.
 
 # 👋 Welcome to PDAP!
 
-Read more about our mission at [https://pdap.io/](https://pdap.io).
+Read more about our mission at [https://pdap.io/](https://pdap.io/).
 
 ## What is PDAP?
 

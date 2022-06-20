@@ -1,6 +1,6 @@
 # Datasets Properties
 
-![https://dbdiagram.io/d/607762c7b6aeb3052d90271b](<../../.gitbook/assets/image (13).png>)
+![https://dbdiagram.io/d/607762c7b6aeb3052d90271b](<../../.gitbook/assets/image (14).png>)
 
 ## Schema Overview
 
@@ -16,7 +16,7 @@ _Quick tips:_
 
 `id` is a UUID without hyphens. If you leave this field blank, it will automatically generate.
 
-`url` is the web location of the data for us to obtain. It could be a directory of files, a link to an aggregator, a map of incident reports. Our [Examples & Best Practices guide](../../activities/submit-or-update-datasets/examples-best-practices.md) will help you determine what to use for the `url` as well as determining the other fields for this table
+`url` is the web location of the data for us to obtain. It could be a directory of files, a link to an aggregator, a map of incident reports. Our [Examples & Best Practices guide](examples-best-practices.md) will help you determine what to use for the `url` as well as determining the other fields for this table
 
 `status_id` is the current status of the dataset
 

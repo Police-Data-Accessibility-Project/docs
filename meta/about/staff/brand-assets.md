@@ -26,11 +26,11 @@ Don't add drop shadows or outlines.
 Infinitely scalable. Use these whenever possible, especially if you need to change the color or insert it into a print design.
 {% endhint %}
 
-![logo.svg](<../../../.gitbook/assets/logo (1).svg>)
+![logo.svg](../../../.gitbook/assets/logo.svg)
 
-![acronym.svg](../../../.gitbook/assets/acronym.svg)
+![acronym.svg](<../../../.gitbook/assets/acronym (1) (1).svg>)
 
-![lockup.svg](<../../../.gitbook/assets/lockup (2).svg>)
+![lockup.svg](<../../../.gitbook/assets/lockup (1) (2).svg>)
 
 ### PNG
 
@@ -38,7 +38,7 @@ Infinitely scalable. Use these whenever possible, especially if you need to chan
 Conveniently exported to pixels. Use these for things like social media profile pictures.
 {% endhint %}
 
-![logo.png (extra space added for circle crops)](<../../../.gitbook/assets/logo-space (1).png>)
+![logo.png (extra space added for circle crops)](<../../../.gitbook/assets/logo-space (2).png>)
 
 ![acronym.png](../../../.gitbook/assets/acronym.png)
 

@@ -52,6 +52,6 @@ PDAP could be considered a wikipedia-like source of good sources.
 > \[...private data] may also include personal data that can identify an individual person, such as name, email, phone number, and address. If in doubt, omit such personal data from the scope of the scrape.
 
 \[b] [https://papers.ssrn.com/sol3/papers.cfm?abstract\_id=2678420](https://papers.ssrn.com/sol3/papers.cfm?abstract\_id=2678420) \
-\[c] [https://pdap.io/](https://pdap.io) \
+\[c] [https://pdap.io/](https://pdap.io/) \
 \[d] [https://docs.pdap.io/meta/legal/personally-identifiable-information](https://docs.pdap.io/meta/legal/personally-identifiable-information)\
 \[e] [https://www.whitepages.com/terms-of-service](https://www.whitepages.com/terms-of-service)
