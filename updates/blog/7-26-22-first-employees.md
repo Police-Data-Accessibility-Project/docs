@@ -22,4 +22,6 @@ We'd like to keep the team small and flexible. Our goal is to empower the exist
 
 That said: we need more help. Making PDAP an equitable workplace with good legal and financial standing is a full time job. Extra development firepower will help us build more effective software and respond quickly to issues. We'd like to run more [Data Bounties](../../activities/submit-or-update-datasets/data-bounties.md) to pay data transparency activists for their time and expertise.
 
-We're actively looking for more funding, and are preparing to launch a more intentional direct giving campaign. In the meantime, every bit helps and [there are always ways to donate](https://pdap.io/contribute.html).
+We're actively looking for more funding, and are preparing to launch a more intentional direct giving campaign. In the meantime, every bit helps and [there are always ways to donate](https://pdap.io/contribute.html). You can also share a link to [our homepage](https://pdap.io/) with the people in your life who might like to see it.
+
+We'd like to hear from you! Reach out to contact@pdap.io or [in Discord](https://discord.gg/wMqex8nKZJ) if you have thoughts or questions to share. Thank you for being here!
