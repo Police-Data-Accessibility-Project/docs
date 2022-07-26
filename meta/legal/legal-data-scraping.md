@@ -33,9 +33,10 @@ Again, scraping should be strictly limited to information that is presumptively 
 
 **Am I in violation of the terms of use/service of the website I intend to scrape?**
 
-When you login \(e.g., through a username and password\) and/or expressly agree to the terms of use/serve of a website, you are entering into a contract with the website owner, thereby agreeing to their rules. These rules may explicitly state that data may not be scraped from the website, and failing to adhere to such terms may put you in breach of that contract. As noted, however, your scraping should be strictly limited to information that is presumptively accessible to the general public, and which does not require authentication.
+When you login (e.g., through a username and password) and/or expressly agree to the terms of use/serve of a website, you are entering into a contract with the website owner, thereby agreeing to their rules. These rules may explicitly state that data may not be scraped from the website, and failing to adhere to such terms may put you in breach of that contract. As noted, however, your scraping should be strictly limited to information that is presumptively accessible to the general public, and which does not require authentication.
+
+__[_Recent court rulings_](https://www.eff.org/deeplinks/2022/04/scraping-public-websites-still-isnt-crime-court-appeals-declares) _have confirmed the legality of web scraping regardless of Terms of Service. Ethics dictate that following Terms of Service is still best practice._
 
 **Will my scraping activity overload, damage, or otherwise adversely affect a server?**
 
 Do not harm the website you are scraping. This includes, for example, using a reasonable crawl rate and assuring that the volume and frequency of queries you make so not burden the website’s servers or interfere with the website’s normal operations. Respect the delay that crawlers should wait between requests by following the crawl-delay directive outlined in the robots.txt file. Where possible, strive to limit scraping to a time of day when the website is unlikely to be experiencing heavy traffic, for example, early in the morning or night. All PDAP scrapers and crawlers must also abide by State and Federal computer crimes statutes, including those collected [here](state-computer-crimes-laws.md).
-
