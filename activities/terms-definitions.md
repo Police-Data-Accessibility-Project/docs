@@ -4,6 +4,31 @@
 
 We're finding and archiving sources of police data in a giant library. As our archive grows over time, we can empower larger and more exciting analysis projects with the data we've collected.
 
+### Why tracking Data Sources matters
+
+Shouldn't we just be writing a bunch of web scrapers and getting down to business? The short answer is that people are already doing this—across the country, people are using whatever means they can, from Python bootcamps to machine learning processes, to analyze what data is available.
+
+* People need to be able to find data to do anything with it. This is currently a challenge. Does your organization have a giant, unwieldy spreadsheet with URLs pasted into it? You're not alone.
+* Data is next to useless without context; we need to capture information about what data is available, how it was collected, and how it relates to other data. Only then will our community be able to effectively analyze it.
+* Most people don’t realize how inconsistent police data access can be. We need to communicate that many answers cannot be found publicly, and serve as a hub for transparency activists working on the problem.
+
+### Phases of Data Accessibility
+
+1. Collect required data about each state in the U.S.
+   * State-specific rules about police data and collection
+2. Collect required data about `90% of the Agencies` in the state.
+   * Location
+   * Homepage
+3. Collect required metadata about `90% of the Data Sources` in the state.
+   * What kind of data?
+   * Where is it?
+   * How can it be accessed?
+     * Methods required
+     * Skills required
+     * Rules about who can access it
+   * What format is it in?
+4. Publish tools to normalize and combine data from different Agencies and States.
+
 ## Terms & Definitions
 
 When describing PDAP activity, these are capitalized proper nouns.
