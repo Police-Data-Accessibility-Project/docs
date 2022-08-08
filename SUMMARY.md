@@ -5,7 +5,7 @@
 
 ## ⚡ Activities
 
-* [Terms & Definitions](activities/terms-definitions.md)
+* [Our Process](activities/terms-definitions.md)
 * [Data Sources](activities/data-storage/submit-or-update-datasets/README.md)
   * [What are Data Sources?](activities/data-storage/submit-or-update-datasets/what-are-datasets.md)
   * [Find Data Sources to submit](activities/data-storage/submit-or-update-datasets/examples-best-practices.md)
