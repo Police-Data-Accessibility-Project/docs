@@ -1,5 +1,6 @@
 ---
 description: by Eric Turner
+layout: editorial
 ---
 
 # 5/26/21: ETL Prototype
@@ -8,7 +9,7 @@ The GitHub PR is [here](https://github.com/Police-Data-Accessibility-Project/PDA
 
 The data that was loaded is from the USA/CA/butte\_county/college/chico scraper. I chose this as a starting point because it has two different types of data, with two differing formats. This allowed me to verify the library reads from the schema.json properly and can load and map no matter the data output. You can find that PR [here](https://www.dolthub.com/repositories/pdap/data-intake/pulls/7/compare). It also created 2 new datasets [here](https://www.dolthub.com/repositories/pdap/datasets/pulls/39).
 
-We currently have it set to not auto-commit so someone reviews before committing each time. But it does load data from files, use the schema.json file and \(mostly\) works!
+We currently have it set to not auto-commit so someone reviews before committing each time. But it does load data from files, use the schema.json file and (mostly) works!
 
 Current Process:
 
@@ -19,4 +20,3 @@ Current Process:
 5. It will do the same for the `data`.`mapping` object, it will search for a table in `pdap/data-intake` with the exact name of the `data_type` and then sync the columns so they are there. If a new column is in the database but not the schema.json file, it will add the missing column with a `__skip__` value.
 6. Once everything has been synced, it will finally enumerate over the `mapping` object and insert the data into `pdap/data-intake`. Erroneous records are skipped a message displayed to the console.
 7. The schema.json is overwritten in the directory with the synced changes from the database.
-

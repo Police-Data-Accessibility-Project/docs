@@ -1,5 +1,6 @@
 ---
 description: by Josh Chamberlain
+layout: editorial
 ---
 
 # 7/14/21: Bounty Retro
@@ -12,7 +13,7 @@ Our first [Data Bounty](https://www.dolthub.com/repositories/pdap/datasets/bount
 
 Our goal was to complete our Agencies table, which is a critical piece of infrastructure. It allows us to draw a line directly from a department's website to the processed, accessible police data that was collected from it.
 
-* We accepted 22 PRs, for a total of 162494 cell edits. There are [~18,000 agencies by name](https://www.dolthub.com/repositories/pdap/datasets/query/master?q=select+count%28distinct+name%29+as+%22Number+of+agencies%22+from+agencies%3B%0A&active=Tables), and [~23,000 by id](https://www.dolthub.com/repositories/pdap/datasets/query/master?q=select+count%28distinct+id%29+%0Aas+%22Number+of+agencies%22+%0Afrom+agencies%3B%0A&active=Tables). That's a huge leap forward in our data holdings. Thank you to the folks who contributed!
+* We accepted 22 PRs, for a total of 162494 cell edits. There are [\~18,000 agencies by name](https://www.dolthub.com/repositories/pdap/datasets/query/master?q=select+count%28distinct+name%29+as+%22Number+of+agencies%22+from+agencies%3B%0A\&active=Tables), and [\~23,000 by id](https://www.dolthub.com/repositories/pdap/datasets/query/master?q=select+count%28distinct+id%29+%0Aas+%22Number+of+agencies%22+%0Afrom+agencies%3B%0A\&active=Tables). That's a huge leap forward in our data holdings. Thank you to the folks who contributed!
 * We learned that it's possible to rapidly scrape agency homepage data for the entire country.
 
 ## Areas to Improve
@@ -23,4 +24,3 @@ There was a burst of activity that died off as incentives dried up. How can we s
 * A group of volunteers calling themselves the Bounty Hunters were trying to make a submission and blocked by our schema. Not OK! We're going to investigate why and make the necessary changes in time for the next bounty.
 
 Next up? [Become a Patron](https://blog.pdap.io/article/patreon.com/pdap) to fund future bounties. [Contribute to our Datasets](https://www.dolthub.com/repositories/pdap/datasets). [Contribute code](https://docs.pdap.io/).
-

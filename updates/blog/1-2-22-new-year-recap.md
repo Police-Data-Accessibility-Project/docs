@@ -1,5 +1,6 @@
 ---
 description: by Josh Chamberlain
+layout: editorial
 ---
 
 # 1/2/22: New Year Recap
