@@ -15,9 +15,11 @@ Shouldn't we just be writing a bunch of web scrapers and getting down to busines
 ### Phases of Data Accessibility
 
 1. Collect required data about each state in the U.S.
-   * State-specific rules about police data and collection
+   * Federal and state-specific rules about police data publishing and access
 2. Collect required data about `90% of the Agencies` in the state.
    * Location
+     * Jurisdiction
+     * Parent / child relationships between Agencies
    * Homepage
 3. Collect required metadata about `90% of the Data Sources` in the state.
    * What kind of data?
@@ -27,7 +29,7 @@ Shouldn't we just be writing a bunch of web scrapers and getting down to busines
      * Skills required
      * Rules about who can access it
    * What format is it in?
-4. Publish tools to normalize and combine data from different Agencies and States.
+4. Publish tools to normalize and combine data from different Agencies and States, once local data is solid.
 
 ## Terms & Definitions
 

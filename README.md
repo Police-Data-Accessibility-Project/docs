@@ -4,9 +4,17 @@ description: We're making a unified archive of police data.
 
 # 👋 Welcome to PDAP!
 
-{% hint style="info" %}
 Read more about our mission at [https://pdap.io/](https://pdap.io/).
-{% endhint %}
+
+## Our core work
+
+We're building a small suite of tools to help our community:
+
+1. maintain a list of [Police **Data Sources**](activities/data-storage/submit-or-update-datasets/what-are-datasets.md), helping people quickly locate any public information about their local police department's activities, budget, and data.
+2. facilitate coding of[ open-source **Scrapers**](https://github.com/Police-Data-Accessibility-Project/Scrapers/), which help us extract deeper information from the archives.
+3. **automate** Archives of Data Sources and Scrapers to keep as much data accessible as possible.
+4. establish **benchmarks** and account for the status of data accessibility in departments across the United States.
+5. connect people in the **community** who use data with those who can help collect and process it..
 
 ## How do we work?
 
