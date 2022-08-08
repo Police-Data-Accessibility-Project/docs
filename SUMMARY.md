@@ -5,22 +5,20 @@
 
 ## ⚡ Activities
 
-* [Process overview](activities/process-overview.md)
 * [Terms & Definitions](activities/terms-definitions.md)
-* [Published Data](activities/data-storage/README.md)
-  * [Data Sources](activities/data-storage/submit-or-update-datasets/README.md)
-    * [What are Data Sources?](activities/data-storage/submit-or-update-datasets/what-are-datasets.md)
-    * [Find Data Sources to submit](activities/data-storage/submit-or-update-datasets/examples-best-practices.md)
-    * [Search for PDAP Data Sources](activities/data-storage/submit-or-update-datasets/search-the-pdap-datasets-repository.md)
-    * [Submit Data Sources with web tools](activities/data-storage/submit-or-update-datasets/submit-datasets-with-web-tools.md)
-    * [Submit Data Sources with CLI](activities/data-storage/submit-or-update-datasets/submit-datasets-with-cli.md)
-    * [Data Bounties](activities/data-storage/submit-or-update-datasets/data-bounties.md)
-    * [Validate Data Sources PRs](activities/data-storage/submit-or-update-datasets/validate-datasets-prs.md)
-    * [PostgreSQL Data Sources mirror](activities/data-storage/submit-or-update-datasets/hadoop-datasets-mirror.md)
-  * [Data Extractions](activities/data-storage/data-intake/README.md)
-    * [Scrapers](activities/data-storage/data-intake/data-collection/README.md)
-      * [Scrapers repo](https://github.com/Police-Data-Accessibility-Project/Scrapers/)
-    * [FOIA Requests](activities/data-storage/data-intake/foia.md)
+* [Data Sources](activities/submit-or-update-datasets/README.md)
+  * [What are Data Sources?](activities/submit-or-update-datasets/what-are-datasets.md)
+  * [Find Data Sources to submit](activities/submit-or-update-datasets/examples-best-practices.md)
+  * [Search for PDAP Data Sources](activities/submit-or-update-datasets/search-the-pdap-datasets-repository.md)
+  * [Submit Data Sources with web tools](activities/submit-or-update-datasets/submit-datasets-with-web-tools.md)
+  * [Submit Data Sources with CLI](activities/submit-or-update-datasets/submit-datasets-with-cli.md)
+  * [Data Bounties](activities/submit-or-update-datasets/data-bounties.md)
+  * [Validate Data Sources PRs](activities/submit-or-update-datasets/validate-datasets-prs.md)
+  * [PostgreSQL Data Sources mirror](activities/submit-or-update-datasets/hadoop-datasets-mirror.md)
+* [Data Extractions](activities/data-intake/README.md)
+  * [Scrapers](activities/data-intake/data-collection/README.md)
+    * [Scrapers repo](https://github.com/Police-Data-Accessibility-Project/Scrapers/)
+  * [FOIA Requests](activities/data-intake/foia.md)
 
 ## 🛠 Tools & Resources <a href="#tools" id="tools"></a>
 
