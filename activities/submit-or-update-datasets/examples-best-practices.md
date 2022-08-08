@@ -1,44 +1,36 @@
-# Find Datasets to submit
+# Find Data Sources to submit
 
 ## Introduction
 
-Every agency has one homepage and one or many datasets. Datasets are URLs to scrape for data. You may want to [submit a new dataset](./) to scrape. This guide is for you!&#x20;
+Every police agency has one or many Data Sources, or URLs which hold data about the agency.
 
 ### Quick start
 
-1. Head to the [Datasets repo](https://www.dolthub.com/repositories/pdap/datasets) to see which datasets we already have.&#x20;
+1. Head to the [Data Sources repo](https://www.dolthub.com/repositories/pdap/data\_sources) to see which datasets we already have.&#x20;
 2. Find a web page on the agency site with potentially useful data.
-3. Use this as a starting point this to submit with [web tools](submit-datasets-with-web-tools.md) or the [CLI](submit-datasets-with-cli.md).
+3. Add your Data Source to the database with [web tools](submit-datasets-with-web-tools.md) or the [CLI](submit-datasets-with-cli.md).
 
 &#x20;For example, take Alameda, California:
 
 * The `agencies.homepage_url` is [https://www.alamedaca.gov/Departments/Police-Department](https://www.alamedaca.gov/Departments/Police-Department)
-* One possible `datasets.url` is [https://www.alamedaca.gov/Departments/Police-Department/Annual-Arrest-Traffic-Statistics](https://www.alamedaca.gov/Departments/Police-Department/Annual-Arrest-Traffic-Statistics)
+* One possible `data_sources.url` is [https://www.alamedaca.gov/Departments/Police-Department/Annual-Arrest-Traffic-Statistics](https://www.alamedaca.gov/Departments/Police-Department/Annual-Arrest-Traffic-Statistics)
 
 ### Lists of Datasets
 
-This is about to get a little meta.
-
-Some Datasets are lists of other Datasets. They often [look like this](https://data.wprdc.org/organization/9ecaff80-fb4a-457b-8141-e53f7c991890?q=police\&organization=city-of-pittsburgh\&sort=score+desc%2C+metadata\_modified+desc).&#x20;
+This is a little meta: some Data Sources are lists of other Data Sources. They often [look like this](https://data.wprdc.org/organization/9ecaff80-fb4a-457b-8141-e53f7c991890?q=police\&organization=city-of-pittsburgh\&sort=score+desc%2C+metadata\_modified+desc).&#x20;
 
 ![](<../../.gitbook/assets/Screen Shot 2022-01-22 at 2.57.53 PM.png>)
 
-These have a [Data Type](https://www.dolthub.com/repositories/pdap/datasets/data/master/data\_types) of "list\_of_\__datasets". [Here they are in the database](https://www.dolthub.com/repositories/pdap/datasets/query/master?name=Lists+of+Datasets\&active=Queries). This may be a good place to start when looking to add every dataset to a particular city.&#x20;
-
-#### Scraping Lists of Datasets
-
-Since Datasets are a resource, and not directly useful data, we don't need to prove chain of custody on them or save scrapers.
-
-Code-free tools like [Parsehub](../../tools/resources/parsehub.md) can be used when you encounter a "List of Datasets", and may be quicker for some people than writing code.
+These have a Data Type of "list\_of\_data\_sources". This may be a good place to start when looking to add every dataset to a particular city.
 
 ## Deeper Dive
 
 This tutorial will refer to several tables or dolthub links. Here are the common tables you will be either querying in SQL or referencing on the website in one place:
 
-* data\_types: [Online](https://www.dolthub.com/repositories/pdap/datasets/data/master/data\_types) or `select * from data_types`&#x20;
-* statuses: [Online](https://www.dolthub.com/repositories/pdap/datasets/data/master/dataset\_status) or `select * from dataset_status`
-* source\_types: [Online](https://www.dolthub.com/repositories/pdap/datasets/data/master/source\_types) or `select * from source_types`
-* id generator: [Online](https://www.dolthub.com/repositories/pdap/datasets/query/master?q=SELECT+REPLACE%28uuid%28%29%2C+%27-%27%2C+%27%27%29%3B%0A%0A\&active=Tables) or `SELECT REPLACE(uuid(), '-', '');`
+* data\_types: `select * from data_types`&#x20;
+* statuses: `select * from dataset_status`
+* source\_types: `select * from source_types`
+* id generator: `SELECT REPLACE(uuid(), '-', '');`
   * Note, you can also generate one from python shell, using the uuid v4 generator (which is better than SQLs default gen).
   * As of 25 May 2021, the `id` columns have been set up to automatically generate the uuid for you if you do not specify the column in the insert.
 
@@ -84,10 +76,10 @@ On the sidebar they have a button to **Review Crime Activity**! Perfect! Let's c
 
 ![5 different types of data!](<../../.gitbook/assets/image (10).png>)
 
-Awesome! This particular link gives us 5 different types of data! We will want to capture each different [data type](https://www.dolthub.com/repositories/pdap/datasets/data/master/data\_types) in its own `dataset` record, as the scraper for each data type will most likely be a bit different and the table the data goes into will also be different. So let's start cross-referencing the data-types with what we see on the page to build to our datasets!\
+Awesome! This particular link gives us 5 different types of data! We will want to capture each different [data type](https://www.dolthub.com/repositories/pdap/datasets/data/master/data\_types) in its own `data source` record, as the scraper for each data type will most likely be a bit different and the table the data goes into will also be different. So let's start cross-referencing the data-types with what we see on the page to build to our Data Sources!\
 
 
-### Dataset Enumeration
+### Data Source Enumeration
 
 Let's just go down the list of the 5 types we have for this agency.
 

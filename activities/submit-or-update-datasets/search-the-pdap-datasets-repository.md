@@ -1,34 +1,34 @@
-# Search the PDAP Datasets repository
+# Search for PDAP Data Sources
 
-Navigate to the [Datasets repo in DoltHub](https://www.dolthub.com/repositories/pdap/datasets).
+Navigate to the [Data Sources repo in DoltHub](https://www.dolthub.com/repositories/pdap/data\_sources).
 
-Using any SQL editor, including the DoltHub UI, enter one of these queries to find a Dataset.
+Using any SQL editor, including the DoltHub UI, enter one of these queries to find a Data Source.
 
 ## Find Agencies
 
 ```sql
---find dataset id by city
+--find data_source id by city
 SELECT *
-FROM `datasets` 
-JOIN `agencies` ON agencies.id = datasets.agency_id
+FROM `data_sources` 
+JOIN `agencies` ON agencies.id = data_sources.agency_id
 WHERE agencies.city LIKE "%Antioch%"
 
---find dataset id by state
+--find data_source id by state
 SELECT *
-FROM `datasets` 
-JOIN `agencies` ON agencies.id = datasets.agency_id
+FROM `data_sources` 
+JOIN `agencies` ON agencies.id = data_sources.agency_id
 WHERE agencies.state_iso = "MD"
 
---find dataset id by county name
+--find data_source id by county name
 SELECT *
-FROM `datasets`
-JOIN `agencies` ON agencies.id = datasets.agency_id
+FROM `data_sources`
+JOIN `agencies` ON agencies.id = data_sources.agency_id
 JOIN `counties` ON counties.fips = agencies.county_fips
 WHERE counties.name LIKE "%Bibb%"
 
---find datasets by agency id
+--find data_source by agency id
 SELECT *
-FROM `datasets`
+FROM `data_sources`
 WHERE `agency_id` = "b27ae147ba004dec875eeaa5259ebb57"
 ```
 
