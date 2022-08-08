@@ -4,11 +4,11 @@ We're constantly iterating on each of these components, and there's always work 
 
 ## Structure
 
-These terms are [defined here](../tools/terms-definitions.md).
+These terms are [defined here](terms-definitions.md).
 
 ```
 Agencies
-  Datasets
+  Data Sources
     Scrapers
       Extractions      
 ```

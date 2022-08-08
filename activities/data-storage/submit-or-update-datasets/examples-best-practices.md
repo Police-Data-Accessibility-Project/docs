@@ -19,7 +19,7 @@ Every police agency has one or many Data Sources, or URLs which hold data about 
 
 This is a little meta: some Data Sources are lists of other Data Sources. They often [look like this](https://data.wprdc.org/organization/9ecaff80-fb4a-457b-8141-e53f7c991890?q=police\&organization=city-of-pittsburgh\&sort=score+desc%2C+metadata\_modified+desc).&#x20;
 
-![](<../../.gitbook/assets/Screen Shot 2022-01-22 at 2.57.53 PM.png>)
+![](<../../../.gitbook/assets/Screen Shot 2022-01-22 at 2.57.53 PM.png>)
 
 These have a Data Type of "list\_of\_data\_sources". This may be a good place to start when looking to add every dataset to a particular city.
 
@@ -59,7 +59,7 @@ First we need to pick an agency from the `agencies` table.
 Let's see Alameda, California.  First we need to grab the agency id (either from the [web](https://www.dolthub.com/repositories/pdap/datasets/query/master?q=SELECT+\*%0AFROM+%60agencies%60%0Awhere+name+like+%27Alameda+Police%25%27+and+state\_iso+%3D+%27CA%27%0A%0A\&active=Tables) or sql) for later use\
 
 
-![We will use the Police Department.](<../../.gitbook/assets/image (2).png>)
+![We will use the Police Department.](<../../../.gitbook/assets/image (2).png>)
 
 So `5c2d0726d183487ba746402872573f42` is our agency id! Now we perform a google search for Alameda Police Department CA, and we find their [homepage](https://www.alamedaca.gov/Departments/Police-Department). We can also see in the above table that `homepage_url` is blank, so we can run a quick update to store this homepage!
 
@@ -70,11 +70,11 @@ UPDATE agencies SET homepage_url = 'https://www.alamedaca.gov/Departments/Police
 \
 
 
-![](<../../.gitbook/assets/image (9).png>)
+![](<../../../.gitbook/assets/image (9).png>)
 
 On the sidebar they have a button to **Review Crime Activity**! Perfect! Let's click on that!
 
-![5 different types of data!](<../../.gitbook/assets/image (10).png>)
+![5 different types of data!](<../../../.gitbook/assets/image (10).png>)
 
 Awesome! This particular link gives us 5 different types of data! We will want to capture each different [data type](https://www.dolthub.com/repositories/pdap/datasets/data/master/data\_types) in its own `data source` record, as the scraper for each data type will most likely be a bit different and the table the data goes into will also be different. So let's start cross-referencing the data-types with what we see on the page to build to our Data Sources!\
 
@@ -85,7 +85,7 @@ Let's just go down the list of the 5 types we have for this agency.
 
 #### Alameda Crime Graphics
 
-![Crime Graphics](<../../.gitbook/assets/image (11).png>)
+![Crime Graphics](<../../../.gitbook/assets/image (11).png>)
 
 The first accordion of this page has a link for crime graphics. When we click the button here, it takes us to a brand new link with incident reports, arrest logs, missing persons, daily bulletins and more! Unfortunately, this website does not change the URL when you click any of the links on the sidebar. So that means this data\_type is a `multi`, which we can find on our [data types reference list](https://www.dolthub.com/repositories/pdap/datasets/data/master/data\_types) as id `27` . This data being housed on an external source, makes it a `third party` source type, which [looking that up](https://www.dolthub.com/repositories/pdap/datasets/data/master/source\_types) is `3`. It's also a good idea to leave a note for a `multi` data type. The `status_id` for our purposes will always be `1` because you are just adding the dataset but not scraping it. Scrapers will update this column to show the status of each dataset later!\
 \
@@ -112,7 +112,7 @@ VALUES
 
 Just like above, let's go to the next accordion menu of Crime Statistics:
 
-![](<../../.gitbook/assets/image (8).png>)
+![](<../../../.gitbook/assets/image (8).png>)
 
 This provides us with another link, but this time the link is still on the official agency webpage. Looking back at our source types page: we would now use `2` for a `direct` source type. Now we look again at the data types and we find `24` which is `annual_reports`. And we are ready to insert!
 
