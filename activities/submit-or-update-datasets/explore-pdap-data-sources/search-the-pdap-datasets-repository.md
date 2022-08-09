@@ -1,10 +1,14 @@
-# Search for PDAP Data Sources
+---
+description: You can use our database to locate Data Sources for any agency in the country.
+---
+
+# Data Sources database
 
 Navigate to the [Data Sources repo in DoltHub](https://www.dolthub.com/repositories/pdap/data\_sources).
 
 Using any SQL editor, including the DoltHub UI, enter one of these queries to find a Data Source.
 
-## Find Agencies
+## Find Data Sources by Agency
 
 ```sql
 --find data_source id by city
@@ -32,7 +36,7 @@ FROM `data_sources`
 WHERE `agency_id` = "b27ae147ba004dec875eeaa5259ebb57"
 ```
 
-## Agency ID
+## Find Agency IDs
 
 ```sql
 --find agencies by city name

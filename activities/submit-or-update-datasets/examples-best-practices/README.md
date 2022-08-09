@@ -1,4 +1,4 @@
-# Find Data Sources to submit
+# Submit Data Sources
 
 ## Introduction
 
@@ -22,33 +22,6 @@ This is a little meta: some Data Sources are lists of other Data Sources. They o
 ![](<../../../.gitbook/assets/Screen Shot 2022-01-22 at 2.57.53 PM.png>)
 
 These have a Data Type of "list\_of\_data\_sources". This may be a good place to start when looking to add every dataset to a particular city.
-
-## Deeper Dive
-
-This tutorial will refer to several tables or dolthub links. Here are the common tables you will be either querying in SQL or referencing on the website in one place:
-
-* data\_types: `select * from data_types`&#x20;
-* statuses: `select * from dataset_status`
-* source\_types: `select * from source_types`
-* id generator: `SELECT REPLACE(uuid(), '-', '');`
-  * Note, you can also generate one from python shell, using the uuid v4 generator (which is better than SQLs default gen).
-  * As of 25 May 2021, the `id` columns have been set up to automatically generate the uuid for you if you do not specify the column in the insert.
-
-```
-# launch into a shell, or use this in a python program
-~/ > python3
-
-Python 3.9.4 (default, Apr  5 2021, 01:50:46)
->>> from uuid import uuid4
->>> str(uuid4()).replace('-', '')
-'adaf2c5b17404300a5fb5a6501567f61'
-
-# Alternatively, here is a one-liner
-python -c "import uuid; print(str(uuid.uuid4()).replace('-',''))"
-f1ecbb3c45834da3ba2a79e86b61a398
-```
-
-
 
 ### Agency with Multiple Different Data Types
 

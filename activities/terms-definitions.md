@@ -22,13 +22,6 @@ Shouldn't we just be writing a bunch of web scrapers and getting down to busines
      * Parent / child relationships between Agencies
    * Homepage
 3. Collect required metadata about `90% of the Data Sources` in the state.
-   * What kind of data?
-   * Where is it?
-   * How can it be accessed?
-     * Methods required
-     * Skills required
-     * Rules about who can access it
-   * What format is it in?
 4. Publish tools to normalize and combine data from different Agencies and States, once local data is solid.
 
 ## Terms & Definitions
@@ -37,10 +30,9 @@ When describing PDAP activity, these are capitalized proper nouns.
 
 | Term                   | Definition                                                                                                                                                                                                                                                                                       |
 | ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Agency                 | A police department or organization, like "Aurora Police Department".                                                                                                                                                                                                                            |
+| Agency                 | A police department or organization, like "Aurora Police Department". Agencies often have parent-child relationships to one another.                                                                                                                                                             |
 | Data Source            | A URL pointing to a place on a police website where public records may be scraped, like "police-agency.com/arrest-reports".                                                                                                                                                                      |
 | Data Source Archive    | A raw, unprocessed HTML archive of a Data Source at a specific time.                                                                                                                                                                                                                             |
 | Scraper / Data Scraper | <p>A bit of code responsible for collecting an Extraction from a Data Source or Archive. Check out <a href="https://github.com/Police-Data-Accessibility-Project/PDAP-Scrapers/">the GitHub repo</a>.</p><p></p><p><em>Colloquially, "scraper" may refer to a person writing a Scraper.</em></p> |
 | Extraction             | The result of running a Scraper is an Extraction, usually intended to further parse or process an HTML page into more usable data.                                                                                                                                                               |
 | Extraction Metadata    | Packaged with each Extraction, Metadata is information about when the Extraction was made, from which Data Source, and using which Scraper.                                                                                                                                                      |
-

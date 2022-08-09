@@ -1,5 +1,5 @@
 ---
-description: Running Scrapers and submitting the generated Extractions.
+description: Running Scrapers and using the generated Extractions.
 ---
 
 # Data Extractions
@@ -8,10 +8,10 @@ description: Running Scrapers and submitting the generated Extractions.
 
 We're still in the iteration and case study phase. To submit data:&#x20;
 
-1. Run an approved Scraper from the [Scrapers Repo](https://github.com/Police-Data-Accessibility-Project/PDAP-Scrapers) to get an Extraction.
+1. Run a Scraper you wrote, or an approved Scraper from the [Scrapers Repo](https://github.com/Police-Data-Accessibility-Project/PDAP-Scrapers), to get an Extraction.
 2. Share your Extraction in Discord. We'll work with you to write and publish a case study.
-3. We'll work with data consumers to understand how we're doing.
-4. When we have learned from case studies, we'll solidify the process.
+3. We'll all learn from the experience, and brainstorm ways our tools could better facilitate your work.
+4. Repeat!
 
 ## Requirements for published Extractions
 
