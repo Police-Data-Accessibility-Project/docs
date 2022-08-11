@@ -8,15 +8,15 @@ description: >-
 
 ## What is a Data Source?
 
-An internet URL where public data about the police can be found. This could include budgets, court records, personnel information, and more.
+A web page, file, database, or even stack of paper somewhere that contains information about the police system. Governments keep several types of public records, and share them to different degrees: internally, externally, or not at all.
+
+Our goal is to track these Data Sources in one place, and work to make each of them as accessible as possible.
 
 ### What we want to know about each Data Source
 
 * What kind of data can be found there?
 * Where is it located?
-  * Is the data right there on the page? Do we need to download a file?
 * How can it be accessed?
-  * Do users need any skills? Who can download it?
 * What format is it in?
 
 ##
