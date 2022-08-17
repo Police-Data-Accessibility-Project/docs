@@ -1,8 +1,8 @@
 # Brand assets
 
-## Fonts
+## Type
 
-The free Google Font [Libre Franklin](https://fonts.google.com/specimen/Libre+Franklin) is our official font. It should be used in all cases.
+The free Google Font [Libre Franklin](https://fonts.google.com/specimen/Libre+Franklin) is our official font. It should be used for basically everything. Reference the https://pdap.io/style-guide.html for guidance on sizes at different browser size breakpoints.
 
 ![](../../../.gitbook/assets/screen-shot-2021-06-09-at-10.36.55-pm.png)
 
