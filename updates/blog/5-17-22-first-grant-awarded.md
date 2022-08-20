@@ -56,4 +56,4 @@ This grant builds our capacity by supporting **two full-time roles:** a full sta
 
 * Can you build things in Python as part of a tiny team? Reach out to [contact@pdap.io](mailto:contact@pdap.io) with your resume and cover letter.
 * Can you help us pay for other essential things, like legal help and hosting? [Contribute here](https://pdap.io/contribute.html). We're a 501c3, so your donation may be tax deductible.
-* To keep in the loop about upcoming [Data Bounties](../../activities/submit-or-update-datasets/examples-best-practices/data-bounties.md) (get paid to scrape data), subscribe to our email newsletter [on our website](https://pdap.io) or [join our Discord](https://discord.gg/wMqex8nKZJ).
+* To keep in the loop about upcoming [Data Bounties](../../activities/data-sources/data-bounties/) (get paid to scrape data), subscribe to our email newsletter [on our website](https://pdap.io) or [join our Discord](https://discord.gg/wMqex8nKZJ).

@@ -6,4 +6,4 @@
 
 ### Can I help by making requests?
 
-If you have successfully made a FOIA request through a service like Muckrock, we may be able to use the URL of the completed request as a [Data Source](../submit-or-update-datasets/).
+If you have successfully made a FOIA request through a service like Muckrock, we may be able to use the URL of the completed request as a [Data Source](../../data-sources/).
