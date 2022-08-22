@@ -1,5 +1,7 @@
 ---
-description: This is how we keep our data stream safe and accurate.
+description: >-
+  This is how we run Data Bounties to pay the community for their data
+  collection work.
 ---
 
 # DoltHub

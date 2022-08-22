@@ -2,15 +2,17 @@
 description: Running Scrapers and using the generated Extractions.
 ---
 
-# Data Extractions
+# Data Scraping & Extractions
 
 ## Current status
 
-We're still in the iteration and case study phase. To submit data:&#x20;
+We're still in the iteration and case study phase. If you want to learn something about the police, you can write a scraper to parse, normalize, or get deeper information from our Data Sources.
 
-1. Run a Scraper you wrote, or an approved Scraper from the [Scrapers Repo](https://github.com/Police-Data-Accessibility-Project/PDAP-Scrapers), to get an Extraction.
-2. Share your Extraction in Discord. We'll work with you to write and publish a case study.
-3. We'll all learn from the experience, and brainstorm ways our tools could better facilitate your work.
+If you don't have scraping skills, you can use our Discord to find someone who may be able to help.
+
+1. Run a Scraper you wrote, or one from the [Scrapers Repo](https://github.com/Police-Data-Accessibility-Project/PDAP-Scrapers), to get an extraction.
+2. Share your extraction and what you learned in Discord. We'll work with you to write and publish a case study.
+3. We'll all learn about the criminal justice system from the experience, and brainstorm ways our tools could better facilitate your work.
 4. Repeat!
 
 ## Requirements for published Extractions

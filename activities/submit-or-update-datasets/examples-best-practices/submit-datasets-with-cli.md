@@ -1,4 +1,4 @@
-# Submit Data Sources with CLI
+# Submit Data Sources with CLI for a Data Bounty
 
 ## CLI
 

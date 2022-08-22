@@ -5,7 +5,7 @@ description: >-
   locally.
 ---
 
-# Submit Data Sources with web tools
+# Submit Data Sources with web tools for a Data Bounty
 
 ## Dolt SQL Editor
 

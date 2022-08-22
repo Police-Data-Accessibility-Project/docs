@@ -1,6 +1,6 @@
-# Searching Data Sources
+# Searching Data Sources in DoltHub
 
-You can enter these queries into DoltHub or any other SQL browser to locate Agencies and Data Sources.&#x20;
+You can enter these queries into DoltHub or any other SQL browser to locate Agencies and Data Sources.
 
 ## Find Agency IDs
 

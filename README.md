@@ -20,7 +20,7 @@ We're a learning organization, and **we want to hear from you.** If you have que
 
 ### Non-code volunteering
 
-* Anyone with basic computer skills can help build our database of [Data Sources](activities/data-sources/).
+* Anyone with basic computer skills can help build our database of [Data Sources](activities/data-storage/submit-or-update-datasets/).
 * People with any level of criminal justice related experience can give feedback and serve as a sounding board in Discord.
 * Anyone with a network of trusted friends and collaborators can text, email, or DM our website to a friend who might be able to contribute.
 
