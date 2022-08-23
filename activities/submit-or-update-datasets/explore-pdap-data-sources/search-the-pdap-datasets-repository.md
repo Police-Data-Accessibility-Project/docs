@@ -1,10 +1,12 @@
 ---
-description: >-
-  You can use our database to locate Data Sources for any agency* in the
-  country.
+description: You can use our database to locate Data Sources for any agency in the country.
 ---
 
 # Explore Data Sources
+
+{% hint style="info" %}
+It's very early, so we don't have many agencies covered yet. To help, see our guide on how to [Submit Data Sources](../examples-best-practices/)!
+{% endhint %}
 
 ## Beta access
 
@@ -13,8 +15,6 @@ We're using Airtable to collect, approve, and publish community submissions of D
 Browse Data Sources: [https://airtable.com/shrUAtA8qYasEaepI](https://airtable.com/shrUAtA8qYasEaepI)
 
 Browse Agencies: [https://airtable.com/shr43ihbyM8DDkKx4](https://airtable.com/shr43ihbyM8DDkKx4)
-
-\*It's very early, so we don't have many agencies covered yet. To help, see our guide on how to [Submit Data Sources](../examples-best-practices/)!
 
 ### Notes
 
