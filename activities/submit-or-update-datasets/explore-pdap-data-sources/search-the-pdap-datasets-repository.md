@@ -5,7 +5,7 @@ description: You can use our database to locate Data Sources for any agency in t
 # Explore Data Sources
 
 {% hint style="info" %}
-It's very early, so we don't have many agencies covered yet. To help, see our guide on how to [Submit Data Sources](../examples-best-practices/)!
+It's very early, so we don't have many agencies covered yet. To help, see our guide on how to [Contribute Data Sources](../examples-best-practices/)!
 {% endhint %}
 
 ## Beta access
