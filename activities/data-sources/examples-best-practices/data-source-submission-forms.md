@@ -20,4 +20,12 @@ If you already have several of Data Sources in a spreadsheet—maybe from a prev
 
 ## Edits
 
-If you discover an inaccuracy, please reach out in Discord or [contact@pdap.io](mailto:contact@pdap.io). We're handling correction of these issues internally for the moment, to focus as much effort as possible on growing our database.
+If you discover an inaccuracy, you can reach out in Discord or use the Bulk Upload Form to correct the record.
+
+1. Head to the [Data Sources table](https://airtable.com/shrUAtA8qYasEaepI).
+2. Use the triple-dot button in the menu bar to `Download CSV`.
+3. Open the CSV in the tool of your choice—Excel, Google Sheets, or a dedicated CSV editor.
+4. Remove all the rows but the ones you want to change.
+5. Save the CSV and upload it to the Bulk Data Sources form above.
+
+We'll import the CSV and make sure the changes are reflected appropriately.
