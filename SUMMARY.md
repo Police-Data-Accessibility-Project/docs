@@ -5,23 +5,23 @@
 
 ## ⚡ Activities
 
-* [Our Process](activities/terms-definitions.md)
+* [Our Process](activities/our-process.md)
 * [Terms & Definitions](activities/terms-and-definitions.md)
 * [Data Sources](activities/data-storage/submit-or-update-datasets/README.md)
   * [What is a Data Source?](activities/data-sources/what-is-a-data-source.md)
-  * [Explore Data Sources](activities/submit-or-update-datasets/explore-pdap-data-sources/search-the-pdap-datasets-repository.md)
-  * [Contribute Data Sources](activities/submit-or-update-datasets/examples-best-practices/README.md)
-    * [Data Source submission forms](activities/data-sources/examples-best-practices/data-source-submission-forms.md)
-    * [Example: a Data Source in the wild](activities/submit-or-update-datasets/examples-best-practices/find-data-sources-to-submit-to-pdap.md)
-    * [Contribute Agencies](activities/data-sources/examples-best-practices/contribute-agencies.md)
+  * [Explore Data Sources](activities/data-sources/explore-data-sources.md)
+  * [Contribute Data Sources](activities/data-sources/contribute-data-sources/README.md)
+    * [Data Source submission forms](activities/data-sources/contribute-data-sources/data-source-submission-forms.md)
+    * [Example: a Data Source in the wild](activities/data-sources/contribute-data-sources/example-a-data-source-in-the-wild.md)
+    * [Contribute Agencies](activities/data-sources/contribute-data-sources/contribute-agencies.md)
   * [Data Bounties](activities/submit-or-update-datasets/examples-best-practices/data-bounties.md)
     * [Submit Data Sources with web tools for a Data Bounty](activities/submit-or-update-datasets/examples-best-practices/submit-datasets-with-web-tools.md)
     * [Submit Data Sources with CLI for a Data Bounty](activities/submit-or-update-datasets/examples-best-practices/submit-datasets-with-cli.md)
     * [Validate Data Sources PRs](activities/submit-or-update-datasets/examples-best-practices/validate-datasets-prs.md)
     * [Searching Data Sources in DoltHub](activities/submit-or-update-datasets/explore-pdap-data-sources/searching-data-sources.md)
-* [Data Scraping & Extractions](activities/data-storage/data-intake/README.md)
+* [Data Scraping & Extractions](activities/data-scraping-and-extractions/README.md)
   * [Scrapers repo](https://github.com/Police-Data-Accessibility-Project/Scrapers/)
-  * [FOIA Requests](activities/data-storage/data-intake/foia.md)
+  * [FOIA Requests](activities/data-scraping-and-extractions/foia.md)
 
 ## 🛠 Tools & Resources <a href="#tools" id="tools"></a>
 

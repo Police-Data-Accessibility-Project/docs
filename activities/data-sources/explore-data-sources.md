@@ -5,7 +5,7 @@ description: You can use our database to locate Data Sources for any agency in t
 # Explore Data Sources
 
 {% hint style="info" %}
-It's very early, so we don't have many agencies covered yet. To help, see our guide on how to [Contribute Data Sources](../examples-best-practices/)!
+It's very early, so we don't have many agencies covered yet. To help, see our guide on how to [Contribute Data Sources](contribute-data-sources/)!
 {% endhint %}
 
 ## Beta access
@@ -18,6 +18,6 @@ Browse Agencies: [https://airtable.com/shr43ihbyM8DDkKx4](https://airtable.com/s
 
 ### Notes
 
-![You can quickly download a CSV using the triple-dot button in the top bar.](<../../../.gitbook/assets/Screen Shot 2022-08-22 at 12.09.38 PM.png>)
+![You can quickly download a CSV using the triple-dot button in the top bar.](<../../.gitbook/assets/Screen Shot 2022-08-22 at 12.09.38 PM.png>)
 
-![It can be useful to group or filter by agency or data type. Often you can find what you're looking for with a simple "Name Contains" filter.](<../../../.gitbook/assets/Screen Shot 2022-08-22 at 3.49.22 PM.png>)
+![It can be useful to group or filter by agency or data type. Often you can find what you're looking for with a simple "Name Contains" filter.](<../../.gitbook/assets/Screen Shot 2022-08-22 at 3.49.22 PM.png>)
