@@ -4,11 +4,13 @@ You don't need to know how to code to do this! However, feel free to write scrip
 
 ## Individual Data Sources
 
-1. Check to see whether there are already Data Sources for the agency you're working on.&#x20;
-2. Open the ["Submit Data Sources" form](https://airtable.com/shrJafakrcmTxHU2i).
-3. Fill in as much info as you can. Only the fields marked with a \* are required, but more information is always better.
-4. To protect us all from spam and rudeness, only approved submissions are published. Our team reviews these at least weekly.
-5. If you have questions or concerns with the approval process or anything else, reach out in Discord or email [contact@pdap.io](mailto:contact@pdap.io).
+1. Pick an agency to focus on; it may be the one in your hometown, or the school police from your university.
+2. Check to see whether there are already Data Sources for the agency you're working on by using filters in the [Data Sources table](https://airtable.com/shrUAtA8qYasEaepI/tblx8XaKnFTphWNQM). It's early—chances are, we haven't made it to your agency yet!
+3. Find Data Sources to submit. These are commonly found on police, court, or corrections agency websites. You can find examples in the Data Sources table.
+4. Open the ["Submit Data Sources" form](https://airtable.com/shrJafakrcmTxHU2i).
+5. Fill in as much info as you can. Only the fields marked with a \* are required, but more information is always better.
+6. To protect us all from spam and rudeness, only approved submissions are published. Our team reviews these at least weekly.
+7. If you have questions or concerns with the approval process or anything else, reach out in Discord or email [contact@pdap.io](mailto:contact@pdap.io).
 
 ## Bulk (10+) Data Sources
 

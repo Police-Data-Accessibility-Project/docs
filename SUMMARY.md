@@ -8,6 +8,7 @@
 * [Our Process](activities/terms-definitions.md)
 * [Terms & Definitions](activities/terms-and-definitions.md)
 * [Data Sources](activities/data-storage/submit-or-update-datasets/README.md)
+  * [What is a Data Source?](activities/data-sources/what-is-a-data-source.md)
   * [Explore Data Sources](activities/submit-or-update-datasets/explore-pdap-data-sources/search-the-pdap-datasets-repository.md)
   * [Contribute Data Sources](activities/submit-or-update-datasets/examples-best-practices/README.md)
     * [Data Source submission forms](activities/data-sources/examples-best-practices/data-source-submission-forms.md)
