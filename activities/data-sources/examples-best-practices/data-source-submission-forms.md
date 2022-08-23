@@ -20,7 +20,7 @@ If you already have several of Data Sources in a spreadsheet—maybe from a prev
 2. Optionally, head to the existing [Data Sources table](https://airtable.com/shrbnadIQyefJhI1D) and download a CSV to get the most recent format. This will help us import and approve your Data Sources more quickly.
 3. Submit your spreadsheet to the ["Submit Bulk Data Sources" form](https://airtable.com/shrbnadIQyefJhI1D).
 
-## Edits
+## Editing Data Sources
 
 If you discover an inaccuracy, you can reach out in Discord or use the Bulk Upload Form to correct the record.
 
