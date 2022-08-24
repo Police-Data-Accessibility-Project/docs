@@ -4,7 +4,7 @@ You don't need to know how to code to do this! However, feel free to write scrip
 
 ## Individual Data Sources
 
-1. Pick an agency to focus on; it may be the one in your hometown, or the school police from your university.
+1. [Pick an agency](https://airtable.com/shr43ihbyM8DDkKx4/tblpnd3ei5SlibcCX) to focus on; it may be the one in your hometown, or the school police from your university.
 2. Check to see whether there are already Data Sources for the agency you're working on by using filters in the [Data Sources table](https://airtable.com/shrUAtA8qYasEaepI/tblx8XaKnFTphWNQM). It's early—chances are, we haven't made it to your agency yet!
 3. Find Data Sources to submit. These are commonly found on police, court, or corrections agency websites. You can find examples in the Data Sources table.
 4. Open the ["Submit Data Sources" form](https://airtable.com/shrJafakrcmTxHU2i).
