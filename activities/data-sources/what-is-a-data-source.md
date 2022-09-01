@@ -17,3 +17,7 @@ It's important to know who collected and published the data.&#x20;
 `agency` → `record-keeper` → `publisher`
 
 Sometimes these are all the same entity; sometimes they are all different. No matter what, we want to track the Data Source.
+
+## Why is this important?
+
+You can read about why this is our focus [here](../our-process.md).

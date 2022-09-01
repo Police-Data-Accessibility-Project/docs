@@ -14,23 +14,23 @@ We're a small but growing multidisciplinary community of transparency-minded peo
 
 ## Get involved
 
-### Our primary focus: collecting Data Sources
+### Primary focus: collecting Data Sources
 
-{% hint style="info" %}
-You can read about why this is our focus [here](activities/our-process.md).
-{% endhint %}
-
-Anyone with basic computer skills can help build our database of Data Sources. [Start here](activities/data-storage/submit-or-update-datasets/).
+We need help from anyone with basic computer skills to contribute to our database of Data Sources. [Start here](activities/data-storage/submit-or-update-datasets/).
 
 ### Other ways to help
 
-* People with any level of criminal justice related experience can give feedback and serve as a sounding board [in Discord](https://discord.gg/wMqex8nKZJ).
-* Anyone with a network of trusted friends and collaborators can text, email, or DM our website to a friend who might be able to contribute.
+#### Expand our network
+
+People with any level of criminal justice related experience can give feedback and serve as a sounding board [in Discord](https://discord.gg/wMqex8nKZJ).
+
+Anyone with a network of trusted friends and collaborators can text, email, or DM our website to a friend who might be able to contribute.
 
 #### Want to code?
 
-* You can use your scripting and automation skills to help us [bring our Agencies and Data Sources up to date](activities/data-storage/submit-or-update-datasets/).
-* Coders of any experience level can [write data scrapers](https://github.com/Police-Data-Accessibility-Project/PDAP-Scrapers/blob/main/CONTRIBUTING.md)...and more importantly, use them! Python is our preferred language; ultimately, use what makes you happy.
+You can use your scripting and automation skills to help us [bring our Agencies and Data Sources up to date](activities/data-storage/submit-or-update-datasets/).
+
+Coders of any experience level can [write data scrapers](https://github.com/Police-Data-Accessibility-Project/PDAP-Scrapers/blob/main/CONTRIBUTING.md)...and more importantly, use them! Python is our preferred language; ultimately, use what makes you happy.
 
 #### Use our Data
 

@@ -6,7 +6,7 @@ We're finding and archiving sources of police data in a giant library. As our ar
 
 ### Why tracking Data Sources matters
 
-Shouldn't we just be writing a bunch of web scrapers and getting down to business? The short answer is that people are already doing this—across the country, people are using whatever means they can, from Python bootcamps to machine learning processes, to analyze what data is available.
+Shouldn't we just be writing a bunch of web scrapers and getting down to business? The short answer is that people are already doing this—across the country, people are using whatever means they can, from Python bootcamps to machine learning, to analyze what data is available.
 
 * People need to be able to find data to do anything with it. This is currently a challenge. Does your organization have a giant, unwieldy spreadsheet with URLs pasted into it? [You're not alone](data-sources/contribute-data-sources/data-source-submission-forms.md#spreadsheet-of-data-sources).
 * If we have a database of Data Sources, we can systematically archive each one and begin to create a lasting resource for future research and web scraping. As it stands, information is lost to time due to data retention policies.
@@ -15,8 +15,9 @@ Shouldn't we just be writing a bunch of web scrapers and getting down to busines
 
 ### Phases of Data Accessibility
 
-1. Collect required data about each state in the U.S.
-   * Federal and state-specific rules about police data publishing and access
+1. Collect data about each state in the U.S.
+   * Report which data is published by each municipality in the state.
+   * Locate state-specific rules about police data publishing and access.
 2. Collect required data about every Agency in the state.
    * Location
      * Jurisdiction
