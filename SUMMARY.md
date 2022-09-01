@@ -11,7 +11,7 @@
   * [What is a Data Source?](activities/data-sources/what-is-a-data-source.md)
   * [Explore Data Sources](activities/data-sources/explore-data-sources.md)
   * [Contribute Data Sources](activities/data-sources/contribute-data-sources/README.md)
-    * [Data Source submission forms](activities/data-sources/contribute-data-sources/data-source-submission-forms.md)
+    * [Data Source submission](activities/data-sources/contribute-data-sources/data-source-submission.md)
     * [Finding a Data Source in the wild](activities/data-sources/contribute-data-sources/finding-a-data-source-in-the-wild.md)
     * [Contribute Agencies](activities/data-sources/contribute-data-sources/contribute-agencies.md)
   * [Data Bounties](activities/submit-or-update-datasets/examples-best-practices/data-bounties.md)

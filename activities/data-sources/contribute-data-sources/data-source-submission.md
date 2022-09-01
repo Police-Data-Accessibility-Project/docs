@@ -1,6 +1,10 @@
-# Data Source submission forms
+# Data Source submission
 
 You don't need to know how to code to do this! However, feel free to write scripts or tools to help you in your work. If you make something super-useful, consider sharing it back with the community!
+
+{% hint style="info" %}
+If you're not sure where to start, pick a city, county, or state that means something to you. Make it a goal to find all potential Data Sources for that area.
+{% endhint %}
 
 ## Individual Data Sources
 
