@@ -2,7 +2,7 @@
 
 ## What is a Data Source?
 
-A web page, file, database, or filing cabinet full of files somewhere which contains information about the police system.
+A web page, file, database, or filing cabinet full of files somewhere which contains information about a criminal justice agency (law enforcement, courts, corrections). Often, this is published by the agency itself.
 
 ### Public Records
 
