@@ -20,9 +20,9 @@ We need help from anyone with basic computer skills to contribute to our databas
 
 ### Other ways to help
 
-#### Expand our network
+#### Join our community
 
-People with any level of criminal justice related experience can give feedback and serve as a sounding board [in Discord](https://discord.gg/wMqex8nKZJ).
+Participate in the information ecosystem! People with relevant experience can give feedback and serve as a sounding board [in Discord](https://discord.gg/wMqex8nKZJ), or by [booking time to talk](https://calendly.com/pdap-josh/30min).
 
 Anyone with a network of trusted friends and collaborators can text, email, or DM our website to a friend who might be able to contribute.
 
@@ -30,7 +30,7 @@ Anyone with a network of trusted friends and collaborators can text, email, or D
 
 You can use your scripting and automation skills to help us [bring our Agencies and Data Sources up to date](activities/data-storage/submit-or-update-datasets/).
 
-Coders of any experience level can [write data scrapers](https://github.com/Police-Data-Accessibility-Project/PDAP-Scrapers/blob/main/CONTRIBUTING.md)...and more importantly, use them! Python is our preferred language; ultimately, use what makes you happy.
+Coders of any experience level can [write data scrapers](https://github.com/Police-Data-Accessibility-Project/PDAP-Scrapers/blob/main/CONTRIBUTING.md)...and more importantly, share the results! This works best if you're trying to answer a question or do something you think is useful. Python is our preferred language; ultimately, use what makes you happy.
 
 #### Use our Data
 
