@@ -4,6 +4,10 @@
 
 A web page, file, database, or filing cabinet full of files somewhere which contains information about a criminal justice agency (law enforcement, courts, corrections). Often, this is published by the agency itself.
 
+{% hint style="info" %}
+To contribute Data Sources, [start here](contribute-data-sources/data-source-submission.md)!
+{% endhint %}
+
 ## Why is this important?
 
 Shouldn't we just be writing a bunch of web scrapers and getting down to business? The short answer is that people are already doing this—across the country, people are using whatever means they can, from Python bootcamps to machine learning, to analyze what data is available.
