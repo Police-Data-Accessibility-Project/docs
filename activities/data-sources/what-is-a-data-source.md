@@ -29,14 +29,14 @@ Some information is required by law to be public. Governments keep several types
 
 It's important to know who collected and published the data.&#x20;
 
-agency described (which agency is the data about?)
+`agency_described` (which agency is the data about?)
 
 ↓
 
-originating entity (who generated the records?)
+`originating_entity` (who generated the records?)
 
 ↓
 
-supplying entity (who is publishing the records?)
+`supplying`\_`entity` (who is publishing the records?)
 
 Sometimes these are all the same entity; sometimes they are all different. No matter what, we want to track the Data Source.
