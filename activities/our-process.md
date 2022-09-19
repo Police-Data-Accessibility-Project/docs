@@ -2,26 +2,22 @@
 
 ## What we're doing
 
-We're finding and archiving sources of police data in a giant library. As our archive grows over time, we can empower larger and more exciting analysis projects with the data we've collected.
+### Right now
 
-### Why tracking Data Sources matters
+We're finding [sources of criminal justice data](data-storage/submit-or-update-datasets/) in a database/library/index. As our archive grows over time, we can empower larger and more exciting analysis projects with the data we've collected.
 
-Shouldn't we just be writing a bunch of web scrapers and getting down to business? The short answer is that people are already doing this—across the country, people are using whatever means they can, from Python bootcamps to machine learning, to analyze what data is available.
+### In the future
 
-* People need to be able to find data to do anything with it. This is currently a challenge. Does your organization have a giant, unwieldy spreadsheet with URLs pasted into it? [You're not alone](data-sources/contribute-data-sources/data-source-submission.md#spreadsheet-of-data-sources).
-* If we have a database of Data Sources, we can systematically archive each one and begin to create a lasting resource for future research and web scraping. As it stands, information is lost to time due to data retention policies.
-* Data is next to useless at scale without context; we need to capture information about what data is available, how it was collected, and how it relates to other data. Only then will our community be able to effectively analyze and meaningfully compare it.
-* Most people don’t realize how inconsistent police data access can be. We need to communicate that many sources of data that should be public have not been published, and serve as a hub for transparency activists working on the problem.
+[Here's our immediate roadmap](https://github.com/orgs/Police-Data-Accessibility-Project/projects/17). Here are our broad, [long-term milestones](https://github.com/Police-Data-Accessibility-Project/planning/milestones?direction=asc\&sort=due\_date\&state=open).
 
-### Phases of Data Accessibility
+## Phases of Data Accessibility in each state
 
-1. Collect data about each state in the U.S.
-   * Report which data is published by each municipality in the state.
-   * Locate state-specific rules about police data publishing and access.
-2. Collect required data about every Agency in the state.
+1. Collect information about agencies and public data laws for each state in the U.S.
+2. Collect required data about every criminal justice agency in the state, so people can see which agencies are relevant for any location.
    * Location
-     * Jurisdiction
-     * Parent / child relationships between Agencies
-   * Homepage
-3. Collect required metadata about every Data Source in each Agency.
-4. Publish tools to normalize and combine data from different Agencies and States, once local data is solid.
+   * Jurisdiction
+   * Parent / child relationships between agencies
+3. Collect metadata about available Data Sources for each agency, so people can find information about any agency.
+   * Type of records available
+   * How to access the data
+4. Publish tools to normalize and combine local data from different Agencies and States.
