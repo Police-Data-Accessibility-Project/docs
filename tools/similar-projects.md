@@ -1,14 +1,10 @@
 # Related Projects
 
 {% hint style="warning" %}
-PDAP is neither officially nor unofficially aligned with the missions of the projects listed here.
+PDAP is neither officially nor unofficially aligned with the missions of any of the projects listed here. We are interested in talking to people using police data for any purpose. If you have experience to share, reach out to [contact@pdap.io](mailto:contact@pdap.io).
 {% endhint %}
 
 ## Collecting Data
-
-{% hint style="info" %}
-PDAP only publishes data collected directly from agencies, not other data collectors.
-{% endhint %}
 
 ### Transparency / reform focused
 
@@ -30,6 +26,7 @@ PDAP only publishes data collected directly from agencies, not other data collec
 * [https://sunlightfoundation.com/](https://sunlightfoundation.com/)
 * [https://lucyparsonslabs.com/](https://lucyparsonslabs.com/)
 * [https://www.grieftoaction.org/](https://www.grieftoaction.org/)
+* [https://www.openpolice.org/](https://www.openpolice.org/)
 
 ### Facilitating records storage for police
 
