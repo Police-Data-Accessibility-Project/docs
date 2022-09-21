@@ -8,11 +8,9 @@ If you're not sure where to start, pick a city, county, or state that means some
 
 ## Quick start
 
-Here's the form.
+[Here's the form](https://airtable.com/shrJafakrcmTxHU2i).
 
-## Individual Data Sources
-
-{% embed url="https://www.youtube.com/watch?v=OnDNClCK4Hk" %}
+## Tutorial: Individual Data Sources
 
 This process should take 1–5 minutes per source, depending on the source and how quick you are with a keyboard.
 
@@ -23,6 +21,12 @@ This process should take 1–5 minutes per source, depending on the source and h
 5. Fill in as much info as you can. Only the fields marked with a \* are required, but more information is better.
 6. To protect us all from spam and rudeness, only approved submissions are published. Our team reviews these at least weekly.
 7. Find as many Data Sources as you can from your chosen agency, and repeat!
+
+### Individual Data Source submission tutorial
+
+{% embed url="https://www.youtube.com/watch?v=OnDNClCK4Hk" %}
+
+
 
 ## Bulk (10+) Data Sources
 

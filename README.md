@@ -16,9 +16,13 @@ We're a small but growing multidisciplinary community of transparency-minded peo
 
 ### Primary focus: collecting Data Sources
 
-We need help from anyone with basic computer skills to contribute to our database of Data Sources. [Start here](activities/data-storage/submit-or-update-datasets/).
+We need help from anyone with basic computer skills to contribute to our database of Data Sources. [Start here](activities/data-sources/contribute-data-sources/data-source-submission.md).
 
 ### Other ways to help
+
+#### Submit public data you've collected
+
+You can share the results of your hard work with our community, and add yourself as a Data Source. [Start here](activities/data-sources/contribute-data-sources/submit-data-youve-collected.md).
 
 #### Join our community
 
@@ -34,4 +38,6 @@ Coders of any experience level can [write data scrapers](https://github.com/Poli
 
 #### Use our Data
 
-If you have a question you'd like to answer about the police, reach out to contact@pdap.io or in Discord. Our community of experts of volunteers may be able to help you. We're in the early days, and don't have much published yet—your project could be one of our first case studies.
+[Explore Data Sources here](activities/data-sources/explore-data-sources.md).
+
+If you have a question you'd like to answer about the police, reach out to [contact@pdap.io](mailto:contact@pdap.io) or in [Discord](https://discord.gg/wMqex8nKZJ). Our community of experts of volunteers may be able to help you. We're in the early days—your project could be one of our first case studies.
