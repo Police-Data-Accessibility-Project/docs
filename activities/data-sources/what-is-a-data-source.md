@@ -2,7 +2,7 @@
 
 ## What is a Data Source?
 
-A web page, file, database, or filing cabinet full of files somewhere which contains information about a criminal justice agency (law enforcement, courts, corrections). Often, this is published by the agency itself.
+A web page, file, database, or filing cabinet somewhere which contains records about a criminal justice agency (law enforcement, courts, corrections). Often, this is published by the agency itself.
 
 {% hint style="info" %}
 To contribute Data Sources, [start here](contribute-data-sources/data-source-submission.md)!
@@ -10,12 +10,22 @@ To contribute Data Sources, [start here](contribute-data-sources/data-source-sub
 
 ## Why is this important?
 
-Shouldn't we just be writing a bunch of web scrapers and getting down to business? The short answer is that people are already doing this—across the country, people are using whatever means they can, from Python bootcamps to machine learning, to analyze what data is available.
+People need to be able to find data to do anything with it. The foundation of our work is creating a common system for classifying and tracking public data. Does your organization have a giant, unwieldy spreadsheet tracking FOIA requests and web sites? [You're not alone](contribute-data-sources/data-source-submission.md#spreadsheet-of-data-sources).
 
-* People need to be able to find data to do anything with it. This is currently a challenge. Does your organization have a giant, unwieldy spreadsheet with URLs pasted into it? [You're not alone](contribute-data-sources/data-source-submission.md#spreadsheet-of-data-sources).
-* If we have a database of Data Sources, we can systematically archive each one and begin to create a lasting resource for future research and web scraping. As it stands, information is lost to time due to data retention policies.
-* Data is next to useless at scale without context; we need to capture information about what data is available, how it was collected, and how it relates to other data. Only then will our community be able to effectively analyze and meaningfully compare it.
-* Most people don’t realize how inconsistent police data access can be. We need to communicate that many sources of data that should be public have not been published, and serve as a hub for transparency activists working on the problem.
+### Things we can build using a Data Sources database
+
+* **Automatic archives** of each URL, creating a lasting resource for future research and web scraping. As it stands, information is lost to time due to data retention policies.
+* **A classification system** using metadata about which records are available, how it was collected, and how it relates to other records. This is the path to doing big, complicated aggregation projects.
+* **Better transparency.** We can improve transparency by being a hub for people who are using what's already there, finding its limits, and addressing them one by one.
+* **Shared tools.** When someone finds a Data Source in our database, they will also be able to see associated scrapers, extractions, and archives.
+
+### What kinds of Data Sources are best?
+
+If it's about a criminal justice agency, we want to track it. This includes FOIA'd documents, web URLs, and independently scraped records.
+
+#### We're working region by region, not type by type.
+
+Because most data is consumed by local users—and because context is everything—we're focusing on helping people access as much information about their local municipality, county, or state as possible.
 
 ## Public Records Accessibility
 

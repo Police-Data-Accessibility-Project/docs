@@ -4,7 +4,7 @@
 
 ### Right now
 
-We're finding [sources of criminal justice data](data-storage/submit-or-update-datasets/) in a database/library/index. As our archive grows over time, we can empower larger and more exciting analysis projects with the data we've collected.
+We're cataloguing [sources of criminal justice data](data-storage/submit-or-update-datasets/) in a database/library/index. As our archive grows over time, we can empower larger and more exciting analysis projects with the data we've collected.
 
 ### In the future
 

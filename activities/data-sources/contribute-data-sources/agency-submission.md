@@ -1,6 +1,6 @@
-# Contribute Agencies
+# Agency submission
 
-Police Agencies are government-run entities responsible for administering some part of the criminal justice system: law enforcement, courts, and corrections. Our mission is specific to police (law enforcement) but understanding that data typically requires context found in court and corrections systems.
+Police Agencies are government-run entities responsible for administering some part of the criminal justice system: **law enforcement, courts, and corrections**. Our mission is specific to police (law enforcement) but understanding that data typically requires context found in court and corrections systems.
 
 ## Submit an Agency
 
