@@ -12,6 +12,8 @@ We're cataloguing [sources of criminal justice data](data-storage/submit-or-upda
 
 ## The investigative process
 
+The PDAP team and volunteers work together to answer questions and learn about the police.
+
 1. Ask a question or make a hypothesis about the police. For example, "how do police misconduct settlements affect local budgets?" If you'd like to see what other people think or get help, you can post in [#data-exchange in Discord](https://discord.com/channels/828274060034965575/1006564024894378106).
 2. Find out whether public records can help you answer this question, and where those records may be located. You may find what you need in our [Data Sources](data-storage/submit-or-update-datasets/); you may need to find them and create the Data Sources yourself.
 3. Download, export, or scrape the records you need. [Read more about how PDAP approaches scraping here](data-scraping-and-extractions/).
