@@ -40,4 +40,4 @@ Coders of any experience level can [write data scrapers](https://github.com/Poli
 
 [Explore Data Sources here](activities/data-sources/explore-data-sources.md).
 
-If you have a question you'd like to answer about the police, reach out to [contact@pdap.io](mailto:contact@pdap.io) or in [Discord](https://discord.gg/wMqex8nKZJ). Our community of experts of volunteers may be able to help you. We're in the early days—your project could be one of our first case studies.
+If you have a question you'd like to answer about the police, reach out to [contact@pdap.io](mailto:contact@pdap.io) or in [Discord](https://discord.gg/wMqex8nKZJ). Our community of experts of volunteers may be able to help you. We're in the early days—your project could be one of our first case studies!
