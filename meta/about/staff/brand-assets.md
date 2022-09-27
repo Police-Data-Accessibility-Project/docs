@@ -8,7 +8,7 @@ Our goal is to be welcoming, trusted, and focused. Everyone who abides by our co
 
 The free Google Font [Libre Franklin](https://fonts.google.com/specimen/Libre+Franklin) is our official font. It should be used for basically everything. Reference the https://pdap.io/style-guide.html for guidance on sizes at different browser size breakpoints.
 
-![](../../../.gitbook/assets/screen-shot-2021-06-09-at-10.36.55-pm.png)
+![](<../../../.gitbook/assets/Screen Shot 2021-06-09 at 10.36.55 PM.png>)
 
 ```css
 --off-white: #fffbfa;
@@ -32,9 +32,9 @@ Infinitely scalable. Use these whenever possible, especially if you need to chan
 
 ![logo.svg](../../../.gitbook/assets/logo.svg)
 
-![acronym.svg](<../../../.gitbook/assets/acronym (1) (1).svg>)
+![acronym.svg](<../../../.gitbook/assets/acronym (2).svg>)
 
-![lockup.svg](<../../../.gitbook/assets/lockup (1) (2).svg>)
+![lockup.svg](<../../../.gitbook/assets/lockup (3).svg>)
 
 ### PNG
 
@@ -42,7 +42,7 @@ Infinitely scalable. Use these whenever possible, especially if you need to chan
 Conveniently exported to pixels. Use these for things like social media profile pictures.
 {% endhint %}
 
-![logo.png (extra space added for circle crops)](<../../../.gitbook/assets/logo-space (2).png>)
+![logo.png (extra space added for circle crops)](<../../../.gitbook/assets/logo-space (1).png>)
 
 ![acronym.png](../../../.gitbook/assets/acronym.png)
 

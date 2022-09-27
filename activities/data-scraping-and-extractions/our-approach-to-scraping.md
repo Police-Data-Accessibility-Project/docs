@@ -8,10 +8,10 @@ Our target users are the thousands of people already using **local data** to mak
 
 After hundreds of hours of user research, we have determined that these are how we will add value in the police data landscape.
 
-* **Track independently scraped data** in our [Data Sources database](../data-storage/submit-or-update-datasets/). Prevent duplication of effort by showing people what's already out there. To submit data you've scraped, [start here](../data-sources/contribute-data-sources/submit-data-youve-collected.md).
+* **Track independently scraped data** in our [Data Sources database](../data-sources/). Prevent duplication of effort by showing people what's already out there. To submit data you've scraped, [start here](../data-sources/contribute-data-sources/submit-data-youve-collected.md).
 * **Connect people** with web scraping skills to community members trying to make better use of police data without technical expertise. This happens in the [#data-exchange Discord channel](https://discord.com/channels/828274060034965575/1006564024894378106).
 * **Build open-source tools** in the [Scrapers repo](https://github.com/Police-Data-Accessibility-Project/PDAP-Scrapers) to make running a scraper on-demand easier for people who don't know what "CLI" means.
-* **Scrape data sources** and agency metadata to populate the [Data Sources database](../data-storage/submit-or-update-datasets/).
+* **Scrape data sources** and agency metadata to populate the [Data Sources database](../data-sources/).
 
 ## Longer-term goals
 

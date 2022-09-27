@@ -16,7 +16,7 @@ We're a small but growing multidisciplinary community of transparency-minded peo
 
 ### Primary focus: collecting Data Sources
 
-We need help from anyone with basic computer skills to contribute to our database of Data Sources. [Start here](activities/data-sources/contribute-data-sources/data-source-submission.md).
+We need help from anyone who can use a computer to contribute to our database of Data Sources.  [Start here](activities/data-sources/contribute-data-sources/data-source-submission.md).
 
 ### Other ways to help
 
@@ -32,7 +32,7 @@ Anyone with a network of trusted friends and collaborators can text, email, or D
 
 #### Want to code?
 
-You can use your scripting and automation skills to help us [bring our Agencies and Data Sources up to date](activities/data-storage/submit-or-update-datasets/).
+You can use your scripting and automation skills to help us [bring our Agencies and Data Sources up to date](activities/data-sources/).
 
 Coders of any experience level can [write data scrapers](https://github.com/Police-Data-Accessibility-Project/PDAP-Scrapers/blob/main/CONTRIBUTING.md)...and more importantly, share the results! This works best if you're trying to answer a question or do something you think is useful. Python is our preferred language; ultimately, use what makes you happy.
 

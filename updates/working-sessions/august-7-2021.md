@@ -6,9 +6,9 @@ Richard got hadoop up and running
 
 Dolt [datasets](https://www.dolthub.com/repositories/pdap/datasets) could be stored there
 
-We should not run scrapers on the hadoop box because there's no authentication right now, they should be run on digitalocean if anywhere. 
+We should not run scrapers on the hadoop box because there's no authentication right now, they should be run on digitalocean if anywhere.&#x20;
 
-![](../../.gitbook/assets/screen-shot-2021-08-07-at-7.33.19-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2021-08-07 at 7.33.19 PM.png>)
 
 VPN access info is available for gsuite folks
 
@@ -28,7 +28,7 @@ Scrapers can contribute to documentation as they learn
 
 Zenhub is nice
 
-Feedback welcome on the front page \(pdap.io\)
+Feedback welcome on the front page (pdap.io)
 
 Main site is down, moving to simpler HTML/CSS for the two pages: Home and FAQ
 
@@ -56,7 +56,5 @@ On the front page rewrite, Josh + team to write copy letting people know they're
 
 * [x] Stabs and Josh to change each other's discord server settings
 
-Lots of updates made to the readmes. 
-
-
+Lots of updates made to the readmes.&#x20;
 
