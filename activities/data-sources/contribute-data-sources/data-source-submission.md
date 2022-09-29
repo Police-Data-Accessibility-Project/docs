@@ -31,7 +31,7 @@ If you already have several of Data Sources in a spreadsheet—maybe from a prev
 
 1. Check to see whether there are already Data Sources for the agency you're working on.
 2. Optionally, head to the existing [Data Sources table](https://airtable.com/shrbnadIQyefJhI1D) and download a CSV to get the most recent format. This will help us import and approve your Data Sources more quickly.
-3. Submit your spreadsheet to the ["Submit Bulk Data Sources" form](https://airtable.com/shrbnadIQyefJhI1D).
+3. Submit your spreadsheet to the "[Submit bulk Data Sources or Agencies](https://airtable.com/shrbnadIQyefJhI1D)" form.
 
 ## Editing Data Sources
 
@@ -41,6 +41,6 @@ If you discover an inaccuracy, you can reach out in Discord or use the Bulk Uplo
 2. Use the triple-dot button in the menu bar to `Download CSV`.
 3. Open the CSV in the tool of your choice—Excel, Google Sheets, or a dedicated CSV editor.
 4. Remove all the rows but the ones you want to change.
-5. Save the CSV and upload it to the Bulk Data Sources form above.
+5. Save the CSV and upload it to the [Bulk form](https://airtable.com/shrbnadIQyefJhI1D).
 
 We'll import the CSV and make sure the changes are reflected appropriately.

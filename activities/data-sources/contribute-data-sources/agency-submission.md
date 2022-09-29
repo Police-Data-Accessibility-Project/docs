@@ -8,4 +8,4 @@ If you know of a police agency but can't find it in our [Agencies table](https:/
 
 ## Editing Agencies
 
-If you discover an inaccuracy, please reach out in Discord or [contact@pdap.io](mailto:contact@pdap.io). We're handling correction of these issues internally for the moment, to focus as much effort as possible on growing our database.
+To make bulk changes, you can use the "[Submit bulk Agencies or Data Sources](https://airtable.com/shrbnadIQyefJhI1D)" form. We'll merge your changes using the `airtable_uid` property.
