@@ -6,4 +6,4 @@
 
 ### Can I help by making requests?
 
-If you have successfully made a FOIA request through a service like Muckrock, the URL of the completed request is a [Data Source](./). Submit it, and the rest of the community will thank you!
+If you have successfully made a FOIA request through a service like Muckrock (or put the results online in some other way), the URL of the completed request is a valuable data source. [Submit it here](contribute-data-sources/submit-data-youve-collected.md), and the community will thank you!
