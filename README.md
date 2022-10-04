@@ -16,13 +16,13 @@ We're a small but growing multidisciplinary community of transparency-minded peo
 
 ### Primary focus: collecting Data Sources
 
-We need help from anyone who can use a computer to contribute to our database of Data Sources.  [Start here](activities/data-sources/contribute-data-sources/data-source-submission.md).
+We need help from anyone who can use a computer to contribute to our database of Data Sources. [Start here](activities/data-sources/contribute-data-sources/data-source-submission.md).
 
 ### Other ways to help
 
 #### Submit public data you've collected
 
-You can share the results of your hard work with our community, and add yourself as a Data Source. [Start here](activities/data-sources/contribute-data-sources/submit-data-youve-collected.md).
+You can share the results of your FOIA request or web scraping work with our community, and add yourself as a Data Source. [Start here](activities/data-sources/contribute-data-sources/submit-data-youve-collected.md).
 
 #### Join our community
 
