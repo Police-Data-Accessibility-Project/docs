@@ -2,10 +2,10 @@
 description: You can use our database to locate Data Sources for any agency in the country.
 ---
 
-# Explore Data Sources
+# Data Sources database
 
 {% hint style="info" %}
-It's very early, so we don't have many agencies covered yet. To help, see our guide on how to [Contribute Data Sources](contribute-data-sources/)!
+It's very early, so we don't have many agencies covered yet.
 {% endhint %}
 
 ## Beta access

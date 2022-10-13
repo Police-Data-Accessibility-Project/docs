@@ -12,12 +12,13 @@ We're cataloguing [sources of criminal justice data](data-sources/) in a databas
 
 ## The investigative process
 
-The PDAP team and volunteers work together to answer questions and learn about the police.
+The PDAP team and volunteers work together to answer questions and learn about the police through public criminal justice records. Our core function is to facilitate the highlighted portion below.
 
-1. Ask a question or make a hypothesis about the police. For example, "how do police misconduct settlements affect local budgets?" If you'd like to see what other people think or get help, you can post in [#data-exchange in Discord](https://discord.com/channels/828274060034965575/1006564024894378106).
-2. Find out whether public records can help you answer this question, and where those records may be located. You may find what you need in our [Data Sources](data-sources/); you may need to find them and create the Data Sources yourself.
-3. Download, export, or scrape the records you need. [Read more about how PDAP approaches scraping here](data-scraping-and-extractions/).
-4. Parse, analyze, and re-contextualize the results. Share your process in Discord, so we can learn and improve our processes together!
+1. **Ask a question** or make a hypothesis about the police. For example, "how do police misconduct settlements affect local budgets?" If you'd like to see what other people think or get help, you can post in [#data-exchange in Discord](https://discord.com/channels/828274060034965575/1006564024894378106).
+2. <mark style="background-color:yellow;">**Locate public records**</mark> <mark style="background-color:yellow;"></mark><mark style="background-color:yellow;">to help you answer this question. You may find what you need in our working</mark> [<mark style="background-color:yellow;">Data Sources database</mark>](data-sources/explore-data-sources.md)<mark style="background-color:yellow;">; you may need to add them, if they're missing.</mark>
+3. <mark style="background-color:yellow;">**Access the records**</mark> <mark style="background-color:yellow;"></mark><mark style="background-color:yellow;">however you can. We're making archives of internet sources, and helping people share their successful FOIA requests.</mark>&#x20;
+4. **Use scrapers,** if needed, to parse or process records into usable data. [Read more about how PDAP approaches scraping here](data-scraping-and-extractions/).
+5. **Analyze and report** the results. Share your process in Discord, so we can learn and improve our processes together!
 
 ## Phases of Data Accessibility in each state
 

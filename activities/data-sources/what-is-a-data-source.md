@@ -11,12 +11,12 @@ Data Sources are records describing an agency's activities, like `arrest records
 Agencies are criminal justice organizations, like the `Pittsburgh Bureau of Police` or `Allegheny County Jail`.
 
 {% hint style="info" %}
-To contribute Data Sources, [start here](contribute-data-sources/data-source-submission.md)!
+To contribute Data Sources, [start here](contribute-data-sources.md)!
 {% endhint %}
 
 ## Why is this important?
 
-People need to be able to find data to do anything with it. The foundation of our work is creating a common system for classifying and tracking public data. Does your organization have a giant, unwieldy spreadsheet tracking FOIA requests and web sites? [You're not alone](contribute-data-sources/data-source-submission.md#spreadsheet-of-data-sources).
+People need to be able to find data to do anything with it. The foundation of our work is creating a common system for classifying and tracking public data. Does your organization have a giant, unwieldy spreadsheet tracking FOIA requests and web sites? [You're not alone](contribute-data-sources.md#spreadsheet-of-data-sources).
 
 ### Things we can build using a Data Sources database
 

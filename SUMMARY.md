@@ -7,16 +7,13 @@
 
 * [Our Process](activities/our-process.md)
 * [Terms & Definitions](activities/terms-and-definitions.md)
-* [Data Sources](activities/data-sources/README.md)
+* [Access Data](activities/data-sources/README.md)
   * [What is a Data Source?](activities/data-sources/what-is-a-data-source.md)
-  * [Explore Data Sources](activities/data-sources/explore-data-sources.md)
-  * [Contribute Data Sources](activities/data-sources/contribute-data-sources/README.md)
-    * [Data Source submission](activities/data-sources/contribute-data-sources/data-source-submission.md)
-    * [Agency submission](activities/data-sources/contribute-data-sources/agency-submission.md)
-    * [Finding a Data Source in the wild](activities/data-sources/contribute-data-sources/finding-a-data-source-in-the-wild.md)
-    * [Submit data you've collected](activities/data-sources/contribute-data-sources/submit-data-youve-collected.md)
+  * [Data Sources database](activities/data-sources/explore-data-sources.md)
+  * [Contribute Data Sources](activities/data-sources/contribute-data-sources.md)
   * [FOIA Requests](activities/data-sources/foia.md)
   * [Data Bounties](activities/data-sources/data-bounties/README.md)
+    * [DoltHub](activities/data-sources/data-bounties/dolthub.md)
     * [Submit Data Sources with web tools for a Data Bounty](activities/data-sources/data-bounties/submit-datasets-with-web-tools.md)
     * [Submit Data Sources with CLI for a Data Bounty](activities/data-sources/data-bounties/submit-datasets-with-cli.md)
     * [Validate Data Sources PRs](activities/data-sources/data-bounties/validate-datasets-prs.md)
@@ -27,11 +24,10 @@
 
 ## 🛠 Tools & Resources <a href="#tools" id="tools"></a>
 
-* [Internal tools](tools/internal-tools.md)
-* [DoltHub](tools/dolthub.md)
-* [Splunk](tools/splunk.md)
+* [Related software](tools/related-software.md)
 * [Related Projects](tools/related-projects.md)
 * [Third-Party Resources](tools/resources.md)
+* [Splunk](tools/splunk.md)
 
 ## 🗣 Updates
 
@@ -138,5 +134,3 @@
 
 * [Discord](https://discord.gg/cn2ZpVTdw7)
 * [GitHub org](https://github.com/Police-Data-Accessibility-Project)
-* [DoltHub org](https://www.dolthub.com/organizations/pdap)
-* [Patreon](https://www.patreon.com/pdap)
