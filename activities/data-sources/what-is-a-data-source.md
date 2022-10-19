@@ -33,34 +33,4 @@ Finding all the Data Sources for your hometown is a human-sized project that can
 
 If it's about a criminal justice agency, we want to track it. This includes FOIA'd documents, web URLs, and independently scraped records.
 
-#### We're working region by region, not type by type.
-
-Because most data is consumed by local users—and because context is everything—we're focusing on helping people access as much information about their local municipality, county, or state as possible.
-
-## Public Records Accessibility
-
-### What are public records?
-
-Some information is required by law to be public. Governments keep several types of public records, and make them available to different degrees—sometimes on a web page, sometimes behind a "records request" process like the Freedom of Information or Right to Know requests. Our goal is to track these Data Sources in one place, and work to make each of them as accessible as possible.
-
-#### Degrees of access for public records
-
-1. The source should exist, but we have no known path to access
-2. Someone has previously made an extraction or records request for this source
-3. We have custody of an archive or can point to direct access
-
-## Data custody
-
-It's important to know who collected and published the data.&#x20;
-
-`agency_described` (which agency is the data about?)
-
-↓
-
-`originating_entity` (who generated the records?)
-
-↓
-
-`supplying`\_`entity` (who is publishing the records?)
-
-Sometimes these are all the same entity; sometimes they are all different. No matter what, we want to track the Data Source.
+##

@@ -1,16 +1,18 @@
 ---
-description: You can use our database to locate Data Sources for any agency in the country.
+description: >-
+  You can use our database to locate public records for any agency in the
+  country.
 ---
 
-# Data Sources database
+# Database of Data Sources
 
 {% hint style="info" %}
-It's very early, so we don't have many agencies covered yet.
+Are you still wondering what a Data Source is? [Read more here](what-is-a-data-source.md).
 {% endhint %}
 
-## Beta access
+## Access the beta version
 
-We're using Airtable to collect, approve, and publish community submissions of Data Sources. This is a working prototype; we're using what we learn here to build a more custom and secure solution.
+We're using Airtable to collect, approve, and publish community submissions of Data Sources. This is a working prototype, and is not complete; we're using what we learn here to build a more custom and secure solution.
 
 Browse Data Sources: [https://airtable.com/shrUAtA8qYasEaepI](https://airtable.com/shrUAtA8qYasEaepI)
 

@@ -20,7 +20,25 @@ The PDAP team and volunteers work together to answer questions and learn about t
 4. **Use scrapers,** if needed, to parse or process records into usable data. [Read more about how PDAP approaches scraping here](data-scraping-and-extractions/).
 5. **Analyze and report** the results. Share your process in Discord, so we can learn and improve our processes together!
 
-## Phases of Data Accessibility in each state
+## Defining Public Records Accessibility
+
+### Where are we focused first?
+
+#### We're working region by region, not type by type.
+
+Because most data is consumed by local users—and because context is everything—we're focusing on helping people access as much information about their local municipality, county, or state as possible.
+
+### What are public records?
+
+Some information is required by law to be public. Governments keep several types of public records, and make them available to different degrees—sometimes on a web page, sometimes behind a "records request" process like the Freedom of Information or Right to Know requests. Our goal is to track these Data Sources in one place, and work to make each of them as accessible as possible.
+
+#### Degrees of access for public records
+
+1. The source should exist, but we have no known path to access it.
+2. Someone has previously made an extraction or records request for this source, and we have their contact information.
+3. We have custody of an archive or can point to direct access.
+
+### Phases of accessibility in each state
 
 1. Collect information about agencies and public data laws for each state in the U.S.
 2. Collect required data about every criminal justice agency in the state, so people can see which agencies are relevant for any location.
