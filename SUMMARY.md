@@ -24,7 +24,6 @@
 
 ## 🛠 Tools & Resources <a href="#tools" id="tools"></a>
 
-* [Related software](tools/related-software.md)
 * [Related Projects](tools/related-projects.md)
 * [Third-Party Resources](tools/resources.md)
 * [Splunk](tools/splunk.md)
