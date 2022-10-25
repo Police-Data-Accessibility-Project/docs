@@ -12,7 +12,7 @@ We're cataloguing [sources of criminal justice data](data-sources/) in a databas
 
 ## The investigative process
 
-The PDAP team and volunteers work together to answer questions and learn about the police through public criminal justice records. Our core function is to facilitate the highlighted portion below.
+The PDAP team and volunteers work together to answer questions and learn about the police through public criminal justice records. Our core functions are highlighted—our community is there to support with the rest.
 
 1. **Ask a question** or make a hypothesis about the police. For example, "how do police misconduct settlements affect local budgets?" If you'd like to see what other people think or get help, you can post in [#data-exchange in Discord](https://discord.com/channels/828274060034965575/1006564024894378106).
 2. <mark style="background-color:yellow;">**Locate public records**</mark> <mark style="background-color:yellow;"></mark><mark style="background-color:yellow;">to help you answer this question. You may find what you need in our working</mark> [<mark style="background-color:yellow;">Data Sources database</mark>](data-sources/explore-data-sources.md)<mark style="background-color:yellow;">; you may need to add them, if they're missing.</mark>
