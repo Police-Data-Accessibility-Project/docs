@@ -21,6 +21,7 @@
 * [Data Scraping & Extractions](activities/data-scraping-and-extractions/README.md)
   * [Our approach to scraping](activities/data-scraping-and-extractions/our-approach-to-scraping.md)
   * [Scrapers repo](https://github.com/Police-Data-Accessibility-Project/Scrapers/)
+* [Join a community call](activities/join-an-open-working-session.md)
 
 ## 🛠 Tools & Resources <a href="#tools" id="tools"></a>
 
@@ -46,8 +47,10 @@
   * [5/26/21: ETL Prototype](updates/blog/5-26-21-etl-prototype.md)
   * [5/20/21: DoltHub Bounty](updates/blog/5-20-21-dolthub-bounty.md)
   * [5/7/21: Alpha App Launched](updates/blog/5-7-21-alpha-app-launched.md)
-* [Working sessions](updates/working-sessions/README.md)
-  * [Join an Open Working Session](updates/working-sessions/join-an-open-working-session.md)
+* [Community calls](updates/working-sessions/README.md)
+  * [October 25, 2022](updates/working-sessions/october-25-2022.md)
+  * [September 22, 2022](updates/working-sessions/september-22-2022.md)
+  * [August 23, 2022](updates/working-sessions/august-23-2022.md)
   * [October 2, 2021](updates/working-sessions/october-2-2021.md)
   * [September 25, 2021](updates/working-sessions/september-25-2021.md)
   * [September 11, 2021](updates/working-sessions/september-11-2021.md)
