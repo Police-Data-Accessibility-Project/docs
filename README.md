@@ -20,9 +20,9 @@ We need help from anyone who can use a computer to contribute to our database of
 
 ### Other ways to help
 
-#### Submit [FOIA'd records](activities/data-sources/foia.md) or scraped data
+#### Submit records you have [FOIA requested](activities/data-sources/foia.md) or [scraped](activities/data-scraping-and-extractions/our-approach-to-scraping.md)
 
-You can share data our community, and add yourself as a Data Source. [Start here](activities/data-sources/contribute-data-sources.md#submit-data-youve-collected).
+[Start here](activities/data-sources/contribute-data-sources.md#submit-data-youve-collected). You can share data our community, and add yourself as a Data Source.
 
 #### Donate
 
