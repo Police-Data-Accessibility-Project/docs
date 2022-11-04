@@ -7,7 +7,7 @@
 
 * [Our Process](activities/our-process.md)
 * [Terms & Definitions](activities/terms-and-definitions.md)
-* [Access Data](activities/data-sources/README.md)
+* [Find & Access Data](activities/data-sources/README.md)
   * [Database of Data Sources](activities/data-sources/explore-data-sources.md)
   * [What is a Data Source?](activities/data-sources/what-is-a-data-source.md)
   * [Contribute Data Sources](activities/data-sources/contribute-data-sources.md)
