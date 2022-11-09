@@ -1,7 +1,7 @@
 # Data Sources data dictionary
 
 {% hint style="info" %}
-To see which options are available for some fields, consult the [submission form](https://airtable.com/shrJafakrcmTxHU2i).
+To see which options are available for select fields, consult the [submission form](https://airtable.com/shrJafakrcmTxHU2i).
 {% endhint %}
 
 ## What & Where
