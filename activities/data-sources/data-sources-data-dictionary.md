@@ -4,11 +4,22 @@
 To see which options are available for select fields, consult the [submission form](https://airtable.com/shrJafakrcmTxHU2i).
 {% endhint %}
 
+## Requirements for submission
+
+`submitted_name`&#x20;
+
+`submitter_contact_info`&#x20;
+
+`record_type`&#x20;
+
+`agency_supplied` (+ other "[provenance](data-sources-data-dictionary.md#provenance)" questions)
+
 ## What & Where
 
 | Property           | Type                          | Description                                                                                                                                                                                                                                |
 | ------------------ | ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | name               | formula                       | Uses `submitted_name` if present or concatenates `record_type` + `" for "` + `agency_described`                                                                                                                                            |
+| submitted\_name    | short text (string)           | Required for individual Data Source submissions for clarity.                                                                                                                                                                               |
 | record\_type       | select                        | What kind of data is accessible from this source?                                                                                                                                                                                          |
 | description        | long text (string)            | Information to give clarity and confidence about what this source is, how it was processed, and whether the person reading the description might want to use it. Especially important if the source is difficult to preview or categorize. |
 | source\_url        | url (string)                  | A link where these records can be found or are referenced.                                                                                                                                                                                 |
@@ -20,6 +31,8 @@ To see which options are available for select fields, consult the [submission fo
 | jurisdiction\_type | select                        | Looked up via `agency_described`                                                                                                                                                                                                           |
 
 ## Provenance
+
+_Where did it come from?_
 
 | Property                | Type               | Description                                                                                                                                                                                                           |
 | ----------------------- | ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -63,4 +76,3 @@ To see which options are available for select fields, consult the [submission fo
 | data\_source\_created  | datetime                        | The date this source was first created in our database.            |
 | agency\_described\_uid | Airtable-generated UID (string) | Looked up via `agency_described`                                   |
 | airtable\_uid          | Airtable-generated UID (string) | Use this when exporting and importing updated data sources.        |
-
