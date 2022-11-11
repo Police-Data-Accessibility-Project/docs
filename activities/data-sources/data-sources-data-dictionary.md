@@ -8,21 +8,25 @@ To see which options are available for select fields, consult the [submission fo
 
 `submitted_name`, `submitter_contact_info`, `record_type`, `agency_supplied` (+ other "[provenance](data-sources-data-dictionary.md#provenance)" properties, if "no")
 
-## What & Where
+## What is it?
 
-| Property           | Type                          | Description                                                                                                                                                                                                                                |
-| ------------------ | ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| name               | formula                       | Uses `submitted_name` if present or concatenates `record_type` + `" for "` + `agency_described`                                                                                                                                            |
-| submitted\_name    | short text (string)           | Required for individual Data Source submissions for clarity.                                                                                                                                                                               |
-| record\_type       | select                        | What kind of data is accessible from this source?                                                                                                                                                                                          |
-| description        | long text (string)            | Information to give clarity and confidence about what this source is, how it was processed, and whether the person reading the description might want to use it. Especially important if the source is difficult to preview or categorize. |
-| source\_url        | url (string)                  | A link where these records can be found or are referenced.                                                                                                                                                                                 |
-| agency\_described  | link to agencies table        | Which criminal justice agency is covered by this Data Source?                                                                                                                                                                              |
-| state              | 2-character ISO code (string) | Looked up via `agency_described`                                                                                                                                                                                                           |
-| county             | string                        | Looked up via `agency_described`                                                                                                                                                                                                           |
-| municipality       | string                        | Looked up via `agency_described`                                                                                                                                                                                                           |
-| agency\_type       | select                        | Looked up via `agency_described`                                                                                                                                                                                                           |
-| jurisdiction\_type | select                        | Looked up via `agency_described`                                                                                                                                                                                                           |
+| Property        | Type                | Description                                                                                                                                                                                                                                |
+| --------------- | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| name            | formula             | Uses `submitted_name` if present or concatenates `record_type` + `" for "` + `agency_described`                                                                                                                                            |
+| submitted\_name | short text (string) | Required for individual Data Source submissions for clarity.                                                                                                                                                                               |
+| record\_type    | select              | What kind of data is accessible from this source?                                                                                                                                                                                          |
+| description     | long text (string)  | Information to give clarity and confidence about what this source is, how it was processed, and whether the person reading the description might want to use it. Especially important if the source is difficult to preview or categorize. |
+
+## Agency
+
+| Property           | Type                          | Description                                                   |
+| ------------------ | ----------------------------- | ------------------------------------------------------------- |
+| agency\_described  | link to agencies table        | Which criminal justice agency is covered by this Data Source? |
+| state              | 2-character ISO code (string) | Looked up via `agency_described`                              |
+| county             | string                        | Looked up via `agency_described`                              |
+| municipality       | string                        | Looked up via `agency_described`                              |
+| agency\_type       | select                        | Looked up via `agency_described`                              |
+| jurisdiction\_type | select                        | Looked up via `agency_described`                              |
 
 ## Provenance
 
@@ -40,6 +44,7 @@ _Where did it come from?_
 
 | Property                           | Type                | Description                                                                                      |
 | ---------------------------------- | ------------------- | ------------------------------------------------------------------------------------------------ |
+| source\_url                        | url (string)        | A link where these records can be found or are referenced.                                       |
 | access\_type                       | multi-select        | How can the data be acquired?                                                                    |
 | record\_format                     | multi-select        | What format(s) are the records in natively?                                                      |
 | record\_download\_option\_provided | boolean (checkbox)  | There is a function available to download or export records.                                     |
