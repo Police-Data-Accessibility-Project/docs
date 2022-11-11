@@ -4,15 +4,9 @@
 To see which options are available for select fields, consult the [submission form](https://airtable.com/shrJafakrcmTxHU2i).
 {% endhint %}
 
-## Requirements for submission
+To encourage submissions, most fields are optional—the more we have, the better we can use the data source.
 
-`submitted_name`&#x20;
-
-`submitter_contact_info`&#x20;
-
-`record_type`&#x20;
-
-`agency_supplied` (+ other "[provenance](data-sources-data-dictionary.md#provenance)" questions)
+`submitted_name`, `submitter_contact_info`, `record_type`, `agency_supplied` (+ other "[provenance](data-sources-data-dictionary.md#provenance)" properties, if "no")
 
 ## What & Where
 

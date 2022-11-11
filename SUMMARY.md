@@ -1,6 +1,5 @@
 # Table of contents
 
-* [⬅ back to pdap.io](https://pdap.io)
 * [👋 Welcome to PDAP!](README.md)
 
 ## ⚡ Activities
@@ -8,11 +7,10 @@
 * [Our Process](activities/our-process.md)
 * [Terms & Definitions](activities/terms-and-definitions.md)
 * [Find & Access Data](activities/data-sources/README.md)
-  * [Browse our Data Sources database](activities/data-sources/explore-data-sources.md)
+  * [Browse Data Sources](activities/data-sources/explore-data-sources.md)
   * [What is a Data Source?](activities/data-sources/what-is-a-data-source.md)
   * [Contribute Data Sources](activities/data-sources/contribute-data-sources.md)
   * [Data Sources data dictionary](activities/data-sources/data-sources-data-dictionary.md)
-  * [Agencies Data Dictionary](activities/data-sources/agencies-data-dictionary.md)
   * [FOIA Requests](activities/data-sources/foia.md)
   * [Data Bounties](activities/data-sources/data-bounties/README.md)
     * [DoltHub](activities/data-sources/data-bounties/dolthub.md)
