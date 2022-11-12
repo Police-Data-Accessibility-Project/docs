@@ -38,7 +38,7 @@ _Where did it come from?_
 | supplying\_entity       | long text (string) | If the agency didn't publish this, who did?                                                                                                                                                                           |
 | agency\_originated      | select (yes/no)    | <p>Is the relevant agency also the original record-keeper? This is usually "yes", unless a third party collected data about a police agency.<br></p>                                                                  |
 | originating\_entity     | long text (string) | If the agency was not the original record-keeper, who was?                                                                                                                                                            |
-| community\_data\_source | checkbox (boolean) | Checked when a source of public records is supplied directly by a member of our community [via this form](contribute-data-sources.md#submit-data-youve-collected).                                                    |
+| community\_data\_source | boolean (checkbox) | Checked when a source of public records is supplied directly by a member of our community [via this form](contribute-data-sources.md#submit-data-youve-collected).                                                    |
 
 ## Access & Format
 
@@ -47,13 +47,12 @@ _Where did it come from?_
 | source\_url                        | url (string)        | A link where these records can be found or are referenced.                                       |
 | access\_type                       | multi-select        | How can the data be acquired?                                                                    |
 | record\_format                     | multi-select        | What format(s) are the records in natively?                                                      |
-| record\_download\_option\_provided | checkbox (boolean)  | There is a function available to download or export records.                                     |
+| record\_download\_option\_provided | boolean (checkbox)  | There is a function available to download or export records.                                     |
 | aggregation\_type                  | select              | Are there individual records, or does the data include aggregated totals?                        |
 | size                               | short text (string) | The file size on disk of all the data at this source, if downloaded.                             |
 | data\_portal\_type                 | select              | Some data is published via a standard third-party portal, typically named somewhere on the page. |
 | access\_restrictions               | select              | Is anything special required to access the data?                                                 |
 | access\_restrictions\_notes        | long text (string)  | Additional information about any access restrictions.                                            |
-| records\_not\_online               | checkbox (boolean)  | Someone has checked for these records on the internet, and has not located them.                 |
 
 ## Coverage & Retention
 
