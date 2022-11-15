@@ -10,6 +10,7 @@
   * [Browse Data Sources](activities/data-sources/explore-data-sources.md)
   * [What is a Data Source?](activities/data-sources/what-is-a-data-source.md)
   * [Contribute Data Sources](activities/data-sources/contribute-data-sources.md)
+  * [API access to Data Sources](activities/data-sources/api-access-to-data-sources.md)
   * [Data Sources data dictionary](activities/data-sources/data-sources-data-dictionary.md)
   * [FOIA Requests](activities/data-sources/foia.md)
   * [Data Bounties](activities/data-sources/data-bounties/README.md)
