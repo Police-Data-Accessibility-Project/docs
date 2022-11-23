@@ -8,7 +8,11 @@
 
 [Compendium of state open records laws](https://www.rcfp.org/open-government-guide/)
 
-## Python
+## Processing data
+
+[Crosswalker](https://github.com/washingtonpost/crosswalker) is for joining columns of text data that don’t match perfectly.
+
+## Learning Python
 
 {% embed url="https://github.com/palewire/first-python-notebook" %}
 A step-by-step guide to analyzing data with Python and the Jupyter notebook.
