@@ -14,6 +14,8 @@
 
 ## Learning Python
 
+[https://realpython.com/python-api/#consuming-apis-with-python-practical-examples](https://realpython.com/python-api/#consuming-apis-with-python-practical-examples)
+
 {% embed url="https://github.com/palewire/first-python-notebook" %}
 A step-by-step guide to analyzing data with Python and the Jupyter notebook.
 {% endembed %}
