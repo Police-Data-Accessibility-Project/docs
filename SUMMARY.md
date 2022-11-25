@@ -32,22 +32,7 @@
 
 ## 🗣 Updates
 
-* [Blog](updates/blog/README.md)
-  * [RSS Feed](http://fetchrss.com/rss/6146cab9ead6fc081b5938226146ca903553905be00a4212.xml)
-  * [7/26/22: First Employees](updates/blog/7-26-22-first-employees.md)
-  * [5/17/22: First Grant Awarded](updates/blog/5-17-22-first-grant-awarded.md)
-  * [1/2/22: New Year Recap](updates/blog/1-2-22-new-year-recap.md)
-  * [9/18/21: 501c3 Approval](updates/blog/9-18-21-501c3-approval.md)
-  * [7/14/21: Bounty Retro](updates/blog/7-14-21-bounty-retro.md)
-  * [6/7/21: Slack → Discord](updates/blog/6-7-21-slack-discord.md)
-  * [6/2/21: Bounty Update 3](updates/blog/6-2-21-bounty-update-3.md)
-  * [6/1/21: Bounty Update 3](updates/blog/6-1-21-bounty-update-3.md)
-  * [5/28/21: Dolt → PostgreSQL](updates/blog/5-28-21-dolt-postgresql.md)
-  * [5/28/21: Bounty Update 2](updates/blog/5-28-21-bounty-update-2.md)
-  * [5/26/21: Dolt Bounty Start](updates/blog/5-26-21-dolt-bounty-start.md)
-  * [5/26/21: ETL Prototype](updates/blog/5-26-21-etl-prototype.md)
-  * [5/20/21: DoltHub Bounty](updates/blog/5-20-21-dolthub-bounty.md)
-  * [5/7/21: Alpha App Launched](updates/blog/5-7-21-alpha-app-launched.md)
+* [Newsletter](https://newsletter.pdap.io/)
 * [Community calls](updates/working-sessions/README.md)
   * [October 25, 2022](updates/working-sessions/october-25-2022.md)
   * [September 22, 2022](updates/working-sessions/september-22-2022.md)
