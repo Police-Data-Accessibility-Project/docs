@@ -2,9 +2,15 @@
 
 ## Philosophy
 
-Scraping can turn cumbersome records into useful data. Rather than collecting data just in case it's useful, we work backwards from use cases to put data in the hands of people who will use it.
+Scraping can turn cumbersome records into useful data. PDAP works backwards from use cases to put data in the hands of people who will use it.
+
+### Where the community fits in
 
 Our target users are the thousands of people already using police data. We can support their work by connecting the community of PDAP volunteer scrapers with real, impactful projects.
+
+If you just want to write web scrapers, but don't have a use case in mind—that's OK! We're here to support you. If your strategy for scraping is successful, we'll share it as a case study to help people working on similar projects.
+
+As for "what should I scrape?" you should collect whichever data interests you. Can you create something self-contained that puts [CSVs in a GitHub repo](https://github.com/Police-Data-Accessibility-Project/github-actions-demo/)? Could you make a scraper that works for anyone who wants to run it locally, and is simple enough for even people without coding skills to run? If you create something which makes police data more accessible, we'll share it.
 
 ## Immediate goals
 
