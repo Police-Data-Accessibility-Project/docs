@@ -14,7 +14,7 @@ To see which options are available for select fields, consult the [submission fo
 | --------------- | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | name            | string            | Uses `submitted_name` if present or concatenates `record_type` + `" for "` + `agency_described`; can get weird when one or both are not present                                                                                            |
 | submitted\_name | string            | Required for individual Data Source submissions for clarity.                                                                                                                                                                               |
-| record\_type    | string            | What kind of data is accessible from this source?                                                                                                                                                                                          |
+| record\_type    | string            | What kind of data is accessible from this source? For more info, see the [Record Types taxonomy](record-types-taxonomy.md).                                                                                                                |
 | description     | string (textarea) | Information to give clarity and confidence about what this source is, how it was processed, and whether the person reading the description might want to use it. Especially important if the source is difficult to preview or categorize. |
 
 ## Agency

@@ -12,6 +12,7 @@
   * [Contribute Data Sources](activities/data-sources/contribute-data-sources.md)
   * [API access to Data Sources](activities/data-sources/api-access-to-data-sources.md)
   * [Data Sources data dictionary](activities/data-sources/data-sources-data-dictionary.md)
+  * [Record Types taxonomy](activities/data-sources/record-types-taxonomy.md)
   * [FOIA Requests](activities/data-sources/foia.md)
   * [Data Bounties](activities/data-sources/data-bounties/README.md)
     * [DoltHub](activities/data-sources/data-bounties/dolthub.md)
