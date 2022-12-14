@@ -8,4 +8,4 @@ If you want to programmatically access Data Sources, we'd like to support you! W
 
 [Here are the Airtable API docs](https://airtable.com/app473MWXVJVaD7Es/api/docs) for the Data Sources database.
 
-[Here's the Data Dictionary](data-sources-data-dictionary.md).
+[Here's the Data Dictionary](data-dictionaries/data-sources-data-dictionary.md).

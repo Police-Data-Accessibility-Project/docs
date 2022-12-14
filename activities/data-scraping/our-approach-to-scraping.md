@@ -2,21 +2,25 @@
 
 ## Philosophy
 
-Scraping can turn cumbersome records into useful data. PDAP works backwards from use cases to put data in the hands of people who will use it.
+Scraping can turn cumbersome records into useful data. When someone wants to use records but they're in a difficult format, scraping is often the answer.
 
 ### Where the community fits in
 
 Our target users are the thousands of people already using police data. We can support their work by connecting the community of PDAP volunteer scrapers with real, impactful projects.
 
-If you just want to write web scrapers, but don't have a use case in mind—that's OK! We're here to support you. If your strategy for scraping is successful, we'll share it as a case study to help people working on similar projects.
+## Which data are we collecting?
 
-As for "what should I scrape?" you should collect whichever data interests you. Can you create something self-contained that puts [CSVs in a GitHub repo](https://github.com/Police-Data-Accessibility-Project/github-actions-demo/)? Could you make a scraper that works for anyone who wants to run it locally, and is simple enough for even people without coding skills to run? If you create something which makes police data more accessible, we'll share it.
+Coding is real work—typically, it's only worth writing a scraper if you have a use case for the data already. What are you trying to learn? PDAP exists to help people find criminal justice data. If it's about a police agency, there's a good chance someone in that jurisdiction has a use for it. To find projects in need of scraping help, you can head to the [#data-exchange Discord channel](https://discord.com/channels/828274060034965575/1006564024894378106). Or, reach out to local journalists and activists.
+
+In our own right, we are interested in meta information about the police system itself. Which agencies have jurisdiction about any particular street corner? Who should you contact for public records access? Take a look at our database and see how you could improve it.
+
+If you just want to write web scrapers, but don't have a use case in mind—that's OK! We're here to support you. Check out our [database of Data Sources](../data-sources/explore-data-sources.md), especially those in HTML table or PDF format, for candidates of records which may be tricky to access. If your strategy for scraping is successful, we'll share it as a case study to help people working on similar projects.
 
 ## Immediate goals
 
 After hundreds of hours of user research, we have determined that these are how we will add value in the police data landscape.
 
-* **Track independently scraped data** in our [Data Sources database](../data-sources/). Prevent duplication of effort by showing people what's already out there. To submit data you've scraped, [start here](../data-sources/contribute-data-sources.md).
+* **Track independently scraped data** in our [Data Sources database](../data-sources/). Prevent duplication of effort by showing people what's already out there. To submit data you've scraped, [start here](../share-data/contribute-data-sources.md).
 * **Connect people** with web scraping skills to community members trying to make better use of police data without technical expertise. This happens in the [#data-exchange Discord channel](https://discord.com/channels/828274060034965575/1006564024894378106).
 * **Build open-source tools** in the [Scrapers repo](https://github.com/Police-Data-Accessibility-Project/PDAP-Scrapers) to make running a scraper on-demand easier for people who don't know what "CLI" means.
 * **Scrape data sources** and agency metadata to populate the [Data Sources database](../data-sources/).

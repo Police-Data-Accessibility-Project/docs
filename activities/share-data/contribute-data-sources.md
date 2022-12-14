@@ -1,9 +1,11 @@
 # Contribute Data Sources
 
+Do you know of a source of data about a U.S. criminal justice agency? Have you made FOIA requests, or scraped an archive? You can add it to our database, so others can find it more easily.
+
 You don't need to know how to code to do this! However, feel free to write scripts or tools to help you in your work. If you make something super-useful, please consider sharing it back with the community in [GitHub](https://github.com/Police-Data-Accessibility-Project/).
 
 {% hint style="info" %}
-If you're not sure where to start, pick a city, county, or state that means something to you. Make it a goal to find all potential Data Sources for that area.
+If you're not sure where to start, pick a local precinct that means something to you. Make it a goal to find all potential Data Sources for that area.
 {% endhint %}
 
 ## Tutorials
@@ -70,8 +72,6 @@ In the event that someone wants to use data you've provided, you can give instru
 <details>
 
 <summary>Submit &#x26; edit Agencies</summary>
-
-Police Agencies are government-run entities responsible for administering some part of the criminal justice system: **law enforcement, courts, and corrections**. Our mission is specific to police (law enforcement) but understanding that data typically requires context found in court and corrections systems.
 
 ## Submit an Agency
 

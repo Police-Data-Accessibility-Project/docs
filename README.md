@@ -16,13 +16,13 @@ We're a small but growing multidisciplinary community of transparency-minded peo
 
 ### Specific ways to help
 
-#### Collect Data Sources or submit records you have [FOIA requested](activities/data-sources/foia.md) or [scraped](activities/data-scraping-and-extractions/our-approach-to-scraping.md)
+#### Collect Data Sources or submit records you have [FOIA requested](activities/data-sources/foia.md) or [scraped](activities/data-scraping/our-approach-to-scraping.md)
 
-We need help from anyone who can use a computer to contribute to our database of Data Sources. [Start here](activities/data-sources/contribute-data-sources.md).
+We need help from anyone who can use a computer to contribute to our database of Data Sources. [Start here](activities/share-data/contribute-data-sources.md).
 
 #### Write a scraper
 
-If you find data you'd like to collect or preserve, make it happen! Start by reading [our approach to scraping](activities/data-scraping-and-extractions/our-approach-to-scraping.md), and reach out if you need help or guidance. If your strategy for scraping is successful, we'll share it as a case study to help people working on similar projects.
+If you find data you'd like to collect or preserve, make it happen! Start by reading [our approach to scraping](activities/data-scraping/our-approach-to-scraping.md), and reach out if you need help or guidance. If your strategy for scraping is successful, we'll share it as a case study to help people working on similar projects.
 
 #### Donate
 

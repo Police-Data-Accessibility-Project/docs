@@ -19,14 +19,14 @@ To see which options are available for select fields, consult the [submission fo
 
 ## Agency
 
-| Property           | Type                                                       | Description                                                                                                                                                                    |
-| ------------------ | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| agency\_described  | array (foreignkey based on an agency's ID within Airtable) | To which criminal justice agency or agencies does this Data Source refer?                                                                                                      |
-| state              | string                                                     | 2-character ISO code, related to the associated Agency object, if present                                                                                                      |
-| county             | string                                                     | Related to the associated Agency object, if present                                                                                                                            |
-| municipality       | string                                                     | Related to the associated Agency object, if present                                                                                                                            |
-| agency\_type       | string                                                     | Related to the associated Agency object, if present                                                                                                                            |
-| jurisdiction\_type | array                                                      | Related to the associated Agency object, if present. Some agencies, such as the Pennsylvania State Police, can perform local law-enforcement functions as well as state-level. |
+| Property           | Type                                                       | Description                                                                                                                                             |
+| ------------------ | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| agency\_described  | array (foreignkey based on an agency's ID within Airtable) | To which criminal justice agency or agencies does this Data Source refer?                                                                               |
+| state              | string                                                     | 2-character ISO code, related to the associated Agency object, if present.                                                                              |
+| county             | string                                                     | Related to the associated Agency object, if present.                                                                                                    |
+| municipality       | string                                                     | Related to the associated Agency object, if present.                                                                                                    |
+| agency\_type       | string                                                     | Related to the associated Agency object, if present.                                                                                                    |
+| jurisdiction\_type | array                                                      | Related to the associated Agency object, if present. What is the highest level of jurisdiction for the agency? Can be an item like `local` or `county`. |
 
 ## Provenance
 
@@ -38,13 +38,13 @@ _Where did it come from?_
 | supplying\_entity       | string  | If the Agency didn't publish this, who did?                                                                                                                                                                           |
 | agency\_originated      | boolean | <p>Is the relevant Agency also the original record-keeper? This is usually "yes", unless a third party collected data about a police Agency.<br></p>                                                                  |
 | originating\_entity     | string  | If the Agency was not the original record-keeper, who was?                                                                                                                                                            |
-| community\_data\_source | boolean | Checked when a source of public records is supplied directly by a member of our community [via this form](contribute-data-sources.md#submit-data-youve-collected).                                                    |
+| community\_data\_source | boolean | True when a source of public records is supplied directly by a member of our community [via this form](../../share-data/contribute-data-sources.md#submit-data-youve-collected).                                      |
 
 ## Access & Format
 
 | Property                           | Type              | Description                                                                                                                                 |
 | ---------------------------------- | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| source\_url                        | string            | A url where these records can be found or are referenced.                                                                                   |
+| source\_url                        | string            | A URL where these records can be found or are referenced.                                                                                   |
 | access\_type                       | array             | Array items can have values such as `Web page` or `API`                                                                                     |
 | record\_format                     | array             | What format(s) are the records in natively? Array items can have values such as `CSV`, `JSON`, `XML`, `RDF`, `RSS`, `HTML table` and others |
 | record\_download\_option\_provided | boolean           | There is a function available to download or export records.                                                                                |
