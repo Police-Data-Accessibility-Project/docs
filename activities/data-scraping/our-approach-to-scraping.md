@@ -10,7 +10,7 @@ Our target users are the thousands of people already using police data. We can s
 
 ## Which data are we collecting?
 
-Coding is real work—typically, it's only worth writing a scraper if you have a use case for the data already. What are you trying to learn? PDAP exists to help people find criminal justice data. If it's about a police agency, there's a good chance someone in that jurisdiction has a use for it. To find projects in need of scraping help, you can head to the [#data-exchange Discord channel](https://discord.com/channels/828274060034965575/1006564024894378106). Or, reach out to local journalists and activists.
+Coding is real work—typically, it's only worth writing a scraper if you have a use case for the data already. What are you trying to learn? PDAP exists to help people find police data. If it's about a police agency, there's a good chance someone in that jurisdiction has a use for it. To find projects in need of scraping help, you can head to the [#data-exchange Discord channel](https://discord.com/channels/828274060034965575/1006564024894378106). Or, reach out to local journalists and activists.
 
 In our own right, we are interested in meta information about the police system itself. Which agencies have jurisdiction about any particular street corner? Who should you contact for public records access? Take a look at our database and see how you could improve it.
 
@@ -49,5 +49,5 @@ If you don't have scraping skills, you can use the [#data-exchange channel in Di
 
 1. Run a Scraper you wrote, or one from the [Scrapers Repo](https://github.com/Police-Data-Accessibility-Project/PDAP-Scrapers), to get an extraction.
 2. Share your extraction and what you learned in Discord.
-3. We'll all learn about the criminal justice system from the experience, and brainstorm ways our tools could better facilitate your work.
+3. We'll all learn about the criminal legal system from the experience, and brainstorm ways our tools could better facilitate your work.
 4. Repeat!

@@ -1,6 +1,6 @@
 # Contribute Data Sources
 
-Do you know of a source of data about a U.S. criminal justice agency? Have you made FOIA requests, or scraped an archive? You can add it to our database, so others can find it more easily.
+Do you know of a source of data about a U.S. criminal legal system agency? Have you made FOIA requests, or scraped an archive? You can add it to our database, so others can find it more easily.
 
 You don't need to know how to code to do this! However, feel free to write scripts or tools to help you in your work. If you make something super-useful, please consider sharing it back with the community in [GitHub](https://github.com/Police-Data-Accessibility-Project/).
 
@@ -61,7 +61,7 @@ We'll import the CSV and make sure the changes are reflected appropriately.
 
 <summary>Submit data you've collected</summary>
 
-If you've FOIA requested, scraped, or otherwise collected criminal justice data, you can add yourself to our Data Sources table!
+If you've FOIA requested, scraped, or otherwise collected police data, you can add yourself to our Data Sources table!
 
 In the event that someone wants to use data you've provided, you can give instructions for how you should be contacted. PDAP can also serve as a go-between to protect your identity.
 

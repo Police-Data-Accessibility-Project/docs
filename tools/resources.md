@@ -2,7 +2,7 @@
 
 ## Using data
 
-[Common abbreviations in criminal justice records](http://amerusa.net/resource\_documents/CriminalRecordAbbreviations.pdf)
+[Common abbreviations in criminal legal system records](http://amerusa.net/resource\_documents/CriminalRecordAbbreviations.pdf)
 
 ## Collecting data
 
