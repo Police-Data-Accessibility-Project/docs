@@ -8,6 +8,14 @@ To see which options are available for select fields, consult the [submission fo
 
 `submitter_contact`, `submitted_name`, `homepage_url`, `jurisdiction_type`, `agency_type`, + geographic info dependent on the `jurisdiction_type`.
 
+### Table of contents
+
+[Identification & web presence](agencies-data-dictionary.md#identification-and-web-presence)
+
+[Geographic](agencies-data-dictionary.md#geographic)
+
+[Meta & utility](agencies-data-dictionary.md#meta-and-utility)
+
 ## Identification & web presence
 
 | Property          | Type    | Description                                                                                                                                                                                                                    |

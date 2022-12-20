@@ -8,6 +8,20 @@ To see which options are available for select fields, consult the [submission fo
 
 `submitted_name`, `submitter_contact_info`, `record_type`, `agency_supplied` (+ other "[provenance](data-sources-data-dictionary.md#provenance)" properties, if "no")
 
+### Table of contents
+
+[What is it?](data-sources-data-dictionary.md#what-is-it)
+
+[Agency](data-sources-data-dictionary.md#agency)
+
+[Provenance](data-sources-data-dictionary.md#provenance)
+
+[Access & format](data-sources-data-dictionary.md#access-and-format)
+
+[Coverage & retention](data-sources-data-dictionary.md#coverage-and-retention)
+
+[Meta & utility](data-sources-data-dictionary.md#meta-and-utility)
+
 ## What is it?
 
 | Property        | Type              | Description                                                                                                                                                                                                                                |
@@ -40,7 +54,7 @@ _Where did it come from?_
 | originating\_entity     | string  | If the Agency was not the original record-keeper, who was?                                                                                                                                                            |
 | community\_data\_source | boolean | True when a source of public records is supplied directly by a member of our community [via this form](../../share-data/contribute-data-sources.md#submit-data-youve-collected).                                      |
 
-## Access & Format
+## Access & format
 
 | Property                           | Type              | Description                                                                                                                                 |
 | ---------------------------------- | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -55,7 +69,7 @@ _Where did it come from?_
 | access\_restrictions\_notes        | string (textarea) | Additional information about any access restrictions.                                                                                       |
 | records\_not\_online               | boolean           | Someone has checked for these records on the internet, and has not located them.                                                            |
 
-## Coverage & Retention
+## Coverage & retention
 
 | Property                       | Type    | Description                                                                                                                               |
 | ------------------------------ | ------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
@@ -68,7 +82,7 @@ _Where did it come from?_
 | retention\_schedule            | string  | How long are records kept? Are there published guidelines regarding how long important information must remain accessible for future use? |
 | number\_of\_records\_available | integer | How many similar pieces of information are available at this source?                                                                      |
 
-## Meta & Utility
+## Meta & utility
 
 | Property                       | Type     | Description                                                           |
 | ------------------------------ | -------- | --------------------------------------------------------------------- |

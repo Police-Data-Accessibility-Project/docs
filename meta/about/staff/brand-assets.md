@@ -14,7 +14,7 @@ This is a standalone expression of PDAP's mission and basic goals, which can be 
 
 The free Google Font [Libre Franklin](https://fonts.google.com/specimen/Libre+Franklin) is our official font. It should be used for basically everything. Reference the https://pdap.io/style-guide.html for guidance on sizes at different browser size breakpoints.
 
-![](<../../../.gitbook/assets/Screen Shot 2021-06-09 at 10.36.55 PM.png>)
+![](../../../.gitbook/assets/screen-shot-2021-06-09-at-10.36.55-pm.png)
 
 ```css
 --off-white: #fffbfa;
@@ -36,11 +36,11 @@ Don't add drop shadows or outlines.
 Infinitely scalable. Use these whenever possible, especially if you need to change the color or insert it into a print design.
 {% endhint %}
 
-![logo.svg](../../../.gitbook/assets/logo.svg)
+![logo.svg](<../../../.gitbook/assets/logo (1).svg>)
 
-![acronym.svg](<../../../.gitbook/assets/acronym (2).svg>)
+![acronym.svg](<../../../.gitbook/assets/acronym (1) (1) (1).svg>)
 
-![lockup.svg](<../../../.gitbook/assets/lockup (3).svg>)
+![lockup.svg](<../../../.gitbook/assets/lockup (1) (1) (3).svg>)
 
 ### PNG
 
@@ -48,7 +48,7 @@ Infinitely scalable. Use these whenever possible, especially if you need to chan
 Conveniently exported to pixels. Use these for things like social media profile pictures.
 {% endhint %}
 
-![logo.png (extra space added for circle crops)](<../../../.gitbook/assets/logo-space (1).png>)
+![logo.png (extra space added for circle crops)](<../../../.gitbook/assets/logo-space (1) (1) (1).png>)
 
 ![acronym.png](../../../.gitbook/assets/acronym.png)
 
