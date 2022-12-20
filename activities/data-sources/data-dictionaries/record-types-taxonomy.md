@@ -38,7 +38,7 @@ description: Examples and descriptions of the Record Types we're collecting.
 | Geographic                 | Maps or geographic data about how land is divided up into municipal sectors, zones, and jurisdictions.                                                 | [https://data.wprdc.org/dataset/police-zones](https://data.wprdc.org/dataset/police-zones)                           |
 | List of Data Sources       | Places on the internet, often data portal homepages, where many links to potential data sources can be found.                                          | [https://www.stlouis-mo.gov/data/index.cfm](https://www.stlouis-mo.gov/data/index.cfm)                               |
 | Misc Police Activity       | Records or descriptions of police activity not covered by other record types.                                                                          | [https://data.wprdc.org/dataset/police-civil-actions](https://data.wprdc.org/dataset/police-civil-actions)           |
-| Policies & Contracts       | Policies or contracts related to criminal justice procedure.                                                                                           | [http://alleghenycountyda.us/model-police-policies/](http://alleghenycountyda.us/model-police-policies/)             |
+| Policies & Contracts       | Policies or contracts related to agency procedure.                                                                                           | [http://alleghenycountyda.us/model-police-policies/](http://alleghenycountyda.us/model-police-policies/)             |
 
 ## Agency-published resources
 

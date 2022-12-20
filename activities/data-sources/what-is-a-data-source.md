@@ -2,13 +2,13 @@
 
 ## What is a Data Source?
 
-A web page, file, database, or filing cabinet somewhere which contains records about a criminal justice agency (law enforcement, courts, corrections). Often, this is published by the agency itself.
+A web page, file, database, or filing cabinet somewhere which contains records about a criminal legal system agency (law enforcement, courts, corrections). Often, this is published by the agency itself.
 
 #### Example
 
 Data Sources are records describing an agency's activities, like `arrest records` or `hiring policies`.
 
-Agencies are criminal justice organizations, like the `Pittsburgh Bureau of Police` or `Allegheny County Jail`.
+Agencies are criminal legal system organizations, like the `Pittsburgh Bureau of Police` or `Allegheny County Jail`.
 
 {% hint style="info" %}
 To contribute Data Sources, [start here](../share-data/contribute-data-sources.md)!
@@ -31,6 +31,6 @@ People need to be able to find data to do anything with it. The foundation of ou
 Finding all the Data Sources for your hometown is a human-sized project that can make a real impact.
 {% endhint %}
 
-If it's about a criminal justice agency, we want to track it. This includes FOIA'd documents, web URLs, and independently scraped records.
+If it's about a criminal legal system agency, we want to track it. This includes FOIA'd documents, web URLs, and independently scraped records.
 
 ##

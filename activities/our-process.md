@@ -4,7 +4,7 @@
 
 ### Right now
 
-We're cataloguing [sources of criminal justice data](data-sources/) in a database/library/index. As our archive grows over time, we can empower larger and more exciting analysis projects with the data we've collected.
+We're cataloguing [sources of criminal legal system data](data-sources/) in a database/library/index. As our archive grows over time, we can empower larger and more exciting analysis projects with the data we've collected.
 
 ### In the future
 
@@ -12,9 +12,9 @@ We're cataloguing [sources of criminal justice data](data-sources/) in a databas
 
 ## The investigative process
 
-The PDAP team and volunteers work together to answer questions and learn about the police through public criminal justice records. Our core functions are highlighted—our community is there to support with the rest.
+The PDAP team and volunteers work together to answer questions and learn about the police through public criminal legal system records. Our core functions are highlighted—our community is there to support with the rest.
 
-1. **Ask a question** or make a hypothesis about the police. For example, "how do police misconduct settlements affect local budgets?" This is the "Why?" of our work—if you can't think of anything, find local groups working on the criminal justice system. They probably have data woes!
+1. **Ask a question** or make a hypothesis about the police. For example, "how do police misconduct settlements affect local budgets?" This is the "Why?" of our work—if you can't think of anything, find local groups working on the criminal legal system. They probably have data woes!
 2. <mark style="background-color:yellow;">**Locate public records**</mark> <mark style="background-color:yellow;"></mark><mark style="background-color:yellow;">to help you answer this question. You may find what you need in our working</mark> [<mark style="background-color:yellow;">Data Sources database</mark>](data-sources/explore-data-sources.md)<mark style="background-color:yellow;">; you may need to add them, if they're missing.</mark>
 3. <mark style="background-color:yellow;">**Access the records**</mark> <mark style="background-color:yellow;"></mark><mark style="background-color:yellow;">however you can. We're making archives of internet sources, and helping people share their successful FOIA requests.</mark>&#x20;
 4. **Use scrapers,** if needed, to parse or process records into usable data. [Read more about how PDAP approaches scraping here](data-scraping/).
@@ -40,7 +40,7 @@ Some information is required by law to be public. Governments keep several types
 ### Phases of accessibility in each state
 
 1. Collect information about agencies and public data laws for each state in the U.S.
-2. Collect required data about every criminal justice agency in the state, so people can see which agencies are relevant for any location.
+2. Collect required data about every criminal legal system agency in the state, so people can see which agencies are relevant for any location.
    * Location
    * Jurisdiction
    * Parent / child relationships between agencies

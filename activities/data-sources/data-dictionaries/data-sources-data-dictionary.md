@@ -21,7 +21,7 @@ To see which options are available for select fields, consult the [submission fo
 
 | Property           | Type                                                       | Description                                                                                                                                             |
 | ------------------ | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| agency\_described  | array (foreignkey based on an agency's ID within Airtable) | To which criminal justice agency or agencies does this Data Source refer?                                                                               |
+| agency\_described  | array (foreignkey based on an agency's ID within Airtable) | To which criminal legal system agency or agencies does this Data Source refer?                                                                               |
 | state              | string                                                     | 2-character ISO code, related to the associated Agency object, if present.                                                                              |
 | county             | string                                                     | Related to the associated Agency object, if present.                                                                                                    |
 | municipality       | string                                                     | Related to the associated Agency object, if present.                                                                                                    |
