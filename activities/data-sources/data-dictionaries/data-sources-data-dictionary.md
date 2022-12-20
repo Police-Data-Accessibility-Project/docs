@@ -8,20 +8,6 @@ To see which options are available for select fields, consult the [submission fo
 
 `submitted_name`, `submitter_contact_info`, `record_type`, `agency_supplied` (+ other "[provenance](data-sources-data-dictionary.md#provenance)" properties, if "no")
 
-### Table of contents
-
-[What is it?](data-sources-data-dictionary.md#what-is-it)
-
-[Agency](data-sources-data-dictionary.md#agency)
-
-[Provenance](data-sources-data-dictionary.md#provenance)
-
-[Access & format](data-sources-data-dictionary.md#access-and-format)
-
-[Coverage & retention](data-sources-data-dictionary.md#coverage-and-retention)
-
-[Meta & utility](data-sources-data-dictionary.md#meta-and-utility)
-
 ## What is it?
 
 | Property        | Type              | Description                                                                                                                                                                                                                                |

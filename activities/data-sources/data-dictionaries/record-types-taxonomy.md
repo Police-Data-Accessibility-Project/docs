@@ -4,18 +4,6 @@ description: Examples and descriptions of the Record Types we're collecting.
 
 # Record Types taxonomy
 
-### Table of contents
-
-[Police & Public Interactions](record-types-taxonomy.md#police-and-public-interactions)
-
-[Info about officers](record-types-taxonomy.md#info-about-officers)
-
-[Info about agencies](record-types-taxonomy.md#info-about-agencies)
-
-[Agency-published resources](record-types-taxonomy.md#agency-published-resources)
-
-[Jails & courts](record-types-taxonomy.md#jails-and-courts)
-
 ## Police & public interactions
 
 | record\_type               | description                                                                                                                                                                               | example                                                                                                                                                                                  |
