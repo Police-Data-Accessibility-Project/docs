@@ -23,5 +23,5 @@ You can use SQL statements to add new Data Sources right in Dolt. It's possible 
 6. When you're done, [create a new Pull Request](https://www.dolthub.com/repositories/pdap/data\_sources/pulls/new) against our repo.
 7. Join [our Discord](https://discord.gg/wMqex8nKZJ) and ask in the #data-sources channel for someone to approve it!
 
-![](../../../.gitbook/assets/screen-shot-2021-05-02-at-12.10.13-am.png)
+![](<../../../.gitbook/assets/Screen Shot 2021-05-02 at 12.10.13 AM.png>)
 

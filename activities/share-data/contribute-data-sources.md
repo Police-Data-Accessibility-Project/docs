@@ -73,11 +73,11 @@ In the event that someone wants to use data you've provided, you can give instru
 
 <summary>Submit &#x26; edit Agencies</summary>
 
-## Submit an Agency
+### Submit an Agency
 
 If you know of a police agency but can't find it in our [Agencies table](https://airtable.com/shr43ihbyM8DDkKx4/tblpnd3ei5SlibcCX), you can submit it using the ["Submit an Agency" form](https://airtable.com/shrzxLdSsYmBvIWMH).
 
-## Editing Agencies
+### Editing Agencies
 
 To make bulk changes, you can use the "[Submit bulk Agencies or Data Sources](https://airtable.com/shrbnadIQyefJhI1D)" form. We'll merge your changes using the `airtable_uid` property.
 

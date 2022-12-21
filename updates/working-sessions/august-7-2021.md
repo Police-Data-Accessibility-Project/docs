@@ -8,7 +8,7 @@ Dolt [datasets](https://www.dolthub.com/repositories/pdap/datasets) could be sto
 
 We should not run scrapers on the hadoop box because there's no authentication right now, they should be run on digitalocean if anywhere.&#x20;
 
-![](../../.gitbook/assets/screen-shot-2021-08-07-at-7.33.19-pm.png)
+![](<../../.gitbook/assets/Screen Shot 2021-08-07 at 7.33.19 PM.png>)
 
 VPN access info is available for gsuite folks
 
