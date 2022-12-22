@@ -4,6 +4,8 @@
 
 [Common abbreviations in criminal legal system records](http://amerusa.net/resource\_documents/CriminalRecordAbbreviations.pdf)
 
+[QA process for data analysis](https://source.opennews.org/articles/qa-process-confidence-data-stories/)
+
 ## Collecting data
 
 [Compendium of state open records laws](https://www.rcfp.org/open-government-guide/)
