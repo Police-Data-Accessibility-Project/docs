@@ -37,7 +37,7 @@
 ## 🗣 Updates
 
 * [Newsletter](https://newsletter.pdap.io/)
-* [Community calls](updates/working-sessions/README.md)
+* [Community calls](updates/community-calls/README.md)
   * [October 25, 2022](updates/working-sessions/october-25-2022.md)
   * [September 22, 2022](updates/working-sessions/september-22-2022.md)
   * [August 23, 2022](updates/working-sessions/august-23-2022.md)
