@@ -1,6 +1,6 @@
 # Contribute Data Sources
 
-Do you know of a source of data about a U.S. criminal legal system agency? Have you made FOIA requests, or scraped an archive? You can add it to our database, so others can find it more easily.
+Do you know of a source of data about a U.S. criminal legal system agency? Have you made FOIA requests, or scraped an archive? You can add it to our database of public records, so others can find it more easily.
 
 You don't need to know how to code to do this! However, feel free to write scripts or tools to help you in your work. If you make something super-useful, please consider sharing it back with the community in [GitHub](https://github.com/Police-Data-Accessibility-Project/).
 
