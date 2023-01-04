@@ -12,9 +12,17 @@ Read more about our mission at [https://pdap.io/](https://pdap.io/).
 
 We're a small but growing multidisciplinary community of transparency-minded people. We're serving the community of people using police data for their work. We meet [in Discord](https://discord.gg/wMqex8nKZJ). The core PDAP staff keep the lights on, the non-profit board empowers our work, and the broader community moves the mission forward step by step.
 
-## Get involved
+## How to get involved
 
-### Specific ways to help
+### [Join Discord](https://discord.gg/wMqex8nKZJ)
+
+This is where we collaborate! Even if you don't have time to volunteer, you can give feedback and share what you know. Participate in our information ecosystem!
+
+You can use Discord roles to **sign up to be notified when we need help** in the future. Head to the [#welcome channel](https://discord.com/channels/828274060034965575/828286370023735296/890016942323277914) and react with an emoji to the areas where you can help.
+
+![](<.gitbook/assets/Screen Shot 2022-11-30 at 11.05.33 AM.png>)
+
+### Other ways to help
 
 #### Collect Data Sources or submit records you have [FOIA requested](activities/data-sources/foia.md) or [scraped](activities/data-scraping/our-approach-to-scraping.md)
 
@@ -28,16 +36,6 @@ If you find data you'd like to collect or preserve, make it happen! Start by rea
 
 [Start here](https://pdap.io/contribute.html). We're a non-profit, so your donations may be tax-deductible.
 
-#### Join our community
-
-Participate in the information ecosystem! Give feedback and share what you know [in Discord](https://discord.gg/wMqex8nKZJ).
-
 #### Use our Data
 
 [Here's our process](activities/our-process.md). We're in the early days—your project could be one of our first case studies!
-
-### Use Discord Roles!
-
-If you don't see a way to help right now, you can sign up to be notified when we need help in the future! Head to the [#welcome channel in Discord](https://discord.com/channels/828274060034965575/828286370023735296/890016942323277914) and react with an emoji to the areas where you can help.&#x20;
-
-![](<.gitbook/assets/Screen Shot 2022-11-30 at 11.05.33 AM.png>)
