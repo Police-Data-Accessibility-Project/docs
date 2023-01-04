@@ -14,7 +14,7 @@ We're a small but growing multidisciplinary community of transparency-minded peo
 
 ## How to get involved
 
-### [Join Discord](https://discord.gg/wMqex8nKZJ)
+### [Join the Discord](https://discord.gg/wMqex8nKZJ)
 
 This is where we collaborate! Even if you don't have time to volunteer, you can give feedback and share what you know. Participate in our information ecosystem!
 
@@ -24,7 +24,7 @@ You can use Discord roles to **sign up to be notified when we need help** in the
 
 ### Other ways to help
 
-#### Collect Data Sources or submit records you have [FOIA requested](activities/data-sources/foia.md) or [scraped](activities/data-scraping/our-approach-to-scraping.md)
+#### Collect Data Sources or submit data you have [FOIA requested](activities/data-sources/foia.md) or [scraped](activities/data-scraping/our-approach-to-scraping.md)
 
 We need help from anyone who can use a computer to contribute to our database of Data Sources. [Start here](activities/share-data/contribute-data-sources.md).
 
