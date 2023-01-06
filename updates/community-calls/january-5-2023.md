@@ -12,7 +12,7 @@
 
 ## Call notes
 
-* Stocking's regex script
+* linklabel regex script
   * "linklabel" (C++) scans massive amounts of URLs for keywords
   * early bottleneck: commoncrawl URL database is \~4TB
   * to do:
@@ -25,3 +25,4 @@
   * Supports [stemming](https://www.elastic.co/guide/en/elasticsearch/reference/current/stemming.html)
 * Commoncrawl storage
   * craeft offered to spin up a 4-5TB linux server to hold mass amounts of URLs
+  * goal: people can get batches of URLs off the server
