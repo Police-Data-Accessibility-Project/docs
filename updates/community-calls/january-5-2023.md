@@ -12,8 +12,8 @@
 
 ## Call notes
 
-* linklabel regex script
-  * "linklabel" (C++) scans massive amounts of URLs for keywords
+* linklabel regex script: [https://github.com/Police-Data-Accessibility-Project/data-source-identification/pull/1](https://github.com/Police-Data-Accessibility-Project/data-source-identification/pull/1)
+  * (C++) scans massive amounts of URLs for keywords
   * early bottleneck: commoncrawl URL database is \~4TB
   * to do:
     * publish the script + regex library
