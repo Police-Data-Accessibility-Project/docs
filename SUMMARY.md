@@ -17,6 +17,7 @@
     * [Record Types taxonomy](activities/data-sources/data-dictionaries/record-types-taxonomy.md)
   * [FOIA Requests](activities/data-sources/foia.md)
   * [Data Bounties](activities/data-sources/data-bounties/README.md)
+    * [Data Bounties basics](activities/data-sources/data-bounties/data-bounties-basics.md)
     * [DoltHub](activities/data-sources/data-bounties/dolthub.md)
     * [Submit Data Sources with web tools for a Data Bounty](activities/data-sources/data-bounties/submit-datasets-with-web-tools.md)
     * [Submit Data Sources with CLI for a Data Bounty](activities/data-sources/data-bounties/submit-datasets-with-cli.md)
