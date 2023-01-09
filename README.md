@@ -30,7 +30,7 @@ We need help from anyone who can use a computer to contribute to our database of
 
 #### Write a scraper
 
-If you find data you'd like to collect or preserve, make it happen! Start by reading [our approach to scraping](activities/data-scraping/our-approach-to-scraping.md), and reach out if you need help or guidance. If your strategy for scraping is successful, we'll share it as a case study to help people working on similar projects.
+If you find data you'd like to collect or preserve, make it happen! Start by reading [our approach to scraping](activities/data-scraping/our-approach-to-scraping.md), and reach out if you need help or guidance. If your strategy for scraping is successful, we'll share it as a case study to help people working on similar projects. If you can't think of anything to scrape yourself, find local groups working on the criminal legal system. They probably have data woes! Reach out if you need a hand.
 
 #### Donate
 

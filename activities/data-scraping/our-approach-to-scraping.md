@@ -1,12 +1,14 @@
 # Our approach to scraping
 
+If you can't think of anything, find local groups working on the criminal legal system. They probably have data woes!
+
 ## Philosophy
 
 Scraping can turn cumbersome records into useful data. When someone wants to use records but they're in a difficult format, scraping is often the answer.
 
 ### Where the community fits in
 
-Our target users are the thousands of people already using police data. We can support their work by connecting the community of PDAP volunteer scrapers with real, impactful projects.
+Our target users are the thousands of people already using police data. We can support their work by connecting the community of PDAP volunteer scrapers with real, impactful projects.&#x20;
 
 ## Which data are we collecting?
 
@@ -25,10 +27,11 @@ After hundreds of hours of user research, we have determined that these are how 
 * **Build open-source tools** in the [Scrapers repo](https://github.com/Police-Data-Accessibility-Project/PDAP-Scrapers) to make running a scraper on-demand easier for people who don't know what "CLI" means.
 * **Scrape data sources** and agency metadata to populate the [Data Sources database](../data-sources/).
 
-## Longer-term goals
+## Not immediate priorities
 
 #### Aggregation and hosting of scraped data
 
+* In our experience, if you can find someone interested in using the data, storage typically takes care of itself.
 * It's not an immediate priority to make a big database to store scraped data in the same format. The main reason this isn't a priority: _this is not what our users are asking us for._ It's almost everyone's first thought when they hear about our project (us too). Our research tells us access, organization, and communication are the bottleneck for people using the data.
 * Aggregation is incredibly complex, and involves more than just mapping properties. So much context is needed before data from two departments can be compared.
 * Publishing and vouching for extracted data, and documenting its provenance so it can be audited, is a big project. We only want to undertake this work for data we _know will be useful._
@@ -39,7 +42,7 @@ After hundreds of hours of user research, we have determined that these are how 
 
 #### Scrape all the data!
 
-* Scraping is hard work, and there are hundreds of thousands of potential data sources out there. For most local applications, data doesn't even need to be processed to be useful—it just needs to be findable. We don't need to scrape things unless it's clearly adding value.
+* Scraping is hard work, and there are hundreds of thousands of potential data sources out there. For many applications, data doesn't even need to be processed to be useful—it just needs to be findable. We don't need to scrape things unless it's clearly adding value.
 
 ## Current status
 
