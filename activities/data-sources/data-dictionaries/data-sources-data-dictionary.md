@@ -19,14 +19,15 @@ To see which options are available for select fields, consult the [submission fo
 
 ## Agency
 
-| Property           | Type                                                       | Description                                                                                                                                             |
-| ------------------ | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| agency\_described  | array (foreignkey based on an agency's ID within Airtable) | To which criminal legal system agency or agencies does this Data Source refer?                                                                               |
-| state              | string                                                     | 2-character ISO code, related to the associated Agency object, if present.                                                                              |
-| county             | string                                                     | Related to the associated Agency object, if present.                                                                                                    |
-| municipality       | string                                                     | Related to the associated Agency object, if present.                                                                                                    |
-| agency\_type       | string                                                     | Related to the associated Agency object, if present.                                                                                                    |
-| jurisdiction\_type | array                                                      | Related to the associated Agency object, if present. What is the highest level of jurisdiction for the agency? Can be an item like `local` or `county`. |
+| Property            | Type                                                       | Description                                                                                                                                             |
+| ------------------- | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| agency\_described   | array (foreignkey based on an agency's ID within Airtable) | To which criminal legal system agency or agencies does this Data Source refer?                                                                          |
+| agency\_aggregation | array                                                      | If present, the Data Source describes multiple agencies. Can be an item like `local` or `county`.                                                       |
+| state               | string                                                     | 2-character ISO code, related to the associated Agency object, if present.                                                                              |
+| county              | string                                                     | Related to the associated Agency object, if present.                                                                                                    |
+| municipality        | string                                                     | Related to the associated Agency object, if present.                                                                                                    |
+| agency\_type        | string                                                     | Related to the associated Agency object, if present.                                                                                                    |
+| jurisdiction\_type  | array                                                      | Related to the associated Agency object, if present. What is the highest level of jurisdiction for the agency? Can be an item like `local` or `county`. |
 
 ## Provenance
 
@@ -47,8 +48,8 @@ _Where did it come from?_
 | source\_url                        | string            | A URL where these records can be found or are referenced.                                                                                   |
 | access\_type                       | array             | Array items can have values such as `Web page` or `API`                                                                                     |
 | record\_format                     | array             | What format(s) are the records in natively? Array items can have values such as `CSV`, `JSON`, `XML`, `RDF`, `RSS`, `HTML table` and others |
+| detail\_level                      | array             | Is this an individual record, an aggregated set of records, or a summary without underlying data?                                           |
 | record\_download\_option\_provided | boolean           | There is a function available to download or export records.                                                                                |
-| aggregation\_type                  | string            | Are there individual records, or does the data include aggregated totals?                                                                   |
 | size                               | string            | The file size on disk of all the data at this source, if downloaded.                                                                        |
 | data\_portal\_type                 | string            | Some data is published via a standard third-party portal, typically named somewhere on the page.                                            |
 | access\_restrictions               | string            | Is anything special required to access the data?                                                                                            |
@@ -61,7 +62,7 @@ _Where did it come from?_
 | ------------------------------ | ------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
 | coverage\_start                | date    | The earliest date covered by this source, if known, in the format YYYY-DD-MM.                                                             |
 | coverage\_end                  | date    | The date at which updates stop, in the format YYYY-DD-MM.                                                                                 |
-| source\_last_\__updated        | date    | The date this source was last updated, in the format YYYY-DD-MM.                                                                          |
+| source\_last\_\_\_updated      | date    | The date this source was last updated, in the format YYYY-DD-MM.                                                                          |
 | update\_frequency              | string  | How often is this data source updated?                                                                                                    |
 | update\_method                 | string  | How are new records added to this Data Source?                                                                                            |
 | sort\_method                   | string  | When new records are added, how are they sorted?                                                                                          |
