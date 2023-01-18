@@ -10,11 +10,17 @@ description: >-
 Are you still wondering what a Data Source is? [Read more here](what-is-a-data-source.md).
 {% endhint %}
 
-## Browse: [**https://airtable.com/shrUAtA8qYasEaepI**](https://airtable.com/shrUAtA8qYasEaepI)****
+## Airtable Database
+
+### [Browse Data Sources](https://airtable.com/shrUAtA8qYasEaepI) | [Browse Agencies](https://airtable.com/shr43ihbyM8DDkKx4)
+
+{% hint style="info" %}
+If we're missing something, you can [contribute or Data Sources here](../share-data/contribute-data-sources.md#submit-individual-data-sources).
+{% endhint %}
 
 ### Filter
 
-You can filter based on any of the properties we have!
+You can filter based on any of the properties we have! You can also try using the browser what you're looking for.
 
 <figure><img src="../../.gitbook/assets/Screen Shot 2022-12-21 at 12.10.00 PM.png" alt=""><figcaption></figcaption></figure>
 
@@ -24,8 +30,6 @@ If you'd rather view this information in another way, you can export to a CSV an
 
 ![You can quickly download a CSV using the triple-dot button in the top bar.](<../../.gitbook/assets/Screen Shot 2022-08-22 at 12.09.38 PM.png>)
 
-## Other useful tables
+## CSV & JSON mirrors
 
-* Browse Agencies: [https://airtable.com/shr43ihbyM8DDkKx4](https://airtable.com/shr43ihbyM8DDkKx4)
-* Allegheny County data sources: [https://airtable.com/shrUzF2TE8bxxX7fW](https://airtable.com/shrUzF2TE8bxxX7fW)
-* Allegheny County agencies: [https://airtable.com/shriMErLa8jwL0xkS](https://airtable.com/shriMErLa8jwL0xkS)
+We duplicate the Airtable database to [this GitHub repository](https://github.com/Police-Data-Accessibility-Project/data-sources-mirror) periodically, in case people would like to [clone it](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) for convenient access.
