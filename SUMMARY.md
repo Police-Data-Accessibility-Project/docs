@@ -40,6 +40,7 @@
 
 * [Newsletter](https://newsletter.pdap.io/)
 * [Community calls](updates/community-calls/README.md)
+  * [January 20, 2023](updates/community-calls/january-20-2023.md)
   * [January 5, 2023](updates/community-calls/january-5-2023.md)
   * [October 25, 2022](updates/working-sessions/october-25-2022.md)
   * [September 22, 2022](updates/working-sessions/september-22-2022.md)
