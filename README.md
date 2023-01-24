@@ -16,7 +16,7 @@ We're a small but growing multidisciplinary community of transparency-minded peo
 
 ### Volunteer your skills
 
-[Fill in this form](https://airtable.com/shrBSE6cnuvLQtJF1) if you're good with data, or persistent enough to do research and investigation online. We'll pair volunteers with data requestors.
+[Fill out this form](https://airtable.com/shrBSE6cnuvLQtJF1) if you're good with data, or persistent enough to do research and investigation online. We'll pair volunteers with data requestors.
 
 ### [Join the Discord](https://discord.gg/wMqex8nKZJ)
 
