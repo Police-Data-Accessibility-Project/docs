@@ -14,13 +14,13 @@ We're a small but growing multidisciplinary community of transparency-minded peo
 
 ## How to get involved
 
+### Volunteer your skills
+
+[Fill in this form](https://airtable.com/shrBSE6cnuvLQtJF1) if you're good with data, or persistent enough to do research and investigation online. We'll pair volunteers with data requestors.
+
 ### [Join the Discord](https://discord.gg/wMqex8nKZJ)
 
 This is where we collaborate! Even if you don't have time to volunteer, you can give feedback and share what you know. Participate in our information ecosystem!
-
-You can use Discord roles to **sign up to be notified when we need help** in the future. Head to the [#welcome channel](https://discord.com/channels/828274060034965575/828286370023735296/890016942323277914) and react with an emoji to the areas where you can help.
-
-![](<.gitbook/assets/Screen Shot 2022-11-30 at 11.05.33 AM.png>)
 
 ### Other ways to help
 
