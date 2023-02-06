@@ -1,6 +1,6 @@
 # Contribute Data Sources
 
-Do you know of a source of data about a U.S. criminal legal system agency? Have you made FOIA requests, or scraped an archive? You can add it to our database of public records, so others can find it more easily.
+We're collecting Data Sources, which are places to find data about the criminal legal system. This helps us document the system, and point people to potentially useful sources.
 
 You don't need to know how to code to do this! However, feel free to write scripts or tools to help you in your work. If you make something super-useful, please consider sharing it back with the community in [GitHub](https://github.com/Police-Data-Accessibility-Project/).
 
@@ -8,7 +8,17 @@ You don't need to know how to code to do this! However, feel free to write scrip
 If you're not sure where to start, pick a local precinct that means something to you. Make it a goal to find all potential Data Sources for that area.
 {% endhint %}
 
-## Tutorials
+## Finding Data Sources
+
+Our advice: start where you live. Check our [existing agencies and data sources](../data-sources/explore-data-sources.md), filtering by your county. Chances are, you can find something we're missing. You can poke around their website, and ask local people who might know where to start—for example, a reporter, attorney, or activist group who may already using the data.
+
+### Can't find a type of records online?
+
+That's OK—some small departments only publish basic contact info, or don't even have websites!
+
+If you can't find a type of record ([see a list of record types here](../data-sources/data-dictionaries/record-types-taxonomy.md)) you can submit a bulk spreadsheet using the instructions below with a `record_type` listed and `records_not_online` set to "true". This tells future researchers that, at the time you submitted, we weren't aware of an online source and a records request would be required to access the data.
+
+## Submission
 
 <details>
 

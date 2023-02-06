@@ -14,19 +14,19 @@ We're a small but growing multidisciplinary community of transparency-minded peo
 
 ## How to get involved
 
-### Volunteer your skills
+### Volunteer your skills for data requests
 
 [Fill out this form](https://airtable.com/shrBSE6cnuvLQtJF1) if you're good with data, or persistent enough to do research and investigation online. We'll pair volunteers with data requestors.
 
-### [Join the Discord](https://discord.gg/wMqex8nKZJ)
-
-This is where we collaborate! Even if you don't have time to volunteer, you can give feedback and share what you know. Participate in our information ecosystem!
-
-### Other ways to help
-
-#### Collect Data Sources or submit data you have [FOIA requested](activities/data-sources/foia.md) or [scraped](activities/data-scraping/our-approach-to-scraping.md)
+### Find Data Sources
 
 We need help from anyone who can use a computer to contribute to our database of Data Sources. [Start here](activities/share-data/contribute-data-sources.md).
+
+### Share data you've collected
+
+If you have FOIA'd or scraped data in the past, you can [list yourself as a Data Source here](activities/share-data/contribute-data-sources.md#submit-data-youve-collected).
+
+### Other ways to help
 
 **Find related open-source projects**
 
