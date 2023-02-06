@@ -10,7 +10,7 @@ If you're not sure where to start, pick a local precinct that means something to
 
 ## Finding Data Sources
 
-Our advice: start where you live. Check our [existing agencies and data sources](../data-sources/explore-data-sources.md), filtering by your county. Chances are, you can find something we're missing. You can poke around their website, and ask local people who might know where to start—for example, a reporter, attorney, or activist group who may already using the data.
+Our advice: start where you live. Check our [existing agencies and data sources](../data-sources/explore-data-sources.md), filtering by your county. Chances are, you can find something we're missing. You can poke around government websites, and ask local people who might know where to start—for example, a reporter, attorney, or activist group who may already using the data...or collected public records they might want to share!
 
 ### Can't find a type of records online?
 
