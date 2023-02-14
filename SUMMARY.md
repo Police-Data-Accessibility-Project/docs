@@ -67,6 +67,7 @@
   * [Roles & Community](meta/about/roles-and-community.md)
   * [Cultural Principles](meta/about/cultural-principles.md)
   * [PDAP Staff](meta/about/staff/README.md)
+    * [Product changes checklist](meta/about/staff/product-changes-checklist.md)
     * [Meeting Minutes](meta/about/staff/meeting-minutes/README.md)
       * [2021-07-14](meta/about/staff/meeting-minutes/2021-07-14.md)
       * [2021-06-16](meta/about/staff/meeting-minutes/2021-06-16.md)
