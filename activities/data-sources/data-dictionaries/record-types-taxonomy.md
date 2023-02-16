@@ -38,7 +38,7 @@ description: Examples and descriptions of the Record Types we're collecting.
 | Geographic                 | Maps or geographic data about how land is divided up into municipal sectors, zones, and jurisdictions.                                                 | [https://data.wprdc.org/dataset/police-zones](https://data.wprdc.org/dataset/police-zones)                           |
 | List of Data Sources       | Places on the internet, often data portal homepages, where many links to potential data sources can be found.                                          | [https://www.stlouis-mo.gov/data/index.cfm](https://www.stlouis-mo.gov/data/index.cfm)                               |
 | Misc Police Activity       | Records or descriptions of police activity not covered by other record types.                                                                          | [https://data.wprdc.org/dataset/police-civil-actions](https://data.wprdc.org/dataset/police-civil-actions)           |
-| Policies & Contracts       | Policies or contracts related to agency procedure.                                                                                           | [http://alleghenycountyda.us/model-police-policies/](http://alleghenycountyda.us/model-police-policies/)             |
+| Policies & Contracts       | Policies or contracts related to agency procedure.                                                                                                     | [http://alleghenycountyda.us/model-police-policies/](http://alleghenycountyda.us/model-police-policies/)             |
 
 ## Agency-published resources
 
@@ -52,7 +52,11 @@ description: Examples and descriptions of the Record Types we're collecting.
 | Sex Offender Registry | Index of people registered, usually by law, with the government as sex offenders.                                 | [https://stewartcountysheriff.org/sexoffender.htm](https://stewartcountysheriff.org/sexoffender.htm)                                                                                       |
 | Wanted Persons        | Names, descriptions, images, and associated information about people with outstanding arrest warrants.            | [https://www.baldwinsheriff.com/most-wanted/](https://www.baldwinsheriff.com/most-wanted/)                                                                                                 |
 
-## Jails & courts
+## Jails & Courts specific
+
+{% hint style="info" %}
+Other record types can describe jails and courts, especially from the "info about agencies" category.
+{% endhint %}
 
 | record\_type    | description                                                                                          | example                                                                                                                  |
 | --------------- | ---------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
