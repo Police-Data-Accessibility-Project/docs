@@ -10,9 +10,13 @@
 
 [Compendium of state open records laws](https://www.rcfp.org/open-government-guide/)
 
+[ScrapingBee for headless websites](https://www.scrapingbee.com/)
+
 ## Processing data
 
 [Crosswalker](https://github.com/washingtonpost/crosswalker) is for joining columns of text data that don’t match perfectly.
+
+[CJWorkbench](https://github.com/CJWorkbench/cjworkbench), a spreadsheet-like program with powerful tools for data journalism.
 
 ## Learning Python
 
