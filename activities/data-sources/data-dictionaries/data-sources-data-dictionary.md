@@ -15,6 +15,7 @@ To see which options are available for select fields, consult the [submission fo
 | name            | string            | Uses `submitted_name` if present or concatenates `record_type` + `" for "` + `agency_described`; can get weird when one or both are not present                                                                                            |
 | submitted\_name | string            | Required for individual Data Source submissions for clarity.                                                                                                                                                                               |
 | record\_type    | string            | What kind of data is accessible from this source? For more info, see the [Record Types taxonomy](record-types-taxonomy.md).                                                                                                                |
+| tags            | array             | Are there any keyword descriptors which might help people find this in a search? Try to limit tags to information which can't be contained in other properties.                                                                            |
 | description     | string (textarea) | Information to give clarity and confidence about what this source is, how it was processed, and whether the person reading the description might want to use it. Especially important if the source is difficult to preview or categorize. |
 
 ## Agency
@@ -46,6 +47,7 @@ _Where did it come from?_
 | Property                           | Type              | Description                                                                                                                                 |
 | ---------------------------------- | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
 | source\_url                        | string            | A URL where these records can be found or are referenced.                                                                                   |
+| readme\_url                        | string            | A URL where supplementary information about the source is published.                                                                        |
 | access\_type                       | array             | Array items can have values such as `Web page` or `API`                                                                                     |
 | record\_format                     | array             | What format(s) are the records in natively? Array items can have values such as `CSV`, `JSON`, `XML`, `RDF`, `RSS`, `HTML table` and others |
 | detail\_level                      | array             | Is this an individual record, an aggregated set of records, or a summary without underlying data?                                           |

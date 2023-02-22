@@ -4,6 +4,10 @@ description: Examples and descriptions of the Record Types we're collecting.
 
 # Record Types taxonomy
 
+{% hint style="info" %}
+We use the `tags` property to add color to a Data Source if there's not a specific enough Record Type.
+{% endhint %}
+
 ## Police & public interactions
 
 | record\_type               | description                                                                                                                                                                               | example                                                                                                                                                                                  |
@@ -15,10 +19,12 @@ description: Examples and descriptions of the Record Types we're collecting.
 | Citations                  | Records of low-level criminal offenses where a police officer issued a citation instead of an arrest.                                                                                     | [https://data.wprdc.org/dataset/non-traffic-citations](https://data.wprdc.org/dataset/non-traffic-citations)                                                                             |
 | Dispatch Logs              | Records of calls or orders made by police dispatchers.                                                                                                                                    | [https://www.edispatches.com/call-log/](https://www.edispatches.com/call-log/)                                                                                                           |
 | Dispatch Recordings        | Audio feeds and/or archives of municipal dispatch channels.                                                                                                                               | [https://www.broadcastify.com/listen/feed/34085](https://www.broadcastify.com/listen/feed/34085)                                                                                         |
+| Field Contacts             | Reports of contact between police and civilians. May include uses of force, incidents, arrests, or contacts where nothing notable happened.                                               | [https://www.normanok.gov/public-safety/police-department/open-data-portal/contacts](https://www.normanok.gov/public-safety/police-department/open-data-portal/contacts)                 |
 | Incident Reports           | Reports made by police officers after responding to a call which may or may not be criminal in nature. Not generally posted online.                                                       | none found                                                                                                                                                                               |
 | Officer Involved Shootings | Case files of gun violence where a police officer was involved, typically as the shooter. Detailed, often containing references to records like Media Bulletins and Use of Force Reports. | [https://gbi.georgia.gov/news/2022-11-22/2022-officer-involved-shootings](https://gbi.georgia.gov/news/2022-11-22/2022-officer-involved-shootings)                                       |
-| Traffic Stops              | Records of traffic stops made by police.                                                                                                                                                  | [https://data.seattle.gov/Public-Safety/Terry-Stops/28ny-9ts8](https://data.seattle.gov/Public-Safety/Terry-Stops/28ny-9ts8)                                                             |
+| Stops                      | Records of pedestrian or traffic stops made by police.                                                                                                                                    | [https://data.seattle.gov/Public-Safety/Terry-Stops/28ny-9ts8](https://data.seattle.gov/Public-Safety/Terry-Stops/28ny-9ts8)                                                             |
 | Use of Force Reports       | Records of use of force against civilians by police officers.                                                                                                                             | [https://data.seattle.gov/Public-Safety/Use-Of-Force/ppi5-g2bj](https://data.seattle.gov/Public-Safety/Use-Of-Force/ppi5-g2bj)                                                           |
+| Vehicle Pursuits           | Records of cases where police pursued a person fleeing in a vehicle.                                                                                                                      | [https://bloomington.data.socrata.com/Police/Vehicle-Pursuits/n6ty-q23h](https://bloomington.data.socrata.com/Police/Vehicle-Pursuits/n6ty-q23h)                                         |
 
 ## Info about officers
 
