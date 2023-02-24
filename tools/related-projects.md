@@ -32,7 +32,6 @@ PDAP is neither officially nor unofficially aligned with the missions of any of 
 ### Facilitating records storage for police
 
 * [https://policerecordsmanagement.com/case-studies/](https://policerecordsmanagement.com/case-studies/)
-* [https://www.projectcomport.org/](https://www.projectcomport.org/)
 
 ### Lists of datasets
 
