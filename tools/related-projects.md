@@ -28,6 +28,7 @@ PDAP is neither officially nor unofficially aligned with the missions of any of 
 * [https://www.grieftoaction.org/](https://www.grieftoaction.org/)
 * [https://www.openpolice.org/](https://www.openpolice.org/)
 * [https://llead.co/](https://llead.co/)
+* [https://americanequity.org/](https://americanequity.org/index.html)
 
 ### Facilitating records storage for police
 
