@@ -28,6 +28,10 @@ If you have FOIA'd or scraped data in the past, you can [list yourself as a Data
 
 ### Other ways to help
 
+#### Label data for our machine learning pipeline
+
+If you have access to a computer and can use a web browser, you can help label data to train our machine learning algorithm! Even an hour of your time helps. Reach out to [contact@pdap.io](mailto:contact@pdap.io) if you'd like to help.
+
 **Find related open-source projects**
 
 There are lots of DIY projects like [this one](https://github.com/openpolicedata/openpolicedata) and [this one](https://github.com/ayyubibrahimi/eos) which are based on agency-published data. Find an interesting one, and test it out—if it works, you can [submit it as a Data Source](activities/share-data/contribute-data-sources.md#submit-individual-data-sources). You can signal-boost the projects you like, and you may even find one in need of contributors!
