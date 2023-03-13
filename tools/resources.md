@@ -12,20 +12,22 @@
 
 [ScrapingBee for headless websites](https://www.scrapingbee.com/)
 
+[Best practices for data collection](https://inspectelement.org/best-practices-data-collection.html) from Inspect Element
+
+[Finding undocumented APIs](https://inspectelement.org/apis.html) from Inspect Element
+
 ## Processing data
 
 [Crosswalker](https://github.com/washingtonpost/crosswalker) is for joining columns of text data that don’t match perfectly.
 
 [CJWorkbench](https://github.com/CJWorkbench/cjworkbench), a spreadsheet-like program with powerful tools for data journalism.
 
+[PDF processing and OCR](https://github.com/chadday/nicar\_ocr) from Chad Day for NICAR
+
 ## Learning Python
 
-[https://realpython.com/python-api/#consuming-apis-with-python-practical-examples](https://realpython.com/python-api/#consuming-apis-with-python-practical-examples)
+[Consuming APIs with Python](https://realpython.com/python-api/#consuming-apis-with-python-practical-examples) from Realpython
 
-{% embed url="https://github.com/palewire/first-python-notebook" %}
-A step-by-step guide to analyzing data with Python and the Jupyter notebook.
-{% endembed %}
+[An intro to your first notebook using Python & Jupyter](https://github.com/palewire/first-python-notebook) from Palewire
 
-{% embed url="https://github.com/ireapps/pycar" %}
-Resources from a Python bootcamp.
-{% endembed %}
+[A mini Python and Jupyter bootcamp](https://github.com/ireapps/pycar) from NICAR
