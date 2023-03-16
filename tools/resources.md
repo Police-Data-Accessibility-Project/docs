@@ -16,6 +16,8 @@
 
 [Finding undocumented APIs](https://inspectelement.org/apis.html) from Inspect Element
 
+[Automatic DocumentCloud scraping](https://www.muckrock.com/news/archives/2022/may/24/release-notes-keep-an-eye-on-your-favorite-agencie/) which requires a verified MuckRock account. If you don't have one, you can use ours! Reach out.
+
 ## Processing data
 
 [Crosswalker](https://github.com/washingtonpost/crosswalker) is for joining columns of text data that don’t match perfectly.
