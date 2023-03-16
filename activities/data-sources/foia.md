@@ -18,6 +18,7 @@ If you have successfully made a FOIA request through a service like Muckrock (or
   * Check whether there's a provision that records are provided in the same format they're kept.
 * Call in advance. Tell the human on the other end what you plan to request and ask them if they have guidance for making the request as easy as possible for them to grant.
   * Find out what they call the record you're looking for.
+  * If you develop a relationship with the agency, you may be able to informally request and access the records without a FOIA process.
 * Check for "required" forms. Technically, you shouldn't need anything but the request—but complying with these "requirements" is a good way to make sure your request is granted.
 
 ### Making the request
