@@ -27,3 +27,11 @@ The risks aren't a problem, yet. In the meantime we're going to:
 * Collect email addresses on the form, optionally
 * Set up a moderation queue to approve submissions before they are made public
 * Not embed the form into a live site, only sharing the link with individuals who ask by contacting staff in any way (explaining this process in the docs)
+
+### GitHub Actions
+
+We often use GitHub Actions to automate tasks. The pattern for new volunteer-submitted automated utilities is that we:
+
+1. Create a new repository where the code will live, or a new directory in an existing repo
+2. Ask the volunteer to submit their code to the new repo, without worrying about automation
+3. Wire up the automation ourselves, once we ensure the code meets the standard
