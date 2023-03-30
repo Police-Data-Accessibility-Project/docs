@@ -6,6 +6,8 @@
 
 [QA process for data analysis](https://source.opennews.org/articles/qa-process-confidence-data-stories/)
 
+[CPE's guide on analyzing traffic stop data](https://policingequity.org/data-collection-insights/33-cpe-toolkit-stop-data-collection-guidebook/file)
+
 ## Collecting data
 
 [Compendium of state open records laws](https://www.rcfp.org/open-government-guide/)
