@@ -28,6 +28,8 @@
 
 [PDF processing and OCR](https://github.com/chadday/nicar\_ocr) from Chad Day for NICAR
 
+[Useful file types: Parquet, SQLite, FlatGeobuf](https://observablehq.com/@asg017/nicar23-lightning-talk-tipsheet-3-file-formats) from Alex Garcia
+
 ## Learning Python
 
 [Consuming APIs with Python](https://realpython.com/python-api/#consuming-apis-with-python-practical-examples) from Realpython
