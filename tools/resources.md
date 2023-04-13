@@ -30,6 +30,8 @@
 
 [Useful file types: Parquet, SQLite, FlatGeobuf](https://observablehq.com/@asg017/nicar23-lightning-talk-tipsheet-3-file-formats) from Alex Garcia
 
+[Frictionless data](https://frictionlessdata.io/) for transforming and describing messy datasets, making them more interoperable, and creating a pipeline
+
 ## Learning Python
 
 [Consuming APIs with Python](https://realpython.com/python-api/#consuming-apis-with-python-practical-examples) from Realpython
