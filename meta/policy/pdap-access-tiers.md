@@ -28,6 +28,15 @@ The risks aren't a problem, yet. In the meantime we're going to:
 * Set up a moderation queue to approve submissions before they are made public
 * Not embed the form into a live site, only sharing the link with individuals who ask by contacting staff in any way (explaining this process in the docs)
 
+**Sharing un-approved Data Sources, sometimes**
+
+When we share a public view [like this one](https://airtable.com/shrZgN3ZWviwXpPjx) with a specific user, we will show un-approved sources which fit into the existing filter set. The goal is to help people see the results of their submissions immediately. There is some risk of vandalism, and in general we don't but it's mitigated by these factors:
+
+* To the rest of the world (on our public view), it looks like we only show approved data sources, so the incentive for vandalism is low.
+* We're sharing these geographic-specific views with people who we think are serious users, and they may share it with their network; not many people will see these un-approved data sources.
+* We're still listing them as "not approved", so we are not misrepresenting them.
+* In the future we'll be able to further restrict who is able to view un-approved Data Sources; maybe they can opt in, only see sources submitted by themselves or others in their community, etc.
+
 ### GitHub Actions
 
 We often use GitHub Actions to automate tasks. The pattern for new volunteer-submitted automated utilities is that we:
