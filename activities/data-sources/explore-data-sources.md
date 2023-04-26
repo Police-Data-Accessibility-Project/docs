@@ -33,3 +33,7 @@ If you'd rather view this information in another way, you can export to a CSV an
 ## CSV & JSON mirrors
 
 We duplicate the Airtable database to [this GitHub repository](https://github.com/Police-Data-Accessibility-Project/data-sources-mirror) periodically, in case people would like to [clone it](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) for convenient access.
+
+## API access
+
+At the moment, API access is only granted on a case-by-case basis through Airtable. Reach out to [contact@pdap.io ](mailto:contact@pdap.io)to request API access. We'd like to hear about your use case! [Here are the Airtable API docs](https://airtable.com/app473MWXVJVaD7Es/api/docs) for the Data Sources database.
