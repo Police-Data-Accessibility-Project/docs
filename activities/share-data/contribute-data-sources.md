@@ -53,9 +53,21 @@ If you already have several of Data Sources in a spreadsheet—maybe from a prev
 
 <details>
 
+<summary>Submit data you've collected</summary>
+
+If you've FOIA requested, scraped, or otherwise collected police data, you can add yourself to our Data Sources table!
+
+In the event that someone wants to use data you've provided, you can give instructions for how you should be contacted. PDAP can also serve as a go-between to protect your identity.
+
+[Just submit this form](https://airtable.com/shr6StxK9zgVzgGCy)!
+
+</details>
+
+<details>
+
 <summary>Editing Data Sources</summary>
 
-If you discover an inaccuracy, you can reach out in Discord or use the Bulk Upload Form to correct the record.
+If you discover an inaccuracy, you can email [contact@pdap.io](mailto:contact@pdap.io). If it's more convenient, you can submit changes via CSV:&#x20;
 
 1. Head to the [Data Sources table](https://airtable.com/shrUAtA8qYasEaepI).
 2. Use the triple-dot button in the menu bar to `Download CSV`.
@@ -64,18 +76,6 @@ If you discover an inaccuracy, you can reach out in Discord or use the Bulk Uplo
 5. Save the CSV and upload it to the [Bulk form](https://airtable.com/shrbnadIQyefJhI1D).
 
 We'll import the CSV and make sure the changes are reflected appropriately.
-
-</details>
-
-<details>
-
-<summary>Submit data you've collected</summary>
-
-If you've FOIA requested, scraped, or otherwise collected police data, you can add yourself to our Data Sources table!
-
-In the event that someone wants to use data you've provided, you can give instructions for how you should be contacted. PDAP can also serve as a go-between to protect your identity.
-
-[Just submit this form](https://airtable.com/shr6StxK9zgVzgGCy)!
 
 </details>
 

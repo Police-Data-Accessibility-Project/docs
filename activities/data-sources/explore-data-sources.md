@@ -15,7 +15,7 @@ Are you still wondering what a Data Source is? [Read more here](what-is-a-data-s
 ### [Browse Data Sources](https://airtable.com/shrUAtA8qYasEaepI) | [Browse Agencies](https://airtable.com/shr43ihbyM8DDkKx4)
 
 {% hint style="info" %}
-If we're missing something, you can [contribute or Data Sources here](../share-data/contribute-data-sources.md#submit-individual-data-sources).
+If we're missing something, you can [contribute or edit Data Sources here](../share-data/contribute-data-sources.md#submit-individual-data-sources).
 {% endhint %}
 
 ### Filter
