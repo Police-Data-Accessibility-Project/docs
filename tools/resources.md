@@ -41,3 +41,9 @@
 [An intro to your first notebook using Python & Jupyter](https://github.com/palewire/first-python-notebook) from Palewire
 
 [A mini Python and Jupyter bootcamp](https://github.com/ireapps/pycar) from NICAR
+
+## Publishing data
+
+[JKAN](https://jkan.io/), an open-source data portal designed with small government agencies in mind.
+
+[CKAN](https://ckan.org/), an open-source data management system.

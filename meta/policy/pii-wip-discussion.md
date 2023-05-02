@@ -30,11 +30,11 @@ PDAP could be considered a wikipedia-like source of good sources.
 
 * Should we define "PII that we must not make more public" as "Name"?\
   **3 yes** \
-  ****0 no \
+  0 no \
   1 yes + address
 * Should we show PII in the mirrored source material?\
   **2 yes**\
-  ****1 no
+  1 no
 * Should we aggregate data on whether a field is included in the source data?\
   **3 yes**\
   0 no

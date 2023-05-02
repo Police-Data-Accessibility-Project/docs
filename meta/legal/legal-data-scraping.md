@@ -35,7 +35,7 @@ Again, scraping should be strictly limited to information that is presumptively 
 
 When you login (e.g., through a username and password) and/or expressly agree to the terms of use/serve of a website, you are entering into a contract with the website owner, thereby agreeing to their rules. These rules may explicitly state that data may not be scraped from the website, and failing to adhere to such terms may put you in breach of that contract. As noted, however, your scraping should be strictly limited to information that is presumptively accessible to the general public, and which does not require authentication.
 
-__[_Recent court rulings_](https://www.eff.org/deeplinks/2022/04/scraping-public-websites-still-isnt-crime-court-appeals-declares) _have confirmed the legality of web scraping regardless of Terms of Service. Ethics dictate that following Terms of Service is still best practice._
+[_Recent court rulings_](https://www.eff.org/deeplinks/2022/04/scraping-public-websites-still-isnt-crime-court-appeals-declares) _have confirmed the legality of web scraping regardless of Terms of Service. Ethics dictate that following Terms of Service is still best practice._
 
 **Will my scraping activity overload, damage, or otherwise adversely affect a server?**
 
