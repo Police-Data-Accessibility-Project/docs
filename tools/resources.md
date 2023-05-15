@@ -1,12 +1,14 @@
 # Third-Party Resources
 
-## Using data
+## Using & analyzing data
 
 [Common abbreviations in criminal legal system records](http://amerusa.net/resource\_documents/CriminalRecordAbbreviations.pdf)
 
 [QA process for data analysis](https://source.opennews.org/articles/qa-process-confidence-data-stories/)
 
 [CPE's guide on analyzing traffic stop data](https://policingequity.org/data-collection-insights/33-cpe-toolkit-stop-data-collection-guidebook/file)
+
+[RATH](https://rath.kanaries.net/) by Kanaries for no-code exploratory data analysis
 
 ## Collecting data
 
@@ -34,6 +36,14 @@
 
 [Kyle Walker's guide](https://walker-data.com/umich-workshop-2023/python/#1) for using Python to do spatial mapping and analysis
 
+
+
+## Publishing data
+
+[JKAN](https://jkan.io/), an open-source data portal designed with small government agencies in mind.
+
+[CKAN](https://ckan.org/), an open-source data management system.
+
 ## Learning Python
 
 [Consuming APIs with Python](https://realpython.com/python-api/#consuming-apis-with-python-practical-examples) from Realpython
@@ -41,9 +51,3 @@
 [An intro to your first notebook using Python & Jupyter](https://github.com/palewire/first-python-notebook) from Palewire
 
 [A mini Python and Jupyter bootcamp](https://github.com/ireapps/pycar) from NICAR
-
-## Publishing data
-
-[JKAN](https://jkan.io/), an open-source data portal designed with small government agencies in mind.
-
-[CKAN](https://ckan.org/), an open-source data management system.
