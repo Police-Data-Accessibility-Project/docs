@@ -44,6 +44,8 @@
 
 [CKAN](https://ckan.org/), an open-source data management system.
 
+Three resources from the U.S. Department of Justice related to "Designing an Effective Law Enforcement Data Dashboard": [1. An Introduction](https://cops.usdoj.gov/RIC/ric.php?page=detail\&id=COPS-W1011); [2. Developing a Concept of Operations document](https://cops.usdoj.gov/RIC/ric.php?page=detail\&id=COPS-W1012); [3. Functional and Technical Requirements](https://cops.usdoj.gov/RIC/ric.php?page=detail\&id=COPS-W1013).
+
 ## Learning Python
 
 [Consuming APIs with Python](https://realpython.com/python-api/#consuming-apis-with-python-practical-examples) from Realpython
