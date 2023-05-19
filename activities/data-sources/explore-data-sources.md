@@ -28,7 +28,11 @@ You can filter based on any of the properties we have! You can also try using th
 
 If you'd rather view this information in another way, you can export to a CSV and open it in Google Sheets, Excel, or anywhere else.
 
-![You can quickly download a CSV using the triple-dot button in the top bar.](<../../.gitbook/assets/Screen Shot 2022-08-22 at 12.09.38 PM.png>)
+<div align="left">
+
+<img src="../../.gitbook/assets/Screen Shot 2022-08-22 at 12.09.38 PM.png" alt="You can quickly download a CSV using the triple-dot button in the top bar.">
+
+</div>
 
 ## CSV & JSON mirrors
 
