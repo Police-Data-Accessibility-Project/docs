@@ -23,6 +23,7 @@
     * [Validate Data Sources PRs](activities/data-sources/data-bounties/validate-datasets-prs.md)
     * [Searching Data Sources in DoltHub](activities/data-sources/data-bounties/searching-data-sources-in-dolthub.md)
 * [Share Data](activities/share-data/README.md)
+  * [Share data](activities/share-data/share-data.md)
   * [Contribute Data Sources](activities/share-data/contribute-data-sources.md)
 * [Data Scraping](activities/data-scraping/README.md)
   * [Our approach to scraping](activities/data-scraping/our-approach-to-scraping.md)
@@ -32,7 +33,7 @@
 ## 🛠 Tools & Resources <a href="#tools" id="tools"></a>
 
 * [Related Projects](tools/related-projects.md)
-* [Third-Party Resources](tools/resources.md)
+* [Resources for working with data](tools/resources.md)
 * [Splunk](tools/splunk.md)
 
 ## 🗣 Updates

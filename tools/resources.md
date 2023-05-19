@@ -1,4 +1,4 @@
-# Third-Party Resources
+# Resources for working with data
 
 ## Using & analyzing data
 
@@ -35,12 +35,6 @@
 [Frictionless data](https://frictionlessdata.io/) for transforming and describing messy datasets, making them more interoperable, and creating a pipeline
 
 [Kyle Walker's guide](https://walker-data.com/umich-workshop-2023/python/#1) for using Python to do spatial mapping and analysis
-
-## Publishing data
-
-[JKAN](https://jkan.io/), an open-source data portal designed with small government agencies in mind.
-
-[CKAN](https://ckan.org/), an open-source data management system.
 
 ## Learning Python
 
