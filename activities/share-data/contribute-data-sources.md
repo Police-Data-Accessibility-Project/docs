@@ -1,6 +1,12 @@
-# Contribute Data Sources
+---
+description: Combing the internet for published data
+---
 
-We're collecting Data Sources, which are places to find data about the criminal legal system. This helps us document the system, and point people to potentially useful sources.
+# Locate Data Sources
+
+## Locating Data Sources
+
+[Here's a quick tutorial for searching government websites](https://www.youtube.com/watch?v=OnDNClCK4Hk), if that's your thing.
 
 You don't need to know how to code to do this! However, feel free to write scripts or tools to help you in your work. If you make something super-useful, please consider sharing it back with the community in [GitHub](https://github.com/Police-Data-Accessibility-Project/).
 
@@ -8,23 +14,13 @@ You don't need to know how to code to do this! However, feel free to write scrip
 If you're not sure where to start, pick a local precinct that means something to you. Make it a goal to find all potential Data Sources for that area.
 {% endhint %}
 
-## Finding Data Sources
-
-Our advice: start where you live. Check our [existing agencies and data sources](../data-sources/explore-data-sources.md), filtering by your county. Chances are, you can find something we're missing. You can poke around government websites, and ask local people who might know where to start—for example, a reporter, attorney, or activist group who may already using the data...or collected public records they might want to share!
-
-### Can't find a type of records online?
-
-That's OK—some small departments only publish basic contact info, or don't even have websites!
-
-If you can't find a type of record ([see a list of record types here](../data-sources/data-dictionaries/record-types-taxonomy.md)) you can submit a bulk spreadsheet using the instructions below with a `record_type` listed and `records_not_online` set to "true". This tells future researchers that, at the time you submitted, we weren't aware of an online source and a records request would be required to access the data.
+Our advice: start where you live. Check our [existing agencies and data sources](../data-sources/explore-data-sources.md), filtering by your county. Chances are, you can find something we're missing. You can poke around government websites, and ask local people who might know where to start—for example, a reporter, attorney, councilperson, or activist group who may already using the data...or collected public records they might want to share!
 
 ## Submission
 
 <details>
 
 <summary>Submit individual Data Sources</summary>
-
-[Here's a video tutorial](https://www.youtube.com/watch?v=OnDNClCK4Hk), if that's your thing.
 
 This process should take 1–5 minutes per source, depending on the source and how quick you are with a keyboard.
 

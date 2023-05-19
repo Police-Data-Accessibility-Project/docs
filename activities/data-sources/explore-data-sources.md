@@ -10,7 +10,7 @@ description: >-
 Are you still wondering what a Data Source is? [Read more here](what-is-a-data-source.md).
 {% endhint %}
 
-## Airtable Database
+## Public Data Sources Database
 
 ### [Browse Data Sources](https://airtable.com/shrUAtA8qYasEaepI) | [Browse Agencies](https://airtable.com/shr43ihbyM8DDkKx4)
 
@@ -34,7 +34,7 @@ If you'd rather view this information in another way, you can export to a CSV an
 
 </div>
 
-## CSV & JSON mirrors
+## CSV & JSON database mirrors
 
 We duplicate the Airtable database to [this GitHub repository](https://github.com/Police-Data-Accessibility-Project/data-sources-mirror) periodically, in case people would like to [clone it](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) for convenient access.
 
