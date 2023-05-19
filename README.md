@@ -1,5 +1,7 @@
 ---
-description: We're making a unified archive of police data.
+description: >-
+  Our mission is to help people locate, understand, and share public records
+  about every U.S. police system.
 ---
 
 # 👋 Welcome to PDAP!
@@ -8,9 +10,9 @@ description: We're making a unified archive of police data.
 Read more about our mission at [https://pdap.io/](https://pdap.io/).
 {% endhint %}
 
-## How do we work?
+## What we do
 
-We're a small but growing multidisciplinary community of transparency-minded people. We're serving the community of people using police data for their work. We meet [in Discord](https://discord.gg/wMqex8nKZJ). The core PDAP staff keep the lights on, the non-profit board empowers our work, and the broader community moves the mission forward step by step.
+This is an open-source toolkit for publishing and finding data about the criminal legal system. We're a small (and growing) community of transparency-minded people with a wide variety of skills and backgrounds. We're serving people who use police data for their work.&#x20;
 
 ## How to get involved
 

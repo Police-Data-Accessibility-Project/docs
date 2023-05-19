@@ -1,6 +1,4 @@
-# Our Process
-
-## What we're doing
+# What we're doing
 
 ### Right now
 
@@ -8,7 +6,7 @@ We're cataloguing [sources of criminal legal system data](data-sources/) in a da
 
 ### In the future
 
-[Here's our immediate roadmap](https://github.com/orgs/Police-Data-Accessibility-Project/projects/17). Here are our broad, [long-term milestones](https://github.com/Police-Data-Accessibility-Project/planning/milestones?direction=asc\&sort=due\_date\&state=open).
+We're making tools to help people share data with each other. [Here's our immediate roadmap](https://github.com/orgs/Police-Data-Accessibility-Project/projects/17). Here are our broad, [long-term milestones](https://github.com/Police-Data-Accessibility-Project/planning/milestones?direction=asc\&sort=due\_date\&state=open).
 
 ## Defining Public Records Accessibility
 

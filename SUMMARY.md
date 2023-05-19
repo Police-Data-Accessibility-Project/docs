@@ -4,7 +4,7 @@
 
 ## ⚡ Activities
 
-* [Our Process](activities/our-process.md)
+* [What we're doing](activities/our-process.md)
 * [Terms & Definitions](activities/terms-and-definitions.md)
 * [Find & Access Data](activities/data-sources/README.md)
   * [Browse Data Sources](activities/data-sources/explore-data-sources.md)
@@ -23,6 +23,7 @@
     * [Validate Data Sources PRs](activities/data-sources/data-bounties/validate-datasets-prs.md)
     * [Searching Data Sources in DoltHub](activities/data-sources/data-bounties/searching-data-sources-in-dolthub.md)
 * [Share Data](activities/share-data/README.md)
+  * [Upload data](activities/share-data/upload-data.md)
   * [Contribute Data Sources](activities/share-data/contribute-data-sources.md)
 * [Data Scraping](activities/data-scraping/README.md)
   * [Our approach to scraping](activities/data-scraping/our-approach-to-scraping.md)
