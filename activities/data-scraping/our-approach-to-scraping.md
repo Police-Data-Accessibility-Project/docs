@@ -12,11 +12,7 @@ Our target users are the thousands of people already using police data. We can s
 
 TL;DR: Public records about the criminal legal system.
 
-Coding is real work—typically, it's only worth writing a scraper if you have a use case for the data already. What are you trying to learn? PDAP exists to help people find police data. If it's about a police agency, there's a good chance someone in that jurisdiction has a use for it. To find projects in need of scraping help, you can head to the [#data-exchange Discord channel](https://discord.com/channels/828274060034965575/1006564024894378106).
-
-We are also interested in meta information about the police system itself. Which agencies have jurisdiction about any particular street corner? Who should you contact for public records access? How do agencies nest within each other?
-
-If you just want to write web scrapers, but don't have a use case in mind—that's OK! We're here to support you. Check out our [database of Data Sources](../data-sources/explore-data-sources.md), especially those in HTML table or PDF format, for candidates of records which may be tricky to access. If your strategy for scraping is successful, we'll share it as a case study to help people working on similar projects.
+Coding is real work—typically, it's only worth writing a scraper if you have a use case for the data already. What are you trying to learn? PDAP exists to help people find police data. If it's about a police agency, there's a good chance someone in that jurisdiction has a use for it.
 
 ## Immediate goals
 
