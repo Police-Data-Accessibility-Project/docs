@@ -1,28 +1,27 @@
 ---
-description: Combing the internet for published data
+description: Documenting public records found online
 ---
 
-# Locate Data Sources
+# Locate & Submit Data Sources
 
-## Locating Data Sources
+## Quick start
+
+If you found a good source of data, you can submit it to our database!
+
+1. [Check our database](../data-sources/explore-data-sources.md) to see if we already have the source you found.&#x20;
+2. Open the [Submit Data Sources form](https://airtable.com/shrJafakrcmTxHU2i).
+3. Fill in as much info as you can find about the source, which should take 1–5 minutes.
+4. Repeat as necessary!
+
+## Detailed processes
+
+<details>
+
+<summary>Finding all the sources for an agency</summary>
 
 [Here's a quick tutorial for searching government websites](https://www.youtube.com/watch?v=OnDNClCK4Hk), if that's your thing.
 
 You don't need to know how to code to do this! However, feel free to write scripts or tools to help you in your work. If you make something super-useful, please consider sharing it back with the community in [GitHub](https://github.com/Police-Data-Accessibility-Project/).
-
-{% hint style="info" %}
-If you're not sure where to start, pick a local precinct that means something to you. Make it a goal to find all potential Data Sources for that area.
-{% endhint %}
-
-Our advice: start where you live. Check our [existing agencies and data sources](../data-sources/explore-data-sources.md), filtering by your county. Chances are, you can find something we're missing. You can poke around government websites, and ask local people who might know where to start—for example, a reporter, attorney, councilperson, or activist group who may already using the data...or collected public records they might want to share!
-
-## Submission
-
-<details>
-
-<summary>Submit individual Data Sources</summary>
-
-This process should take 1–5 minutes per source, depending on the source and how quick you are with a keyboard.
 
 1. Open the [Submit Data Sources form](https://airtable.com/shrJafakrcmTxHU2i).
 2. [Pick an agency](https://airtable.com/shr43ihbyM8DDkKx4/tblpnd3ei5SlibcCX) to focus on; it may be the one in your hometown, or the school police from your university.
@@ -51,11 +50,9 @@ If you already have several of Data Sources in a spreadsheet—maybe from a prev
 
 <summary>Submit data you've collected</summary>
 
-If you've FOIA requested, scraped, or otherwise collected police data, you can add yourself to our Data Sources table!
+If you've FOIA requested, scraped, or otherwise collected police data, you can add yourself to our Data Sources table! [Just submit this form](https://airtable.com/shr6StxK9zgVzgGCy).
 
 In the event that someone wants to use data you've provided, you can give instructions for how you should be contacted. PDAP can also serve as a go-between to protect your identity.
-
-[Just submit this form](https://airtable.com/shr6StxK9zgVzgGCy)!
 
 </details>
 
