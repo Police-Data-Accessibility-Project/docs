@@ -12,40 +12,29 @@ Read more about our mission at [https://pdap.io/](https://pdap.io/).
 
 ## What we do
 
-This is an open-source toolkit for publishing and finding data about the criminal legal system. We're a small (and growing) community of transparency-minded people with a wide variety of skills and backgrounds. We're serving people who use police data for their work.&#x20;
+We're making an open-source toolkit for transparency-minded people who use data about police systems in their work. To start, we're cataloguing [sources of data](activities/data-sources/) in a database so people can find data about their local systems.
+
+### Plans for the future
+
+* [Immediate roadmap and open projects](https://github.com/orgs/Police-Data-Accessibility-Project/projects/17)
+* [Long-term milestones](https://github.com/Police-Data-Accessibility-Project/planning/milestones?direction=asc\&sort=due\_date\&state=open)
+* [High-level diagram of our in-progress ecosystem](https://www.figma.com/file/19axhLZb0ejtlOWSFZcNAc/High-level-technical-diagram?type=whiteboard\&node-id=0%3A1\&t=Q51wVP3gfK4aSlED-1)
 
 ## How to get involved
 
-### Volunteer your skills for data requests
+### Volunteer
 
-[Fill out this form](https://airtable.com/shrBSE6cnuvLQtJF1) if you're good with data, or persistent enough to do research and investigation online. We'll pair volunteers with data requestors.
+[Fill out this form](https://airtable.com/shrBSE6cnuvLQtJF1) if you're good with data, or persistent enough to do research and investigation online. We'll pair volunteers with open projects and open data requests.
 
-### Find Data Sources
+#### Writing scrapers
 
-We need help from anyone who can use a computer to contribute to our database of Data Sources. [Start here](activities/share-data/contribute-data-sources.md).
+If you find data you'd like to collect or preserve, make it happen! Start by reading [our approach to scraping](activities/data-scraping/our-approach-to-scraping.md), and reach out if you need help or guidance.
 
-### Share data you've collected
+### Use our data
 
-If you have FOIA'd or scraped data in the past, you can [list yourself as a Data Source here](activities/share-data/contribute-data-sources.md#submit-data-youve-collected).
+You can [browse our data sources here](activities/data-sources/explore-data-sources.md). If you need help of any kind, [start here](activities/data-sources/request-data.md).
 
-### Other ways to help
-
-#### Label data for our machine learning pipeline
-
-If you have access to a computer and can use a web browser, you can help label data to train our machine learning algorithm! Even an hour of your time helps. Reach out to [contact@pdap.io](mailto:contact@pdap.io) if you'd like to help.
-
-**Find related open-source projects**
-
-There are lots of DIY projects like [this one](https://github.com/openpolicedata/openpolicedata) and [this one](https://github.com/ayyubibrahimi/eos) which are based on agency-published data. Find an interesting one, and test it out—if it works, you can [submit it as a Data Source](activities/share-data/contribute-data-sources.md#submit-individual-data-sources). You can signal-boost the projects you like, and you may even find one in need of contributors!
-
-#### Write a scraper
-
-If you find data you'd like to collect or preserve, make it happen! Start by reading [our approach to scraping](activities/data-scraping/our-approach-to-scraping.md), and reach out if you need help or guidance. If your strategy for scraping is successful, we'll share it as a case study to help people working on similar projects. If you can't think of anything to scrape yourself, find local groups working on the criminal legal system. They probably have data woes! Reach out if you need a hand.
-
-#### Donate
+### Donate
 
 [Start here](https://pdap.io/contribute.html). We're a non-profit, so your donations may be tax-deductible.
 
-#### Use our Data
-
-[Here's our process](activities/our-process.md). We're in the early days—your project could be one of our first case studies!

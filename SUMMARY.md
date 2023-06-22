@@ -4,8 +4,6 @@
 
 ## ⚡ Activities
 
-* [What we're doing](activities/our-process.md)
-* [Terms & Definitions](activities/terms-and-definitions.md)
 * [Find & Access Data](activities/data-sources/README.md)
   * [Browse Data Sources](activities/data-sources/explore-data-sources.md)
   * [Request data](activities/data-sources/request-data.md)
@@ -29,6 +27,7 @@
 * [Data Scraping](activities/data-scraping/README.md)
   * [Our approach to scraping](activities/data-scraping/our-approach-to-scraping.md)
   * [Scrapers repo](https://github.com/Police-Data-Accessibility-Project/Scrapers/)
+* [Terms & Definitions](activities/terms-and-definitions.md)
 * [Join a community call](activities/join-an-open-working-session.md)
 
 ## 🛠 Tools & Resources <a href="#tools" id="tools"></a>
