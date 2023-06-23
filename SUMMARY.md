@@ -121,7 +121,6 @@
   * [PDAP Access](meta/policy/pdap-access-tiers.md)
   * [PDAP Privacy Policy](meta/policy/pdap-privacy-policy.md)
   * [Code of Conduct](https://github.com/Police-Data-Accessibility-Project/PDAP-Scrapers/blob/master/CODE\_OF\_CONDUCT.md)
-  * [Data Chain of Custody](meta/policy/data-chain-of-custody.md)
   * [Password Management](meta/policy/password-management.md)
   * [PII (WIP / Discussion)](meta/policy/pii-wip-discussion.md)
 * [Legal](meta/legal/README.md)
