@@ -6,7 +6,13 @@ Our goal is to be welcoming, trusted, and focused. Everyone who abides by our co
 
 ## Type
 
-The free Google Font [Libre Franklin](https://fonts.google.com/specimen/Libre+Franklin) is our official font. It should be used for basically everything. Reference the https://pdap.io/style-guide.html for guidance on sizes at different browser size breakpoints.
+The free Google Font [Libre Franklin](https://fonts.google.com/specimen/Libre+Franklin) is our official font. It should be used for basically everything except monospace, for which we can use [Source Code Pro](https://fonts.google.com/specimen/Source+Code+Pro).&#x20;
+
+## Design system
+
+[This repository](https://github.com/Police-Data-Accessibility-Project/design-system) is the starting point for building a new PDAP front end app or microservice.
+
+## Colors
 
 ![](../../../.gitbook/assets/screen-shot-2021-06-09-at-10.36.55-pm.png)
 
