@@ -16,8 +16,7 @@ We're making an open-source toolkit for transparency-minded people who use data 
 
 ### Plans for the future
 
-* [Short-term roadmap and open projects](https://github.com/orgs/Police-Data-Accessibility-Project/projects/20)
-* [Long-term milestones](https://github.com/Police-Data-Accessibility-Project/planning/milestones?direction=asc\&sort=due\_date\&state=open)
+* [Roadmap](https://github.com/orgs/Police-Data-Accessibility-Project/projects/24https:/github.com/orgs/Police-Data-Accessibility-Project/projects/24)
 * [High-level diagram of our in-progress ecosystem](https://www.figma.com/file/19axhLZb0ejtlOWSFZcNAc/High-level-technical-diagram?type=whiteboard\&node-id=0%3A1\&t=Q51wVP3gfK4aSlED-1)
 
 ## How to get involved
@@ -37,4 +36,3 @@ You can [browse our data sources here](activities/data-sources/explore-data-sour
 ### Donate
 
 [Start here](https://pdap.io/contribute.html). We're a non-profit, so your donations may be tax-deductible.
-
