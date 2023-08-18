@@ -4,12 +4,6 @@
 
 Our goal is to be welcoming, trusted, and focused. Everyone who abides by our community guidelines is encouraged to participate, and we should be friendly—but we're mostly here to get work done and advance our mission.
 
-## Case statement
-
-This is a standalone expression of PDAP's mission and basic goals, which can be shared via email.
-
-{% file src="../../../.gitbook/assets/PDAP Case Statement.pdf" %}
-
 ## Type
 
 The free Google Font [Libre Franklin](https://fonts.google.com/specimen/Libre+Franklin) is our official font. It should be used for basically everything. Reference the https://pdap.io/style-guide.html for guidance on sizes at different browser size breakpoints.
