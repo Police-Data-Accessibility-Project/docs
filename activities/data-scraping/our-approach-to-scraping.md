@@ -2,6 +2,8 @@
 
 ## Philosophy
 
+Typically, it's only worth writing a scraper if you have a use case for the data already, and you can't easily download what you need. **What question are you trying to answer?**
+
 Scraping can turn cumbersome records into useful data. When someone wants to use records but they're in a difficult format, scraping is often the answer.
 
 ### Where the community fits in
@@ -11,8 +13,6 @@ Our target users are the thousands of people already using police data. We can s
 ## Which data are we scraping?
 
 TL;DR: Public records about the criminal legal system.
-
-Coding is real work—typically, it's only worth writing a scraper if you have a use case for the data already. What are you trying to learn? PDAP exists to help people find police data. If it's about a police agency, there's a good chance someone in that jurisdiction has a use for it.
 
 ## Immediate goals
 
