@@ -20,7 +20,7 @@ After hundreds of hours of user research, we have determined that these are how 
 
 * **Track independently scraped data** in our [Data Sources database](../data-sources/). Prevent duplication of effort by showing people what's already out there. To submit data you've scraped, [start here](../share-data/contribute-data-sources.md).
 * **Connect people** with web scraping skills to community members trying to make better use of police data without technical expertise. This happens in the [#data-exchange Discord channel](https://discord.com/channels/828274060034965575/1006564024894378106).
-* **Build open-source tools** in the [Scrapers repo](https://github.com/Police-Data-Accessibility-Project/PDAP-Scrapers) to make running a scraper on-demand easier for people who don't know what "CLI" means.
+* **Build open-source tools** in the [Scrapers repo](https://github.com/Police-Data-Accessibility-Project/scrapers) to make running a scraper on-demand easier for people who don't know what "CLI" means.
 * **Scrape data sources** and agency metadata to populate the [Data Sources database](../data-sources/).
 
 ## Not immediate priorities
@@ -46,7 +46,7 @@ We're still in the iteration and case study phase. If you want to learn somethin
 
 If you don't have scraping skills, you can use the [#data-exchange channel in Discord](https://discord.com/channels/828274060034965575/1006564024894378106) to find someone who may be able to help.
 
-1. Run a Scraper you wrote, or one from the [Scrapers Repo](https://github.com/Police-Data-Accessibility-Project/PDAP-Scrapers), to get an extraction.
+1. Run a Scraper you wrote, or one from the [Scrapers Repo](https://github.com/Police-Data-Accessibility-Project/scrapers), to get an extraction.
 2. Share your extraction and what you learned in Discord.
 3. We'll all learn about the criminal legal system from the experience, and brainstorm ways our tools could better facilitate your work.
 4. Repeat!
