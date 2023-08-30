@@ -2,7 +2,7 @@
 
 ## Scraping
 
-We need to firm up support for unprocessed data, this issue needs some work to solidify what we need: [https://github.com/Police-Data-Accessibility-Project/PDAP-Scrapers/issues/80](https://github.com/Police-Data-Accessibility-Project/PDAP-Scrapers/issues/80)
+We need to firm up support for unprocessed data, this issue needs some work to solidify what we need: [https://github.com/Police-Data-Accessibility-Project/scrapers/issues/80](https://github.com/Police-Data-Accessibility-Project/scrapers/issues/80)
 
 ## Azure setup
 

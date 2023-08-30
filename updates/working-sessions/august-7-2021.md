@@ -1,6 +1,6 @@
 # August 7, 2021
 
-### [Support for unprocessed data](https://github.com/Police-Data-Accessibility-Project/PDAP-Scrapers/issues/80)
+### [Support for unprocessed data](https://github.com/Police-Data-Accessibility-Project/scrapers/issues/80)
 
 Richard got hadoop up and running
 

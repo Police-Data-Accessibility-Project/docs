@@ -7,7 +7,7 @@
 * We're making good progress on turning our Airtable tools into a home-grown app. There's now a [public repo](https://github.com/Police-Data-Accessibility-Project/data-sources-mirror) which mirrors our Data Sources database as CSV and JSON.
 * We're working on ways to identify URLs en masse.
   * GitHub issue: [https://github.com/Police-Data-Accessibility-Project/planning/issues/196](https://github.com/Police-Data-Accessibility-Project/planning/issues/196)
-  * A volunteer wrote a sitemap scraper, which locates potentially useful URLs given a list. It's an open PR still under review. We want to get it merged soon: [https://github.com/Police-Data-Accessibility-Project/PDAP-Scrapers/pull/195/files](https://github.com/Police-Data-Accessibility-Project/PDAP-Scrapers/pull/195/files)
+  * A volunteer wrote a sitemap scraper, which locates potentially useful URLs given a list. It's an open PR still under review. We want to get it merged soon: [https://github.com/Police-Data-Accessibility-Project/scrapers/pull/195/files](https://github.com/Police-Data-Accessibility-Project/scrapers/pull/195/files)
   * We did a Doccano labeling exercise in an attempt to train a machine learning algorithm to identify content based on URL. We still need to experiment in order to close the loop on this.
 
 ## Call notes
