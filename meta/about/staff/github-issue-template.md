@@ -6,12 +6,16 @@ Brief description. Is this part of a parent issue?
 
 ### Requirements
 
-* Describe the required functionality.
+* Required functionality.
 
 ### Tests
 
-* Describe what we should test for and how it should be tested, if applicable.
+* Anything we should test for? How should it be tested?
+
+### Docs
+
+* What docs should be updated? Link to related docs changes in the PR.
 
 ### Open questions
 
-* Describe any uncertainties or anything we're flexible about.
+* Any uncertainties? Anything we're flexible about?
