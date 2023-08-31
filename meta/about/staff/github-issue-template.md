@@ -6,15 +6,12 @@ Brief description. Is this part of a parent issue?
 
 ### Requirements
 
-1. Features
-   *
-2. Tests
-   * Describe what we should test for and how it should be tested, if applicable
+* Describe the required functionality.
 
-### Additional Information
+### Tests
 
-* Anything else?
+* Describe what we should test for and how it should be tested, if applicable.
 
 ### Open questions
 
-* Uncertainties / flexibility?
+* Describe any uncertainties or anything we're flexible about.
