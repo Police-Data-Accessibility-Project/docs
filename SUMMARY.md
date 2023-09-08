@@ -4,8 +4,9 @@
 
 ## ⚡ Activities
 
-* [Find & Access Data](activities/data-sources/README.md)
+* [Find Data Sources](activities/data-sources/README.md)
   * [Browse Data Sources](activities/data-sources/explore-data-sources.md)
+  * [Data Sources Database](activities/data-sources/data-sources-database.md)
   * [Request data](activities/data-sources/request-data.md)
   * [What is a Data Source?](activities/data-sources/what-is-a-data-source.md)
   * [Database details](activities/data-sources/data-dictionaries/README.md)
@@ -30,6 +31,12 @@
   * [Scrapers repo](https://github.com/Police-Data-Accessibility-Project/Scrapers/)
 * [Terms & Definitions](activities/terms-and-definitions.md)
 * [Join a community call](activities/join-an-open-working-session.md)
+
+## 📡 API
+
+* [Introduction](api/introduction.md)
+* [Endpoints](api/endpoints.md)
+* [Administration](api/administration.md)
 
 ## 🛠 Tools & Resources <a href="#tools" id="tools"></a>
 
