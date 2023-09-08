@@ -4,9 +4,11 @@
 
 The PDAP API is how internal and external users programmatically access information and make changes to the PDAP [Data Sources database](../activities/data-sources/explore-data-sources.md).
 
-## User creation
+## Get access
 
-See the [#login-function](endpoints.md#login-function "mention")
+Reach out to [contact@pdap.io](mailto:contact@pdap.io) or make noise in Discord if you'd like access to the API.
+
+See the [#login-function](endpoints.md#login-function "mention")for information on user creation with the API.
 
 ## Authentication
 
