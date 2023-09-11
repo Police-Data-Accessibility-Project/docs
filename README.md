@@ -23,7 +23,7 @@ We're making an open-source toolkit for transparency-minded people who use data 
 
 ### Volunteer
 
-[Fill out this form](https://airtable.com/shrBSE6cnuvLQtJF1) if you're good with data, or persistent enough to do research and investigation online. We'll pair volunteers with open projects and open data requests.
+[Fill out this form](https://airtable.com/shrS4PAZTYVT1zSq8) if you're good with data, or persistent enough to do research and investigation online. We'll pair volunteers with open projects and open data requests.
 
 #### Writing scrapers
 
