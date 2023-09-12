@@ -32,9 +32,9 @@ Everyone is welcome in [our Discord](https://discord.gg/wMqex8nKZJ), or email in
 
 ### Journalists, Activists, Researchers, and other data users
 
-* Use the data we're already tracking in [our Data Sources database](activities/data-sources/explore-data-sources.md).
+* Use the data we're already tracking in [our Data Sources database](activities/data-sources/explore-data-sources.md) to answer questions about our most critical systems. What are the causes and effects of increased transparency?
 * If you find something new and useful, share it with us [using our submission form](activities/share-data/contribute-data-sources.md).&#x20;
-* If you're having trouble getting what you need, [request help from our community](activities/data-sources/request-data.md).
+* To get our community's help answering important questions, [request help here](activities/data-sources/request-data.md).
 
 ### Data Volunteers & Web Scrapers
 
