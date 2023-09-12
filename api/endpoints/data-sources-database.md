@@ -1,14 +1,18 @@
-# Endpoints
+---
+description: Use the API to find, use, and manage Data Sources.
+---
+
+# Data Sources database
 
 ## Base URL
 
-```http
+```
 https://app.pdap.io
 ```
 
-## Quick Search
+## Search
 
-{% swagger method="get" path="/quick-search/{search}/{location}" baseUrl="[base-url]" summary="Get Data Sources by search term and location" fullWidth="true" expanded="true" %}
+{% swagger method="get" path="/quick-search/{search}/{location}" baseUrl="[base-url]" summary="Quick Search Data Sources by search term and location" fullWidth="true" expanded="true" %}
 {% swagger-description %}
 The quick search endpoint is located in 
 
@@ -100,7 +104,7 @@ data array[object]
 
 {% tabs %}
 {% tab title="Example Endpoint" %}
-```http
+```
 https://app.pdap.io/quick-search/review/Allegheny
 ```
 {% endtab %}
@@ -380,7 +384,7 @@ data array[object]
 
 {% tabs %}
 {% tab title="Example Endpoint" %}
-```http
+```
 https://app.pdap.io/agencies
 ```
 {% endtab %}

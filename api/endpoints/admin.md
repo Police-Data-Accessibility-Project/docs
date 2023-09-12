@@ -1,22 +1,24 @@
 ---
-description: Managing users, keys, and access as PDAP staff
+description: Use the API to managing users, keys, and access as PDAP staff
 ---
 
-# Administration
+# Admin
 
 ## Base URL
 
-```http
-https://data-sources-app-bda3z.ondigitalocean.app/
+```
+https://app.pdap.io
 ```
 
 ## Login & API keys
 
-{% swagger expanded="true" method="post" path="/user" baseUrl="[base-url]" summary="Sign up" fullWidth="true" %}
+{% swagger expanded="true" method="post" path="/user" baseUrl="[base-url]" summary="Creates a new user." fullWidth="true" %}
 {% swagger-description %}
-Creates a new user.&#x20;
+ Users can sign up for an account through the post function in 
 
-Users can sign up for an account through the post function in [resources/User.py](https://github.com/Police-Data-Accessibility-Project/data-sources-app/blob/main/resources/User.py). The user's password is hashed using werkzeug.security’s generate\_pasword\_hash function. The user's email and hashed password is stored in the users table in the Data Sources database.
+[resources/User.py](https://github.com/Police-Data-Accessibility-Project/data-sources-app/blob/main/resources/User.py)
+
+. The user's password is hashed using werkzeug.security’s generate_pasword_hash function. The user's email and hashed password is stored in the users table in the Data Sources database.
 {% endswagger-description %}
 
 {% swagger-parameter in="body" name="email" required="true" type="String" %}
@@ -98,11 +100,13 @@ axios.post(url, credentials)
 
 ***
 
-{% swagger method="get" path="/user" baseUrl="[base-url]" summary="Login" expanded="false" fullWidth="true" %}
+{% swagger method="get" path="/user" baseUrl="[base-url]" summary="Logs in the user and returns an API key." expanded="false" fullWidth="true" %}
 {% swagger-description %}
-Logs in the user and returns an API key.
+The login function can be found through the get function in 
 
-The login function can be found through the get function in [resources/User.py](https://github.com/Police-Data-Accessibility-Project/data-sources-app/blob/main/resources/User.py). Each time a user logs in, a new API key is created using uuid.uuid4().hex, updated in for the matching user in the users table, and sent to the user to be stored on the client side.
+[resources/User.py](https://github.com/Police-Data-Accessibility-Project/data-sources-app/blob/main/resources/User.py)
+
+. Each time a user logs in, a new API key is created using uuid.uuid4().hex, updated in for the matching user in the users table, and sent to the user to be stored on the client side.
 {% endswagger-description %}
 
 {% swagger-parameter in="body" name="email" required="true" %}
