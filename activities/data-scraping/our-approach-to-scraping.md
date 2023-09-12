@@ -1,27 +1,38 @@
 # Our approach to scraping
 
-## Philosophy
+## Which data are we scraping?
+
+Public records about the criminal legal system: police, courts, and jails.
+
+## Contributing Philosophy
 
 Typically, it's only worth writing a scraper if you have a use case for the data already, and you can't easily download what you need. **What question are you trying to answer?**
 
-Scraping can turn cumbersome records into useful data. When someone wants to use records but they're in a difficult format, scraping is often the answer.
+Scraping can turn cumbersome records into useful data. When someone wants to use records but they're in a difficult format, scraping is often the answer. [Learn more about volunteering here](../../#web-scrapers).
 
 ### Where the community fits in
 
-Our target users are the thousands of people already using police data. We can support their work by connecting the community of PDAP volunteer scrapers with real, impactful projects. If you don't have your own ideas about what to scrape, find local groups working on the criminal legal system. They probably have data woes!
-
-## Which data are we scraping?
-
-TL;DR: Public records about the criminal legal system.
+Our target users are the thousands of people already using police data. We can support their work by connecting the community of PDAP volunteer scrapers with real, impactful projects. If you don't have your own ideas about what to scrape, you can find local groups working on the criminal legal system. They probably have data woes!
 
 ## Immediate goals
 
 After hundreds of hours of user research, we have determined that these are how we will add value in the police data landscape.
 
 * **Track independently scraped data** in our [Data Sources database](../data-sources/). Prevent duplication of effort by showing people what's already out there. To submit data you've scraped, [start here](../share-data/contribute-data-sources.md).
-* **Connect people** with web scraping skills to community members trying to make better use of police data without technical expertise. This happens in the [#data-exchange Discord channel](https://discord.com/channels/828274060034965575/1006564024894378106).
+* **Connect people** with web scraping skills to community members trying to make better use of police data without technical expertise. [Volunteer to respond to requests here](https://airtable.com/shrS4PAZTYVT1zSq8).
 * **Build open-source tools** in the [Scrapers repo](https://github.com/Police-Data-Accessibility-Project/scrapers) to make running a scraper on-demand easier for people who don't know what "CLI" means.
-* **Scrape data sources** and agency metadata to populate the [Data Sources database](../data-sources/).
+* **Scrape data sources** and agency metadata via our [Data Source Identification pipeline](https://github.com/Police-Data-Accessibility-Project/data-source-identification).
+
+## Current status
+
+We're still in the iteration and case study phase. If you want to learn something about the police, you can write a scraper to parse, normalize, or get deeper information from our Data Sources.
+
+If you don't have scraping skills, you can use the [#data-exchange channel in Discord](https://discord.com/channels/828274060034965575/1006564024894378106) to find someone who may be able to help.
+
+1. Run a Scraper you wrote, or one from the [Scrapers Repo](https://github.com/Police-Data-Accessibility-Project/scrapers), to get an extraction.
+2. Share your extraction and what you learned in Discord.
+3. We'll all learn about the criminal legal system from the experience, and brainstorm ways our tools could better facilitate your work.
+4. Repeat!
 
 ## Not immediate priorities
 
@@ -39,14 +50,3 @@ After hundreds of hours of user research, we have determined that these are how 
 #### Scrape all the data!
 
 * Scraping is hard work, and there are hundreds of thousands of potential data sources out there. For many applications, data doesn't even need to be processed to be useful—it just needs to be findable. We don't need to scrape things unless it's clearly adding value.
-
-## Current status
-
-We're still in the iteration and case study phase. If you want to learn something about the police, you can write a scraper to parse, normalize, or get deeper information from our Data Sources.
-
-If you don't have scraping skills, you can use the [#data-exchange channel in Discord](https://discord.com/channels/828274060034965575/1006564024894378106) to find someone who may be able to help.
-
-1. Run a Scraper you wrote, or one from the [Scrapers Repo](https://github.com/Police-Data-Accessibility-Project/scrapers), to get an extraction.
-2. Share your extraction and what you learned in Discord.
-3. We'll all learn about the criminal legal system from the experience, and brainstorm ways our tools could better facilitate your work.
-4. Repeat!

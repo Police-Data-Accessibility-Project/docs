@@ -19,20 +19,32 @@ We're making an open-source toolkit for transparency-minded people who use data 
 * [Roadmap](https://github.com/orgs/Police-Data-Accessibility-Project/projects/24https:/github.com/orgs/Police-Data-Accessibility-Project/projects/24)
 * [High-level diagram of our in-progress ecosystem](https://www.figma.com/file/19axhLZb0ejtlOWSFZcNAc/High-level-technical-diagram?type=whiteboard\&node-id=0%3A1\&t=Q51wVP3gfK4aSlED-1)
 
-## How to get involved
+### Our investigative process
 
-### Volunteer
+1. **Ask a question** or make a hypothesis about the police. For example, "how do police misconduct settlements affect local budgets?" This is the "Why?" of our work. All research begins with a question.
+2. **Locate public records** to help you answer this question. You may find what you need in our working [Data Sources database](activities/data-sources/explore-data-sources.md), through your own research, or by [requesting data from our community](activities/data-sources/request-data.md).
+3. **Process records into usable data**, using code if needed. [Read more about how PDAP approaches web scraping here](activities/data-scraping/).
+4. **Analyze and report** the results. Share your process in Discord, so we can learn and improve our processes together!
 
-[Fill out this form](https://airtable.com/shrS4PAZTYVT1zSq8) if you're good with data, or persistent enough to do research and investigation online. We'll pair volunteers with open projects and open data requests.
+## Get involved
 
-#### Writing scrapers
+Everyone is welcome in [our Discord](https://discord.gg/wMqex8nKZJ), or email inbox at [contact@pdap.io](mailto:contact@pdap.io).
 
-If you find data you'd like to collect or preserve, make it happen! Start by reading [our approach to scraping](activities/data-scraping/our-approach-to-scraping.md), and reach out if you need help or guidance.
+### Journalists, Activists, Researchers, and other data users
 
-### Use our data
+* Use the data we're already tracking in [our Data Sources database](activities/data-sources/explore-data-sources.md).
+* If you find something new and useful, share it with us [using our submission form](activities/share-data/contribute-data-sources.md).&#x20;
+* If you're having trouble getting what you need, [request help from our community](activities/data-sources/request-data.md).
 
-You can [browse our data sources here](activities/data-sources/explore-data-sources.md). If you need help of any kind, [start here](activities/data-sources/request-data.md).
+### Data Volunteers & Web Scrapers
 
-### Donate
+* We pair volunteers with open community data requests. [Fill out this form](https://airtable.com/shrS4PAZTYVT1zSq8) if you're a persistent researcher, good with data, or interested in web scraping.
+* You can read more about [our approach to scraping here](activities/data-scraping/our-approach-to-scraping.md).
 
-[Start here](https://pdap.io/contribute.html). We're a non-profit, so your donations may be tax-deductible.
+### Code Volunteers
+
+* You can contribute Python or Vue code toward our software objectives. Find a [good first issue to work on here](https://github.com/orgs/Police-Data-Accessibility-Project/projects/25/views/1), or check out our [roadmap](https://github.com/orgs/Police-Data-Accessibility-Project/projects/24/views/1).
+
+### Donors
+
+* [Start here](https://pdap.io/contribute.html). We're a non-profit, so your donations may be tax-deductible.
