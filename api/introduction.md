@@ -8,11 +8,11 @@ The PDAP API is how internal and external users programmatically access informat
 
 Reach out to [contact@pdap.io](mailto:contact@pdap.io) or make noise in Discord if you'd like access to the API.
 
-See the [#login-function](endpoints.md#login-function "mention")for information on user creation with the API.
+See the [administration page](administration.md) for information on user creation with the API.
 
 ## Authentication
 
-API routes that read and modify the Data Sources database should be protected through authentication. The API has an @api\_required decorator (located in /middleware/security.py) that can be added to each route so that only authenticated users can access the database. To protect a route with this decorator, add @api\_required on the line above a given route.
+API routes that read and modify the Data Sources database should be protected through authentication. The API has an @api\_required decorator (located in [/middleware/security.py](https://github.com/Police-Data-Accessibility-Project/data-sources-app/blob/main/middleware/security.py)) that can be added to each route so that only authenticated users can access the database. To protect a route with this decorator, add @api\_required on the line above a given route.
 
 ### @api\_required decorator
 
