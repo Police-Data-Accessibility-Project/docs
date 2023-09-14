@@ -18,7 +18,7 @@ The quick search endpoint is located in
 
 [resources/QuickSearch.py](https://github.com/Police-Data-Accessibility-Project/data-sources-app/blob/main/resources/QuickSearch.py)
 
-. The quick search endpoint executes its search using the agency_source_link table in the Data Sources database, which links each data source in the data_sources table with its associated agency in the agencies table.  
+. The quick search endpoint executes its search using the agency_source_link table in the Data Sources database, which links each data source in the data_sources table with its associated agency in the agencies table.
 {% endswagger-description %}
 
 {% swagger-parameter in="path" name="search" type="String" required="true" %}
@@ -102,68 +102,6 @@ data array[object]
 {% endswagger-response %}
 {% endswagger %}
 
-{% tabs %}
-{% tab title="Example Endpoint" %}
-```
-https://app.pdap.io/quick-search/review/Allegheny
-```
-{% endtab %}
-
-{% tab title="Example Python" %}
-```python
-import requests
-base_url = "https://app.pdap.io/"
-search_term = "review"  # Replace with your search term
-county = "Allegheny"   # Replace with your desired county
-api_key = "YOUR_API_KEY_HERE"  # Replace with your actual API key
-
-url = f"{base_url}quick-search/{search_term}/{county}"
-
-# Create the Authorization header
-headers = {
-    "Authorization": f"Bearer {api_key}"
-}
-
-# Make the GET request with the Authorization header
-response = requests.get(url, headers=headers)
-```
-{% endtab %}
-
-{% tab title="Example JavaScript" %}
-```javascript
-const axios = require('axios');
-
-const baseUrl = "https://app.pdap.io/";
-const search_term = "review";  // Replace with your search term
-const county = "Allegheny";    // Replace with your desired county
-const api_key = "YOUR_API_KEY_HERE";  // Replace with your actual API key
-
-const url = `${baseUrl}quick-search/${search_term}/${county}`;
-
-// Create the Authorization header
-const headers = {
-  'Authorization': `Bearer ${api_key}`
-};
-
-// Make the GET request with the Authorization header
-axios.get(url, { headers })
-  .then(response => {
-    console.log("Search results:");
-    response.data.forEach(item => {
-      console.log(`Data Source Name: ${item.name}`);
-    });
-  })
-  .catch(error => {
-      console.error("An error occurred:", error.message);
-    }
-  });
-
-```
-{% endtab %}
-{% endtabs %}
-
-***
-
 ## Data Sources
 
 {% swagger method="get" path="/data-sources" baseUrl="[base-url]" summary="Get all Data Sources" fullWidth="true" expanded="true" %}
@@ -244,64 +182,6 @@ data array[object]
 {% endswagger-response %}
 {% endswagger %}
 
-{% tabs %}
-{% tab title="Example Endpoint" %}
-```http
-https://app.pdap.io/data-sources
-```
-{% endtab %}
-
-{% tab title="Example Python" %}
-```python
-import requests
-base_url = "https://app.pdap.io/"
-api_key = "YOUR_API_KEY_HERE"  # Replace with your actual API key
-
-url = f"{base_url}data-sources"
-
-# Create the Authorization header
-headers = {
-    "Authorization": f"Bearer {api_key}"
-}
-
-# Make the GET request with the Authorization header
-response = requests.get(url, headers=headers)
-```
-{% endtab %}
-
-{% tab title="Example JavaScript" %}
-```javascript
-const axios = require('axios');
-
-const baseUrl = "https://app.pdap.io/";
-const api_key = "YOUR_API_KEY_HERE";  // Replace with your actual API key
-
-const url = `${baseUrl}data-sources`;
-
-// Create the Authorization header
-const headers = {
-  'Authorization': `Bearer ${api_key}`
-};
-
-// Make the GET request with the Authorization header
-axios.get(url, { headers })
-  .then(response => {
-    console.log("Search results:");
-    response.data.forEach(item => {
-      console.log(`Data Source: ${item.name}`);
-    });
-  })
-  .catch(error => {
-      console.error("An error occurred:", error.message);
-    }
-  });
-
-```
-{% endtab %}
-{% endtabs %}
-
-***
-
 ## Agencies
 
 {% swagger method="get" path="/agencies" baseUrl="[base-url]" summary="Get all Agencies" fullWidth="true" expanded="true" %}
@@ -381,61 +261,3 @@ data array[object]
 
 {% endswagger-response %}
 {% endswagger %}
-
-{% tabs %}
-{% tab title="Example Endpoint" %}
-```
-https://app.pdap.io/agencies
-```
-{% endtab %}
-
-{% tab title="Example Python" %}
-```python
-import requests
-base_url = "https://app.pdap.io/"
-api_key = "YOUR_API_KEY_HERE"  # Replace with your actual API key
-
-url = f"{base_url}agencies"
-
-# Create the Authorization header
-headers = {
-    "Authorization": f"Bearer {api_key}"
-}
-
-# Make the GET request with the Authorization header
-response = requests.get(url, headers=headers)
-```
-{% endtab %}
-
-{% tab title="Example JavaScript" %}
-```javascript
-const axios = require('axios');
-
-const baseUrl = "https://app.pdap.io/";
-const api_key = "YOUR_API_KEY_HERE";  // Replace with your actual API key
-
-const url = `${baseUrl}agencies`;
-
-// Create the Authorization header
-const headers = {
-  'Authorization': `Bearer ${api_key}`
-};
-
-// Make the GET request with the Authorization header
-axios.get(url, { headers })
-  .then(response => {
-    console.log("Search results:");
-    response.data.forEach(item => {
-      console.log(`Agency: ${item.name}`);
-    });
-  })
-  .catch(error => {
-      console.error("An error occurred:", error.message);
-    }
-  });
-
-```
-{% endtab %}
-{% endtabs %}
-
-***

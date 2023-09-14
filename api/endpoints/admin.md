@@ -62,44 +62,6 @@ api_key string
 {% endswagger-response %}
 {% endswagger %}
 
-{% tabs %}
-{% tab title="Example Python" %}
-```python
-import requests
-url = "https://data-sources-app-bda3z.ondigitalocean.app/user"
-credentials = {
-    "email": "your_email@example.com",  # Replace with your email
-    "password": "your_password_here"    # Replace with your password
-}
-
-# Make the POST request to sign up
-response = requests.post(url, json=credentials)
-```
-{% endtab %}
-
-{% tab title="Example JavaScript" %}
-```javascript
-const axios = require('axios');
-const url = "https://data-sources-app-bda3z.ondigitalocean.app/user"
-const credentials = {
-  email: "your_email@example.com",     // Replace with your email
-  password: "your_password_here"       // Replace with your password
-};
-
-// Make the POST request to sign up
-axios.post(url, credentials)
-  .then(response => {
-    console.log("Logged in successfully");
-  })
-  .catch(error => {
-    console.error("Login failed:", error.message);
-  });
-```
-{% endtab %}
-{% endtabs %}
-
-***
-
 {% swagger method="get" path="/user" baseUrl="[base-url]" summary="Logs in the user and returns an API key." expanded="false" fullWidth="true" %}
 {% swagger-description %}
 The login function can be found through the get function in 
@@ -139,41 +101,3 @@ api_key string
 
 {% endswagger-response %}
 {% endswagger %}
-
-{% tabs %}
-{% tab title="Example Python" %}
-```python
-import requests
-url = "https://data-sources-app-bda3z.ondigitalocean.app/user"
-credentials = {
-    "email": "your_email@example.com",  # Replace with your email
-    "password": "your_password_here"    # Replace with your password
-}
-
-# Make the GET request to login
-response = requests.get(url, json=credentials)
-api_key = response.api_key
-```
-{% endtab %}
-
-{% tab title="Example JavaScript" %}
-```javascript
-const axios = require('axios');
-const url = "https://data-sources-app-bda3z.ondigitalocean.app/user"
-const credentials = {
-  email: "your_email@example.com",     // Replace with your email
-  password: "your_password_here"       // Replace with your password
-};
-
-// Make the GET request to login
-axios.post(url, credentials)
-  .then(response => {
-    const apiKey = response.api_key;
-    console.log("Logged in successfully. API Key:", apiKey);
-  })
-  .catch(error => {
-    console.error("Login failed:", error.message);
-  });
-```
-{% endtab %}
-{% endtabs %}

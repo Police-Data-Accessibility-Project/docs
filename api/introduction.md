@@ -25,3 +25,109 @@ If there is an API key, it’s passed to the is\_valid function. This function c
 ## Rate limits
 
 The rate limit for querying the database currently maxes out at 3000 rows, which is larger than the row count of any table in the database right now.
+
+## Examples
+
+{% tabs %}
+{% tab title="Python" %}
+**Quick Search Data Sources**
+
+```python
+import requests
+base_url = "https://app.pdap.io/"
+search_term = "review"  # Replace with your search term
+location = "Pittsburgh"   # Replace with your desired location
+api_key = "YOUR_API_KEY_HERE"  # Replace with your actual API key
+
+url = f"{base_url}quick-search/{search_term}/{location}"
+
+# Create the Authorization header
+headers = {
+    "Authorization": f"Bearer {api_key}"
+}
+
+# Make the GET request with the Authorization header
+response = requests.get(url, headers=headers)
+```
+
+**GET Agencies**
+
+```python
+import requests
+base_url = "https://app.pdap.io/"
+api_key = "YOUR_API_KEY_HERE"  # Replace with your actual API key
+
+url = f"{base_url}agencies"
+
+# Create the Authorization header
+headers = {
+    "Authorization": f"Bearer {api_key}"
+}
+
+# Make the GET request with the Authorization header
+response = requests.get(url, headers=headers)
+```
+{% endtab %}
+
+{% tab title="JavaScript" %}
+### Quick Search Data Sources
+
+<pre class="language-javascript"><code class="lang-javascript"><strong>const axios = require('axios');
+</strong>
+const baseUrl = "https://app.pdap.io/";
+const search_term = "review";  // Replace with your search term
+const location = "Pittsburgh";    // Replace with your desired location
+const api_key = "YOUR_API_KEY_HERE";  // Replace with your actual API key
+
+const url = `${baseUrl}quick-search/${search_term}/${location}`;
+
+// Create the Authorization header
+const headers = {
+  'Authorization': `Bearer ${api_key}`
+};
+
+// Make the GET request with the Authorization header
+axios.get(url, { headers })
+  .then(response => {
+    console.log("Search results:");
+    response.data.forEach(item => {
+      console.log(`Data Source Name: ${item.name}`);
+    });
+  })
+  .catch(error => {
+      console.error("An error occurred:", error.message);
+    }
+  });
+</code></pre>
+
+### GET agencies
+
+```javascript
+const axios = require('axios');
+
+const baseUrl = "https://app.pdap.io/";
+const api_key = "YOUR_API_KEY_HERE";  // Replace with your actual API key
+
+const url = `${baseUrl}agencies`;
+
+// Create the Authorization header
+const headers = {
+  'Authorization': `Bearer ${api_key}`
+};
+
+// Make the GET request with the Authorization header
+axios.get(url, { headers })
+  .then(response => {
+    console.log("Search results:");
+    response.data.forEach(item => {
+      console.log(`Agency: ${item.name}`);
+    });
+  })
+  .catch(error => {
+      console.error("An error occurred:", error.message);
+    }
+  });
+```
+{% endtab %}
+{% endtabs %}
+
