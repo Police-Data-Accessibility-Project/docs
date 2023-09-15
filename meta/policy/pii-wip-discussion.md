@@ -1,57 +1,27 @@
-# PII (WIP / Discussion)
+---
+description: Also known as PII
+---
 
-## Problem
+# Personally Identifiable Information
 
-We want people to feel sound ethically and legally when they contribute to PDAP. To that end, we need to do these things:&#x20;
+## Defining PII
 
-1. Draw a “bright line” between the source material and the published data; i.e. “we are not changing the data, we are a mirror”. **\[a]**&#x20;
-2. Avoid aggregating already-public PII in a way that would make it more public than it already is **\[b]**.
-3. Strive for our stated mission **\[c]** of being a complete source of truth. i.e. “we could not be accused of editorializing by omission”. Our current policy is that we're allowed to collect PII **\[d]** .&#x20;
+#### [2 CFR § 200.79](https://www.law.cornell.edu/cfr/text/2/200.79)
 
-Our existing policy about _accepting_ PII is legally the right one but we do need to discuss how we _aggregate_ and _omit_. Discuss in the thread for the next 3 days, then we'll do a survey or something.&#x20;
+> \[...] for example, first and last name, address, work telephone number, email address, home telephone number, and general educational credentials. The definition of PII is not anchored to any single category of information or technology. Rather, it requires a case-by-case assessment of the specific risk that an individual can be identified. Non-PII can become PII whenever additional information is made publicly available, in any medium and from any source, that, when combined with other available information, could be used to identify an individual.
 
-### How sure are we that omitting PII is against the rules?
+This definition of public data is also supported in [HiQ Labs v. LinkedIn](https://en.wikipedia.org/wiki/HiQ\_Labs\_v.\_LinkedIn#cite\_note-1).
 
-We have a policy that allows PII, **do we need to require it? Do we need to allow censorship?**
+## Goals
 
-**Is PDAP the one doing the scraping, or the scraper community?**
+We want people to feel sound ethically and legally when they contribute to PDAP. To that end, these are our goals:
 
-We can always get a second opinion. Maybe we need to define what PII is?
-
-**How can we prevent PDAP from being mugshots.com?**
-
-**Can we choose which data we aggregate?** Sounds reasonable to Eddie.
-
-Richard says there could be a security/`know-your-user` layer—make it more difficult than a search bar. Require people to register, know your user.
-
-PDAP could be considered a wikipedia-like source of good sources.
-
-## Actions (polled in discord)
-
-* Should we define "PII that we must not make more public" as "Name"?\
-  **3 yes** \
-  0 no \
-  1 yes + address
-* Should we show PII in the mirrored source material?\
-  **2 yes**\
-  1 no
-* Should we aggregate data on whether a field is included in the source data?\
-  **3 yes**\
-  0 no
-* Should we restrict data usage to non-commercial in our published policy?\
-  **4 yes**\
-  0 no
-* Should we redact PII when we provide data at scale (i.e. via API or queryable database)?\
-  **4 yes**\
-  0 no
-
-## References
-
-\[a] [https://docs.pdap.io/meta/legal/legal-data-scraping](https://docs.pdap.io/meta/legal/legal-data-scraping)
-
-> \[...private data] may also include personal data that can identify an individual person, such as name, email, phone number, and address. If in doubt, omit such personal data from the scope of the scrape.
-
-\[b] [https://papers.ssrn.com/sol3/papers.cfm?abstract\_id=2678420](https://papers.ssrn.com/sol3/papers.cfm?abstract\_id=2678420) \
-\[c] [https://pdap.io/](https://pdap.io/) \
-\[d] [https://docs.pdap.io/meta/legal/personally-identifiable-information](https://docs.pdap.io/meta/legal/personally-identifiable-information)\
-\[e] [https://www.whitepages.com/terms-of-service](https://www.whitepages.com/terms-of-service)
+1. Draw a “[bright line](https://en.wikipedia.org/wiki/Bright-line\_rule)” from our [Data Sources Database](../../activities/data-sources/data-sources-database.md) to the source material. We are not altering public records, we are helping people find them.
+2. Avoid aggregating already-public PII in a way that would make it more usable (e.g. turning arrests from different jurisdictions into a unified database). [Citation](https://papers.ssrn.com/sol3/papers.cfm?abstract\_id=2678420).
+3. Strive for completion, and not be accused of editorializing by omission.&#x20;
+   * We can track whether a given Data Source contains PII.&#x20;
+   * Accurately representing public data about our legal system allows us to develop better opinions and practices for sharing records. For this reason, the board decided [submitting PII is allowed](../about/staff/board-resolutions/personally-identifiable-information.md).
+   * Srapers are not required to collect PII.
+4. Transparency in our published resources and information.
+   * Our open-source tools are transparent in how they work.
+   * Documentation about published data and tools should be clear about any properties which are collected—or left behind—and why the decision was made.

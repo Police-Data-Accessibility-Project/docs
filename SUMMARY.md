@@ -125,6 +125,7 @@
       * [Appoint Directors of Technology and Security](meta/about/staff/board-resolutions/appoint-directors-of-technology-and-security.md)
       * [Appoint Executive Director](meta/about/staff/board-resolutions/appoint-executive-director.md)
       * [Appoint Director of Operations](meta/about/staff/board-resolutions/appoint-director-of-operations.md)
+      * [Resolution on PII](meta/about/staff/board-resolutions/personally-identifiable-information.md)
     * [Brand assets](meta/about/staff/brand-assets.md)
   * [Roles & Community](meta/about/roles-and-community.md)
   * [Cultural Principles](meta/about/cultural-principles.md)
@@ -132,9 +133,8 @@
   * [PDAP Access](meta/policy/pdap-access-tiers.md)
   * [PDAP Privacy Policy](meta/policy/pdap-privacy-policy.md)
   * [Password Management](meta/policy/password-management.md)
-  * [PII (WIP / Discussion)](meta/policy/pii-wip-discussion.md)
+  * [Personally Identifiable Information](meta/policy/pii-wip-discussion.md)
 * [Legal](meta/legal/README.md)
-  * [Personally Identifiable Information](meta/legal/personally-identifiable-information.md)
   * [Legal Data Scraping](meta/legal/legal-data-scraping.md)
   * [State Computer Crimes laws](meta/legal/state-computer-crimes-laws.md)
 
