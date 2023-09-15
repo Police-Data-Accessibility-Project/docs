@@ -125,7 +125,7 @@
       * [Appoint Directors of Technology and Security](meta/about/staff/board-resolutions/appoint-directors-of-technology-and-security.md)
       * [Appoint Executive Director](meta/about/staff/board-resolutions/appoint-executive-director.md)
       * [Appoint Director of Operations](meta/about/staff/board-resolutions/appoint-director-of-operations.md)
-      * [Resolution on PII](meta/about/staff/board-resolutions/personally-identifiable-information.md)
+      * [Resolution on PII](meta/legal/personally-identifiable-information.md)
     * [Brand assets](meta/about/staff/brand-assets.md)
   * [Roles & Community](meta/about/roles-and-community.md)
   * [Cultural Principles](meta/about/cultural-principles.md)
