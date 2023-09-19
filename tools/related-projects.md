@@ -34,10 +34,6 @@ PDAP is neither officially nor unofficially aligned with the missions of any of 
 
 * [https://policerecordsmanagement.com/case-studies/](https://policerecordsmanagement.com/case-studies/)
 
-### Lists of datasets
-
-* [https://data.world/datasets/police](https://data.world/datasets/police)
-
 ## Lists of projects
 
 * [https://sunlightfoundation.com/2016/10/25/the-local-projects-that-are-making-police-complaint-data-open-and-accessible/](https://sunlightfoundation.com/2016/10/25/the-local-projects-that-are-making-police-complaint-data-open-and-accessible/)

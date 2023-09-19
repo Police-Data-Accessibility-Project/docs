@@ -135,6 +135,7 @@
   * [Password Management](meta/policy/password-management.md)
   * [Personally Identifiable Information](meta/policy/pii-wip-discussion.md)
 * [Legal](meta/legal/README.md)
+  * [Public records access laws & precedent](meta/legal/public-records-access-laws-and-precedent.md)
   * [Legal Data Scraping](meta/legal/legal-data-scraping.md)
   * [State Computer Crimes laws](meta/legal/state-computer-crimes-laws.md)
 
