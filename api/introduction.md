@@ -34,7 +34,7 @@ The rate limit for querying the database currently maxes out at 3000 rows, which
 
 ```python
 import requests
-base_url = "https://app.pdap.io/"
+base_url = "https://data-sources.pdap.io/"
 search_term = "review"  # Replace with your search term
 location = "Pittsburgh"   # Replace with your desired location
 api_key = "YOUR_API_KEY_HERE"  # Replace with your actual API key
@@ -54,7 +54,7 @@ response = requests.get(url, headers=headers)
 
 ```python
 import requests
-base_url = "https://app.pdap.io/"
+base_url = "https://data-sources.pdap.io/"
 api_key = "YOUR_API_KEY_HERE"  # Replace with your actual API key
 
 url = f"{base_url}agencies"
@@ -74,7 +74,7 @@ response = requests.get(url, headers=headers)
 
 <pre class="language-javascript"><code class="lang-javascript"><strong>const axios = require('axios');
 </strong>
-const baseUrl = "https://app.pdap.io/";
+const baseUrl = "https://data-sources.pdap.io/";
 const search_term = "review";  // Replace with your search term
 const location = "Pittsburgh";    // Replace with your desired location
 const api_key = "YOUR_API_KEY_HERE";  // Replace with your actual API key
@@ -105,7 +105,7 @@ axios.get(url, { headers })
 ```javascript
 const axios = require('axios');
 
-const baseUrl = "https://app.pdap.io/";
+const baseUrl = "https://data-sources.pdap.io/";
 const api_key = "YOUR_API_KEY_HERE";  // Replace with your actual API key
 
 const url = `${baseUrl}agencies`;

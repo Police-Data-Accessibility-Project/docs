@@ -7,7 +7,7 @@ description: Use the API to find, use, and manage Data Sources.
 ## Base URL
 
 ```
-https://app.pdap.io
+https://data-sources.pdap.io
 ```
 
 ## Search
