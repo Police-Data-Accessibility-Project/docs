@@ -16,7 +16,7 @@ We're making an open-source toolkit for transparency-minded people who use data 
 
 ### Plans for the future
 
-* [Roadmap](https://github.com/orgs/Police-Data-Accessibility-Project/projects/24https:/github.com/orgs/Police-Data-Accessibility-Project/projects/24)
+* [Roadmap](https://github.com/orgs/Police-Data-Accessibility-Project/projects/24)
 * [High-level diagram of our in-progress ecosystem](https://www.figma.com/file/19axhLZb0ejtlOWSFZcNAc/High-level-technical-diagram?type=whiteboard\&node-id=0%3A1\&t=Q51wVP3gfK4aSlED-1)
 
 ### Our investigative process
