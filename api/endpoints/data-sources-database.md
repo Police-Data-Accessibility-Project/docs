@@ -113,6 +113,10 @@ The data sources endpoint is located in
 . The data sources endpoint returns all rows in the corresponding Supabase table up to the current row limit set in Supabase.
 {% endswagger-description %}
 
+{% swagger-parameter in="header" name="Authorization" required="true" %}
+Value formatted as "Bearer [api_key]”
+{% endswagger-parameter %}
+
 {% swagger-response status="200: OK" description="Successful operation" %}
 {% tabs %}
 {% tab title="Schema" %}
@@ -184,14 +188,22 @@ data array[object]
 
 ## Agencies
 
-{% swagger method="get" path="/agencies" baseUrl="[base-url]" summary="Get all Agencies" fullWidth="true" expanded="true" %}
+{% swagger method="get" path="/agencies/{page}" baseUrl="[base-url]" summary="Get all Agencies" fullWidth="true" expanded="true" %}
 {% swagger-description %}
 The agencies endpoint is located in 
 
 [resources/Agencies.py](https://github.com/Police-Data-Accessibility-Project/data-sources-app/blob/main/resources/QuickSearch.py)
 
-. The agencies endpoint returns all rows in the corresponding Supabase table up to the current row limit set in Supabase.
+. The agencies endpoint returns 1000 rows from the corresponding Supabase table offset by the page number passed.
 {% endswagger-description %}
+
+{% swagger-parameter in="path" name="page" required="true" %}
+Passing 1 will return the first 1000 rows. Subsequent page number return  subsequent results
+{% endswagger-parameter %}
+
+{% swagger-parameter in="header" name="Authorization" %}
+Value formatted as "Bearer [api_key]”
+{% endswagger-parameter %}
 
 {% swagger-response status="200: OK" description="Successful operation" %}
 {% tabs %}
