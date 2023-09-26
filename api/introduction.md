@@ -16,11 +16,11 @@ API routes that read and modify the Data Sources database should be protected th
 
 ### @api\_required decorator
 
-The @api\_required decorator requires a request header to include an `Authorization` key with the value formatted as `Bearer [api_key]`. The api\_required function parses the request header and checks to see if the api\_key is defined. If it isn’t, it’ll return a message requesting an API key.
+The @api\_required decorator requires a request header to include an `Authorization` key with the value formatted as `Bearer [jwt_token]`. The api\_required function parses the request header, decodes and extracts the API key, and checks to see if the api\_key is defined. If it isn’t, it’ll return a message requesting an API key.
 
 ### Validating the API key
 
-If there is an API key, it’s passed to the is\_valid function. This function connects to the Data Source database’s users table and finds the user in the table with the matching API key. The function then checks that a valid user was returned from the database. If not, the function returns `false` to `api_required`, which sends a response stating that the API key was invalid.
+If there is an API key, it’s passed to the is\_valid function. This function connects to the Data Source database’s users table and finds the user in the table with the matching API key. The function then checks that a valid user was returned from the database. If not, the function returns `False` to `api_required`, which sends a response stating that the API key was invalid.
 
 ## Rate limits
 

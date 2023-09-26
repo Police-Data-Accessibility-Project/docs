@@ -14,7 +14,7 @@ https://data-sources.pdap.io
 
 {% swagger expanded="true" method="post" path="/user" baseUrl="[base-url]" summary="Creates a new user." fullWidth="true" %}
 {% swagger-description %}
- Users can sign up for an account through the post function in 
+Users can sign up for an account through the post function in 
 
 [resources/User.py](https://github.com/Police-Data-Accessibility-Project/data-sources-app/blob/main/resources/User.py)
 
@@ -68,7 +68,7 @@ The login function can be found through the get function in
 
 [resources/User.py](https://github.com/Police-Data-Accessibility-Project/data-sources-app/blob/main/resources/User.py)
 
-. Each time a user logs in, a new API key is created using uuid.uuid4().hex, updated in for the matching user in the users table, and sent to the user to be stored on the client side.
+. Each time a user logs in, a new API key is created using uuid.uuid4().hex, updated in for the matching user in the users table, encoded in a JWT token, and the JWT token is sent to the user to be stored on the client side.
 {% endswagger-description %}
 
 {% swagger-parameter in="body" name="email" required="true" %}

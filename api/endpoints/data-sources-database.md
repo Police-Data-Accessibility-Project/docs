@@ -30,7 +30,7 @@ Checks partial matches on any of the following properties on the agencies table:
 {% endswagger-parameter %}
 
 {% swagger-parameter in="header" name="Authorization" required="true" %}
-Value formatted as "Bearer [api_key]”
+Value formatted as "Bearer [jwt_token]”
 {% endswagger-parameter %}
 
 {% swagger-response status="200: OK" description="Successful operation" %}
@@ -114,7 +114,7 @@ The data sources endpoint is located in
 {% endswagger-description %}
 
 {% swagger-parameter in="header" name="Authorization" required="true" %}
-Value formatted as "Bearer [api_key]”
+Value formatted as "Bearer [jwt_token]”
 {% endswagger-parameter %}
 
 {% swagger-response status="200: OK" description="Successful operation" %}
@@ -202,7 +202,7 @@ Passing 1 will return the first 1000 rows. Subsequent page number return  subseq
 {% endswagger-parameter %}
 
 {% swagger-parameter in="header" name="Authorization" %}
-Value formatted as "Bearer [api_key]”
+Value formatted as "Bearer [jwt_token]”
 {% endswagger-parameter %}
 
 {% swagger-response status="200: OK" description="Successful operation" %}
