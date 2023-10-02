@@ -34,29 +34,26 @@ To see which options are available for select fields, consult the [submission fo
 
 _Where did it come from?_
 
-| Property                | Type    | Description                                                                                                                                                                                                           |
-| ----------------------- | ------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| agency\_supplied        | boolean | Is the relevant Agency also the entity supplying the data? This may be "no" if the Agency or local government contracted with a third party to publish this data, or if a third party was the original record-keeper. |
-| supplying\_entity       | string  | If the Agency didn't publish this, who did?                                                                                                                                                                           |
-| agency\_originated      | boolean | <p>Is the relevant Agency also the original record-keeper? This is usually "yes", unless a third party collected data about a police Agency.<br></p>                                                                  |
-| originating\_entity     | string  | If the Agency was not the original record-keeper, who was?                                                                                                                                                            |
-| community\_data\_source | boolean | True when a source of public records is supplied directly by a member of our community [via this form](../../share-data/contribute-data-sources.md#submit-data-youve-collected).                                      |
+| Property            | Type    | Description                                                                                                                                                                                                           |
+| ------------------- | ------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| agency\_supplied    | boolean | Is the relevant Agency also the entity supplying the data? This may be "no" if the Agency or local government contracted with a third party to publish this data, or if a third party was the original record-keeper. |
+| supplying\_entity   | string  | If the Agency didn't publish this, who did?                                                                                                                                                                           |
+| agency\_originated  | boolean | <p>Is the relevant Agency also the original record-keeper? This is usually "yes", unless a third party collected data about a police Agency.<br></p>                                                                  |
+| originating\_entity | string  | If the Agency was not the original record-keeper, who was?                                                                                                                                                            |
 
 ## Access & format
 
-| Property                           | Type              | Description                                                                                                                                 |
-| ---------------------------------- | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| source\_url                        | string            | A URL where these records can be found or are referenced.                                                                                   |
-| readme\_url                        | string            | A URL where supplementary information about the source is published.                                                                        |
-| access\_type                       | array             | Array items can have values such as `Web page` or `API`                                                                                     |
-| record\_format                     | array             | What format(s) are the records in natively? Array items can have values such as `CSV`, `JSON`, `XML`, `RDF`, `RSS`, `HTML table` and others |
-| detail\_level                      | array             | Is this an individual record, an aggregated set of records, or a summary without underlying data?                                           |
-| record\_download\_option\_provided | boolean           | There is a function available to download or export records.                                                                                |
-| size                               | string            | The file size on disk of all the data at this source, if downloaded.                                                                        |
-| data\_portal\_type                 | string            | Some data is published via a standard third-party portal, typically named somewhere on the page.                                            |
-| access\_restrictions               | string            | Is anything special required to access the data?                                                                                            |
-| access\_restrictions\_notes        | string (textarea) | Additional information about any access restrictions.                                                                                       |
-| records\_not\_online               | boolean           | Someone has checked for these records on the internet, and has not located them.                                                            |
+| Property           | Type   | Description                                                                                                                                 |
+| ------------------ | ------ | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| source\_url        | string | A URL where these records can be found or are referenced.                                                                                   |
+| access\_type       | array  | Array items can have values such as `Web page`or `API`                                                                                      |
+| record\_format     | array  | What format(s) are the records in natively? Array items can have values such as `CSV`, `JSON`, `XML`, `RDF`, `RSS`, `HTML table` and others |
+| detail\_level      | array  | Is this an individual record, an aggregated set of records, or a summary without underlying data?                                           |
+| size               | string | The file size on disk of all the data at this source, if downloaded.                                                                        |
+| data\_portal\_type | string | Some data is published via a standard third-party portal, typically named somewhere on the page.                                            |
+|                    | string | Is anything special required to access the data?                                                                                            |
+|                    |        |                                                                                                                                             |
+| readme\_url        | string | A URL where supplementary information about the source is published.                                                                        |
 
 ## Coverage & retention
 
@@ -64,10 +61,9 @@ _Where did it come from?_
 | ------------------------------ | ------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
 | coverage\_start                | date    | The earliest date covered by this source, if known, in the format YYYY-DD-MM.                                                             |
 | coverage\_end                  | date    | The date at which updates stop, in the format YYYY-DD-MM.                                                                                 |
-| source\_last\_\_\_updated      | date    | The date this source was last updated, in the format YYYY-DD-MM.                                                                          |
+| source\_last\_updated          | date    | The date this source was last updated, in the format YYYY-DD-MM.                                                                          |
 | update\_frequency              | string  | How often is this data source updated?                                                                                                    |
-| update\_method                 | string  | How are new records added to this Data Source?                                                                                            |
-| sort\_method                   | string  | When new records are added, how are they sorted?                                                                                          |
+| update\_method                 | string  |                                                                                                                                           |
 | retention\_schedule            | string  | How long are records kept? Are there published guidelines regarding how long important information must remain accessible for future use? |
 | number\_of\_records\_available | integer | How many similar pieces of information are available at this source?                                                                      |
 
