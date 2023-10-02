@@ -16,8 +16,8 @@ We're making an open-source toolkit for transparency-minded people who use data 
 
 ### Plans for the future
 
-* [Roadmap](https://github.com/orgs/Police-Data-Accessibility-Project/projects/24)
-* [High-level diagram of our in-progress ecosystem](https://www.figma.com/file/19axhLZb0ejtlOWSFZcNAc/High-level-technical-diagram?type=whiteboard\&node-id=0%3A1\&t=Q51wVP3gfK4aSlED-1)
+* [Roadmap](https://github.com/orgs/Police-Data-Accessibility-Project/projects/21/views/2)
+* [High-level diagram of our ecosystem](https://www.figma.com/file/19axhLZb0ejtlOWSFZcNAc/High-level-technical-diagram?type=whiteboard\&node-id=0%3A1\&t=Q51wVP3gfK4aSlED-1)
 
 ### Our investigative process
 
@@ -33,7 +33,7 @@ Everyone is welcome in [our Discord](https://discord.gg/wMqex8nKZJ), or email in
 ### Journalists, Activists, Researchers, and other data users
 
 * Use the data we're already tracking in [our Data Sources database](activities/data-sources/explore-data-sources.md) to answer questions about our most critical systems. What are the causes and effects of increased transparency?
-* If you find something new and useful, share it with us [using our submission form](activities/share-data/contribute-data-sources.md).&#x20;
+* If you find something new and useful, share it with us [using our submission form](activities/share-data/contribute-data-sources.md).
 * To get our community's help answering important questions, [request help here](activities/data-sources/request-data.md).
 
 ### Data Volunteers & Web Scrapers
@@ -43,7 +43,7 @@ Everyone is welcome in [our Discord](https://discord.gg/wMqex8nKZJ), or email in
 
 ### Code Volunteers
 
-* You can contribute Python or Vue code toward our software objectives. Find a [good first issue to work on here](https://github.com/orgs/Police-Data-Accessibility-Project/projects/25/views/1), or check out our [roadmap](https://github.com/orgs/Police-Data-Accessibility-Project/projects/24/views/1).
+* You can contribute Python or Vue code toward our software objectives. Find a [good first issue to work on here](https://github.com/orgs/Police-Data-Accessibility-Project/projects/25/views/1), or check out our [roadmap](https://github.com/orgs/Police-Data-Accessibility-Project/projects/21/views/2).
 
 ### Donors
 
