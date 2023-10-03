@@ -46,14 +46,14 @@ _Where did it come from?_
 | Property           | Type   | Description                                                                                                                                 |
 | ------------------ | ------ | ------------------------------------------------------------------------------------------------------------------------------------------- |
 | source\_url        | string | A URL where these records can be found or are referenced.                                                                                   |
+| readme\_url        | string | A URL where supplementary information about the source is published.                                                                        |
+|                    |        |                                                                                                                                             |
 | access\_type       | array  | Array items can have values such as `Web page`or `API`                                                                                      |
 | record\_format     | array  | What format(s) are the records in natively? Array items can have values such as `CSV`, `JSON`, `XML`, `RDF`, `RSS`, `HTML table` and others |
 | detail\_level      | array  | Is this an individual record, an aggregated set of records, or a summary without underlying data?                                           |
 | size               | string | The file size on disk of all the data at this source, if downloaded.                                                                        |
 | data\_portal\_type | string | Some data is published via a standard third-party portal, typically named somewhere on the page.                                            |
-|                    | string | Is anything special required to access the data?                                                                                            |
-|                    |        |                                                                                                                                             |
-| readme\_url        | string | A URL where supplementary information about the source is published.                                                                        |
+| access\_notes      | string | Is anything special required to access the data?                                                                                            |
 
 ## Coverage & retention
 
@@ -62,9 +62,9 @@ _Where did it come from?_
 | coverage\_start                | date    | The earliest date covered by this source, if known, in the format YYYY-DD-MM.                                                             |
 | coverage\_end                  | date    | The date at which updates stop, in the format YYYY-DD-MM.                                                                                 |
 | source\_last\_updated          | date    | The date this source was last updated, in the format YYYY-DD-MM.                                                                          |
-| update\_frequency              | string  | How often is this data source updated?                                                                                                    |
-| update\_method                 | string  |                                                                                                                                           |
-| retention\_schedule            | string  | How long are records kept? Are there published guidelines regarding how long important information must remain accessible for future use? |
+| update\_frequency              | array   | How often is this data source updated?                                                                                                    |
+| update\_method                 | array   | Are records replaced (`Overwrite`) or added (`Insert`)?                                                                                   |
+| retention\_schedule            | array   | How long are records kept? Are there published guidelines regarding how long important information must remain accessible for future use? |
 | number\_of\_records\_available | integer | How many similar pieces of information are available at this source?                                                                      |
 
 ## Meta & utility
