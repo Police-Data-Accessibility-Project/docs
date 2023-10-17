@@ -43,6 +43,7 @@
 
 * [Newsletter](https://newsletter.pdap.io/)
 * [Community calls](updates/community-calls/README.md)
+  * [October 17, 2023](updates/community-calls/october-17-2023.md)
   * [February 22, 2023](updates/community-calls/february-22-2023.md)
   * [February 1, 2023](updates/community-calls/february-1-2023.md)
   * [January 20, 2023](updates/community-calls/january-20-2023.md)
