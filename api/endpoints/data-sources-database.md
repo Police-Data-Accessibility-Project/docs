@@ -14,7 +14,7 @@ https://data-sources.pdap.io
 
 {% swagger method="get" path="/search-tokens/{search}/{location}" baseUrl="[base-url]" summary="Generate API token for front end search" fullWidth="true" expanded="true" %}
 {% swagger-description %}
-The quick search endpoint is located in [resources/SearchTokens.py](https://github.com/Police-Data-Accessibility-Project/data-sources-app/blob/main/resources/QuickSearch.py). The search tokens endpoint generates an API token valid for 5 minutes and forwards the search parameters to the Quick Search endpoint.
+The search tokens endpoint is located in [resources/SearchTokens.py](https://github.com/Police-Data-Accessibility-Project/data-sources-app/blob/main/resources/QuickSearch.py). The search tokens endpoint generates an API token valid for 5 minutes and forwards the search parameters to the Quick Search endpoint. This endpoint is meant for use by the front end only.
 {% endswagger-description %}
 
 {% swagger-parameter in="path" name="search" type="String" required="true" %}
@@ -74,7 +74,7 @@ Checks partial matches on any of the following properties on the agencies table:
 
 {% swagger method="get" path="/quick-search/{search}/{location}" baseUrl="[base-url]" summary="Quick Search Data Sources by search term and location" fullWidth="true" expanded="true" %}
 {% swagger-description %}
-The quick search endpoint is located in [resources/QuickSearch.py](https://github.com/Police-Data-Accessibility-Project/data-sources-app/blob/main/resources/QuickSearch.py). The quick search endpoint executes its search using the agency\_source\_link table in the Data Sources database, which links each data source in the data\_sources table with its associated agency in the agencies table.
+The quick search endpoint is located in [resources/QuickSearch.py](https://github.com/Police-Data-Accessibility-Project/data-sources-app/blob/main/resources/QuickSearch.py). The quick search endpoint executes its search using the agency\_source\_link table in the Data Sources database, which links each data source in the data\_sources table with its associated agency in the agencies table. This endpoint is meant for use by the search tokens endpoint only.
 {% endswagger-description %}
 
 {% swagger-parameter in="path" name="search" type="String" required="true" %}
@@ -86,7 +86,7 @@ Checks partial matches on any of the following properties on the agencies table:
 {% endswagger-parameter %}
 
 {% swagger-parameter in="header" name="Authorization" required="true" %}
-Value formatted as "Bearer \[jwt\_token]”
+Value formatted as "Bearer \[access\_token]”
 {% endswagger-parameter %}
 
 {% swagger-response status="200: OK" description="Successful operation" %}
