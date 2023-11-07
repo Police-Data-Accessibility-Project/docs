@@ -10,6 +10,66 @@ description: Use the API to find, use, and manage Data Sources.
 https://data-sources.pdap.io
 ```
 
+## Search Tokens
+
+{% swagger method="get" path="/search-tokens/{search}/{location}" baseUrl="[base-url]" summary="Generate API token for front end search" fullWidth="true" expanded="true" %}
+{% swagger-description %}
+The quick search endpoint is located in [resources/SearchTokens.py](https://github.com/Police-Data-Accessibility-Project/data-sources-app/blob/main/resources/QuickSearch.py). The search tokens endpoint generates an API token valid for 5 minutes and forwards the search parameters to the Quick Search endpoint.
+{% endswagger-description %}
+
+{% swagger-parameter in="path" name="search" type="String" required="true" %}
+Checks partial matches on any of the following properties on the data\_source table: "name", "description", "record\_type", and "tags". The search term will is case insensitive and will match singular and pluralized versions of the term.
+{% endswagger-parameter %}
+
+{% swagger-parameter in="path" name="location" type="String" required="true" %}
+Checks partial matches on any of the following properties on the agencies table: "county\_name", "state\_iso", "municipality", "agency\_type", "jurisdiction\_type", "name"
+{% endswagger-parameter %}
+
+{% swagger-response status="200: OK" description="Successful operation" %}
+{% tabs %}
+{% tab title="Schema" %}
+<pre class="language-plsql"><code class="lang-plsql">count int
+<strong>data array[object]
+</strong>    agency_name string
+    municipality string
+    state_iso string
+    data_source_name string
+    description string
+    record_type string
+    source_url string
+    record_format string
+    coverage_start string
+    coverage_end string
+    agency_supplied boolean
+</code></pre>
+{% endtab %}
+
+{% tab title="Example" %}
+```json
+{
+	"count": 1,
+	"data": [
+		{
+			"agency_name": "Allegheny County Police Department - PA",
+			"municipality": "Pittsburgh",
+			"state_iso": "PA",
+			"data_source_name": "Allegheny County Police Review Board Transcripts",
+			"description": null,
+			"record_type": "Policies & Contracts",
+			"source_url": "https://www.alleghenycounty.us/county-council/police-review-board-meetings.aspx",
+			"record_format": "[\"PDF: Machine Created\"]",
+			"coverage_start": "2018-08-29",
+			"coverage_end": "2018-09-26",
+			"agency_supplied": true
+		}
+	]
+}
+```
+{% endtab %}
+{% endtabs %}
+{% endswagger-response %}
+{% endswagger %}
+
 ## Search
 
 {% swagger method="get" path="/quick-search/{search}/{location}" baseUrl="[base-url]" summary="Quick Search Data Sources by search term and location" fullWidth="true" expanded="true" %}
