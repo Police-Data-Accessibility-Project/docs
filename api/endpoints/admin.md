@@ -60,7 +60,7 @@ api_key string
 
 {% swagger method="get" path="/user" baseUrl="[base-url]" summary="Logs in the user and returns an API key." expanded="false" fullWidth="true" %}
 {% swagger-description %}
-The login function can be found through the get function in [resources/User.py](https://github.com/Police-Data-Accessibility-Project/data-sources-app/blob/main/resources/User.py). Each time a user logs in, a new API key is created using uuid.uuid4().hex, updated in for the matching user in the users table, encoded in a JWT token, and the JWT token is sent to the user to be stored on the client side.
+The login function can be found through the get function in [resources/User.py](https://github.com/Police-Data-Accessibility-Project/data-sources-app/blob/main/resources/User.py). Each time a user logs in, a new API key is created using uuid.uuid4().hex, updated in for the matching user in the users table, and the API key is sent to the user to be stored on the client side.
 {% endswagger-description %}
 
 {% swagger-parameter in="body" name="email" required="true" %}
