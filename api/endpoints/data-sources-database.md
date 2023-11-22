@@ -160,6 +160,10 @@ data array[object]
 {% swagger-response status="403: Forbidden" description="Invalid API key" %}
 
 {% endswagger-response %}
+
+{% swagger-response status="500: Internal Server Error" description="Something went wrong" %}
+
+{% endswagger-response %}
 {% endswagger %}
 
 ## Data Sources
