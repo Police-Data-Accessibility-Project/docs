@@ -17,15 +17,15 @@ https://data-sources.pdap.io
 The search tokens endpoint is located in [resources/SearchTokens.py](https://github.com/Police-Data-Accessibility-Project/data-sources-app/blob/main/resources/QuickSearch.py). The search tokens endpoint generates an API token valid for 5 minutes and forwards the search parameters to the Quick Search endpoint. This endpoint is meant for use by the front end only.
 {% endswagger-description %}
 
-{% swagger-parameter in="path" name="endpoint" %}
+{% swagger-parameter in="query" name="endpoint" %}
 The endpoint that will be accessed after a search token is generated
 {% endswagger-parameter %}
 
-{% swagger-parameter in="path" name="arg1" type="String" required="true" %}
+{% swagger-parameter in="query" name="arg1" type="String" required="true" %}
 The first argument that will be forwarded on to the appropriate endpoint. Currently either "search" for quick-search or "id" for data-sources
 {% endswagger-parameter %}
 
-{% swagger-parameter in="path" name="arg2" type="String" required="true" %}
+{% swagger-parameter in="query" name="arg2" type="String" required="true" %}
 The second argument that will be forwarded on to the appropriate endpoint. Currently just used for "location" for quick-search
 {% endswagger-parameter %}
 
