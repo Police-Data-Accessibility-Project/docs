@@ -1,4 +1,8 @@
-# Data Sources Database
+# Database introduction
+
+{% hint style="info" %}
+Still wondering [what a Data Source is](../terms-and-definitions/what-is-a-data-source.md)?
+{% endhint %}
 
 Our Data Sources are maintained with various front-end tools, but they live in Supabase.
 

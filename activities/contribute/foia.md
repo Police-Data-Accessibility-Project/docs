@@ -1,4 +1,4 @@
-# FOIA Requests
+# FOIA requests
 
 ## What are FOIA requests?
 
@@ -8,7 +8,7 @@
 
 Sure! This is especially important for records which aren't published online.
 
-If you have successfully made a FOIA request through a service like Muckrock (or put the results online in some other way), the URL of the completed request is a valuable data source. [Submit it here](../share-data/contribute-data-sources.md#submit-data-youve-collected), and the community will thank you!
+If you have successfully made a FOIA request through a service like Muckrock (or put the results online in some other way), the URL of the completed request is a valuable data source. [Submit it here](submit-data-sources.md#submit-data-youve-collected), and the community will thank you!
 
 ## Our advice for a successful request
 

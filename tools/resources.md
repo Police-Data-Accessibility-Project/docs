@@ -1,4 +1,4 @@
-# Resources for working with data
+# Resources for using data
 
 ## Using & analyzing data
 
@@ -9,6 +9,8 @@
 [CPE's guide on analyzing traffic stop data](https://policingequity.org/data-collection-insights/33-cpe-toolkit-stop-data-collection-guidebook/file)
 
 [RATH](https://rath.kanaries.net/) by Kanaries for no-code exploratory data analysis
+
+[Splunk](https://www.splunk.com/) is an intelligence analysis tool to make sense of vast amounts of data.
 
 ## Collecting data
 

@@ -1,4 +1,4 @@
-# Data Source Annotation
+# Data Source annotation
 
 We're training a machine learning algorithm to [identify Data Sources](https://github.com/Police-Data-Accessibility-Project/data-source-identification).
 
@@ -12,4 +12,4 @@ This content contains annotations related to the criminal legal system, which ma
 
 #### Resources
 
-Check out the [Record Types taxonomy](data-dictionaries/record-types-taxonomy.md) for a better idea of what each one means.
+Check out the [Record Types taxonomy](../data-dictionaries/record-types-taxonomy.md) for a better idea of what each one means.

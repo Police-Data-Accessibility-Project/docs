@@ -2,7 +2,7 @@
 
 ## Overview
 
-The PDAP API is how internal and external users programmatically access information and make changes to the PDAP [Data Sources database](../activities/data-sources/explore-data-sources.md).
+The PDAP API is how internal and external users programmatically access information and make changes to the PDAP [Data Sources database](broken-reference).
 
 ## Get access
 
