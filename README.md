@@ -25,7 +25,7 @@ Everyone is welcome in [our Discord](https://discord.gg/wMqex8nKZJ), or our emai
 
 ### Data Volunteers & Web Scrapers
 
-* Check out open requests
+* Start at [https://pdap.io/volunteer](https://pdap.io/volunteer)
 * You can read more about [our approach to scraping here](activities/contribute/web-scraping/our-approach.md).
 
 ### Code Volunteers

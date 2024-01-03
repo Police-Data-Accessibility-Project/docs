@@ -1,3 +1,3 @@
 # Volunteer for data requests
 
-To see the requests people are making, [start here](https://pdap.io/volunteer).
+To help respond to data requests, head to [https://pdap.io/volunteer](https://pdap.io/volunteer)
