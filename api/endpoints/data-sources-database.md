@@ -324,6 +324,176 @@ data array[object]
 {% endswagger-response %}
 {% endswagger %}
 
+## Archives
+
+{% swagger method="get" path="/archives" baseUrl="[base-url]" summary="Get all Archived urls" fullWidth="true" expanded="true" %}
+{% swagger-description %}
+The archives endpoint is located in [resources/Archives.py](https://github.com/Police-Data-Accessibility-Project/data-sources-app/blob/main/resources/Archives.py). The get method  on the archives endpoint returns all rows for urls that the [automatic archives](https://github.com/Police-Data-Accessibility-Project/automatic-archives/blob/main/cache\_url.py) script has cached in the Internet Archive.
+{% endswagger-description %}
+
+{% swagger-parameter in="header" name="Authorization" required="true" %}
+Value formatted as "Bearer \[access token/api key]”
+{% endswagger-parameter %}
+
+{% swagger-response status="200: OK" description="Successful operation" %}
+{% tabs %}
+{% tab title="Schema" %}
+<pre class="language-plsql"><code class="lang-plsql">count int
+<strong>data array[object]
+</strong>    agency_name string
+    municipality string
+    state_iso string
+    data_source_name string
+    description string
+    record_type string
+    source_url string
+    record_format string
+    coverage_start string
+    coverage_end string
+    agency_supplied boolean
+</code></pre>
+{% endtab %}
+
+{% tab title="Example" %}
+```json
+{
+	"count": 1,
+	"data": [
+		{
+			"agency_name": "Allegheny County Police Department - PA",
+			"municipality": "Pittsburgh",
+			"state_iso": "PA",
+			"data_source_name": "Allegheny County Police Review Board Transcripts",
+			"description": null,
+			"record_type": "Policies & Contracts",
+			"source_url": "https://www.alleghenycounty.us/county-council/police-review-board-meetings.aspx",
+			"record_format": "[\"PDF: Machine Created\"]",
+			"coverage_start": "2018-08-29",
+			"coverage_end": "2018-09-26",
+			"agency_supplied": true
+		}
+	]
+}
+```
+{% endtab %}
+{% endtabs %}
+{% endswagger-response %}
+
+{% swagger-response status="400: Bad Request" description="No API key found" %}
+{% tabs %}
+{% tab title="Schema" %}
+```plsql
+count int
+data array[object]
+```
+{% endtab %}
+
+{% tab title="Example" %}
+```json
+{
+	"count": 0,
+	"data": []
+}
+```
+{% endtab %}
+{% endtabs %}
+{% endswagger-response %}
+
+{% swagger-response status="403: Forbidden" description="Invalid API key" %}
+
+{% endswagger-response %}
+{% endswagger %}
+
+{% swagger method="put" path="/archives" baseUrl="[base-url]" summary="Get all Archived urls" fullWidth="true" expanded="true" %}
+{% swagger-description %}
+The archives endpoint is located in [resources/Archives.py](https://github.com/Police-Data-Accessibility-Project/data-sources-app/blob/main/resources/Archives.py). The get method  on the archives endpoint returns all rows for urls that the [automatic archives](https://github.com/Police-Data-Accessibility-Project/automatic-archives/blob/main/cache\_url.py) script has cached in the Internet Archive.
+{% endswagger-description %}
+
+{% swagger-parameter in="body" name="id" type="String" required="true" %}
+The airtable uid for the data source that was cached
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="last_cached" type="Date" required="true" %}
+The current date since the data source url was just cached in the Internet Archive
+{% endswagger-parameter %}
+
+{% swagger-parameter in="header" name="Authorization" required="true" %}
+Value formatted as "Bearer \[access token/api key]”
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="broken_source_url_as_of" type="Date" required="true" %}
+The current date if the url is no longer active, otherwise None
+{% endswagger-parameter %}
+
+{% swagger-response status="200: OK" description="Successful operation" %}
+{% tabs %}
+{% tab title="Schema" %}
+<pre class="language-plsql"><code class="lang-plsql">count int
+<strong>data array[object]
+</strong>    agency_name string
+    municipality string
+    state_iso string
+    data_source_name string
+    description string
+    record_type string
+    source_url string
+    record_format string
+    coverage_start string
+    coverage_end string
+    agency_supplied boolean
+</code></pre>
+{% endtab %}
+
+{% tab title="Example" %}
+```json
+{
+	"count": 1,
+	"data": [
+		{
+			"agency_name": "Allegheny County Police Department - PA",
+			"municipality": "Pittsburgh",
+			"state_iso": "PA",
+			"data_source_name": "Allegheny County Police Review Board Transcripts",
+			"description": null,
+			"record_type": "Policies & Contracts",
+			"source_url": "https://www.alleghenycounty.us/county-council/police-review-board-meetings.aspx",
+			"record_format": "[\"PDF: Machine Created\"]",
+			"coverage_start": "2018-08-29",
+			"coverage_end": "2018-09-26",
+			"agency_supplied": true
+		}
+	]
+}
+```
+{% endtab %}
+{% endtabs %}
+{% endswagger-response %}
+
+{% swagger-response status="400: Bad Request" description="No API key found" %}
+{% tabs %}
+{% tab title="Schema" %}
+```plsql
+count int
+data array[object]
+```
+{% endtab %}
+
+{% tab title="Example" %}
+```json
+{
+	"count": 0,
+	"data": []
+}
+```
+{% endtab %}
+{% endtabs %}
+{% endswagger-response %}
+
+{% swagger-response status="403: Forbidden" description="Invalid API key" %}
+
+{% endswagger-response %}
+{% endswagger %}
+
 ## Agencies
 
 {% swagger method="get" path="/agencies/{page}" baseUrl="[base-url]" summary="Get all Agencies" fullWidth="true" expanded="true" %}
