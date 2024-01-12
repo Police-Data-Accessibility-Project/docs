@@ -246,13 +246,17 @@ data array[object]
 {% endswagger-response %}
 {% endswagger %}
 
-{% swagger method="get" path="/data-sources/id" baseUrl="[base-url]" summary="Get Data Source by Id" fullWidth="true" expanded="true" %}
+{% swagger method="get" path="/data-sources-by-id/[id]" baseUrl="[base-url]" summary="Get Data Source by Id" fullWidth="true" expanded="true" %}
 {% swagger-description %}
 The data sources endpoint is located in [resources/DataSources.py](https://github.com/Police-Data-Accessibility-Project/data-sources-app/blob/main/resources/QuickSearch.py). The data source by id endpoint returns just the row for the data source that corresponds to the id passed.
 {% endswagger-description %}
 
 {% swagger-parameter in="header" name="Authorization" required="true" %}
 Value formatted as "Bearer \[access token/api key]”
+{% endswagger-parameter %}
+
+{% swagger-parameter in="path" name="id" required="true" %}
+Data source id
 {% endswagger-parameter %}
 
 {% swagger-response status="200: OK" description="Successful operation" %}
@@ -491,6 +495,92 @@ data array[object]
 
 {% swagger-response status="403: Forbidden" description="Invalid API key" %}
 
+{% endswagger-response %}
+{% endswagger %}
+
+{% swagger method="post" path="" baseUrl="[base-url]/data-sources" summary="Create Data Source" fullWidth="true" %}
+{% swagger-description %}
+The data sources endpoint is located in [resources/DataSources.py](https://github.com/Police-Data-Accessibility-Project/data-sources-app/blob/main/resources/QuickSearch.py). The create data source endpoint posts a new data source to the database and returns True if successful and False if not.
+{% endswagger-description %}
+
+{% swagger-parameter in="header" name="Authorization" type="String" required="true" %}
+Value formatted as "Bearer \[access token/api key]”
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="Data" type="JSON" %}
+A JSON object of the data source information. Refer to the Data Source dictionary for available fields: [https://docs.pdap.io/activities/data-dictionaries/data-sources-data-dictionary](https://docs.pdap.io/activities/data-dictionaries/data-sources-data-dictionary). However, the following fields cannot be edited: rejection\_note, data\_source\_request, approval\_status, airtable\_uid, airtable\_source\_last\_modified&#x20;
+
+
+
+Below is an example of an acceptable body:
+
+{ "name":  "Calls for Service for Chicago Police Department - IL",
+
+"record\_type": "Calls for Service",
+
+"source\_url": "https://informationportal.igchicago.org/911-calls-for-cpd-service",
+
+"coverage\_start": "2019-01-01"
+
+}
+{% endswagger-parameter %}
+
+{% swagger-response status="200: OK" description="Successful operation" %}
+{% tabs %}
+{% tab title="Schema" %}
+```plsql
+boolean
+```
+{% endtab %}
+
+{% tab title="Example" %}
+```json
+True
+```
+{% endtab %}
+{% endtabs %}
+{% endswagger-response %}
+
+{% swagger-response status="403: Forbidden" description="Invalid API key" %}
+
+{% endswagger-response %}
+{% endswagger %}
+
+{% swagger method="put" path="" baseUrl="[base-url]/data-sources-by-id/[id]" summary="Update Data Source by Id" fullWidth="true" %}
+{% swagger-description %}
+The data sources endpoint is located in [resources/DataSources.py](https://github.com/Police-Data-Accessibility-Project/data-sources-app/blob/main/resources/QuickSearch.py). The update data source by id endpoint updates a data source and returns a status to confirm a successful update.
+{% endswagger-description %}
+
+{% swagger-parameter in="header" name="Authorization" required="true" %}
+Value formatted as "Bearer \[access token/api key]”
+{% endswagger-parameter %}
+
+{% swagger-parameter in="path" name="id" required="true" %}
+Data source id
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" type="JSON" name="Data" %}
+A JSON object of the data to be updated. Refer to the Data Source dictionary for available fields: [https://docs.pdap.io/activities/data-dictionaries/data-sources-data-dictionary](https://docs.pdap.io/activities/data-dictionaries/data-sources-data-dictionary). However, the following fields cannot be edited: data\_source\_request, airtable\_uid, airtable\_source\_last\_modified
+
+
+
+Below is an example of an acceptable body:
+
+{ "name":  "Calls for Service for Chicago Police Department - IL",
+
+"record\_type": "Calls for Service",
+
+"source\_url": "https://informationportal.igchicago.org/911-calls-for-cpd-service",
+
+"coverage\_start": "2019-01-01"
+
+}
+{% endswagger-parameter %}
+
+{% swagger-response status="200: OK" description="Successful operation" %}
+```json
+{"status": "success"}
+```
 {% endswagger-response %}
 {% endswagger %}
 
