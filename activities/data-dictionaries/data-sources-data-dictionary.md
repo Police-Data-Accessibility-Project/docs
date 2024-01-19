@@ -43,17 +43,18 @@ _Where did it come from?_
 
 ## Access & format
 
-| Property           | Type   | Description                                                                                                                                 |
-| ------------------ | ------ | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| source\_url        | string | A URL where these records can be found or are referenced.                                                                                   |
-| readme\_url        | string | A URL where supplementary information about the source is published.                                                                        |
-|                    |        |                                                                                                                                             |
-| access\_type       | array  | Array items can have values such as `Web page`or `API`                                                                                      |
-| record\_format     | array  | What format(s) are the records in natively? Array items can have values such as `CSV`, `JSON`, `XML`, `RDF`, `RSS`, `HTML table` and others |
-| detail\_level      | array  | Is this an individual record, an aggregated set of records, or a summary without underlying data?                                           |
-| size               | string | The file size on disk of all the data at this source, if downloaded.                                                                        |
-| data\_portal\_type | string | Some data is published via a standard third-party portal, typically named somewhere on the page.                                            |
-| access\_notes      | string | Is anything special required to access the data?                                                                                            |
+| Property           | Type   | Description                                                                                                                                                    |
+| ------------------ | ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| source\_url        | string | A URL where these records can be found or are referenced.                                                                                                      |
+| readme\_url        | string | A URL where supplementary information about the source is published.                                                                                           |
+|                    |        |                                                                                                                                                                |
+| access\_type       | array  | Array items can have values such as `Web page`or `API`                                                                                                         |
+| record\_format     | array  | What format(s) are the records in natively? Array items can have values such as `CSV`, `JSON`, `XML`, `RDF`, `RSS`, `HTML table` and others                    |
+| detail\_level      | array  | Is this an individual record, an aggregated set of records, or a summary without underlying data?                                                              |
+| size               | string | The file size on disk of all the data at this source, if downloaded.                                                                                           |
+| data\_portal\_type | string | Some data is published via a standard third-party portal, typically named somewhere on the page.                                                               |
+| access\_notes      | string | Is anything special required to access the data?                                                                                                               |
+| last\_cached       | date   | When was this last archived by our [automated archives app](https://github.com/Police-Data-Accessibility-Project/automatic-archives)? Formatted as YYYY-DD-MM. |
 
 ## Coverage & retention
 
