@@ -66,8 +66,8 @@ We use the `tags` property to add color to a Data Source if there's not a specif
 Other record types can describe jails and courts, especially from the "info about agencies" category.
 {% endhint %}
 
-| record\_type    | description                                                                                          | example                                                                                                                  |
-| --------------- | ---------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
-| Booking Reports | Records of booking or intake into corrections institutions.                                          | [https://inmates.seorj.com/ArchonixXJailPublic/Default.aspx](https://inmates.seorj.com/ArchonixXJailPublic/Default.aspx) |
-| Court Cases     | Records such as dockets about individual court cases.                                                | [https://kcoj.kycourts.net/dockets/](https://kcoj.kycourts.net/dockets/)                                                 |
-| Inmate Records  | Records of current inmates, often with full names and features for notification upon inmate release. | [http://www.washington.lavns.org/roster.aspx](http://www.washington.lavns.org/roster.aspx)                               |
+| record\_type          | description                                                                                          | example                                                                                                                  |
+| --------------------- | ---------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| Booking Reports       | Records of booking or intake into corrections institutions.                                          | [https://inmates.seorj.com/ArchonixXJailPublic/Default.aspx](https://inmates.seorj.com/ArchonixXJailPublic/Default.aspx) |
+| Court Cases           | Records such as dockets about individual court cases.                                                | [https://kcoj.kycourts.net/dockets/](https://kcoj.kycourts.net/dockets/)                                                 |
+| Incarceration Records | Records of current inmates, often with full names and features for notification upon inmate release. | [http://www.washington.lavns.org/roster.aspx](http://www.washington.lavns.org/roster.aspx)                               |
