@@ -9,6 +9,7 @@
 * [Contribute](activities/contribute/README.md)
   * [Volunteer for data requests](activities/contribute/volunteer-for-data-requests.md)
   * [Submit data sources](activities/contribute/submit-data-sources.md)
+  * [Open data advocacy playbook](activities/contribute/open-data-advocacy-playbook.md)
   * [Web scraping](activities/contribute/web-scraping/README.md)
     * [Our approach to scraping](activities/contribute/web-scraping/our-approach.md)
     * [Scrapers repo](https://github.com/Police-Data-Accessibility-Project/Scrapers/)
