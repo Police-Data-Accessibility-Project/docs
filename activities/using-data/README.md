@@ -19,4 +19,4 @@ People need to be able to find data to do anything with it. The foundation of ou
 * **Automatic archives** of each URL, creating a lasting resource for future research and web scraping. As it stands, information is lost to time due to data retention policies.
 * **Shared progress.** When data is liberated, we want to tell people so they don't spend time trying to collect the same stuff.
 * **Better transparency.** We're demonstrating the limits of the data that's already published, and addressing them one by one.
-* **Unlimited others:** if you are working on the criminal legal system, better data could probably help.
+* **Better systems.** If you are working on making your local system more fair, better data could probably help.
