@@ -410,7 +410,7 @@ data array[object]
 
 {% swagger method="put" path="/archives" baseUrl="[base-url]" summary="Get all Archived urls" fullWidth="true" expanded="true" %}
 {% swagger-description %}
-The archives endpoint is located in [resources/Archives.py](https://github.com/Police-Data-Accessibility-Project/data-sources-app/blob/main/resources/Archives.py). The get method  on the archives endpoint returns all rows for urls that the [automatic archives](https://github.com/Police-Data-Accessibility-Project/automatic-archives/blob/main/cache\_url.py) script has cached in the Internet Archive.
+The archives endpoint is located in [resources/Archives.py](https://github.com/Police-Data-Accessibility-Project/data-sources-app/blob/main/resources/Archives.py). The put method on the archives endpoint updates the data source matching the passed id, updating the last\_cached date if it alone is passed, or it and the broken\_source\_url\_as\_of field and the url\_status to 'broken'.&#x20;
 {% endswagger-description %}
 
 {% swagger-parameter in="body" name="id" type="String" required="true" %}
