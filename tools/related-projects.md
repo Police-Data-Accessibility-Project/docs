@@ -1,4 +1,4 @@
-# Related Projects
+# Related projects
 
 {% hint style="warning" %}
 PDAP is neither officially nor unofficially aligned with the missions of any of the projects listed here. We are interested in talking to people using police data for any purpose. If you have experience to share, reach out to [contact@pdap.io](mailto:contact@pdap.io).
@@ -58,3 +58,4 @@ PDAP is neither officially nor unofficially aligned with the missions of any of 
 * [https://openstates.org/](https://openstates.org/)
 * [http://openelections.net/](http://openelections.net/)
 * [https://www.data-liberation-project.org/](https://www.data-liberation-project.org/)
+* [https://www.oise.utoronto.ca/collaborativeindigenousresearch/](https://www.oise.utoronto.ca/collaborativeindigenousresearch/)
