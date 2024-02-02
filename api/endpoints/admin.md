@@ -142,7 +142,7 @@ api_key string
 
 {% swagger method="get" path="/api_key" baseUrl="[base-url]" summary="Returns an API key for a valid user and password." expanded="false" fullWidth="true" %}
 {% swagger-description %}
-The key generation function can be found through the get function in [resources/ApiKey](https://github.com/Police-Data-Accessibility-Project/data-sources-app/blob/main/resources/ApiKey.py). If the email and password match a row in the database, the user's new API key will be returned.
+The key generation function can be found through the get function in [resources/ApiKey](https://github.com/Police-Data-Accessibility-Project/data-sources-app/blob/main/resources/ApiKey.py). If the email and password match a row in the database, a new API key is created using uuid.uuid4().hex, updated in for the matching user in the users table, and the API key is sent to the user.
 {% endswagger-description %}
 
 {% swagger-parameter in="body" name="email" required="true" %}
