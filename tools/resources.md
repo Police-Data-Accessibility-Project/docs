@@ -45,3 +45,5 @@
 [An intro to your first notebook using Python & Jupyter](https://github.com/palewire/first-python-notebook) from Palewire
 
 [A mini Python and Jupyter bootcamp](https://github.com/ireapps/pycar) from NICAR
+
+[Python scraping](https://github.com/oxylabs/web-scraping-tutorials/tree/main/python) from Oxylabs
