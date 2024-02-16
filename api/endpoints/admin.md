@@ -94,6 +94,112 @@ api_key string
 {% endswagger-response %}
 {% endswagger %}
 
+{% swagger method="get" path="/request-reset-password" baseUrl="[base-url]" summary="Sends user a password reset link." expanded="false" fullWidth="true" %}
+{% swagger-description %}
+This functionality can be found in the get function in [resources/RequestResetPassword.py](https://github.com/Police-Data-Accessibility-Project/data-sources-app/tree/main/resources/RequestResetPassword.py). If the email and password match a row in the database, "Successfully logged in" will be returned.
+{% endswagger-description %}
+
+{% swagger-parameter in="body" name="email" required="true" %}
+Matches exactly with the "email" property in user's table
+{% endswagger-parameter %}
+
+{% swagger-response status="200: OK" description="Successful reset request" %}
+{% tabs %}
+{% tab title="Schema" %}
+```plsql
+api_key string
+```
+{% endtab %}
+
+{% tab title="Example" %}
+```json
+{
+	"api_key": "2bd77a1d7ef24a1dad3365b8a5c6994e"
+}
+```
+{% endtab %}
+{% endtabs %}
+{% endswagger-response %}
+
+{% swagger-response status="400: Bad Request" description="Failed to match email" %}
+
+{% endswagger-response %}
+{% endswagger %}
+
+{% swagger method="get" path="/reset-password/[token]" baseUrl="[base-url]" summary="Reset password token check." fullWidth="true" expanded="true" %}
+{% swagger-description %}
+This functionality can be found in the get function in [resources/ResetPassword.py](https://github.com/Police-Data-Accessibility-Project/data-sources-app/blob/main/resources/ResetPassword.py). If the token matches a row in the database, "The submitted token is valid" will be returned.
+{% endswagger-description %}
+
+{% swagger-parameter in="path" name="token" required="true" %}
+Reset password token
+{% endswagger-parameter %}
+
+{% swagger-response status="200: OK" description="Reset password token validated" %}
+{% tabs %}
+{% tab title="Schema" %}
+<pre class="language-plsql"><code class="lang-plsql">count int
+<strong>data array[object]
+</strong>    agency_name string
+    municipality string
+    state_iso string
+    data_source_name string
+    description string
+    record_type string
+    source_url string
+    record_format string
+    coverage_start string
+    coverage_end string
+    agency_supplied boolean
+</code></pre>
+{% endtab %}
+
+{% tab title="Example" %}
+```json
+{
+	"count": 1,
+	"data": [
+		{
+			"agency_name": "Allegheny County Police Department - PA",
+			"municipality": "Pittsburgh",
+			"state_iso": "PA",
+			"data_source_name": "Allegheny County Police Review Board Transcripts",
+			"description": null,
+			"record_type": "Policies & Contracts",
+			"source_url": "https://www.alleghenycounty.us/county-council/police-review-board-meetings.aspx",
+			"record_format": "[\"PDF: Machine Created\"]",
+			"coverage_start": "2018-08-29",
+			"coverage_end": "2018-09-26",
+			"agency_supplied": true
+		}
+	]
+}
+```
+{% endtab %}
+{% endtabs %}
+{% endswagger-response %}
+
+{% swagger-response status="400: Bad Request" description="Token is invalid" %}
+{% tabs %}
+{% tab title="Schema" %}
+```plsql
+count int
+data array[object]
+```
+{% endtab %}
+
+{% tab title="Example" %}
+```json
+{
+	"count": 0,
+	"data": []
+}
+```
+{% endtab %}
+{% endtabs %}
+{% endswagger-response %}
+{% endswagger %}
+
 {% swagger expanded="true" method="put" path="/user" baseUrl="[base-url]" summary="Updates user password." fullWidth="true" %}
 {% swagger-description %}
 Users can update their password through the put function in [resources/User.py](https://github.com/Police-Data-Accessibility-Project/data-sources-app/blob/main/resources/User.py). The user's password is hashed using werkzeug.security’s generate\_pasword\_hash function. The user's email and hashed password is stored in the users table in the Data Sources database.
