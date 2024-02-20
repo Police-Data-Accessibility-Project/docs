@@ -170,11 +170,15 @@ data array[object]
 
 {% swagger method="get" path="/data-sources" baseUrl="[base-url]" summary="Get all Data Sources" fullWidth="true" expanded="true" %}
 {% swagger-description %}
-The data sources endpoint is located in [resources/DataSources.py](https://github.com/Police-Data-Accessibility-Project/data-sources-app/blob/main/resources/QuickSearch.py). The data sources endpoint returns all rows in the corresponding Data Sources database table.
+The data sources endpoint is located in [resources/DataSources.py](https://github.com/Police-Data-Accessibility-Project/data-sources-app/blob/main/resources/QuickSearch.py). The data sources endpoint returns all approved rows in the corresponding Data Sources database table by default. An optional JSON object can be passed to get data sources needing identification instead.
 {% endswagger-description %}
 
 {% swagger-parameter in="header" name="Authorization" required="true" %}
 Value formatted as "Bearer \[access token/api key]”
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" type="JSON" name="Data" %}
+In order to get data sources needing identification: {"approved": False}
 {% endswagger-parameter %}
 
 {% swagger-response status="200: OK" description="Successful operation" %}
