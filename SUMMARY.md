@@ -34,7 +34,7 @@
   * [Data Sources database](api/endpoints/data-sources-database.md)
   * [Admin](api/endpoints/admin.md)
 
-## 🛠 Tools & Resources <a href="#tools" id="tools"></a>
+## 🛠️ Tools & Resources <a href="#tools" id="tools"></a>
 
 * [Related projects](tools/related-projects.md)
 * [Resources for using data](tools/resources.md)
