@@ -12,8 +12,8 @@ This is for manually submitting a handful of Data Sources. If you'd like to work
 
 If you found a good source of data, you can submit it to our database!
 
-1. Check our database to see if we already have the source you found.&#x20;
-2. Open the [Submit Data Sources form](https://airtable.com/shrJafakrcmTxHU2i).
+1. [Check our database](https://airtable.com/shrUAtA8qYasEaepI) to see if we already have the URL you found, or [search for it by name here](https://data-sources.pdap.io/).
+2. If it's new to us—thank you! Open the [Submit Data Sources form](https://airtable.com/shrJafakrcmTxHU2i).
 3. Fill in the required fields and as many optional fields as you can! This should take 1–5 minutes.
 4. Repeat as necessary!
 
