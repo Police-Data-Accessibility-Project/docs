@@ -1,6 +1,6 @@
 # What is a Data Source?
 
-## What is a Data Source?
+## A record of information on the&#x20;
 
 A Data Source is a web page, file, database, or filing cabinet somewhere which contains records about a criminal legal system agency (law enforcement, courts, corrections). Often, they are published by the agency itself. Many more records are hidden behind records request processes.
 

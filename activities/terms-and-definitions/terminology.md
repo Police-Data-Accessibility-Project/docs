@@ -1,7 +1,5 @@
 # Terminology
 
-If we use any words you don't understand, reach out to [contact@pdap.io](mailto:contact@pdap.io) so we can add them here.
-
 | Term                      | Our definition                                                                                                                                                                                                                                                                                                                                                                           |
 | ------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Agency                    | A police department or organization, like "Aurora Police Department". Agencies often have parent-child relationships to one another.                                                                                                                                                                                                                                                     |

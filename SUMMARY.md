@@ -1,6 +1,6 @@
 # Table of contents
 
-* [👋 Welcome to PDAP!](README.md)
+* [👋 Welcome](README.md)
 
 ## ⚡ Activities
 
