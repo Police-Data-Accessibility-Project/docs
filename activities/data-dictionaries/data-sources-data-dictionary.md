@@ -70,11 +70,11 @@ _Where did it come from?_
 
 ## Meta & utility
 
-| Property                       | Type     | Description                                                                           | Default value                                             |
-| ------------------------------ | -------- | ------------------------------------------------------------------------------------- | --------------------------------------------------------- |
-| scraper\_url                   | string   | The url of any web scraping efforts associated with this Data Source.                 |                                                           |
-| url\_status                    | array    | The status of the `source_url`, including options like `ok` , `none found` , `broken` | ,"ok"                                                     |
-| approval\_status               | boolean  | The data source status of approval, done manually by the PDAP team                    | False                                                     |
-| data\_source\_created          | datetime | The date this source was first created in our database.                               | Date of data source submission, in the format YYYY-DD-MM. |
-| agency\_described\_linked\_uid | string   | The Airtable-generated UID of an associated Agency                                    |                                                           |
-| airtable\_uid                  | string   | The Airtable-generated UID of this particular data source                             |                                                           |
+| Property                       | Type     | Description                                                                                   | Default value                                             |
+| ------------------------------ | -------- | --------------------------------------------------------------------------------------------- | --------------------------------------------------------- |
+| scraper\_url                   | string   | The url of any web scraping efforts associated with this Data Source.                         |                                                           |
+| url\_status                    | array    | The status of the `source_url`, including options like `ok` , `none found` , `broken`         | ,"ok"                                                     |
+| approval\_status               | array    | Set manually by the PDAP team; statuses include: `approved` `rejected` `needs identification` | null                                                      |
+| data\_source\_created          | datetime | The date this source was first created in our database.                                       | Date of data source submission, in the format YYYY-DD-MM. |
+| agency\_described\_linked\_uid | string   | The Airtable-generated UID of an associated Agency                                            |                                                           |
+| airtable\_uid                  | string   | The Airtable-generated UID of this particular data source                                     |                                                           |
