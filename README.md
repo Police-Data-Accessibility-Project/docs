@@ -4,15 +4,17 @@ description: 'We''re making tools for more transparent police systems: https://p
 
 # 👋 Welcome
 
-## Thank you for being here!
+{% hint style="info" %}
+Read more about our mission at [https://pdap.io/](https://pdap.io/).
+{% endhint %}
 
-Most of us are here because we were trying to answer a basic question about our local police, and came up short. We're keeping track of of [data sources](activities/terms-and-definitions/what-is-a-data-source.md) about every agency in the United States, and building a [machine learning pipeline to find more](https://github.com/Police-Data-Accessibility-Project/data-source-identification).
+## What we do
+
+We're making an open-source toolkit for transparency-minded people who use data about police systems in their work. To start, we're cataloguing [sources of data](broken-reference) in a database so people can find data about their local systems.
 
 Everyone is welcome in [our Discord](https://discord.gg/wMqex8nKZJ), or our email inbox at [contact@pdap.io](mailto:contact@pdap.io).
 
 [Here's our roadmap](https://github.com/orgs/Police-Data-Accessibility-Project/projects/21/views/2).
-
-## Search the database
 
 ## Get Involved
 
