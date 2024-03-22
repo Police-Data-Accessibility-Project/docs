@@ -12,24 +12,22 @@ https://data-sources.pdap.io
 
 ## Search Tokens
 
-{% swagger method="get" path="/search-tokens/{search}/{location}" baseUrl="[base-url]" summary="Generate API token for front end search" fullWidth="true" expanded="true" %}
-{% swagger-description %}
+## Generate API token for front end search
+
+<mark style="color:blue;">`GET`</mark> `[base-url]/search-tokens/{search}/{location}`
+
 The search tokens endpoint is located in [resources/SearchTokens.py](https://github.com/Police-Data-Accessibility-Project/data-sources-app/blob/main/resources/QuickSearch.py). The search tokens endpoint generates an API token valid for 5 minutes and forwards the search parameters to the Quick Search endpoint. This endpoint is meant for use by the front end only.
-{% endswagger-description %}
 
-{% swagger-parameter in="query" name="endpoint" %}
-The endpoint that will be accessed after a search token is generated
-{% endswagger-parameter %}
+#### Query Parameters
 
-{% swagger-parameter in="query" name="arg1" type="String" required="true" %}
-The first argument that will be forwarded on to the appropriate endpoint. Currently either "search" for quick-search or "id" for data-sources
-{% endswagger-parameter %}
+| Name                                   | Type   | Description                                                                                                                                   |
+| -------------------------------------- | ------ | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| arg1<mark style="color:red;">\*</mark> | String | The first argument that will be forwarded on to the appropriate endpoint. Currently either "search" for quick-search or "id" for data-sources |
+| arg2<mark style="color:red;">\*</mark> | String | The second argument that will be forwarded on to the appropriate endpoint. Currently just used for "location" for quick-search                |
+| endpoint                               | String | The endpoint that will be accessed after a search token is generated                                                                          |
 
-{% swagger-parameter in="query" name="arg2" type="String" required="true" %}
-The second argument that will be forwarded on to the appropriate endpoint. Currently just used for "location" for quick-search
-{% endswagger-parameter %}
-
-{% swagger-response status="200: OK" description="Successful operation" %}
+{% tabs %}
+{% tab title="200: OK Successful operation" %}
 {% tabs %}
 {% tab title="Schema" %}
 <pre class="language-plsql"><code class="lang-plsql">count int
@@ -71,29 +69,32 @@ The second argument that will be forwarded on to the appropriate endpoint. Curre
 ```
 {% endtab %}
 {% endtabs %}
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
 ## Search
 
-{% swagger method="get" path="/quick-search/{search}/{location}" baseUrl="[base-url]" summary="Quick Search Data Sources by search term and location" fullWidth="true" expanded="true" %}
-{% swagger-description %}
+## Quick Search Data Sources by search term and location
+
+<mark style="color:blue;">`GET`</mark> `[base-url]/quick-search/{search}/{location}`
+
 The quick search endpoint is located in [resources/QuickSearch.py](https://github.com/Police-Data-Accessibility-Project/data-sources-app/blob/main/resources/QuickSearch.py). The quick search endpoint executes its search using the agency\_source\_link table in the Data Sources database, which links each data source in the data\_sources table with its associated agency in the agencies table. This endpoint is meant for use by the search tokens endpoint only.
-{% endswagger-description %}
 
-{% swagger-parameter in="path" name="search" type="String" required="true" %}
-Checks partial matches on any of the following properties on the data\_source table: "name", "description", "record\_type", and "tags". The search term will is case insensitive and will match singular and pluralized versions of the term.
-{% endswagger-parameter %}
+#### Path Parameters
 
-{% swagger-parameter in="path" name="location" type="String" required="true" %}
-Checks partial matches on any of the following properties on the agencies table: "county\_name", "state\_iso", "municipality", "agency\_type", "jurisdiction\_type", "name"
-{% endswagger-parameter %}
+| Name                                       | Type   | Description                                                                                                                                                                                                                                   |
+| ------------------------------------------ | ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| search<mark style="color:red;">\*</mark>   | String | Checks partial matches on any of the following properties on the data\_source table: "name", "description", "record\_type", and "tags". The search term will is case insensitive and will match singular and pluralized versions of the term. |
+| location<mark style="color:red;">\*</mark> | String | Checks partial matches on any of the following properties on the agencies table: "county\_name", "state\_iso", "municipality", "agency\_type", "jurisdiction\_type", "name"                                                                   |
 
-{% swagger-parameter in="header" name="Authorization" required="true" %}
-Value formatted as "Bearer \[access token/api key]”
-{% endswagger-parameter %}
+#### Headers
 
-{% swagger-response status="200: OK" description="Successful operation" %}
+| Name                                            | Type   | Description                                         |
+| ----------------------------------------------- | ------ | --------------------------------------------------- |
+| Authorization<mark style="color:red;">\*</mark> | String | Value formatted as "Bearer \[access token/api key]” |
+
+{% tabs %}
+{% tab title="200: OK Successful operation" %}
 {% tabs %}
 {% tab title="Schema" %}
 <pre class="language-plsql"><code class="lang-plsql">count int
@@ -135,9 +136,9 @@ Value formatted as "Bearer \[access token/api key]”
 ```
 {% endtab %}
 {% endtabs %}
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="400: Bad Request" description="No API key found" %}
+{% tab title="400: Bad Request No API key found" %}
 {% tabs %}
 {% tab title="Schema" %}
 ```plsql
@@ -155,33 +156,39 @@ data array[object]
 ```
 {% endtab %}
 {% endtabs %}
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="403: Forbidden" description="Invalid API key" %}
+{% tab title="403: Forbidden Invalid API key" %}
 
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="500: Internal Server Error" description="Something went wrong" %}
+{% tab title="500: Internal Server Error Something went wrong" %}
 
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
 ## Data Sources
 
-{% swagger method="get" path="/data-sources" baseUrl="[base-url]" summary="Get all Data Sources" fullWidth="true" expanded="true" %}
-{% swagger-description %}
+## Get all Data Sources
+
+<mark style="color:blue;">`GET`</mark> `[base-url]/data-sources`
+
 The data sources endpoint is located in [resources/DataSources.py](https://github.com/Police-Data-Accessibility-Project/data-sources-app/blob/main/resources/QuickSearch.py). The data sources endpoint returns all approved rows in the corresponding Data Sources database table by default. An optional JSON object can be passed to get data sources needing identification instead.
-{% endswagger-description %}
 
-{% swagger-parameter in="header" name="Authorization" required="true" %}
-Value formatted as "Bearer \[access token/api key]”
-{% endswagger-parameter %}
+#### Headers
 
-{% swagger-parameter in="body" type="JSON" name="Data" %}
-In order to get data sources needing identification: {"approved": False}
-{% endswagger-parameter %}
+| Name                                            | Type   | Description                                         |
+| ----------------------------------------------- | ------ | --------------------------------------------------- |
+| Authorization<mark style="color:red;">\*</mark> | String | Value formatted as "Bearer \[access token/api key]” |
 
-{% swagger-response status="200: OK" description="Successful operation" %}
+#### Request Body
+
+| Name | Type | Description                                                              |
+| ---- | ---- | ------------------------------------------------------------------------ |
+| Data | JSON | In order to get data sources needing identification: {"approved": False} |
+
+{% tabs %}
+{% tab title="200: OK Successful operation" %}
 {% tabs %}
 {% tab title="Schema" %}
 <pre class="language-plsql"><code class="lang-plsql">count int
@@ -223,9 +230,9 @@ In order to get data sources needing identification: {"approved": False}
 ```
 {% endtab %}
 {% endtabs %}
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="400: Bad Request" description="No API key found" %}
+{% tab title="400: Bad Request No API key found" %}
 {% tabs %}
 {% tab title="Schema" %}
 ```plsql
@@ -243,27 +250,33 @@ data array[object]
 ```
 {% endtab %}
 {% endtabs %}
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="403: Forbidden" description="Invalid API key" %}
+{% tab title="403: Forbidden Invalid API key" %}
 
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
-{% swagger method="get" path="/data-sources-by-id/[id]" baseUrl="[base-url]" summary="Get Data Source by Id" fullWidth="true" expanded="true" %}
-{% swagger-description %}
+## Get Data Source by Id
+
+<mark style="color:blue;">`GET`</mark> `[base-url]/data-sources-by-id/[id]`
+
 The data sources endpoint is located in [resources/DataSources.py](https://github.com/Police-Data-Accessibility-Project/data-sources-app/blob/main/resources/QuickSearch.py). The data source by id endpoint returns just the row for the data source that corresponds to the id passed.
-{% endswagger-description %}
 
-{% swagger-parameter in="header" name="Authorization" required="true" %}
-Value formatted as "Bearer \[access token/api key]”
-{% endswagger-parameter %}
+#### Path Parameters
 
-{% swagger-parameter in="path" name="id" required="true" %}
-Data source id
-{% endswagger-parameter %}
+| Name                                 | Type   | Description    |
+| ------------------------------------ | ------ | -------------- |
+| id<mark style="color:red;">\*</mark> | String | Data source id |
 
-{% swagger-response status="200: OK" description="Successful operation" %}
+#### Headers
+
+| Name                                            | Type   | Description                                         |
+| ----------------------------------------------- | ------ | --------------------------------------------------- |
+| Authorization<mark style="color:red;">\*</mark> | String | Value formatted as "Bearer \[access token/api key]” |
+
+{% tabs %}
+{% tab title="200: OK Successful operation" %}
 {% tabs %}
 {% tab title="Schema" %}
 <pre class="language-plsql"><code class="lang-plsql">count int
@@ -305,9 +318,9 @@ Data source id
 ```
 {% endtab %}
 {% endtabs %}
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="400: Bad Request" description="No API key found" %}
+{% tab title="400: Bad Request No API key found" %}
 {% tabs %}
 {% tab title="Schema" %}
 ```plsql
@@ -325,41 +338,33 @@ data array[object]
 ```
 {% endtab %}
 {% endtabs %}
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="403: Forbidden" description="Invalid API key" %}
+{% tab title="403: Forbidden Invalid API key" %}
 
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
-{% swagger method="post" path="" baseUrl="[base-url]/data-sources" summary="Create Data Source" fullWidth="true" %}
-{% swagger-description %}
+## Create Data Source
+
+<mark style="color:green;">`POST`</mark> `[base-url]/data-sources`
+
 The data sources endpoint is located in [resources/DataSources.py](https://github.com/Police-Data-Accessibility-Project/data-sources-app/blob/main/resources/QuickSearch.py). The create data source endpoint posts a new data source to the database and returns True if successful and False if not.
-{% endswagger-description %}
 
-{% swagger-parameter in="header" name="Authorization" type="String" required="true" %}
-Value formatted as "Bearer \[access token/api key]”
-{% endswagger-parameter %}
+#### Headers
 
-{% swagger-parameter in="body" name="Data" type="JSON" %}
-A JSON object of the data source information. Refer to the Data Source dictionary for available fields: [https://docs.pdap.io/activities/data-dictionaries/data-sources-data-dictionary](https://docs.pdap.io/activities/data-dictionaries/data-sources-data-dictionary). However, the following fields cannot be edited: rejection\_note, data\_source\_request, approval\_status, airtable\_uid, airtable\_source\_last\_modified&#x20;
+| Name                                            | Type   | Description                                         |
+| ----------------------------------------------- | ------ | --------------------------------------------------- |
+| Authorization<mark style="color:red;">\*</mark> | String | Value formatted as "Bearer \[access token/api key]” |
 
+#### Request Body
 
+| Name | Type | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| ---- | ---- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Data | JSON | <p>A JSON object of the data source information. Refer to the Data Source dictionary for available fields: <a href="https://docs.pdap.io/activities/data-dictionaries/data-sources-data-dictionary">https://docs.pdap.io/activities/data-dictionaries/data-sources-data-dictionary</a>. However, the following fields cannot be edited: rejection_note, data_source_request, approval_status, airtable_uid, airtable_source_last_modified </p><p></p><p>Below is an example of an acceptable body:</p><p>{ "name":  "Calls for Service for Chicago Police Department - IL",</p><p>"record_type": "Calls for Service",</p><p>"source_url": "https://informationportal.igchicago.org/911-calls-for-cpd-service",</p><p>"coverage_start": "2019-01-01"</p><p>}</p> |
 
-Below is an example of an acceptable body:
-
-{ "name":  "Calls for Service for Chicago Police Department - IL",
-
-"record\_type": "Calls for Service",
-
-"source\_url": "https://informationportal.igchicago.org/911-calls-for-cpd-service",
-
-"coverage\_start": "2019-01-01"
-
-}
-{% endswagger-parameter %}
-
-{% swagger-response status="200: OK" description="Successful operation" %}
+{% tabs %}
+{% tab title="200: OK Successful operation" %}
 {% tabs %}
 {% tab title="Schema" %}
 ```plsql
@@ -373,63 +378,61 @@ True
 ```
 {% endtab %}
 {% endtabs %}
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="403: Forbidden" description="Invalid API key" %}
+{% tab title="403: Forbidden Invalid API key" %}
 
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
-{% swagger method="put" path="" baseUrl="[base-url]/data-sources-by-id/[id]" summary="Update Data Source by Id" fullWidth="true" %}
-{% swagger-description %}
+## Update Data Source by Id
+
+<mark style="color:orange;">`PUT`</mark> `[base-url]/data-sources-by-id/[id]`
+
 The data sources endpoint is located in [resources/DataSources.py](https://github.com/Police-Data-Accessibility-Project/data-sources-app/blob/main/resources/QuickSearch.py). The update data source by id endpoint updates a data source and returns a status to confirm a successful update.
-{% endswagger-description %}
 
-{% swagger-parameter in="header" name="Authorization" required="true" %}
-Value formatted as "Bearer \[access token/api key]”
-{% endswagger-parameter %}
+#### Path Parameters
 
-{% swagger-parameter in="path" name="id" required="true" %}
-Data source id
-{% endswagger-parameter %}
+| Name                                 | Type   | Description    |
+| ------------------------------------ | ------ | -------------- |
+| id<mark style="color:red;">\*</mark> | String | Data source id |
 
-{% swagger-parameter in="body" type="JSON" name="Data" %}
-A JSON object of the data to be updated. Refer to the Data Source dictionary for available fields: [https://docs.pdap.io/activities/data-dictionaries/data-sources-data-dictionary](https://docs.pdap.io/activities/data-dictionaries/data-sources-data-dictionary). However, the following fields cannot be edited: data\_source\_request, airtable\_uid, airtable\_source\_last\_modified
+#### Headers
 
+| Name                                            | Type   | Description                                         |
+| ----------------------------------------------- | ------ | --------------------------------------------------- |
+| Authorization<mark style="color:red;">\*</mark> | String | Value formatted as "Bearer \[access token/api key]” |
 
+#### Request Body
 
-Below is an example of an acceptable body:
+| Name | Type | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| ---- | ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Data | JSON | <p>A JSON object of the data to be updated. Refer to the Data Source dictionary for available fields: <a href="https://docs.pdap.io/activities/data-dictionaries/data-sources-data-dictionary">https://docs.pdap.io/activities/data-dictionaries/data-sources-data-dictionary</a>. However, the following fields cannot be edited: data_source_request, airtable_uid, airtable_source_last_modified</p><p></p><p>Below is an example of an acceptable body:</p><p>{ "name":  "Calls for Service for Chicago Police Department - IL",</p><p>"record_type": "Calls for Service",</p><p>"source_url": "https://informationportal.igchicago.org/911-calls-for-cpd-service",</p><p>"coverage_start": "2019-01-01"</p><p>}</p> |
 
-{ "name":  "Calls for Service for Chicago Police Department - IL",
-
-"record\_type": "Calls for Service",
-
-"source\_url": "https://informationportal.igchicago.org/911-calls-for-cpd-service",
-
-"coverage\_start": "2019-01-01"
-
-}
-{% endswagger-parameter %}
-
-{% swagger-response status="200: OK" description="Successful operation" %}
+{% tabs %}
+{% tab title="200: OK Successful operation" %}
 ```json
 {"status": "success"}
 ```
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
 ## Archives
 
-{% swagger method="get" path="/archives" baseUrl="[base-url]" summary="Get all Archived urls" fullWidth="true" expanded="true" %}
-{% swagger-description %}
+## Get all Archived urls
+
+<mark style="color:blue;">`GET`</mark> `[base-url]/archives`
+
 The archives endpoint is located in [resources/Archives.py](https://github.com/Police-Data-Accessibility-Project/data-sources-app/blob/main/resources/Archives.py). The get method  on the archives endpoint returns all rows for urls that the [automatic archives](https://github.com/Police-Data-Accessibility-Project/automatic-archives/blob/main/cache\_url.py) script has cached in the Internet Archive.
-{% endswagger-description %}
 
-{% swagger-parameter in="header" name="Authorization" required="true" %}
-Value formatted as "Bearer \[access token/api key]”
-{% endswagger-parameter %}
+#### Headers
 
-{% swagger-response status="200: OK" description="Successful operation" %}
+| Name                                            | Type   | Description                                         |
+| ----------------------------------------------- | ------ | --------------------------------------------------- |
+| Authorization<mark style="color:red;">\*</mark> | String | Value formatted as "Bearer \[access token/api key]” |
+
+{% tabs %}
+{% tab title="200: OK Successful operation" %}
 {% tabs %}
 {% tab title="Schema" %}
 <pre class="language-plsql"><code class="lang-plsql">count int
@@ -471,9 +474,9 @@ Value formatted as "Bearer \[access token/api key]”
 ```
 {% endtab %}
 {% endtabs %}
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="400: Bad Request" description="No API key found" %}
+{% tab title="400: Bad Request No API key found" %}
 {% tabs %}
 {% tab title="Schema" %}
 ```plsql
@@ -491,35 +494,35 @@ data array[object]
 ```
 {% endtab %}
 {% endtabs %}
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="403: Forbidden" description="Invalid API key" %}
+{% tab title="403: Forbidden Invalid API key" %}
 
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
-{% swagger method="put" path="/archives" baseUrl="[base-url]" summary="Get all Archived urls" fullWidth="true" expanded="true" %}
-{% swagger-description %}
+## Get all Archived urls
+
+<mark style="color:orange;">`PUT`</mark> `[base-url]/archives`
+
 The archives endpoint is located in [resources/Archives.py](https://github.com/Police-Data-Accessibility-Project/data-sources-app/blob/main/resources/Archives.py). The put method on the archives endpoint updates the data source matching the passed id, updating the last\_cached date if it alone is passed, or it and the broken\_source\_url\_as\_of field and the url\_status to 'broken'.&#x20;
-{% endswagger-description %}
 
-{% swagger-parameter in="body" name="id" type="String" required="true" %}
-The airtable uid for the data source that was cached
-{% endswagger-parameter %}
+#### Headers
 
-{% swagger-parameter in="body" name="last_cached" type="Date" required="true" %}
-The current date since the data source url was just cached in the Internet Archive
-{% endswagger-parameter %}
+| Name                                            | Type   | Description                                         |
+| ----------------------------------------------- | ------ | --------------------------------------------------- |
+| Authorization<mark style="color:red;">\*</mark> | String | Value formatted as "Bearer \[access token/api key]” |
 
-{% swagger-parameter in="header" name="Authorization" required="true" %}
-Value formatted as "Bearer \[access token/api key]”
-{% endswagger-parameter %}
+#### Request Body
 
-{% swagger-parameter in="body" name="broken_source_url_as_of" type="Date" required="true" %}
-The current date if the url is no longer active, otherwise None
-{% endswagger-parameter %}
+| Name                                                          | Type   | Description                                                                        |
+| ------------------------------------------------------------- | ------ | ---------------------------------------------------------------------------------- |
+| id<mark style="color:red;">\*</mark>                          | String | The airtable uid for the data source that was cached                               |
+| broken\_source\_url\_as\_of<mark style="color:red;">\*</mark> | Date   | The current date if the url is no longer active, otherwise None                    |
+| last\_cached<mark style="color:red;">\*</mark>                | Date   | The current date since the data source url was just cached in the Internet Archive |
 
-{% swagger-response status="200: OK" description="Successful operation" %}
+{% tabs %}
+{% tab title="200: OK Successful operation" %}
 {% tabs %}
 {% tab title="Schema" %}
 <pre class="language-plsql"><code class="lang-plsql">count int
@@ -561,9 +564,9 @@ The current date if the url is no longer active, otherwise None
 ```
 {% endtab %}
 {% endtabs %}
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="400: Bad Request" description="No API key found" %}
+{% tab title="400: Bad Request No API key found" %}
 {% tabs %}
 {% tab title="Schema" %}
 ```plsql
@@ -581,29 +584,35 @@ data array[object]
 ```
 {% endtab %}
 {% endtabs %}
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="403: Forbidden" description="Invalid API key" %}
+{% tab title="403: Forbidden Invalid API key" %}
 
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
 ## Agencies
 
-{% swagger method="get" path="/agencies/{page}" baseUrl="[base-url]" summary="Get all Agencies" fullWidth="true" expanded="true" %}
-{% swagger-description %}
+## Get all Agencies
+
+<mark style="color:blue;">`GET`</mark> `[base-url]/agencies/{page}`
+
 The agencies endpoint is located in [resources/Agencies.py](https://github.com/Police-Data-Accessibility-Project/data-sources-app/blob/main/resources/QuickSearch.py). The agencies endpoint returns 1000 rows from the corresponding Data Sources database table offset by the page number passed.
-{% endswagger-description %}
 
-{% swagger-parameter in="path" name="page" required="true" %}
-Passing 1 will return the first 1000 rows. Subsequent page number return  subsequent results
-{% endswagger-parameter %}
+#### Path Parameters
 
-{% swagger-parameter in="header" name="Authorization" %}
-Value formatted as "Bearer \[access token/api key]”
-{% endswagger-parameter %}
+| Name                                   | Type   | Description                                                                                  |
+| -------------------------------------- | ------ | -------------------------------------------------------------------------------------------- |
+| page<mark style="color:red;">\*</mark> | String | Passing 1 will return the first 1000 rows. Subsequent page number return  subsequent results |
 
-{% swagger-response status="200: OK" description="Successful operation" %}
+#### Headers
+
+| Name          | Type   | Description                                         |
+| ------------- | ------ | --------------------------------------------------- |
+| Authorization | String | Value formatted as "Bearer \[access token/api key]” |
+
+{% tabs %}
+{% tab title="200: OK Successful operation" %}
 {% tabs %}
 {% tab title="Schema" %}
 <pre class="language-plsql"><code class="lang-plsql">count int
@@ -645,9 +654,9 @@ Value formatted as "Bearer \[access token/api key]”
 ```
 {% endtab %}
 {% endtabs %}
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="400: Bad Request" description="No API key found" %}
+{% tab title="400: Bad Request No API key found" %}
 {% tabs %}
 {% tab title="Schema" %}
 ```plsql
@@ -665,9 +674,9 @@ data array[object]
 ```
 {% endtab %}
 {% endtabs %}
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="403: Forbidden" description="Invalid API key" %}
+{% tab title="403: Forbidden Invalid API key" %}
 
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}

@@ -12,20 +12,21 @@ https://data-sources.pdap.io
 
 ## Login & API keys
 
-{% swagger expanded="true" method="post" path="/user" baseUrl="[base-url]" summary="Creates a new user." fullWidth="true" %}
-{% swagger-description %}
+## Creates a new user.
+
+<mark style="color:green;">`POST`</mark> `[base-url]/user`
+
 Users can sign up for an account through the post function in [resources/User.py](https://github.com/Police-Data-Accessibility-Project/data-sources-app/blob/main/resources/User.py). The user's password is hashed using werkzeug.security’s generate\_pasword\_hash function. The user's email and hashed password is stored in the users table in the Data Sources database.
-{% endswagger-description %}
 
-{% swagger-parameter in="body" name="email" required="true" type="String" %}
-User's email - must be unique
-{% endswagger-parameter %}
+#### Request Body
 
-{% swagger-parameter in="body" name="password" required="true" type="String" %}
-User's password
-{% endswagger-parameter %}
+| Name                                       | Type   | Description                   |
+| ------------------------------------------ | ------ | ----------------------------- |
+| email<mark style="color:red;">\*</mark>    | String | User's email - must be unique |
+| password<mark style="color:red;">\*</mark> | String | User's password               |
 
-{% swagger-response status="201: Created" description="User successfully created" %}
+{% tabs %}
+{% tab title="201: Created User successfully created" %}
 {% tabs %}
 {% tab title="Schema" %}
 ```plsql
@@ -51,27 +52,28 @@ api_key string
 ```
 {% endtab %}
 {% endtabs %}
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="400: Bad Request" description="Failed to create user" %}
+{% tab title="400: Bad Request Failed to create user" %}
 
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
-{% swagger method="get" path="/user" baseUrl="[base-url]" summary="Logs in the user." expanded="false" fullWidth="true" %}
-{% swagger-description %}
-The login function can be found through the get function in [resources/User.py](https://github.com/Police-Data-Accessibility-Project/data-sources-app/blob/main/resources/User.py). If the email and password match a row in the database, "Successfully logged in" will be returned.
-{% endswagger-description %}
+## Logs in the user.
 
-{% swagger-parameter in="body" name="email" required="true" %}
-Matches exactly with the "email" property in user's table
-{% endswagger-parameter %}
+<mark style="color:green;">`POST`</mark> `[base-url]/login`
 
-{% swagger-parameter in="body" name="password" type="String" required="true" %}
-Checked against the password\_digest for the user with the matching "email" property using werkzeug.security’s check\_password\_hash function
-{% endswagger-parameter %}
+The login function can be found through the get function in [resources/Login.py](https://github.com/Police-Data-Accessibility-Project/data-sources-app/blob/main/resources/Login.py). If the email and password match a row in the database, "Successfully logged in" will be returned.
 
-{% swagger-response status="200: OK" description="Successful login" %}
+#### Request Body
+
+| Name                                       | Type   | Description                                                                                                                                   |
+| ------------------------------------------ | ------ | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| email<mark style="color:red;">\*</mark>    | String | Matches exactly with the "email" property in user's table                                                                                     |
+| password<mark style="color:red;">\*</mark> | String | Checked against the password\_digest for the user with the matching "email" property using werkzeug.security’s check\_password\_hash function |
+
+{% tabs %}
+{% tab title="200: OK Successful login" %}
 {% tabs %}
 {% tab title="Schema" %}
 ```plsql
@@ -87,23 +89,27 @@ api_key string
 ```
 {% endtab %}
 {% endtabs %}
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="400: Bad Request" description="Bad credentials, failed to login" %}
+{% tab title="400: Bad Request Bad credentials, failed to login" %}
 
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
-{% swagger method="get" path="/request-reset-password" baseUrl="[base-url]" summary="Sends user a password reset link." expanded="false" fullWidth="true" %}
-{% swagger-description %}
+## Sends user a password reset link.
+
+<mark style="color:blue;">`GET`</mark> `[base-url]/request-reset-password`
+
 This functionality can be found in the get function in [resources/RequestResetPassword.py](https://github.com/Police-Data-Accessibility-Project/data-sources-app/tree/main/resources/RequestResetPassword.py). If the email and password match a row in the database, "Successfully logged in" will be returned.
-{% endswagger-description %}
 
-{% swagger-parameter in="body" name="email" required="true" %}
-Matches exactly with the "email" property in user's table
-{% endswagger-parameter %}
+#### Request Body
 
-{% swagger-response status="200: OK" description="Successful reset request" %}
+| Name                                    | Type   | Description                                               |
+| --------------------------------------- | ------ | --------------------------------------------------------- |
+| email<mark style="color:red;">\*</mark> | String | Matches exactly with the "email" property in user's table |
+
+{% tabs %}
+{% tab title="200: OK Successful reset request" %}
 {% tabs %}
 {% tab title="Schema" %}
 ```plsql
@@ -119,23 +125,27 @@ api_key string
 ```
 {% endtab %}
 {% endtabs %}
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="400: Bad Request" description="Failed to match email" %}
+{% tab title="400: Bad Request Failed to match email" %}
 
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
-{% swagger method="get" path="/reset-password/[token]" baseUrl="[base-url]" summary="Reset password token check." fullWidth="true" expanded="true" %}
-{% swagger-description %}
+## Reset password token check.
+
+<mark style="color:blue;">`GET`</mark> `[base-url]/reset-password/[token]`
+
 This functionality can be found in the get function in [resources/ResetPassword.py](https://github.com/Police-Data-Accessibility-Project/data-sources-app/blob/main/resources/ResetPassword.py). If the token matches a row in the database, "The submitted token is valid" will be returned.
-{% endswagger-description %}
 
-{% swagger-parameter in="path" name="token" required="true" %}
-Reset password token
-{% endswagger-parameter %}
+#### Path Parameters
 
-{% swagger-response status="200: OK" description="Reset password token validated" %}
+| Name                                    | Type   | Description          |
+| --------------------------------------- | ------ | -------------------- |
+| token<mark style="color:red;">\*</mark> | String | Reset password token |
+
+{% tabs %}
+{% tab title="200: OK Reset password token validated" %}
 {% tabs %}
 {% tab title="Schema" %}
 <pre class="language-plsql"><code class="lang-plsql">count int
@@ -177,9 +187,9 @@ Reset password token
 ```
 {% endtab %}
 {% endtabs %}
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="400: Bad Request" description="Token is invalid" %}
+{% tab title="400: Bad Request Token is invalid" %}
 {% tabs %}
 {% tab title="Schema" %}
 ```plsql
@@ -197,23 +207,24 @@ data array[object]
 ```
 {% endtab %}
 {% endtabs %}
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
-{% swagger expanded="true" method="put" path="/user" baseUrl="[base-url]" summary="Updates user password." fullWidth="true" %}
-{% swagger-description %}
+## Updates user password.
+
+<mark style="color:orange;">`PUT`</mark> `[base-url]/user`
+
 Users can update their password through the put function in [resources/User.py](https://github.com/Police-Data-Accessibility-Project/data-sources-app/blob/main/resources/User.py). The user's password is hashed using werkzeug.security’s generate\_pasword\_hash function. The user's email and hashed password is stored in the users table in the Data Sources database.
-{% endswagger-description %}
 
-{% swagger-parameter in="body" name="email" required="true" type="String" %}
-User's email - must be unique
-{% endswagger-parameter %}
+#### Request Body
 
-{% swagger-parameter in="body" name="password" required="true" type="String" %}
-User's password
-{% endswagger-parameter %}
+| Name                                       | Type   | Description                   |
+| ------------------------------------------ | ------ | ----------------------------- |
+| email<mark style="color:red;">\*</mark>    | String | User's email - must be unique |
+| password<mark style="color:red;">\*</mark> | String | User's password               |
 
-{% swagger-response status="201: Created" description="User password successfully updated" %}
+{% tabs %}
+{% tab title="201: Created User password successfully updated" %}
 {% tabs %}
 {% tab title="Schema" %}
 ```plsql
@@ -239,27 +250,28 @@ api_key string
 ```
 {% endtab %}
 {% endtabs %}
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="400: Bad Request" description="Failed to update password" %}
+{% tab title="400: Bad Request Failed to update password" %}
 
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
-{% swagger method="get" path="/api_key" baseUrl="[base-url]" summary="Returns an API key for a valid user and password." expanded="false" fullWidth="true" %}
-{% swagger-description %}
+## Returns an API key for a valid user and password.
+
+<mark style="color:blue;">`GET`</mark> `[base-url]/api_key`
+
 The key generation function can be found through the get function in [resources/ApiKey](https://github.com/Police-Data-Accessibility-Project/data-sources-app/blob/main/resources/ApiKey.py). If the email and password match a row in the database, a new API key is created using uuid.uuid4().hex, updated in for the matching user in the users table, and the API key is sent to the user.
-{% endswagger-description %}
 
-{% swagger-parameter in="body" name="email" required="true" %}
-Matches exactly with the "email" property in user's table
-{% endswagger-parameter %}
+#### Request Body
 
-{% swagger-parameter in="body" name="password" type="String" required="true" %}
-Checked against the password\_digest for the user with the matching "email" property using werkzeug.security’s check\_password\_hash function
-{% endswagger-parameter %}
+| Name                                       | Type   | Description                                                                                                                                   |
+| ------------------------------------------ | ------ | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| email<mark style="color:red;">\*</mark>    | String | Matches exactly with the "email" property in user's table                                                                                     |
+| password<mark style="color:red;">\*</mark> | String | Checked against the password\_digest for the user with the matching "email" property using werkzeug.security’s check\_password\_hash function |
 
-{% swagger-response status="200: OK" description="Successful login" %}
+{% tabs %}
+{% tab title="200: OK Successful login" %}
 {% tabs %}
 {% tab title="Schema" %}
 ```plsql
@@ -275,9 +287,9 @@ api_key string
 ```
 {% endtab %}
 {% endtabs %}
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="400: Bad Request" description="Bad credentials, failed to login" %}
+{% tab title="400: Bad Request Bad credentials, failed to login" %}
 
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
