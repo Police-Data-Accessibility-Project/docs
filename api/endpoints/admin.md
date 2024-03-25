@@ -204,7 +204,29 @@ data string
 
 ## Sends user a password reset link.
 
-<mark style="color:blue;">`GET`</mark> `[base-url]/request-reset-password`
+<mark style="color:blue;">`POST`</mark> `[base-url]/request-reset-password`
+
+This functionality can be found in the get function in [resources/RequestResetPassword.py](https://github.com/Police-Data-Accessibility-Project/data-sources-app/tree/main/resources/RequestResetPassword.py). If the email and password match a row in the database, "Successfully logged in" will be returned.
+
+#### Request Body
+
+| Name                                    | Type   | Description                                               |
+| --------------------------------------- | ------ | --------------------------------------------------------- |
+| email<mark style="color:red;">\*</mark> | String | Matches exactly with the "email" property in user's table |
+
+{% tabs %}
+{% tab title="200: OK Successful reset request" %}
+
+{% endtab %}
+
+{% tab title="500: Internal Server Error Error" %}
+
+{% endtab %}
+{% endtabs %}
+
+## Sends user a password reset link.
+
+<mark style="color:blue;">`POST`</mark> `[base-url]/request-reset-password`
 
 This functionality can be found in the get function in [resources/RequestResetPassword.py](https://github.com/Police-Data-Accessibility-Project/data-sources-app/tree/main/resources/RequestResetPassword.py). If the email and password match a row in the database, "Successfully logged in" will be returned.
 
@@ -227,7 +249,7 @@ message string
 ```json
 {
     "message": "An email has been sent to your email address with a link to reset your password."
-    "data": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDg3MDE4MjksImlhdCI6MTcwODcwMTUyOSwic3ViIjo2NX0.Fuue4oDXFlS4N_AS41N2dchvMXGEihhpVdrhwxCf8zA"
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDg3MDE4MjksImlhdCI6MTcwODcwMTUyOSwic3ViIjo2NX0.Fuue4oDXFlS4N_AS41N2dchvMXGEihhpVdrhwxCf8zA"
 }
 ```
 {% endtab %}
@@ -241,9 +263,9 @@ message string
 
 ## Reset password token check.
 
-<mark style="color:blue;">`GET`</mark> `[base-url]/reset-password/[token]`
+<mark style="color:blue;">`POST`</mark> `[base-url]/reset-token-validation`
 
-This functionality can be found in the get function in [resources/ResetPassword.py](https://github.com/Police-Data-Accessibility-Project/data-sources-app/blob/main/resources/ResetPassword.py). If the token matches a row in the database, "The submitted token is valid" will be returned.
+This functionality can be found in the get function in [resources/ResetTokenValidation.py](https://github.com/Police-Data-Accessibility-Project/data-sources-app/blob/main/resources/RequestResetPassword.py). If the token matches a row in the database, "Token is valid" will be returned.
 
 #### Path Parameters
 
@@ -274,16 +296,14 @@ message string
 {% tabs %}
 {% tab title="Schema" %}
 ```plsql
-count int
-data array[object]
+message string
 ```
 {% endtab %}
 
 {% tab title="Example" %}
 ```json
 {
-	"count": 0,
-	"data": []
+    "message": "The submitted token is invalid"
 }
 ```
 {% endtab %}
@@ -293,7 +313,7 @@ data array[object]
 {% tab title="500: Internal Server Error Error" %}
 ```javascript
 {
-    // Response
+    "message": "error"
 }
 ```
 {% endtab %}
