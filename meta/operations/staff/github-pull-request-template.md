@@ -12,6 +12,10 @@
 
 * Steps to test this PR, if there are any required.
 
+#### Performance
+
+* If you're adding or heavily modifying a script, estimate how long it should take to run.
+
 #### Docs
 
 * Accompanying docs PRs, if applicable
