@@ -21,7 +21,6 @@
   * [Terminology](activities/terms-and-definitions/terminology.md)
   * [Product diagram](activities/terms-and-definitions/product-diagram.md)
 * [Database details](activities/data-dictionaries/README.md)
-  * [Database introduction](activities/data-dictionaries/data-sources-database.md)
   * [Data Sources data dictionary](activities/data-dictionaries/data-sources-data-dictionary.md)
   * [Agencies data dictionary](activities/data-dictionaries/agencies-data-dictionary.md)
   * [Record Types taxonomy](activities/data-dictionaries/record-types-taxonomy.md)

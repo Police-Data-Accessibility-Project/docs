@@ -10,7 +10,7 @@ Read more about our mission at [https://pdap.io/](https://pdap.io/).
 
 ## What we do
 
-We're making an open-source toolkit for transparency-minded people who use data about police systems in their work. To start, we're cataloguing [sources of data](broken-reference) in a database so people can find data about their local systems.
+We're cataloguing sources of data in a database so people can find information about local police systems.
 
 Everyone is welcome in [our Discord](https://discord.gg/wMqex8nKZJ), or our email inbox at [contact@pdap.io](mailto:contact@pdap.io).
 
