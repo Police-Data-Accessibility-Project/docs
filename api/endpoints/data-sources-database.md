@@ -292,6 +292,7 @@ The data sources for map endpoint is located in [resources/DataSourcesMap.py](ht
     agency_name string
     state_iso string
     municipality string
+    county_name array[string]
     lat float
     lng float
 </code></pre>
@@ -299,7 +300,7 @@ The data sources for map endpoint is located in [resources/DataSourcesMap.py](ht
 
 {% tab title="Example" %}
 <pre class="language-json"><code class="lang-json">count: 1
-<strong>[{'data_source_id': 'recisSIaKGoWWbC8y', 'name': 'Allegheny County Jail policies', 'agency_id': 'recNjgPW5kD573LeK', 'agency_name': 'Allegheny County Jail', 'state_iso': 'PA', 'municipality': None}]
+<strong>[{'data_source_id': 'recisSIaKGoWWbC8y', 'name': 'Allegheny County Jail policies', 'agency_id': 'recNjgPW5kD573LeK', 'agency_name': 'Allegheny County Jail', 'state_iso': 'PA', 'municipality': None, 'county_name': '["Allegheny"]', 'lat': 40.4345561, 'lng': -79.9959509}]
 </strong></code></pre>
 {% endtab %}
 {% endtabs %}
