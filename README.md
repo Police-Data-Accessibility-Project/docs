@@ -23,14 +23,9 @@ Everyone is welcome in [our Discord](https://discord.gg/wMqex8nKZJ), or our emai
 * [Check our database](https://pdap.io/data) to see if we have something you need.
 * If you could use support answering your question, [request help here](broken-reference).
 
-### Data Volunteers & Web Scrapers
+### Volunteer (code, data, scraping, FOIA, etc)
 
-* Start at [https://pdap.io/volunteer](https://pdap.io/volunteer)
-* You can read more about [our approach to scraping here](activities/contribute/web-scraping/our-approach.md).
-
-### Code Volunteers
-
-* You can contribute Python or Vue code toward our software objectives. Find a [good first issue to work on here](https://github.com/orgs/Police-Data-Accessibility-Project/projects/25/views/1), or check out our [roadmap](https://github.com/orgs/Police-Data-Accessibility-Project/projects/21/views/2).
+[Start at our GitHub org here](https://github.com/orgs/Police-Data-Accessibility-Project). You can also read more about [scraping](activities/contribute/web-scraping/) and [FOIA](activities/contribute/foia.md).&#x20;
 
 ### Donors
 
