@@ -246,6 +246,14 @@ The data sources endpoint is located in [resources/DataSources.py](https://githu
 {% endtabs %}
 {% endtab %}
 
+{% tab title="400: Bad Request Missing or bad API key" %}
+```javascript
+{
+    // Response
+}
+```
+{% endtab %}
+
 {% tab title="403: Forbidden Invalid API key" %}
 
 {% endtab %}
@@ -258,11 +266,62 @@ The data sources endpoint is located in [resources/DataSources.py](https://githu
 }
 ```
 {% endtab %}
+{% endtabs %}
+
+## Data Sources for Map
+
+<mark style="color:blue;">`GET`</mark> `[base-url]/data-sources-map`
+
+#### Headers
+
+The data sources for map endpoint is located in [resources/DataSourcesMap.py](https://github.com/Police-Data-Accessibility-Project/data-sources-app/blob/main/resources/DataSourcesMap.py). The data sources endpoint returns all approved rows in the corresponding Data Sources database table by default with only the columns relevant to mapping.
+
+| Name                                            | Type   | Description                                         |
+| ----------------------------------------------- | ------ | --------------------------------------------------- |
+| Authorization<mark style="color:red;">\*</mark> | String | Value formatted as "Bearer \[access token/api key]” |
+
+{% tabs %}
+{% tab title="200: OK Successful operation" %}
+{% tabs %}
+{% tab title="Schema" %}
+<pre class="language-plsql"><code class="lang-plsql">count int
+<strong>data array[object]
+</strong>    data_source_id string
+    name string
+    agency_id string
+    agency_name string
+    state_iso string
+    municipality string
+    lat float
+    lng float
+</code></pre>
+{% endtab %}
+
+{% tab title="Example" %}
+<pre class="language-json"><code class="lang-json">count: 1
+<strong>[{'data_source_id': 'recisSIaKGoWWbC8y', 'name': 'Allegheny County Jail policies', 'agency_id': 'recNjgPW5kD573LeK', 'agency_name': 'Allegheny County Jail', 'state_iso': 'PA', 'municipality': None}]
+</strong></code></pre>
+{% endtab %}
+{% endtabs %}
+{% endtab %}
 
 {% tab title="400: Bad Request Missing or bad API key" %}
 ```javascript
 {
     // Response
+}
+```
+{% endtab %}
+
+{% tab title="403: Forbidden Invalid API key" %}
+
+{% endtab %}
+
+{% tab title="500: Internal Server Error Error" %}
+```javascript
+{
+	"count": 0,
+	"message": "There has been an error pulling data!"
 }
 ```
 {% endtab %}
