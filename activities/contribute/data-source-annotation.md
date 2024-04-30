@@ -1,10 +1,17 @@
 # Data Source annotation
 
-We're training a machine learning algorithm to [identify Data Sources](https://github.com/Police-Data-Accessibility-Project/data-source-identification).
+## Why we're here
 
-Part of NLP is "annotating" or "labeling" data to train the algorithm. The more labeled data we have, the better the algorithm will be able to tell us when it's relevant.
+Annotating Data Sources helps us train a machine learning algorithm tasked with **finding as many useful sources of data as possible.** Useful data about police, courts, and jails are hidden in plain sight, and we're trying to build a library so it can be found and used on demand.
 
-[This is the Doccano project](http://35.90.222.49:8000/projects/1). Reach out to [operations@pdap.io](mailto:operations@pdap.io) if you'd like access.
+### How to start
+
+Reach out to [operations@pdap.io](mailto:operations@pdap.io) or [use this volunteer form](https://airtable.com/appcYa6x4nS7W8IR3/shrk9c5sBsBr3cdJJ).
+
+1. Review the URL and the information displayed.&#x20;
+2. Decide whether the URL is generally **"relevant"** to police, courts, and jails.
+3. Select a **"hierarchy level"**, referencing the examples on the page.
+4. Choose a **"record type"**, referencing the [record types taxonomy](../data-dictionaries/record-types-taxonomy.md) as needed.
 
 #### Content warning
 
