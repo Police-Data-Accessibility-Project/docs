@@ -16,7 +16,3 @@ Reach out to [operations@pdap.io](mailto:operations@pdap.io) or [use this volunt
 #### Content warning
 
 This content contains annotations related to the criminal legal system, which may include discussions of topics such as crime, legal proceedings, incarceration, and violence. Additionally, part of our work is labeling websites which do not pertain to the criminal legal system but may appear related. _It's ok to take a break, or do something else._
-
-#### Resources
-
-Check out the [Record Types taxonomy](../data-dictionaries/record-types-taxonomy.md) for a better idea of what each one means.
