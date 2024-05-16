@@ -13,7 +13,7 @@
   * [Web scraping](activities/contribute/web-scraping/README.md)
     * [Our approach to scraping](activities/contribute/web-scraping/our-approach.md)
     * [Scrapers repo](https://github.com/Police-Data-Accessibility-Project/Scrapers/)
-  * [Data Source annotation](activities/contribute/data-source-annotation.md)
+  * [Data Source labeling](activities/contribute/data-source-annotation.md)
   * [FOIA requests](activities/contribute/foia.md)
   * [Publish data](activities/contribute/publish-data.md)
 * [Terms & definitions](activities/terms-and-definitions/README.md)
