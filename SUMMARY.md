@@ -4,8 +4,9 @@
 
 ## ⚡ Activities
 
-* [Using data](activities/using-data/README.md)
-  * [Quick search](activities/using-data/quick-search.md)
+* [Data Sources App](activities/using-data.md)
+* [GitHub](https://github.com/Police-Data-Accessibility-Project)
+* [Hugging Face](https://huggingface.co/PDAP)
 * [Contribute](activities/contribute/README.md)
   * [Volunteer for data requests](activities/contribute/volunteer-for-data-requests.md)
   * [Submit data sources](activities/contribute/submit-data-sources.md)
@@ -13,13 +14,12 @@
   * [Web scraping](activities/contribute/web-scraping/README.md)
     * [Our approach to scraping](activities/contribute/web-scraping/our-approach.md)
     * [Scrapers repo](https://github.com/Police-Data-Accessibility-Project/Scrapers/)
-  * [Data Source labeling](activities/contribute/data-source-annotation.md)
+  * [Label potential Data Sources](activities/contribute/data-source-annotation.md)
   * [FOIA requests](activities/contribute/foia.md)
   * [Publish data](activities/contribute/publish-data.md)
 * [Terms & definitions](activities/terms-and-definitions/README.md)
   * [What is a Data Source?](activities/terms-and-definitions/what-is-a-data-source.md)
   * [Terminology](activities/terms-and-definitions/terminology.md)
-  * [Product diagram](activities/terms-and-definitions/product-diagram.md)
 * [Database details](activities/data-dictionaries/README.md)
   * [Data Sources data dictionary](activities/data-dictionaries/data-sources-data-dictionary.md)
   * [Agencies data dictionary](activities/data-dictionaries/agencies-data-dictionary.md)
@@ -125,4 +125,3 @@
   * [April 24, 2021](meta/community-calls/april-24-2021.md)
 * [Newsletter](https://newsletter.pdap.io/)
 * [Join our Discord](https://discord.gg/cn2ZpVTdw7)
-* [GitHub org](https://github.com/Police-Data-Accessibility-Project)

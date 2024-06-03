@@ -2,11 +2,11 @@
 description: Also known as "annotation" for machine learning.
 ---
 
-# Data Source labeling
+# Label potential Data Sources
 
 ## Why we're here
 
-Annotating Data Sources helps us train a machine learning algorithm tasked with **finding as many useful sources of data as possible.** Useful data about police, courts, and jails are hidden in plain sight, and we're trying to build a library so it can be found and used on demand.
+Annotating Data Sources helps us train [machine learning models](https://huggingface.co/PDAP) to **identify useful data.** Useful data about police, courts, and jails are hidden in plain sight, and we're trying to build a library so it can be found and used on demand.
 
 ### How to start
 

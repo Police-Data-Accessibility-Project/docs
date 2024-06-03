@@ -9,7 +9,7 @@ Data Sources can be records describing an agency's activities, like **traffic st
 ### What kinds of Data Sources are best?
 
 {% hint style="info" %}
-Finding all the Data Sources for your hometown is a human-sized project that can make a real impact.
+Finding all the Data Sources for your hometown is a human-sized project that can make a real impact. [Start here](../contribute/submit-data-sources.md).
 {% endhint %}
 
 If it's about a police, court, or jail system, we want to track it. This includes FOIA'd documents, web URLs, and independently scraped records.
