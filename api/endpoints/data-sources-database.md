@@ -805,3 +805,171 @@ data array[object]
 
 {% endtab %}
 {% endtabs %}
+
+## Homepage Search Cache
+
+### Retrieve Agencies Without Homepage URLs
+
+<mark style="color:blue;">`GET`</mark> `[base-url]/homepage-search-cache`
+
+The `GET` method retrieves a list of 100 agencies that do not have homepage URLs. The results are limited to 100 to acknowledge the search engine quota.
+
+#### Headers
+
+| Name          | Type   | Description                                         |
+| ------------- | ------ | --------------------------------------------------- |
+| Authorization | String | Value formatted as "Bearer \[access token/api key]” |
+
+#### Responses
+
+{% tabs %}
+{% tab title="200: OK Successful operation" %}
+{% tabs %}
+{% tab title="Schema" %}
+<pre class="language-plsql"><code class="lang-plsql">[
+    {
+        "SUBMITTED_NAME": "string",
+        "JURISDICTION_TYPE": "string",
+        "STATE_ISO": "string",
+        "MUNICIPALITY": "string",
+        "COUNTY_NAME": "string",
+        "AIRTABLE_UID": "string",
+        "COUNT_DATA_SOURCES": "integer",
+        "ZIP_CODE": "string",
+        "NO_WEB_PRESENCE": "boolean"
+    }
+]</code></pre>
+{% endtab %}
+
+{% tab title="Example" %}
+```json
+[
+    {
+        "SUBMITTED_NAME": "Example Agency",
+        "JURISDICTION_TYPE": "City",
+        "STATE_ISO": "CA",
+        "MUNICIPALITY": "Example City",
+        "COUNTY_NAME": "Example County",
+        "AIRTABLE_UID": "uid123",
+        "COUNT_DATA_SOURCES": 5,
+        "ZIP_CODE": "12345",
+        "NO_WEB_PRESENCE": true
+    }
+]
+```
+
+{% endtab %}
+{% endtabs %}
+{% endtab %}
+
+{% tab title="400: Bad Request" %}
+{% tabs %}
+{% tab title="Schema" %}
+```json
+{
+    "message": "Bad request"
+}
+```
+
+{% endtab %}
+
+{% tab title="Example" %}
+
+{
+    "message": "Bad request"
+}
+
+```json
+{
+    "message": "Bad request"
+}
+```
+
+{% endtab %}
+{% endtabs %}
+{% endtab %}
+
+{% tab title="403: Forbidden Invalid API key" %}
+
+{% endtab %}
+{% endtabs %}
+### Update Search Cache
+
+<mark style="color:blue;">`POST`</mark> `[base-url]/homepage-search-cache`
+
+The `POST` method updates the search cache with search results for a specific agency.
+
+#### Headers
+
+| Name          | Type   | Description                                         |
+| ------------- | ------ | --------------------------------------------------- |
+| Authorization | String | Value formatted as "Bearer \[access token/api key]” |
+
+#### Request Body
+
+| Name           | Type      | Description                                   |
+| -------------- | --------- | --------------------------------------------- |
+| agency_uid     | String    | The UID of the agency                         |
+| search_results | [String]  | List of search results to be cached           |
+
+#### Example Request Body
+
+```json
+{
+    "agency_uid": "uid123",
+    "search_results": ["result1", "result2"]
+}
+```
+Responses
+{% tabs %}
+{% tab title="200: OK Successful operation" %}
+{% tabs %}
+{% tab title="Schema" %}
+
+```json
+{
+    "message": "Search Cache Updated"
+}
+```
+
+{% endtab %}
+
+{% tab title="Example" %}
+
+```json
+{
+    "message": "Search Cache Updated"
+}
+```
+
+{% endtab %}
+{% endtabs %}
+{% endtab %}
+
+{% tab title="400: Bad Request" %}
+{% tabs %}
+{% tab title="Schema" %}
+
+```json
+{
+    "message": "Search Cache Updated"
+}
+```
+{% endtab %}
+
+{% tab title="Example" %}
+
+```json
+{
+    "message": "Search Cache Updated"
+}
+```
+
+{% endtab %}
+{% endtabs %}
+{% endtab %}
+
+{% tab title="403: Forbidden Invalid API key" %}
+
+{% endtab %}
+{% endtabs %}
