@@ -7,7 +7,7 @@ description: Use the API to managing users, keys, and access as PDAP staff
 ## Base URL
 
 ```
-https://data-sources.pdap.io
+https://data-sources.pdap.io/api
 ```
 
 ## Login & API keys
