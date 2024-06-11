@@ -32,6 +32,7 @@
 * [Endpoints](api/endpoints/README.md)
   * [Data Sources database](api/endpoints/data-sources-database.md)
   * [Admin](api/endpoints/admin.md)
+* [v2 API docs (WIP)](api/v2-api-docs-wip.md)
 
 ## 🛠️ Tools & Resources <a href="#tools" id="tools"></a>
 
