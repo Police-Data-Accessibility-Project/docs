@@ -5,17 +5,10 @@
 ## ⚡ Activities
 
 * [Data Sources App](activities/using-data.md)
-* [GitHub](https://github.com/Police-Data-Accessibility-Project)
-* [Hugging Face](https://huggingface.co/PDAP)
-* [Contribute](activities/contribute/README.md)
-  * [Volunteer for data requests](activities/contribute/volunteer-for-data-requests.md)
-  * [Submit data sources](activities/contribute/submit-data-sources.md)
-  * [Open data advocacy playbook](activities/contribute/open-data-advocacy-playbook.md)
-  * [Web scraping](activities/contribute/web-scraping/README.md)
-    * [Our approach to scraping](activities/contribute/web-scraping/our-approach.md)
-    * [Scrapers repo](https://github.com/Police-Data-Accessibility-Project/Scrapers/)
+* [Help with our mission](activities/contribute/README.md)
+  * [Volunteer for data request support](activities/contribute/volunteer-for-data-requests.md)
+  * [Search for Data Sources](activities/contribute/submit-data-sources.md)
   * [Label potential Data Sources](activities/contribute/data-source-annotation.md)
-  * [FOIA requests](activities/contribute/foia.md)
   * [Publish data](activities/contribute/publish-data.md)
 * [Terms & definitions](activities/terms-and-definitions/README.md)
   * [What is a Data Source?](activities/terms-and-definitions/what-is-a-data-source.md)
@@ -25,6 +18,8 @@
   * [Agencies data dictionary](activities/data-dictionaries/agencies-data-dictionary.md)
   * [Record Types taxonomy](activities/data-dictionaries/record-types-taxonomy.md)
   * [Hidden properties](activities/data-dictionaries/hidden-properties.md)
+* [GitHub](https://github.com/Police-Data-Accessibility-Project)
+* [Hugging Face](https://huggingface.co/PDAP)
 
 ## 📡 API
 
@@ -37,7 +32,12 @@
 ## 🛠️ Tools & Resources <a href="#tools" id="tools"></a>
 
 * [Related projects](tools/related-projects.md)
+* [Open data advocacy playbook](tools/open-data-advocacy-playbook.md)
 * [Resources for using data](tools/resources.md)
+* [Web scraping](tools/web-scraping/README.md)
+  * [Our approach to scraping](tools/web-scraping/our-approach.md)
+  * [Scrapers repo](https://github.com/Police-Data-Accessibility-Project/Scrapers/)
+* [FOIA requests](tools/foia.md)
 
 ## 🔁 Meta
 

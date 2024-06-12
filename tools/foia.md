@@ -6,11 +6,11 @@
 
 ## Can I help by making FOIA requests?
 
-Sure! PDAP receives requests for help collecting data from agencies across the United States. Sign up to [volunteer for data requests](volunteer-for-data-requests.md) and we'll connect you with an impactful FOIA project.
+Sure! PDAP receives requests for help collecting data from agencies across the United States. Sign up to [volunteer for data requests](../activities/contribute/volunteer-for-data-requests.md) and we'll connect you with an impactful FOIA project.
 
 If you have your own ideas about what to request, go for it!
 
-If you have successfully made a FOIA request through a service like Muckrock (or put the results online in some other way), the URL of the completed request is a valuable data source. [Submit it here](submit-data-sources.md#submit-data-youve-collected), and the community will thank you!
+If you have successfully made a FOIA request through a service like Muckrock (or put the results online in some other way), the URL of the completed request is a valuable data source. [Submit it here](../activities/contribute/submit-data-sources.md#submit-data-youve-collected), and the community will thank you!
 
 ## Our advice for a successful request
 

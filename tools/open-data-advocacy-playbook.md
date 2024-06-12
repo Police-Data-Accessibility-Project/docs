@@ -18,7 +18,7 @@ A community can have different priorities at any given time—is everyone talkin
 
 3. Find out where local data could be improved.
 
-Is anything missing, like properties that would make the data more useful? Are there records which should be published, but aren't? You can use our database to help keep track—[make a search](broken-reference) or [submit data sources](submit-data-sources.md).
+Is anything missing, like properties that would make the data more useful? Are there records which should be published, but aren't? You can use our database to help keep track—[make a search](broken-reference) or [submit data sources](../activities/contribute/submit-data-sources.md).
 
 4. Uncover reasons why data is not currently published
 

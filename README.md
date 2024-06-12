@@ -25,7 +25,7 @@ Everyone is welcome in [our Discord](https://discord.gg/wMqex8nKZJ), or our emai
 
 ### Volunteer (code, data, scraping, FOIA, etc)
 
-[Start at our GitHub org here](https://github.com/orgs/Police-Data-Accessibility-Project). You can also read more about [scraping](activities/contribute/web-scraping/) and [FOIA](activities/contribute/foia.md).&#x20;
+[Start at our GitHub org here](https://github.com/orgs/Police-Data-Accessibility-Project). You can also read more about [scraping](tools/web-scraping/) and [FOIA](tools/foia.md).&#x20;
 
 ### Donors
 

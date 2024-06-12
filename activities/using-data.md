@@ -1,13 +1,9 @@
 # Data Sources App
 
-{% hint style="warning" %}
-[Click here](https://data-sources.pdap.io) to use the app.
-{% endhint %}
-
-Our database makes data searchable, enhancing our ability to answer questions and complete research projects about police systems. Ask a question → **search for data** → analyze and report.
+Our database **makes it easier to find existing data**, enhancing our ability to answer questions and complete research projects about police systems. Ask a question → **search for data** → analyze and report.
 
 {% hint style="info" %}
-Still wondering what a Data Source is? [Start here](terms-and-definitions/what-is-a-data-source.md).
+[Click here](https://data-sources.pdap.io) to use the app.
 {% endhint %}
 
 ## Quick search tips

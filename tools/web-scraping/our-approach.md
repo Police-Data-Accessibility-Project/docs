@@ -6,9 +6,9 @@ Public records about the criminal legal system: police, courts, and jails.
 
 ## Contributing Philosophy
 
-Typically, it's only worth writing a scraper if you have a use case for the data already, and you can't easily download what you need. **What question are you trying to answer?**
-
 Scraping can turn cumbersome records into useful data. When someone wants to use records but they're in a difficult format, scraping is often the answer.
+
+Typically, it's only worth writing a scraper if you have a use case for the data already, and you can't easily download what you need. **What question are you trying to answer?**
 
 ### Where the community fits in
 
@@ -18,7 +18,7 @@ Our target users are the thousands of people already using police data. We can s
 
 After hundreds of hours of user research, we have determined that these are how we will add value in the police data landscape.
 
-* **Track independently scraped data** in our [Data Sources database](broken-reference). Prevent duplication of effort by showing people what's already out there. To submit data you've scraped, [start here](../submit-data-sources.md).
+* **Track independently scraped data** in our [Data Sources database](broken-reference). Prevent duplication of effort by showing people what's already out there. To submit data you've scraped, [start here](../../activities/contribute/submit-data-sources.md).
 * **Connect people** with web scraping skills to community members trying to make better use of police data without technical expertise. [Volunteer to respond to requests here](https://airtable.com/shrS4PAZTYVT1zSq8).
 * **Build open-source tools** in the [Scrapers repo](https://github.com/Police-Data-Accessibility-Project/scrapers) to make running a scraper on-demand easier for people who don't know what "CLI" means.
 * **Scrape data sources** and agency metadata via our [Data Source Identification pipeline](https://github.com/Police-Data-Accessibility-Project/data-source-identification). Especially important are Data Sources with a record type of "List of Data Sources."
