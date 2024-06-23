@@ -41,11 +41,13 @@
 
 ## 🔁 Meta
 
+* [Internal dev resources](meta/internal-dev-resources/README.md)
+  * [GitHub issue template](meta/internal-dev-resources/github-issue-template.md)
+  * [GitHub pull request template](meta/internal-dev-resources/github-pull-request-template.md)
+  * [Product changes checklist](meta/internal-dev-resources/product-changes-checklist.md)
+  * [☑️ Production QA Checklist](meta/internal-dev-resources/production-qa-checklist.md)
 * [Operations](meta/operations/README.md)
   * [Staff resources](meta/operations/staff/README.md)
-    * [GitHub issue template](meta/operations/staff/github-issue-template.md)
-    * [GitHub pull request template](meta/operations/staff/github-pull-request-template.md)
-    * [Product changes checklist](meta/operations/staff/product-changes-checklist.md)
     * [Meeting Minutes](meta/operations/staff/meeting-minutes/README.md)
       * [2021-07-14](meta/operations/staff/meeting-minutes/2021-07-14.md)
       * [2021-06-16](meta/operations/staff/meeting-minutes/2021-06-16.md)
