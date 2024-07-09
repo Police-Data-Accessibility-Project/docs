@@ -6,7 +6,13 @@ Our goal is to be welcoming, trusted, and focused. Everyone who abides by our co
 
 ## Type
 
-The free Google Font [Libre Franklin](https://fonts.google.com/specimen/Libre+Franklin) is our official font. It should be used for basically everything except monospace, for which we can use [Source Code Pro](https://fonts.google.com/specimen/Source+Code+Pro).&#x20;
+The open-source Google Font [Public Sans](https://github.com/uswds/public-sans) is our official web font.
+
+For monospace, we can use [Source Code Pro](https://fonts.google.com/specimen/Source+Code+Pro).
+
+For print, we can use the free Google Font [Libre Franklin](https://fonts.google.com/specimen/Libre+Franklin). It's a predecessor of Public Sans, and may look more refined in print.
+
+We shouldn't use any other fonts.
 
 ## Design system
 
