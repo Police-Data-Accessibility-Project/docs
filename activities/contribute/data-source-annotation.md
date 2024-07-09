@@ -10,7 +10,7 @@ Annotating Data Sources helps us train [machine learning models](https://hugging
 
 ### How to start
 
-Reach out to [operations@pdap.io](mailto:operations@pdap.io) or [use this volunteer form](https://airtable.com/appcYa6x4nS7W8IR3/shrk9c5sBsBr3cdJJ).
+Reach out to [operations@pdap.io](mailto:operations@pdap.io) or [use this volunteer form](https://airtable.com/appcYa6x4nS7W8IR3/shrk9c5sBsBr3cdJJ) with "data labeling".
 
 1. Review the URL and the information displayed.&#x20;
 2. Decide whether the URL is generally **"relevant"** to police, courts, and jails. If there's not enough information presented, select **"incomplete info".**
