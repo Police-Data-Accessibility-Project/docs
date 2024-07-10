@@ -30,5 +30,5 @@ This checklist is designed to be completed within 10 minutes or less -- it is no
   * [ ] "About"
   * [ ] "Donate"
   * [ ] "Docs"
-* [ ] Do something weird or crazy or otherwise try to break the website -- confirm the web page handles it gracefully, or else note what you did and what happened for future reference (and, if testing on a dev release, whether this also occurs already in the production domain).
+* [ ] Recommended: perform other unexpected behavior specific to the code being tested, to try to "break" the site. For example, entering invalid search terms or trying to navigate to URLs without proper auth. Confirm the web page handles it gracefully, documenting cases where it does not.
   * [ ] Perform the above in both the desktop version and a mobile device
