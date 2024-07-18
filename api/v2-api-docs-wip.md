@@ -5,76 +5,10 @@ We are working on [data-sources-app-v2](https://github.com/Police-Data-Accessibi
 ## Base URL
 
 ```
-https://data-sources.pdap.io/api
+https://data-sources-v2.pdap.io/api ← builds from main branch
+https://data-sources-v2.pdap.dev/api ← builds from dev branch
 ```
 
-## Endpoints
+## Endpoints & Models
 
-### Homepage Search Cache
-
-<mark style="color:blue;">`GET`</mark> `[base-url]/homepage-search-cache`
-
-**Headers**
-
-| Name          | Type   | Description                                         |
-| ------------- | ------ | --------------------------------------------------- |
-| Authorization | String | Value formatted as "Bearer \[access token/api key]” |
-
-**Responses**
-
-{% tabs %}
-{% tab title="200: OK Successful operation" %}
-```json
-[
-    {
-        "SUBMITTED_NAME": "string",
-        "JURISDICTION_TYPE": "string",
-        "STATE_ISO": "string",
-        "MUNICIPALITY": "string",
-        "COUNTY_NAME": "string",
-        "AIRTABLE_UID": "string",
-        "COUNT_DATA_SOURCES": "integer",
-        "ZIP_CODE": "string",
-        "NO_WEB_PRESENCE": "Boolean"
-    }
-]
-```
-{% endtab %}
-{% endtabs %}
-
-<mark style="color:blue;">`POST`</mark> `[base-url]/homepage-search-cache`
-
-**Headers**
-
-| Name          | Type   | Description                                         |
-| ------------- | ------ | --------------------------------------------------- |
-| Authorization | String | Value formatted as "Bearer \[access token/api key]” |
-
-**Request Body**
-
-| Name            | Type      | Description                         |
-| --------------- | --------- | ----------------------------------- |
-| agency\_uid     | String    | The UID of the agency               |
-| search\_results | \[String] | List of search results to be cached |
-
-**Example Request Body**
-
-```json
-{
-    "agency_uid": "uid123",
-    "search_results": ["result1", "result2"]
-}
-```
-
-#### Responses
-
-{% tabs %}
-{% tab title="200: OK Successful Operation" %}
-```json
-{
-    "message": "Search Cache Updated"
-}
-```
-{% endtab %}
-{% endtabs %}
-
+Navigate to either base URL above to see the API and model reference for v2 API on either the `main`  or `dev` branch.

@@ -716,9 +716,79 @@ The archives endpoint is located in [resources/Archives.py](https://github.com/P
 {% endtab %}
 {% endtabs %}
 
+### Homepage search cache
+
+<mark style="color:blue;">`GET`</mark> `[base-url]/homepage-search-cache`
+
+#### Headers
+
+| Name          | Type   | Description                                         |
+| ------------- | ------ | --------------------------------------------------- |
+| Authorization | String | Value formatted as "Bearer \[access token/api key]” |
+
+**Responses**
+
+{% tabs %}
+{% tab title="200: OK Successful operation" %}
+```json
+[
+    {
+        "SUBMITTED_NAME": "string",
+        "JURISDICTION_TYPE": "string",
+        "STATE_ISO": "string",
+        "MUNICIPALITY": "string",
+        "COUNTY_NAME": "string",
+        "AIRTABLE_UID": "string",
+        "COUNT_DATA_SOURCES": "integer",
+        "ZIP_CODE": "string",
+        "NO_WEB_PRESENCE": "Boolean"
+    }
+]
+```
+{% endtab %}
+{% endtabs %}
+
+<mark style="color:blue;">`POST`</mark> `[base-url]/homepage-search-cache`
+
+#### Headers
+
+| Name          | Type   | Description                                         |
+| ------------- | ------ | --------------------------------------------------- |
+| Authorization | String | Value formatted as "Bearer \[access token/api key]” |
+
+#### Request body
+
+| Name            | Type      | Description                         |
+| --------------- | --------- | ----------------------------------- |
+| agency\_uid     | String    | The UID of the agency               |
+| search\_results | \[String] | List of search results to be cached |
+
+#### Example request body
+
+```
+{
+    "agency_uid": "uid123",
+    "search_results": ["result1", "result2"]
+}
+```
+
+#### Responses
+
+{% tabs %}
+{% tab title="200: OK Successful operation" %}
+```json
+{
+    "message": "Search Cache Updated"
+}
+```
+{% endtab %}
+{% endtabs %}
+
+&#x20;
+
 ## Agencies
 
-## Get all Agencies
+### Get all Agencies
 
 <mark style="color:blue;">`GET`</mark> `[base-url]/agencies/{page}`
 
