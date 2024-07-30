@@ -10,9 +10,17 @@ Sure! PDAP receives requests for help collecting data from agencies across the U
 
 If you have your own idea, you can [make a data request](https://airtable.com/app473MWXVJVaD7Es/shrbFfWk6fjzGnNsk) to see if others want to volunteer!
 
-If you have successfully made a FOIA request through a service like Muckrock (or put the results online in some other way), the URL of the completed request is a valuable data source. [Submit it here](../activities/contribute/submit-data-sources.md#submit-data-youve-collected), and the community will thank you!
+If you have successfully made a FOIA request through a service like MuckRock (or put the results online in some other way), the URL of the completed request is a valuable data source. [Submit it here](../activities/contribute/submit-data-sources.md#submit-data-youve-collected), and the community will thank you!
 
 ## Our advice for a successful request
+
+### Use [MuckRock](https://www.muckrock.com/) to make requests
+
+{% hint style="info" %}
+MuckRock [has a great FAQ](https://www.muckrock.com/faq/) specific to their platform.
+{% endhint %}
+
+This is not a necessity, but MuckRock automatically tries to identify the correct information PDAP has credits available.
 
 ### Do some groundwork
 
@@ -25,7 +33,11 @@ If you have successfully made a FOIA request through a service like Muckrock (or
 
 ### Making the request
 
-* Consider using a service like [MuckRock](https://www.muckrock.com/), which helps you make quality requests and keep track of them.
 * If you're looking for records about one person or incident, consider requesting a broader set of data to keep records in context and make them as useful as possible for other researchers. You may also  want to compare your incident report with others.
 * Add a line requesting that if any part of the request is denied, the agency should proceed with the rest of the request and cite the provisions in the state that allow them to deny the request.
 * If you don't know what the records are called, describe them generally—if you guess something too specific, the agency can deny your request with no obligation to alert you of similar records by a different name.
+
+### After the request
+
+* Check your email periodically for updates. MuckRock handles some of the notifications and responses for you, but if an agency rejects your request, it's up to you to fix and address it.&#x20;
+* If the request is completed, [submit it to our database](https://airtable.com/app473MWXVJVaD7Es/shrJafakrcmTxHU2i)! This will allow more people to find and use your hard-won records.,
