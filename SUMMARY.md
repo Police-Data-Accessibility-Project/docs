@@ -47,7 +47,6 @@
   * [GitHub pull request template](meta/internal-dev-resources/github-pull-request-template.md)
   * [Product changes checklist](meta/internal-dev-resources/product-changes-checklist.md)
   * [☑️ Production QA Checklist](meta/internal-dev-resources/production-qa-checklist.md)
-  * [Development Testing](meta/internal-dev-resources/development-testing.md)
 * [Operations](meta/operations/README.md)
   * [Staff resources](meta/operations/staff/README.md)
     * [Meeting Minutes](meta/operations/staff/meeting-minutes/README.md)
