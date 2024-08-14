@@ -19,3 +19,7 @@
 #### Docs
 
 * Accompanying docs PRs, if applicable
+
+#### Breaking Changes
+
+* What functionality, if any, might be broken by this change, which could impact other developers. For example, an environmental variable changing.
