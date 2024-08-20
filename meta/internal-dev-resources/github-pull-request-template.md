@@ -11,6 +11,7 @@
 #### Testing
 
 * Steps to test this PR, if there are any required.
+* With endpoints, include a screenshot or API response to show what correct behavior looks like
 
 #### Performance
 
