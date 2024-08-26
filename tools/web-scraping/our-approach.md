@@ -2,7 +2,7 @@
 
 ## Which data are we scraping?
 
-Public records about the criminal legal system: police, courts, and jails.
+Public records about the police system, which can include sources from police, courts, and jails.
 
 ## Contributing Philosophy
 
@@ -38,8 +38,8 @@ If you don't have scraping skills, you can use the [#data-exchange channel in Di
 
 #### Aggregation and hosting of scraped data
 
-* In our experience, if you can find someone interested in using the data, storage typically takes care of itself.
-* It's not an immediate priority to make a big database to store scraped data in the same format. The main reason this isn't a priority: _this is not what our users are asking us for._ It's almost everyone's first thought when they hear about our project (us too). Our research tells us access, organization, and communication are the bottleneck for people using the data.
+* Data is most often useful in its own context, and scraped data is usually small enough to fit on free-tier hosting.
+* It's not an immediate priority to make a big database to store scraped data in a normalized format. Comparing and combining data is its own research project. It's almost everyone's first thought when they hear about our project (ours too). Our research tells us access, organization, sharing, technical skills, and communication are the bottleneck for people using the data.
 * Aggregation is incredibly complex, and involves more than just mapping properties. So much context is needed before data from two departments can be compared.
 * Publishing and vouching for extracted data, and documenting its provenance so it can be audited, is a big project. We only want to undertake this work for data we _know will be useful._
 
