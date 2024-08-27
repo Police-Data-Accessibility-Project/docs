@@ -47,7 +47,6 @@ _Where did it come from?_
 | ------------------ | ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | source\_url        | string | A URL where these records can be found or are referenced.                                                                                                      |
 | readme\_url        | string | A URL where supplementary information about the source is published.                                                                                           |
-|                    |        |                                                                                                                                                                |
 | access\_type       | array  | Array items can have values such as `Web page`or `API`                                                                                                         |
 | record\_format     | array  | What format(s) are the records in natively? Array items can have values such as `CSV`, `JSON`, `XML`, `RDF`, `RSS`, `HTML table` and others                    |
 | detail\_level      | array  | Is this an individual record, an aggregated set of records, or a summary without underlying data?                                                              |
@@ -73,7 +72,7 @@ _Where did it come from?_
 | Property                       | Type     | Description                                                                                   | Default value                                             |
 | ------------------------------ | -------- | --------------------------------------------------------------------------------------------- | --------------------------------------------------------- |
 | scraper\_url                   | string   | The url of any web scraping efforts associated with this Data Source.                         |                                                           |
-| url\_status                    | array    | The status of the `source_url`, including options like `ok` , `none found` , `broken`         | ,"ok"                                                     |
+| url\_status                    | array    | The status of the `source_url`, including options like `ok` , `none found` , `broken`         | "ok"                                                      |
 | approval\_status               | array    | Set manually by the PDAP team; statuses include: `approved` `rejected` `needs identification` | null                                                      |
 | data\_source\_created          | datetime | The date this source was first created in our database.                                       | Date of data source submission, in the format YYYY-DD-MM. |
 | agency\_described\_linked\_uid | string   | The Airtable-generated UID of an associated Agency                                            |                                                           |

@@ -33,7 +33,7 @@ To see which options are available for select fields, consult the [submission fo
 | pdap\_response              | string                   | Public notes by PDAP about the request.                                                                  |
 | record\_types\_required     | array                    | Multi-select from our [taxonomy](record-types-taxonomy.md).                                              |
 | related\_requests           | link to other `requests` | Manually linked. Will be deprecated in favor of GitHub.                                                  |
-| request\_status             | array                    | Will be migrated to GitHub Project status and Issue status.                                              |
+| request\_status             | array                    | Source of truth: GitHub. Not updated in Airtable.                                                        |
 | withdrawal\_reason          | array                    | Describe why issues were withdrawn, for metrics tracking.                                                |
 | work\_required              | array                    | Types of work that might be needed to respond to the request, such as "data location" or "web scraping"  |
 
