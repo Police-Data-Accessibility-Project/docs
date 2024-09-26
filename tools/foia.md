@@ -20,7 +20,7 @@ If you have successfully made a FOIA request through a service like MuckRock (or
 MuckRock [has a great FAQ](https://www.muckrock.com/faq/) specific to their platform.
 {% endhint %}
 
-This is not a necessity, but MuckRock automatically tries to identify the correct information PDAP has credits available.
+This is not a necessity, but MuckRock automatically follows up, finds the right agency, helps you navigate refusals, etc.
 
 ### Do some groundwork
 
@@ -36,6 +36,7 @@ This is not a necessity, but MuckRock automatically tries to identify the correc
 * If you're looking for records about one person or incident, consider requesting a broader set of data to keep records in context and make them as useful as possible for other researchers. You may also  want to compare your incident report with others.
 * Add a line requesting that if any part of the request is denied, the agency should proceed with the rest of the request and cite the provisions in the state that allow them to deny the request.
 * If you don't know what the records are called, describe them generally—if you guess something too specific, the agency can deny your request with no obligation to alert you of similar records by a different name.
+* Specify a time range, if that will work for your purposes. Instead of phrases like "any policies..." or "all arrest records..." ask for "current policies" or "the most recent 5 years of arrest records".
 
 ### After the request
 
