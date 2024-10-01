@@ -34,6 +34,7 @@ To see which options are available for select fields, consult the [submission fo
 | record\_types\_required     | array                    | Multi-select from our [taxonomy](record-types-taxonomy.md).                                              |
 | related\_requests           | link to other `requests` | Manually linked. Will be deprecated in favor of GitHub.                                                  |
 | request\_status             | array                    | Source of truth: GitHub. Not updated in Airtable.                                                        |
+| sources\_airtable\_uid      | array                    | The UID(s) of Data Sources associated with the Request                                                   |
 | withdrawal\_reason          | array                    | Describe why issues were withdrawn, for metrics tracking.                                                |
 | work\_required              | array                    | Types of work that might be needed to respond to the request, such as "data location" or "web scraping"  |
 
