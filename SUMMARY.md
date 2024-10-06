@@ -35,6 +35,7 @@
 * [Related projects](tools/related-projects.md)
 * [Open data advocacy playbook](tools/open-data-advocacy-playbook.md)
 * [Resources for using data](tools/resources.md)
+* [Using LLMs like ChatGPT](tools/using-llms-like-chatgpt.md)
 * [Web scraping](tools/web-scraping/README.md)
   * [Our approach to scraping](tools/web-scraping/our-approach.md)
   * [Scrapers repo](https://github.com/Police-Data-Accessibility-Project/Scrapers/)
