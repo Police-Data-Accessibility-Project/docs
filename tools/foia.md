@@ -33,12 +33,15 @@ This is not a necessity, but MuckRock automatically follows up, finds the right 
 
 ### Making the request
 
-* If you're looking for records about one person or incident, consider requesting a broader set of data to keep records in context and make them as useful as possible for other researchers. You may also  want to compare your incident report with others.
-* Add a line requesting that if any part of the request is denied, the agency should proceed with the rest of the request and cite the provisions in the state that allow them to deny the request.
+* **Specify a time range**, if that will work for your purposes. Instead of phrases like "any policies..." or "all arrest records..." ask for "current policies" or "the most recent 5 years of arrest records".
+* Add a line requesting that **if any part of the request is denied, the agency should proceed with the rest of the request** and cite the provisions in the state that allow them to deny the request.
 * If you don't know what the records are called, describe them generally—if you guess something too specific, the agency can deny your request with no obligation to alert you of similar records by a different name.
-* Specify a time range, if that will work for your purposes. Instead of phrases like "any policies..." or "all arrest records..." ask for "current policies" or "the most recent 5 years of arrest records".
+* If you're looking for records about one person or incident, consider requesting a broader set of data to keep records in context and make them as useful as possible for other researchers. You may also  want to compare your incident report with others.
 
 ### After the request
 
+Once you make the request, it's important to watch for communication from the agency.
+
+* If you request something like "all arrest records from the past 5 years", the agency may deny your request because they are most often asked to share single arrest records. If you can get through to them, a polite phone call can help. Explain that you'd like to minimize the work on their end, and ask why an export or listing in the format of their database won't work.
 * Check your email periodically for updates. MuckRock handles some of the notifications and responses for you, but if an agency rejects your request, it's up to you to fix and address it.&#x20;
-* If the request is completed, [submit it to our database](https://airtable.com/app473MWXVJVaD7Es/shrJafakrcmTxHU2i)! This will allow more people to find and use your hard-won records.,
+* If the request is completed, [submit it to our database](https://airtable.com/app473MWXVJVaD7Es/shrJafakrcmTxHU2i)! This will allow more people to find and use your hard-won records.
