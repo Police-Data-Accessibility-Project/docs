@@ -8,15 +8,25 @@ The usability of Large Language Models (LLMs) like ChatGPT has made simple codin
 If you ask it to count how many vowels are in a sentence, it will probably fail. If you ask it to create a small python program which counts how many vowels are in a sentence, it will likely succeed.
 {% endhint %}
 
-ChatGPT is a glorified auto-complete. It tells you what is probabilistically the next thing in a sentence and that is most likely to elicit a positive response from you. For things that have a lot of written discussion on the internet, results are likely to be accurate. For things like counting, which are not based on precedent but instead on mathematics and internal logic, it often fails.
+ChatGPT leverages sophisticated pattern recognition, predicting what comes next in a sentence based on vast training data, akin to an advanced auto-complete system.&#x20;
 
-For this reason, we don't use GPT to locate or analyze data, or answer questions about police systems. We use it indirectly to lower the bar for creating software for and by humans.
+The "predicting" part is critical: ChatGPT doesn't "know" anything: it's making educated guesses based on the contents of its training data.&#x20;
+
+For topics where it has a large amount of training data, its responses are more likely to be reliable and broadly accurate. However, for tasks like counting, mathematical operations, or logical reasoning, it often falters because these tasks require strict internal logic rather than probabilistic pattern matching. To give an example: A 1st grader would know that 2 + 2 = 4. An LLM does not know that -- instead, it knows that, if you start with "2 + 2 =", the next character is usually "4". For a mathematical problem that a simple calculator could solve but which has little precedent in its training data (e.g. 172 / 9), it will probably stumble because it has no data to draw on.&#x20;
+
+It is also likely to perform more poorly the more niche a topic is (because it likely has less material for that topic in its training data). However, it probably will not indicate that it knows little about the topic, and will try to provide a coherent- and confident-sounding answer, leveraging information it thinks is relevant from its training data (regardless of whether that training data actually _is_ relevant).&#x20;
+
+That confidence and coherence can make it tempting to trust what an LLM is saying, especially when you don't know much about a topic; that's why it's important to supplement whatever an LLM tells you with information from a more reliable source, and to take what an LLM says (especially on more niche topics) with skepticism.
+
+
 
 ### Example: counting vowels
 
 Without a program, GPT struggles to do basic math:
 
 <figure><img src="../.gitbook/assets/Screen Shot 2024-10-06 at 3.21.50 PM.png" alt=""><figcaption></figcaption></figure>
+
+The actual number of vowels in the sentence is 13 (14 if you count 'y', as ChatGPT did).
 
 When it is allowed to write a program, it produces a more sensible answer:
 
