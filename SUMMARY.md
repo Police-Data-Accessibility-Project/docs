@@ -24,7 +24,7 @@
 
 ## 📡 API
 
-* [Introduction](api/introduction.md)
+* [Introduction/Getting Started](api/introduction.md)
 * [Endpoints](api/endpoints/README.md)
   * [Data Sources database](api/endpoints/data-sources-database.md)
   * [Admin](api/endpoints/admin.md)
