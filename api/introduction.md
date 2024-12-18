@@ -1,16 +1,21 @@
 # Introduction/Getting Started
 
-This page is designed to introduce you to the PDAP Data Sources API.&#x20;
-
-This documentation assumes you are familiar with programming languages such as Python, as well as the big-picture functionality of the API. For a more thorough breakdown of the functionality of an API, consider documentation such as Postman's [Beginner's Guide to APIs](https://www.postman.com/what-is-an-api/#how-do-apis-work).
-
-Reach out to [contact@pdap.io](mailto:contact@pdap.io) or make noise in [Discord](https://discord.gg/wMqex8nKZJ) if you have questions.
+We are working on [data-sources-app-v2](https://github.com/Police-Data-Accessibility-Project/data-sources-app/issues/248). The v2 API is not yet ready for the public.
 
 ## Base URL
 
 ```
-https://data-sources.pdap.io/api
+https://data-sources-v2.pdap.io/api ← builds from main branch
+https://data-sources-v2.pdap.dev/api ← builds from dev branch
 ```
+
+## Endpoints & Models
+
+Navigate to either base URL above to see the API and model reference for v2 API on either the `main`  or `dev` branch.
+
+This documentation assumes you are familiar with programming languages such as Python, as well as the big-picture functionality of the API. For a more thorough breakdown of the functionality of an API, consider documentation such as Postman's [Beginner's Guide to APIs](https://www.postman.com/what-is-an-api/#how-do-apis-work).
+
+Reach out to [contact@pdap.io](mailto:contact@pdap.io) or make noise in [Discord](https://discord.gg/wMqex8nKZJ) if you have questions.
 
 ## Overview
 
@@ -19,8 +24,6 @@ The PDAP API is how internal and external users programmatically access informat
 ## Getting Access
 
 Logged-in and authenticated users can get access to the API.&#x20;
-
-The easiest way to become a user is to sign up using the website at \[\[**INCLUDE LINK TO WEBSITE HERE**]].&#x20;
 
 ## Authentication
 
