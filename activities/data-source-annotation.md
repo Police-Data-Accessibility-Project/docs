@@ -15,7 +15,7 @@ Reach out to [operations@pdap.io](mailto:operations@pdap.io) or [use this volunt
 1. Review the URL and the information displayed.&#x20;
 2. Decide whether the URL is generally **"relevant"** to police, courts, and jails. If there's not enough information presented, select **"incomplete info".**
 3. If "yes", select a **"hierarchy level"**, referencing the examples on the page.
-4. If it's a "parent", Choose a **"record type"**, referencing the [record types taxonomy](../data-dictionaries/record-types-taxonomy.md) as needed.
+4. If it's a "parent", Choose a **"record type"**, referencing the [record types taxonomy](../about/data-dictionaries/record-types-taxonomy.md) as needed.
 5. When you have finished, select "Submit". If you are unsure, you can always "Skip". All labels are human-reviewed, and checked for agreement with other annotators.
 
 #### Content warning

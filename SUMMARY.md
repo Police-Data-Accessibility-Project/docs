@@ -4,21 +4,23 @@
 
 ## ⚡ Activities
 
-* [Data Sources App](activities/using-data.md)
-* [Help with our mission](activities/contribute/README.md)
-  * [Volunteer for data request support](activities/contribute/volunteer-for-data-requests.md)
-  * [Search for Data Sources](activities/contribute/submit-data-sources.md)
-  * [Label potential Data Sources](activities/contribute/data-source-annotation.md)
-  * [Publish data](activities/contribute/publish-data.md)
-* [Terms & definitions](activities/terms-and-definitions/README.md)
-  * [What is a Data Source?](activities/terms-and-definitions/what-is-a-data-source.md)
-  * [Terminology](activities/terms-and-definitions/terminology.md)
-* [Database details](activities/data-dictionaries/README.md)
-  * [Data Sources data dictionary](activities/data-dictionaries/data-sources-data-dictionary.md)
-  * [Agencies data dictionary](activities/data-dictionaries/agencies-data-dictionary.md)
-  * [Requests data dictionary](activities/data-dictionaries/agencies-data-dictionary-1.md)
-  * [Record Types taxonomy](activities/data-dictionaries/record-types-taxonomy.md)
-  * [Hidden properties](activities/data-dictionaries/hidden-properties.md)
+* [Volunteer for Data Requests](activities/volunteer-for-data-requests.md)
+* [Label potential Data Sources](activities/data-source-annotation.md)
+* [Locate new Data Sources](activities/submit-data-sources.md)
+* [Publish data](activities/publish-data.md)
+
+## 🔬 About
+
+* [Search the PDAP database](about/using-data.md)
+* [Terms & definitions](about/terms-and-definitions/README.md)
+  * [What is a Data Source?](about/terms-and-definitions/what-is-a-data-source.md)
+  * [Terminology](about/terms-and-definitions/terminology.md)
+* [Database details](about/data-dictionaries/README.md)
+  * [Data Sources data dictionary](about/data-dictionaries/data-sources-data-dictionary.md)
+  * [Agencies data dictionary](about/data-dictionaries/agencies-data-dictionary.md)
+  * [Requests data dictionary](about/data-dictionaries/agencies-data-dictionary-1.md)
+  * [Record Types taxonomy](about/data-dictionaries/record-types-taxonomy.md)
+  * [Hidden properties](about/data-dictionaries/hidden-properties.md)
 * [GitHub](https://github.com/Police-Data-Accessibility-Project)
 * [Hugging Face](https://huggingface.co/PDAP)
 
@@ -31,8 +33,8 @@
 
 ## 🛠️ Tools & Resources <a href="#tools" id="tools"></a>
 
+* [Playbook: improve data access where you live](tools/open-data-advocacy-playbook.md)
 * [Related projects](tools/related-projects.md)
-* [Open data advocacy playbook](tools/open-data-advocacy-playbook.md)
 * [Resources for using data](tools/resources.md)
 * [Using LLMs like ChatGPT](tools/using-llms-like-chatgpt.md)
 * [Web scraping](tools/web-scraping/README.md)
