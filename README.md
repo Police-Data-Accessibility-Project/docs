@@ -1,12 +1,16 @@
 # 👋 Welcome
 
 {% hint style="info" %}
-Read about our mission and use the search app at [https://pdap.io/](https://pdap.io/).
+This is a guide for contributing data or code to PDAP, and using our tools to collect and use data. Read about our mission and use the search app at [https://pdap.io/](https://pdap.io/).
 {% endhint %}
 
 ## What we do
 
 We're cataloguing sources of data in a database so people can find information about local police systems. [Here's our app roadmap](https://github.com/orgs/Police-Data-Accessibility-Project/projects/21/views/2).
+
+## Codebase
+
+[Our github org](https://github.com/Police-Data-Accessibility-Project) contains our code repositories. We have a handful of apps working in conjunction to identify, collect, document, archive, and share sources of data.
 
 ## Get Involved
 
