@@ -10,7 +10,13 @@ We're cataloguing sources of data in a database so people can find information a
 
 ## Codebase
 
-[Our github org](https://github.com/Police-Data-Accessibility-Project) contains our code repositories. We have a handful of apps working in conjunction to identify, collect, document, archive, and share sources of data.
+[Our github organization](https://github.com/Police-Data-Accessibility-Project) contains our code repositories. We have a handful of apps working in conjunction to identify, collect, document, archive, and share sources of data.
+
+### Primary repositories
+
+* The [Data Sources App repo](https://github.com/Police-Data-Accessibility-Project/data-sources-app) is the back end for our Data Sources API.&#x20;
+* The [pdap.io repo](https://github.com/Police-Data-Accessibility-Project/pdap.io/) is our primary interface for working with the API.
+* The [Data Source Identification repo](https://github.com/Police-Data-Accessibility-Project/data-source-identification) houses our code for collecting sources for the database.
 
 ## Get Involved
 
