@@ -1,12 +1,18 @@
 # Publish data
 
-## Thank you for sharing!
+## If your data is already online
+
+If you have a link to published data, that's great! You can [**submit it to our database**](https://airtable.com/app473MWXVJVaD7Es/shrJafakrcmTxHU2i) where it will show up in searches. We'll trigger automatic archives, and people who subscribe to data in the area will be notified.
+
+## If you need to publish data first
 
 If you have public records or data you want to share more broadly, there are a few ways to go! Make sure to [**share your published data when you're done**](submit-data-sources.md).
 
+### Options for sharing data
+
 * [JKAN](https://jkan.io/) (for smaller agencies) and [CKAN](https://ckan.org/) (for larger ones) are two open-source data portals which need to be set up by someone with some technical skills.
 * DocumentCloud can be used for publishing PDFs, and has additional tools for recognizing text (OCR) and annotation. You will need to [request verification](https://airtable.com/shrZrgdmuOwW0ZLPM) to publish documents.
-* Your town or region may have an open data portal ([here's Pittsburgh's](http://www.wprdc.org/)) which may be interested in publishing the data you have.
+* Your town or region may have an open data portal ([here's an example from Pittsburgh area](http://www.wprdc.org/)) which may be interested in publishing the data you have.
 * A service like [Dropbox](https://dropbox.com/) can be used to share folders of documents in bulk, with fewer tools for keeping them organized or labeled.
 
-If this is overwhelming, don't worry—we're experts in sharing data. Email [contact@pdap.io](mailto:contact@pdap.io) for a free consultation.
+If this is overwhelming, don't worry—every case is different, and we can provide advice. Email [contact@pdap.io](mailto:contact@pdap.io) for a free consultation.
