@@ -8,6 +8,9 @@
 * [Label potential Data Sources](activities/data-source-annotation.md)
 * [Locate new Data Sources](activities/submit-data-sources.md)
 * [Publish data](activities/publish-data.md)
+* [Web scraping](activities/web-scraping.md)
+* [FOIA requests](activities/foia.md)
+* [Advocate for open data](activities/open-data-advocacy-playbook.md)
 
 ## 🔬 About
 
@@ -33,14 +36,9 @@
 
 ## 🛠️ Tools & Resources <a href="#tools" id="tools"></a>
 
-* [Playbook: improve data access where you live](tools/open-data-advocacy-playbook.md)
 * [Related projects](tools/related-projects.md)
 * [Resources for using data](tools/resources.md)
 * [Using LLMs like ChatGPT](tools/using-llms-like-chatgpt.md)
-* [Web scraping](tools/web-scraping/README.md)
-  * [Our approach to scraping](tools/web-scraping/our-approach.md)
-  * [Scrapers repo](https://github.com/Police-Data-Accessibility-Project/Scrapers/)
-* [FOIA requests](tools/foia.md)
 
 ## 🔁 Meta
 

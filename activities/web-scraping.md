@@ -1,10 +1,16 @@
-# Our approach to scraping
+# Web scraping
 
-## Which data are we scraping?
+## Our approach to web scraping
+
+### Which data are we scraping?
+
+{% hint style="info" %}
+[https://github.com/Police-Data-Accessibility-Project/scrapers](https://github.com/Police-Data-Accessibility-Project/scrapers/)
+{% endhint %}
 
 Public records about the police system, which can include sources from police, courts, and jails.
 
-## Contributing Philosophy
+### Contributing Philosophy
 
 Scraping can turn cumbersome records into useful data. When someone wants to use records but they're in a difficult format, scraping is often the answer.
 
@@ -18,7 +24,7 @@ Our target users are the thousands of people already using police data. We can s
 
 After hundreds of hours of user research, we have determined that these are how we will add value in the police data landscape.
 
-* **Track independently scraped data** in our [Data Sources database](broken-reference). Prevent duplication of effort by showing people what's already out there. To submit data you've scraped, [start here](../../activities/submit-data-sources.md).
+* **Track independently scraped data** in our database. Prevent duplication of effort by showing people what's already out there. To submit data you've scraped, [start here](submit-data-sources.md).
 * **Connect people** with web scraping skills to community members trying to make better use of police data without technical expertise. [Volunteer to respond to requests here](https://airtable.com/shrS4PAZTYVT1zSq8).
 * **Build open-source tools** in the [Scrapers repo](https://github.com/Police-Data-Accessibility-Project/scrapers) to make running a scraper on-demand easier for people who don't know what "CLI" means.
 * **Scrape data sources** and agency metadata via our [Data Source Identification pipeline](https://github.com/Police-Data-Accessibility-Project/data-source-identification). Especially important are Data Sources with a record type of "List of Data Sources."
@@ -38,7 +44,7 @@ If you don't have scraping skills, you can use the [#data-exchange channel in Di
 
 #### Aggregation and hosting of scraped data
 
-* Data is most often useful in its own context, and scraped data is usually small enough to fit on free-tier hosting.
+* Data is most often useful in its own context, and scraped data is usually small enough to fit on free-tier hosting. After you publish a dataset, we can list it in our database!
 * It's not an immediate priority to make a big database to store scraped data in a normalized format. Comparing and combining data is its own research project. It's almost everyone's first thought when they hear about our project (ours too). Our research tells us access, organization, sharing, technical skills, and communication are the bottleneck for people using the data.
 * Aggregation is incredibly complex, and involves more than just mapping properties. So much context is needed before data from two departments can be compared.
 * Publishing and vouching for extracted data, and documenting its provenance so it can be audited, is a big project. We only want to undertake this work for data we _know will be useful._
@@ -47,6 +53,6 @@ If you don't have scraping skills, you can use the [#data-exchange channel in Di
 
 * It's not an immediate priority to automate the running of all the scrapers in our shared repo. The main reason: _this is not what our users are asking us for._ We plan to archive the sources, and facilitate sharing of scraper code. If we have a stable archive, scraping can be done on-demand.
 
-#### Scrape all the data!
+#### Scrape every data source!
 
 * Scraping is hard work, and there are hundreds of thousands of potential data sources out there. For many applications, data doesn't even need to be processed to be useful—it just needs to be findable. We don't need to scrape things unless it's clearly adding value.

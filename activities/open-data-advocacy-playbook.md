@@ -1,4 +1,4 @@
-# Playbook: improve data access where you live
+# Advocate for open data
 
 ## How to advocate for open data in your area
 
@@ -18,7 +18,7 @@ A community can have different priorities at any given time—is everyone talkin
 
 ### 3. Find out where local data could be improved.
 
-Is anything missing, like properties that would make the data more useful? Are there records which should be published, but aren't? You can use our database to help keep track, [make a search](../about/using-data.md), and [submit data sources](../activities/submit-data-sources.md).
+Is anything missing, like properties that would make the data more useful? Are there records which should be published, but aren't? You can use our database to help keep track, [make a search](../about/using-data.md), and [submit data sources](submit-data-sources.md).
 
 ### 4. Uncover reasons why data is not currently published
 
@@ -26,7 +26,7 @@ Publishing data requires time, money, and expertise. Understanding opposition to
 
 ### 5. Challenge barriers to open data
 
-This could involve making a [FOIA request](foia.md), [writing a web scraper](web-scraping/), or including [language about open data](https://phila.legistar.com/LegislationDetail.aspx?ID=5007829\&GUID=33E8CA43-B311-4219-A5A5-BBE600D14D55\&Options=ID%7CText%7C) in legislation.
+This could involve making a [FOIA request](foia.md), [writing a web scraper](web-scraping.md), or including [language about open data](https://phila.legistar.com/LegislationDetail.aspx?ID=5007829\&GUID=33E8CA43-B311-4219-A5A5-BBE600D14D55\&Options=ID%7CText%7C) in legislation.
 
 * Do [any other agencies](https://data-sources.pdap.io) publish useful data? If they can do it in `neighboring town`, why not here?
 * Does your town already have an [open data ordinance](https://apps.pittsburghpa.gov/cis/ProposedPittsburghOpenDataOrdinance.pdf) which requires publishing this data?
