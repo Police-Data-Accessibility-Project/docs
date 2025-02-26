@@ -1,13 +1,10 @@
 # Introduction/Getting Started
 
-We are working on [data-sources-app-v2](https://github.com/Police-Data-Accessibility-Project/data-sources-app/issues/248). The v2 API is not yet ready for the public.
-
 ## Base URL
 
-```
-https://data-sources-v2.pdap.io/api ← builds from main branch
-https://data-sources-v2.pdap.dev/api ← builds from dev branch
-```
+> [https://data-sources.pdap.io/api](https://data-sources.pdap.io/api) ← builds from main branch
+>
+> [https://data-sources.pdap.dev/api](https://data-sources.pdap.dev/api) ← builds from dev branch
 
 ## Endpoints & Models
 
