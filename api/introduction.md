@@ -2,9 +2,9 @@
 
 ## Base URL
 
-> [https://data-sources.pdap.io/api](https://data-sources.pdap.io/api) ← builds from main branch
+> [https://data-sources-v2.pdap.io/api](https://data-sources-v2.pdap.io/api) ← builds from main branch
 >
-> [https://data-sources.pdap.dev/api](https://data-sources.pdap.dev/api) ← builds from dev branch
+> [https://data-sources-v2.pdap.dev/api](https://data-sources-v2.pdap.dev/api) ← builds from dev branch
 
 ## Endpoints & Models
 
@@ -53,7 +53,7 @@ Different endpoints have different rate limits to them, with endpoints like `/da
 
 ```python
 import requests
-base_url = "https://data-sources.pdap.io/"
+base_url = "https://data-sources-v2.pdap.io/"
 api_key = "YOUR_API_KEY_HERE"  # Replace with your actual API key
 
 url = f"{base_url}agencies"
@@ -74,7 +74,7 @@ response = requests.get(url, headers=headers)
 ```javascript
 const axios = require('axios');
 
-const baseUrl = "https://data-sources.pdap.io/";
+const baseUrl = "https://data-sources-v2.pdap.io/";
 const api_key = "YOUR_API_KEY_HERE";  // Replace with your actual API key
 
 const url = `${baseUrl}agencies`;
