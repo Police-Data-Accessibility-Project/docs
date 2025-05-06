@@ -10,11 +10,6 @@ description: >-
 
 If you found a good source of data, you can submit it to our database!
 
-1. [Check our database](https://airtable.com/shrUAtA8qYasEaepI) to see if we already have the URL you found, or [search for it by name here](https://data-sources.pdap.io/).
-2. If it's new to us—thank you! Open the [Submit Data Sources form](https://airtable.com/shrJafakrcmTxHU2i).
-3. Fill in the required fields and as many optional fields as you can! This should take 1–5 minutes.
-4. Repeat as necessary!
-
 ## Finding data in your area
 
 Checking to see what data is currently published in your area is a great way to move our project forward, one city at a time.

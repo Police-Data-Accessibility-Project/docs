@@ -4,9 +4,9 @@
 
 ## ⚡ Activities
 
+* [Label new Data Sources](activities/data-source-annotation.md)
 * [Volunteer for Data Requests](activities/volunteer-for-data-requests.md)
-* [Label potential Data Sources](activities/data-source-annotation.md)
-* [Locate new Data Sources](activities/submit-data-sources.md)
+* [Search for Data Sources](activities/submit-data-sources.md)
 * [Publish data](activities/publish-data.md)
 * [Web scraping](activities/web-scraping.md)
 * [FOIA requests](activities/foia.md)

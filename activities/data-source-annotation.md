@@ -1,12 +1,12 @@
 ---
-description: Also known as "annotation" for machine learning.
+description: Growing our Data Sources Database
 ---
 
-# Label potential Data Sources
+# Label new Data Sources
 
 ## Why we're here
 
-Annotating Data Sources helps us train [machine learning models](https://huggingface.co/PDAP) to **identify useful data.** Useful data about police, courts, and jails are hidden in plain sight, and we're trying to build a library so it can be found and used on demand.
+Labeling potential Data Sources helps us make a more complete database!  Our source collectors crawl the internet using a variety of strategies, and volunteers catalogue the sources they find. One day, we may also be able to train [machine learning models](https://huggingface.co/PDAP) to identify useful data.
 
 ### How to start
 
