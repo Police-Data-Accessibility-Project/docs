@@ -4,7 +4,8 @@
 
 ## ⚡ Activities
 
-* [Label new Data Sources](activities/data-source-annotation.md)
+* [Label new Data Sources](activities/data-source-annotation/README.md)
+  * [Labeling events](activities/data-source-annotation/labeling-events.md)
 * [Volunteer for Data Requests](activities/volunteer-for-data-requests.md)
 * [Search for Data Sources](activities/submit-data-sources.md)
 * [Publish data](activities/publish-data.md)
