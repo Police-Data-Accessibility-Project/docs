@@ -6,7 +6,7 @@ description: Growing our Data Sources Database
 
 ## Why we're here
 
-Labeling potential Data Sources helps us make a more complete database!  Our source collectors crawl the internet using a variety of strategies, and volunteers catalogue the sources they find. One day, we may also be able to train machine learning models to identify useful data.
+**Labeling potential Data Sources helps us make a more complete database!** Our source collectors crawl the internet using a variety of strategies, and volunteers catalogue the sources they find. One day, we may also be able to train machine learning models to identify useful data.
 
 For more background and a technical perspective, check out the [Data Source Identification repo](https://github.com/Police-Data-Accessibility-Project/data-source-identification).
 
