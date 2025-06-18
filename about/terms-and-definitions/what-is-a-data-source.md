@@ -10,4 +10,4 @@ Data Sources can be records describing an agency's activities, like **traffic st
 Finding all the Data Sources for your hometown is a human-sized project that can make a real impact. [Start here](../../activities/data-source-annotation/).
 {% endhint %}
 
-If it's about a police, court, or jail system, we want to track it. This includes FOIA'd documents, web URLs, and independently scraped records.
+If it's about a police, court, or jail system, we are probably interested in keeping it in our database. A guide to our [relevant record types can be found here](../data-dictionaries/record-types-taxonomy.md). This includes [FOIA'd documents](../../activities/foia.md), web URLs, and independently collected or published records.
