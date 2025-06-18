@@ -4,11 +4,11 @@ description: >-
   it!
 ---
 
-# Search for Data Sources
+# Find new Data Sources
 
 ## Quick start
 
-If you found a good source of data, you can submit it to our database!
+If you found a good source of data, you can [submit it to our database](https://pdap.io/data-source/create)!
 
 ## Finding data in your area
 
