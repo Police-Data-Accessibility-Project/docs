@@ -95,6 +95,7 @@
       * [Decision log](meta/operations/staff/meeting-minutes/project-home-decision-log.md)
     * [Brand assets](meta/operations/staff/brand-assets.md)
   * [Legal](meta/operations/legal/README.md)
+    * [Terms of Service](meta/operations/legal/terms-of-service.md)
     * [Public records access laws & precedent](meta/operations/legal/public-records-access-laws-and-precedent.md)
     * [Legal Data Scraping](meta/operations/legal/legal-data-scraping.md)
     * [State Computer Crimes laws](meta/operations/legal/state-computer-crimes-laws.md)
