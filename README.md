@@ -8,7 +8,7 @@ description: >-
 
 ## What we do
 
-We're cataloguing sources of data in a database at [**https://pdap.io**](https://pdap.io) so people can find information about local police systems. [Here's our app roadmap](https://github.com/orgs/Police-Data-Accessibility-Project/projects/21/views/2).
+We're cataloguing sources of data in a database at [**https://pdap.io**](https://pdap.io) so people can find information about local police systems.
 
 ## Get Involved
 
@@ -16,18 +16,18 @@ We're cataloguing sources of data in a database at [**https://pdap.io**](https:/
 People of all skill levels can help with our mission!
 {% endhint %}
 
-* At any time,&#x20;
-* Use the "Activities" menu on the left to see guides for common volunteer tasks.
-* Everyone is welcome in [our Discord](https://discord.gg/wMqex8nKZJ), or our email inbox at [contact@pdap.io](mailto:contact@pdap.io).
-* To contribute code, [start with a Good First Issue](https://github.com/orgs/Police-Data-Accessibility-Project/projects/25/views/1).
-* To support us financially, [you can donate here](https://pdap.io/contribute.html). We're a non-profit, so your donations may be tax-deductible.
+At any time, [use the volunteer form](https://airtable.com/appcYa6x4nS7W8IR3/shrk9c5sBsBr3cdJJ) to be connected to a project. Use the "Activities" menu on the left to see guides for common volunteer tasks.
+
+To support us financially, [you can donate here](https://pdap.io/contribute.html). We're a non-profit, so your donations may be tax-deductible.
 
 ## Codebase
+
+To contribute code, [start with a Good First Issue](https://github.com/orgs/Police-Data-Accessibility-Project/projects/25/views/1).
 
 [Our github organization](https://github.com/Police-Data-Accessibility-Project) contains our code repositories. We have a handful of apps working in conjunction to identify, collect, document, archive, and share sources of data.
 
 ### Primary repositories
 
 * The [Data Sources App repo](https://github.com/Police-Data-Accessibility-Project/data-sources-app) is the back end for our Data Sources API.&#x20;
-* The [pdap.io repo](https://github.com/Police-Data-Accessibility-Project/pdap.io/) is our primary interface for working with the API.
 * The [Data Source Identification repo](https://github.com/Police-Data-Accessibility-Project/data-source-identification) houses our code for collecting sources for the database.
+* The [pdap.io repo](https://github.com/Police-Data-Accessibility-Project/pdap.io/) is our primary front end for working with the API.
