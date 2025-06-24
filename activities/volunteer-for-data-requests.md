@@ -1,8 +1,8 @@
-# Volunteer for Data Requests
+# Work on Data Request projects
 
-## Context
+## Opening a Data Request
 
-When people need help with a data project, they can [fill out our request form](https://pdap.io/).
+See our [guide for opening requests](../data-requests.md).
 
 ## Finding open Data Requests
 
@@ -11,7 +11,7 @@ When people need help with a data project, they can [fill out our request form](
 
 ### Follow a search
 
-Click "Follow" (you will be prompted to sign in). You will get periodic updates with new sources and requests in the area.
+Click "Follow" (you will be prompted to sign in). You will get periodic updates with new requests in the area.
 
 ### GitHub
 

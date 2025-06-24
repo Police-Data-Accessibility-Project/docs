@@ -16,7 +16,6 @@
 
 ## 🔬 About
 
-* [Search the PDAP database](about/using-data.md)
 * [Terms & definitions](about/terms-and-definitions/README.md)
   * [What is a Data Source?](about/terms-and-definitions/what-is-a-data-source.md)
   * [Terminology](about/terms-and-definitions/terminology.md)
@@ -28,6 +27,16 @@
   * [Hidden properties](about/data-dictionaries/hidden-properties.md)
 * [GitHub](https://github.com/Police-Data-Accessibility-Project)
 * [Hugging Face](https://huggingface.co/PDAP)
+
+## 💪 Features
+
+* [Search the PDAP database](features/using-data.md)
+* [Follow a Search](features/follow-a-search.md)
+* [Sign Up / Sign In](features/sign-up-sign-in.md)
+
+***
+
+* [Data Requests](data-requests.md)
 
 ## 📡 API
 
