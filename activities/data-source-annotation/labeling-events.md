@@ -16,10 +16,9 @@ description: A guide for labeling events, or "annotation parties"
 ### In advance
 
 1. Participants RSVP to the event, held on Discord or in-person.
-2. Organizers reach out to participants: "Thank you for signing up to label data sources! If you have not already, please [create a PDAP account here](https://pdap.io/sign-up?beta=true). I will create a free Retool account so you can use the labeling interface. Please let me know if you would like to find data for a particular place or topic area, or if you have any questions. Otherwise, we'll see you at the event!"
-3. Participants create a PDAP account and are sent invites to the Retool organization.
-4. Organizers give participants the appropriate permissions in the back-end.
-5. If anyone has location or subject matter interests, organizers give them instructions for following the appropriate search.
+2. Participants create a PDAP account and are sent invites to the Retool organization.
+3. Organizers give participants the appropriate permissions in the back-end.
+4. If anyone has location or subject matter interests, organizers give them instructions for following the appropriate search.
 
 ### At the event
 
