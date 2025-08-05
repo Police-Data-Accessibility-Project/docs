@@ -2,7 +2,7 @@
 
 ## Using & analyzing data
 
-[Common abbreviations in criminal legal system records](http://amerusa.net/resource\_documents/CriminalRecordAbbreviations.pdf)
+[Common abbreviations in criminal legal system records](http://amerusa.net/resource_documents/CriminalRecordAbbreviations.pdf)
 
 [QA process for data analysis](https://source.opennews.org/articles/qa-process-confidence-data-stories/)
 
@@ -24,13 +24,15 @@
 
 [Automatic DocumentCloud scraping](https://www.muckrock.com/news/archives/2022/may/24/release-notes-keep-an-eye-on-your-favorite-agencie/) which requires a verified MuckRock account. If you don't have one, you can use ours! Reach out.
 
+[The Berkeley COPWATCH "People's Database" guide](https://www.berkeleycopwatch.org/people-s-database) for creating a community accountability tool
+
 ## Processing data
 
 [Crosswalker](https://github.com/washingtonpost/crosswalker) is for joining columns of text data that don’t match perfectly.
 
 [CJWorkbench](https://github.com/CJWorkbench/cjworkbench), a spreadsheet-like program with powerful tools for data journalism.
 
-[PDF processing and OCR](https://github.com/chadday/nicar\_ocr) from Chad Day for NICAR
+[PDF processing and OCR](https://github.com/chadday/nicar_ocr) from Chad Day for NICAR
 
 [Useful file types: Parquet, SQLite, FlatGeobuf](https://observablehq.com/@asg017/nicar23-lightning-talk-tipsheet-3-file-formats) from Alex Garcia
 
