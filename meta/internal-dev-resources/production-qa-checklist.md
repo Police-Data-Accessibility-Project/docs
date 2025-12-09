@@ -49,7 +49,6 @@ This checklist is designed to be completed within 10 minutes or less -- it is no
   * [ ] From a county level, can you zoom out and have the view revert to the state level?
   * [ ] Can you zoom out further and have the view revert to the national level?
   * [ ] Can you click the `loop` icon and have the view revert to the national level?
-  * [ ] Can you zoom in and out using the mouse wheel?
   * [ ] Are counties similarly colored based on how many data sources they have?
   * [ ] Can you click on a county and zoom in further to see the "pins" of different locations?
     * [ ] Can you click "View All" and be taken to the appropriate search page?
