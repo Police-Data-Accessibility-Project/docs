@@ -16,7 +16,7 @@ We're cataloguing sources of data in a database at [**https://pdap.io**](https:/
 People of all skill levels can help with our mission!
 {% endhint %}
 
-At any time, [use the volunteer form](https://airtable.com/appcYa6x4nS7W8IR3/shrk9c5sBsBr3cdJJ) to be connected to a project. Use the "Activities" menu on the left to see guides for common volunteer tasks.
+The quickest way to contribute is by labeling (annotating) new Data Sources. Head to [https://pdap.io/annotate](https://pdap.io/annotate) to get started.
 
 To support us financially, [you can donate here](https://pdap.io/contribute.html). We're a non-profit, so your donations may be tax-deductible.
 

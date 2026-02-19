@@ -4,7 +4,6 @@
 
 ## ⚡ Activities
 
-* [Sign up as a volunteer](https://airtable.com/appcYa6x4nS7W8IR3/shrk9c5sBsBr3cdJJ)
 * [Label new Data Sources](activities/data-source-annotation/README.md)
   * [Labeling events](activities/data-source-annotation/labeling-events.md)
 * [Work on Data Request projects](activities/volunteer-for-data-requests.md)
